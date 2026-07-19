@@ -24,6 +24,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          BRIGHTDATA_KEY: ${{ secrets.BRIGHTDATA_KEY }}
           USAJOBS_KEY: ${{ secrets.USAJOBS_KEY }}
           USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
           RESEND_KEY: ${{ secrets.RESEND_KEY }}

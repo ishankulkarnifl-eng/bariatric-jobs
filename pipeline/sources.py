@@ -9,6 +9,7 @@ ASMBS and USAJobs are added for niche/federal coverage the aggregator misses.
 from __future__ import annotations
 
 import hashlib
+import json
 import logging
 import os
 import time
@@ -66,6 +67,62 @@ def fetch_serpapi(queries: list[str]) -> list[dict]:
                 break
             time.sleep(1)
     log.info("SerpAPI: %d raw listings", len(out))
+    return out
+
+
+# ── Bright Data SERP API · Google jobs unit ──────────────────────────────
+def fetch_brightdata(queries: list[str]) -> list[dict]:
+    """Google's jobs unit parsed from a plain SERP via Bright Data.
+    The dedicated Google Jobs page (ibp=htl;jobs / udm=8) stopped parsing
+    across providers in July 2026; the jobs unit embedded in regular search
+    results still yields ~3 structured listings per query."""
+    key = os.environ.get("BRIGHTDATA_KEY")
+    zone = os.environ.get("BRIGHTDATA_ZONE", "surgeon_jobs")
+    if not key:
+        log.info("BRIGHTDATA_KEY not set — skipping Bright Data Google Jobs")
+        return []
+    out: list[dict] = []
+    for q in queries:
+        url = "https://www.google.com/search?q=" + requests.utils.quote(q + " jobs") + "&hl=en&gl=us"
+        data = None
+        for attempt in range(3):  # transient 502s while the zone warms are normal
+            try:
+                r = requests.post(
+                    "https://api.brightdata.com/request",
+                    headers={"Authorization": f"Bearer {key}"},
+                    json={"zone": zone, "url": url, "format": "json", "data_format": "parsed"},
+                    timeout=90,
+                )
+                r.raise_for_status()
+                envelope = r.json()
+                if envelope.get("status_code") != 200:
+                    raise RuntimeError((envelope.get("headers") or {}).get("x-brd-error", "target non-200"))
+                data = json.loads(envelope["body"])
+                break
+            except Exception as e:  # noqa: BLE001
+                log.warning("Bright Data attempt %d for %r: %s", attempt + 1, q, e)
+                time.sleep(5)
+        if data is None:
+            log.error("Bright Data failed for %r after retries", q)
+            continue
+        for j in (data.get("jobs") or {}).get("items", []):
+            desc_bits = [j.get("description") or ""]
+            for h in j.get("highlights") or []:
+                desc_bits.extend(h.get("list") or [])
+            for t in j.get("tags") or []:
+                if t.get("name") and t.get("value"):
+                    desc_bits.append(f"{t['name']}: {t['value']}")
+            out.append({
+                "source": "google_jobs",
+                "source_id": _rid(j.get("company", ""), j.get("title", ""), j.get("location", "")),
+                "title": j.get("title", ""),
+                "employer": j.get("company", ""),
+                "location": j.get("location", ""),
+                "description": " ".join(filter(None, desc_bits))[:6000],
+                "url": j.get("apply_link") or j.get("link", ""),
+                "posted_hint": j.get("date") or "",
+            })
+    log.info("Bright Data google jobs: %d raw listings", len(out))
     return out
 
 
@@ -168,6 +225,7 @@ def _fetch_page_text(url: str) -> str:
 def fetch_all(cfg: dict) -> list[dict]:
     raw: list[dict] = []
     raw += fetch_serpapi(cfg["search"]["queries"])
+    raw += fetch_brightdata(cfg["search"]["queries"])
     raw += fetch_usajobs(cfg["search"]["usajobs_keyword"])
     raw += fetch_asmbs(cfg["search"]["asmbs_url"])
     # Cross-source dedupe on (employer, title, location) where present
