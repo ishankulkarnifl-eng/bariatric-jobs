@@ -1,5 +1,120 @@
 {
  "listings": {
+  "augusta-hospital-via-doctor-s-choice-placement-services::GA::general-bariatric-surgeon": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Augusta",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Augusta Hospital (via Doctor's Choice Placement Services)",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-07-19",
+   "last_seen": "2026-07-19",
+   "mbsaqip_mentioned": false,
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "GA",
+   "summary": "Full-time general/bariatric surgeon at 250+ bed hospital in Augusta, GA. Competitive salary, office reimbursement, relocation assistance.",
+   "title": "General/Bariatric Surgeon",
+   "urls": [
+    "https://bebee.com/us/jobs/general-bariatric-surgeon-augusta-opportunity-benefits-doctors-choice-placement-services-inc-st-alba--lensa-7428_237f34471639d75044d350edf1e7c4f33328f288eb9b11931bfb2c681fcbc285?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
+  "beth-israel-deaconess-medical-center-bidmc-harvard-medical-faculty-physicians::MA::metabolic-and-bariatric-surgeon-and-director": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Milton",
+   "comp_max": 622981,
+   "comp_min": 280000,
+   "employer": "Beth Israel Deaconess Medical Center (BIDMC) / Harvard Medical Faculty Physicians",
+   "employment_model": "hospital_employed",
+   "fellowship_required": true,
+   "first_seen": "2026-07-19",
+   "last_seen": "2026-07-19",
+   "mbsaqip_mentioned": false,
+   "repost_count": 0,
+   "robotics_mentioned": true,
+   "source": "google_jobs",
+   "state": "MA",
+   "summary": "Full-time bariatric surgery director role at BIDMC-affiliated community hospital near Boston. Fellowship required, laparoscopic expertise essential, robotic skills beneficial.",
+   "title": "Metabolic and Bariatric Surgeon and Director",
+   "urls": [
+    "https://hmfp.wd5.myworkdayjobs.com/en-US/HMFP/job/Metabolic-and-Bariatric-Surgeon-and-Director_R1297?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
+  "direct-jobs::xx::hbp-foregut-surgical-oncologist": {
+   "archived": false,
+   "call_burden": null,
+   "city": null,
+   "comp_max": 562000,
+   "comp_min": 513000,
+   "employer": "Direct Jobs",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-07-19",
+   "last_seen": "2026-07-19",
+   "mbsaqip_mentioned": false,
+   "repost_count": 0,
+   "robotics_mentioned": true,
+   "source": "google_jobs",
+   "state": null,
+   "summary": "HBP/foregut surgical oncology role with robotics at community hospital; $513\u2013562K + wRVU; relocation assistance.",
+   "title": "HBP/Foregut Surgical Oncologist",
+   "urls": [
+    "https://bebee.com/us/jobs/hbp-foregut-surgical-oncologist-robotics-relocation-direct-jobs-california--lensa-7428_83f68381739720e015e0bd2e716856318d9772cc55c23c49e25b22f00a4d860d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
+  "presbyterian-healthcare-services::NM::general-bariatric-surgeon": {
+   "archived": false,
+   "call_burden": "Bariatric and general surgery call coverage",
+   "city": "Rio Rancho",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Presbyterian Healthcare Services",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-07-19",
+   "last_seen": "2026-07-19",
+   "mbsaqip_mentioned": false,
+   "repost_count": 0,
+   "robotics_mentioned": true,
+   "source": "google_jobs",
+   "state": "NM",
+   "summary": "Full-time bariatric & general surgery role at Presbyterian Healthcare Services in Rio Rancho, NM. Laparoscopic focus with limited robotic access, multidisciplinary team.",
+   "title": "General/Bariatric Surgeon",
+   "urls": [
+    "https://us.jobrapido.com/jobpreview/5050692671056642048?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
+  "rock-health::TX::general-surgery-physician": {
+   "archived": false,
+   "call_burden": "7-on-7-off call schedule",
+   "city": "Farmers Branch",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Rock Health",
+   "employment_model": "private_practice",
+   "fellowship_required": false,
+   "first_seen": "2026-07-19",
+   "last_seen": "2026-07-19",
+   "mbsaqip_mentioned": false,
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "TX",
+   "summary": "Full-time general surgery role with private practice group in Dallas area; income guarantee, sign-on bonus, relocation assistance.",
+   "title": "General Surgery Physician",
+   "urls": [
+    "https://www.linkedin.com/jobs/view/general-surgery-physician-at-rock-health-4441741983?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
   "veterans-health-administration::FL::general-surgeon": {
    "archived": false,
    "call_burden": null,
@@ -48,7 +163,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-07-19T19:16:59Z",
+  "last_run": "2026-07-19T20:05:25Z",
   "sample": false
  }
 }
