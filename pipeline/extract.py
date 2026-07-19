@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+from datetime import date
 
 import requests
 
@@ -43,11 +44,15 @@ Given ONE job posting, respond with ONLY a JSON object (no markdown, no prose):
   "robotics_mentioned": bool,     // da Vinci / robotic platform mentioned
   "fellowship_required": bool,
   "visa_sponsorship": bool,
+  "posted_date": string | null,   // "YYYY-MM-DD" original posting date if stated or
+                                  // derivable from the POSTED line (resolve relative
+                                  // phrases like "9 days ago" against the TODAY line);
+                                  // null if no date evidence
   "summary": string            // <= 160 chars, the one-line gist she'd want
 }
 
 Rules: convert hourly/monthly comp to annual only if clearly stated. Never invent
-numbers. If posting text is too thin to judge relevance, set relevant=false."""
+numbers or dates. If posting text is too thin to judge relevance, set relevant=false."""
 
 
 def _call_claude(model: str, posting_text: str) -> dict | None:
@@ -89,6 +94,7 @@ def extract_batch(raw_listings: list[dict], cfg: dict) -> list[dict]:
     kept: list[dict] = []
     for raw in raw_listings[:cap]:
         blob = "\n".join(filter(None, [
+            f"TODAY: {date.today().isoformat()}",
             f"TITLE: {raw['title']}",
             f"EMPLOYER: {raw['employer']}",
             f"LOCATION: {raw['location']}",

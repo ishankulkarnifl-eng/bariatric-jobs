@@ -53,15 +53,24 @@ def merge(db: dict, extracted: list[dict], cfg: dict) -> list[dict]:
                 if cur.get(f) is None and l.get(f) is not None:
                     cur[f] = l[f]
         else:
+            # Backdate first_seen to the extracted posting date when known, so
+            # days-on-market reflects true listing age, not pipeline launch day
+            first_seen = today
+            try:
+                pd = date.fromisoformat(str(l.get("posted_date"))[:10])
+                if pd <= date.today():
+                    first_seen = pd.isoformat()
+            except (ValueError, TypeError):
+                pass
             db["listings"][k] = {
                 **{f: l.get(f) for f in (
                     "employer", "title", "city", "state", "employment_model",
                     "comp_min", "comp_max", "call_burden", "mbsaqip_mentioned",
                     "robotics_mentioned", "fellowship_required", "visa_sponsorship",
-                    "summary", "source",
+                    "summary", "source", "posted_date",
                 )},
                 "urls": [l["url"]] if l.get("url") else [],
-                "first_seen": today,
+                "first_seen": first_seen,
                 "last_seen": today,
                 "repost_count": 0,
                 "archived": False,
