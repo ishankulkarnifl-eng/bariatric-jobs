@@ -32,7 +32,7 @@ def fetch_serpapi(queries: list[str]) -> list[dict]:
     out: list[dict] = []
     for q in queries:
         next_token, pages = None, 0
-        while pages < 3:  # ~30 results/query/night is plenty; dedupe absorbs overlap
+        while pages < 1:  # capped at 1 page/query to stay within the 250-search/mo free tier
             params = {"engine": "google_jobs", "q": q, "hl": "en", "gl": "us", "api_key": key}
             if next_token:
                 params["next_page_token"] = next_token
