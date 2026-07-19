@@ -169,57 +169,59 @@ def fetch_usajobs(keyword: str) -> list[dict]:
     return out
 
 
-# ── ASMBS Career Center (best-effort HTML parse) ─────────────────────────
+# ── ASMBS Career Center (MemberSuite portal API) ─────────────────────────
+ASMBS_ASSOC_ID = 36893  # ASMBS's association id on the MemberSuite platform
+ASMBS_API = "https://express.portal.membersuite.com/prod"
+ASMBS_JOB_URL = "https://asmbs.users.membersuite.com/community/career-center/job-details/{id}/job-detail"
+
+
 def fetch_asmbs(url: str) -> list[dict]:
-    """Niche board, highest-signal postings. Career-site platforms change
-    markup periodically; this parser is intentionally loose (grabs job links)
-    and the extractor does the heavy lifting from the linked description text.
-    If it silently returns 0 for a while, check the selectors.
+    """Niche board, highest-signal postings. The career center moved from
+    jobs.asmbs.org to a MemberSuite SPA in 2026; instead of parsing HTML we
+    use the portal's JSON API (anonymous token → search → GraphQL details).
+    The `url` config value is kept for the log line / provenance only.
     """
     try:
-        from bs4 import BeautifulSoup  # lazy import
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
+        tok = requests.get(f"{ASMBS_API}/platform/getAnonymousUserToken/{ASMBS_ASSOC_ID}", timeout=30).json()
+        auth = {"Authorization": "Bearer " + tok["data"]["authenticationData"]["accessToken"]}
+        jobs = requests.post(f"{ASMBS_API}/careerCenter/jobPostings/search",
+                             headers={**auth, "Content-Type": "application/json"},
+                             json={}, timeout=30).json()
     except Exception as e:  # noqa: BLE001
         log.error("ASMBS fetch error: %s", e)
         return []
-    out, seen = [], set()
-    for a in soup.select("a[href*='/job/']"):
-        href = a.get("href", "")
-        title = a.get_text(strip=True)
-        if not title or len(title) < 8 or href in seen:
-            continue
-        seen.add(href)
-        if href.startswith("/"):
-            href = "https://jobs.asmbs.org" + href
+    out = []
+    gql = ("query ($id: String!) { jobPostingDetails(id: $id) "
+           "{ body name companyName city state postOn categories } }")
+    for j in jobs[:25]:
+        desc = ""
+        try:
+            d = requests.post("https://rest.membersuite.com/graphql/v2",
+                              headers={**auth, "Content-Type": "application/json"},
+                              json={"variables": {"id": j["id"]}, "query": gql},
+                              timeout=30).json()
+            details = (d.get("data") or {}).get("jobPostingDetails") or {}
+            body = details.get("body") or ""
+            if body:
+                from bs4 import BeautifulSoup  # lazy import
+                desc = " ".join(BeautifulSoup(body, "html.parser").get_text(" ").split())
+            cats = details.get("categories")
+            if cats:
+                desc = f"Categories: {cats}. " + desc
+        except Exception as e:  # noqa: BLE001
+            log.warning("ASMBS details failed for %s: %s", j.get("id"), e)
         out.append({
             "source": "asmbs",
-            "source_id": _rid("asmbs", href),
-            "title": title,
-            "employer": "",          # extractor pulls this from the page text
-            "location": "",
-            "description": _fetch_page_text(href),
-            "url": href,
-            "posted_hint": "",
+            "source_id": _rid("asmbs", j["id"]),
+            "title": j.get("name", ""),
+            "employer": j.get("companyName", ""),
+            "location": ", ".join(filter(None, [j.get("city"), j.get("state")])),
+            "description": desc[:6000],
+            "url": ASMBS_JOB_URL.format(id=j["id"]),
+            "posted_hint": (j.get("postOn") or "")[:10],
         })
-        if len(out) >= 25:
-            break
     log.info("ASMBS: %d raw listings", len(out))
     return out
-
-
-def _fetch_page_text(url: str) -> str:
-    try:
-        from bs4 import BeautifulSoup
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-        for t in soup(["script", "style", "nav", "footer"]):
-            t.decompose()
-        return " ".join(soup.get_text(" ").split())[:6000]
-    except Exception:  # noqa: BLE001
-        return ""
 
 
 def fetch_all(cfg: dict) -> list[dict]:
