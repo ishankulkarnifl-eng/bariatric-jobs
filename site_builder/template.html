@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Bariatric Surgery Positions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F4F7F6; --card:#FFFFFF; --ink:#14312D; --muted:#5C7370;
+  --scrub:#0F7A64; --scrub-soft:#E3F0ED; --hairline:#D9E2DF;
+  --amber:#A96A1C; --amber-soft:#F6ECDC; --warn:#9C3B2E;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,monospace;
+  --sans:"Archivo",-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.45;padding:0 16px 64px}
+.wrap{max-width:1040px;margin:0 auto}
+a{color:var(--scrub)}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--scrub);outline-offset:2px;border-radius:4px}
+
+header{padding:28px 0 18px;display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;justify-content:space-between}
+h1{font-variation-settings:"wdth" 118;font-weight:760;font-size:clamp(21px,4vw,28px);letter-spacing:-.01em}
+h1 span{color:var(--scrub)}
+.updated{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+
+.sample-banner{background:var(--amber-soft);border:1px solid #E4CFA6;color:#6B4A12;
+  border-radius:8px;padding:9px 13px;font-size:13px;margin-bottom:14px}
+
+/* ── Signature: market vitals strip ── */
+.vitals{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
+  background:var(--ink);border-radius:12px;overflow:hidden;margin-bottom:18px}
+.vital{padding:14px 16px 12px;border-left:1px solid rgba(255,255,255,.08)}
+.vital:first-child{border-left:none}
+.vital .v{font-family:var(--mono);font-weight:600;font-size:clamp(19px,3vw,24px);color:#EAF4F1;font-variant-numeric:tabular-nums}
+.vital .v em{font-style:normal;font-size:.6em;color:#7FA79E;margin-left:2px}
+.vital .l{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:#7FA79E;margin-top:3px}
+.vital.pulse .v{color:#F3C878}
+
+/* ── Filters ── */
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.filters input[type=search],.filters select{
+  background:var(--card);border:1px solid var(--hairline);border-radius:8px;
+  padding:7px 10px;font:inherit;font-size:13.5px;color:var(--ink)}
+.filters input[type=search]{flex:1 1 170px;min-width:150px}
+.chip{background:var(--card);border:1px solid var(--hairline);border-radius:999px;
+  padding:6px 12px;font-size:12.5px;color:var(--muted)}
+.chip[aria-pressed=true]{background:var(--scrub);border-color:var(--scrub);color:#fff}
+.count-line{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin:2px 0 10px}
+
+/* ── Listing rows ── */
+.rows{display:flex;flex-direction:column;gap:9px}
+.row{background:var(--card);border:1px solid var(--hairline);border-radius:12px;
+  padding:13px 15px;display:grid;grid-template-columns:1fr auto;gap:4px 14px;align-items:start}
+.row.applied-dim{opacity:.55}
+.emp{font-weight:700;font-size:15.5px;letter-spacing:-.005em}
+.title-loc{color:var(--muted);font-size:13.5px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+.tag{font-size:11px;letter-spacing:.03em;border-radius:5px;padding:2.5px 7px;
+  background:var(--paper);border:1px solid var(--hairline);color:var(--muted)}
+.tag.model{background:var(--scrub-soft);border-color:transparent;color:var(--scrub);font-weight:600}
+.tag.new{background:var(--amber-soft);border-color:transparent;color:var(--amber);font-weight:700}
+.tag.repost{color:var(--warn)}
+.comp{font-family:var(--mono);font-weight:600;font-size:14.5px;text-align:right;font-variant-numeric:tabular-nums}
+.comp.na{color:var(--muted);font-weight:400;font-size:12.5px}
+.comp .bm{display:block;font-size:10.5px;font-weight:500;margin-top:1px}
+.bm.above{color:var(--scrub)} .bm.below{color:var(--warn)}
+.dom{font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:right;margin-top:4px}
+.dom.stale{color:var(--warn)}
+.row-actions{grid-column:1/-1;display:flex;gap:8px;align-items:center;margin-top:9px;
+  padding-top:9px;border-top:1px dashed var(--hairline)}
+.apply{background:var(--scrub);color:#fff;border:none;border-radius:8px;
+  padding:7px 14px;font-size:13px;font-weight:600;text-decoration:none}
+.status{border:1px solid var(--hairline);border-radius:8px;padding:6px 8px;font-size:12.5px;
+  background:var(--paper);color:var(--muted)}
+.status.has{border-color:var(--scrub);color:var(--scrub);font-weight:600}
+.summary{grid-column:1/-1;font-size:13px;color:#3F5A56;margin-top:5px}
+.empty{background:var(--card);border:1px dashed var(--hairline);border-radius:12px;
+  padding:34px 20px;text-align:center;color:var(--muted)}
+.foot{margin-top:26px;font-family:var(--mono);font-size:11px;color:var(--muted)}
+
+@media (max-width:560px){
+  .row{grid-template-columns:1fr}
+  .comp,.dom{text-align:left}
+}
+@media (prefers-reduced-motion:no-preference){
+  .row{transition:border-color .15s}
+  .row:hover{border-color:var(--scrub)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Bariatric surgery positions<span>.</span></h1>
+  <div class="updated">updated __GENERATED__ · full-time · national · no locums</div>
+</header>
+
+<div id="sampleBanner" class="sample-banner" hidden>
+  Showing <strong>sample data</strong>. Add API keys and run the pipeline to replace this with live listings.
+</div>
+
+<section class="vitals" id="vitals" aria-label="Market vitals"></section>
+
+<div class="filters" id="filters">
+  <input type="search" id="q" placeholder="Search employer, city, title…" aria-label="Search listings">
+  <select id="stateSel" aria-label="Filter by state"><option value="">All states</option></select>
+  <select id="compSel" aria-label="Minimum stated comp">
+    <option value="0">Any comp</option>
+    <option value="450000">$450k+</option>
+    <option value="550000">$550k+</option>
+    <option value="650000">$650k+</option>
+  </select>
+  <button class="chip" data-model="hospital_employed" aria-pressed="false">Hospital</button>
+  <button class="chip" data-model="academic" aria-pressed="false">Academic</button>
+  <button class="chip" data-model="private_practice" aria-pressed="false">Private</button>
+  <button class="chip" id="hideUndisc" aria-pressed="false">Hide undisclosed comp</button>
+  <select id="sortSel" aria-label="Sort listings">
+    <option value="new">Newest first</option>
+    <option value="comp">Highest comp</option>
+    <option value="dom">Longest open</option>
+  </select>
+</div>
+<div class="count-line" id="countLine"></div>
+
+<div class="rows" id="rows"></div>
+<div class="empty" id="empty" hidden>No listings match these filters. Loosen one and the market reappears.</div>
+
+<p class="foot">days-on-market = first seen by this pipeline → today · comp flags vs $__BENCHMARK_K__k benchmark midpoint · statuses saved on this device only</p>
+</div>
+
+<script>
+const DATA = __DATA__;
+const BENCHMARK = __BENCHMARK__;
+const NEW_DAYS = __NEW_DAYS__;
+const TODAY = new Date("__TODAY__T12:00:00");
+
+const $ = id => document.getElementById(id);
+const days = d => Math.max(0, Math.round((TODAY - new Date(d + "T12:00:00")) / 864e5));
+const fmtK = n => "$" + Math.round(n/1000) + "k";
+const compMid = l => l.comp_min && l.comp_max ? (l.comp_min+l.comp_max)/2 : (l.comp_min||l.comp_max||null);
+const modelLabel = {hospital_employed:"Hospital-employed", academic:"Academic",
+                    private_practice:"Private practice", unknown:"Model unlisted"};
+
+const STATUS_KEY = "bariatric-jobs-status";
+const statuses = JSON.parse(localStorage.getItem(STATUS_KEY) || "{}");
+const saveStatus = () => localStorage.setItem(STATUS_KEY, JSON.stringify(statuses));
+
+const listings = DATA.listings.filter(l => !l.archived);
+if (DATA.meta.sample) $("sampleBanner").hidden = false;
+
+/* vitals */
+function renderVitals(){
+  const newCt = listings.filter(l => days(l.first_seen) <= NEW_DAYS).length;
+  const disclosed = listings.map(compMid).filter(Boolean).sort((a,b)=>a-b);
+  const median = disclosed.length ? disclosed[Math.floor(disclosed.length/2)] : null;
+  const transp = listings.length ? Math.round(100*disclosed.length/listings.length) : 0;
+  const states = new Set(listings.map(l=>l.state).filter(Boolean)).size;
+  const v = [
+    {v:newCt, l:"new this week", pulse:newCt>0},
+    {v:listings.length, l:"active listings"},
+    {v:median?fmtK(median):"—", l:"median stated comp"},
+    {v:transp+"<em>%</em>", l:"disclose comp"},
+    {v:states, l:"states"},
+  ];
+  $("vitals").innerHTML = v.map(x =>
+    `<div class="vital${x.pulse?" pulse":""}"><div class="v">${x.v}</div><div class="l">${x.l}</div></div>`).join("");
+}
+
+/* filters state */
+const F = {q:"", state:"", comp:0, models:new Set(), hideUndisc:false, sort:"new"};
+
+function renderRows(){
+  let rows = listings.filter(l => {
+    if (F.state && l.state !== F.state) return false;
+    if (F.models.size && !F.models.has(l.employment_model)) return false;
+    const mid = compMid(l);
+    if (F.hideUndisc && !mid) return false;
+    if (F.comp && (!mid || mid < F.comp)) return false;
+    if (F.q){
+      const hay = [l.employer,l.title,l.city,l.state,l.summary].join(" ").toLowerCase();
+      if (!hay.includes(F.q)) return false;
+    }
+    return true;
+  });
+  rows.sort((a,b) => F.sort==="comp" ? (compMid(b)||0)-(compMid(a)||0)
+            : F.sort==="dom" ? days(b.first_seen)-days(a.first_seen)
+            : new Date(b.first_seen)-new Date(a.first_seen));
+
+  $("countLine").textContent = rows.length + " of " + listings.length + " active listings";
+  $("empty").hidden = rows.length > 0;
+  $("rows").innerHTML = rows.map(rowHTML).join("");
+
+  document.querySelectorAll(".status").forEach(sel => sel.addEventListener("change", e => {
+    const k = e.target.dataset.key;
+    if (e.target.value) statuses[k] = e.target.value; else delete statuses[k];
+    saveStatus(); renderRows();
+  }));
+}
+
+function rowHTML(l){
+  const k = l.key, d = days(l.first_seen), mid = compMid(l);
+  const loc = [l.city, l.state].filter(Boolean).join(", ") || "Location in posting";
+  const isNew = d <= NEW_DAYS;
+  const bm = mid ? (mid > BENCHMARK*1.1 ? "<span class='bm above'>above benchmark</span>"
+                   : mid < BENCHMARK*0.9 ? "<span class='bm below'>below benchmark</span>" : "") : "";
+  const comp = (l.comp_min && l.comp_max) ? fmtK(l.comp_min)+"–"+fmtK(l.comp_max)
+             : mid ? "~"+fmtK(mid) : "<span class='na'>comp undisclosed</span>";
+  const st = statuses[k] || "";
+  const tags = [
+    isNew ? "<span class='tag new'>NEW</span>" : "",
+    `<span class='tag model'>${modelLabel[l.employment_model]||l.employment_model}</span>`,
+    l.mbsaqip_mentioned ? "<span class='tag'>MBSAQIP</span>" : "",
+    l.robotics_mentioned ? "<span class='tag'>Robotics</span>" : "",
+    l.fellowship_required ? "<span class='tag'>Fellowship req.</span>" : "",
+    l.visa_sponsorship ? "<span class='tag'>Visa sponsor</span>" : "",
+    l.call_burden ? `<span class='tag'>${l.call_burden}</span>` : "",
+    l.repost_count ? `<span class='tag repost'>reposted ×${l.repost_count}</span>` : "",
+  ].filter(Boolean).join("");
+  return `<div class="row${st==="applied"||st==="passed"?" applied-dim":""}">
+    <div>
+      <div class="emp">${l.employer}</div>
+      <div class="title-loc">${l.title} — ${loc}</div>
+      <div class="tags">${tags}</div>
+    </div>
+    <div>
+      <div class="comp">${comp}${bm}</div>
+      <div class="dom${d>90?" stale":""}">${d}d on market</div>
+    </div>
+    ${l.summary ? `<div class="summary">${l.summary}</div>` : ""}
+    <div class="row-actions">
+      <a class="apply" href="${(l.urls||[])[0]||"#"}" target="_blank" rel="noopener">View &amp; apply</a>
+      <select class="status ${st?"has":""}" data-key="${k}" aria-label="Your status for this listing">
+        <option value="">— status —</option>
+        <option value="interested"${st==="interested"?" selected":""}>Interested</option>
+        <option value="applied"${st==="applied"?" selected":""}>Applied</option>
+        <option value="interviewing"${st==="interviewing"?" selected":""}>Interviewing</option>
+        <option value="passed"${st==="passed"?" selected":""}>Passed</option>
+      </select>
+    </div>
+  </div>`;
+}
+
+/* wire filters */
+const stateSel = $("stateSel");
+[...new Set(listings.map(l=>l.state).filter(Boolean))].sort()
+  .forEach(s => stateSel.append(new Option(s, s)));
+$("q").addEventListener("input", e => {F.q = e.target.value.toLowerCase(); renderRows();});
+stateSel.addEventListener("change", e => {F.state = e.target.value; renderRows();});
+$("compSel").addEventListener("change", e => {F.comp = +e.target.value; renderRows();});
+$("sortSel").addEventListener("change", e => {F.sort = e.target.value; renderRows();});
+$("hideUndisc").addEventListener("click", e => {
+  F.hideUndisc = !F.hideUndisc;
+  e.currentTarget.setAttribute("aria-pressed", F.hideUndisc); renderRows();
+});
+document.querySelectorAll(".chip[data-model]").forEach(c => c.addEventListener("click", () => {
+  const m = c.dataset.model;
+  F.models.has(m) ? F.models.delete(m) : F.models.add(m);
+  c.setAttribute("aria-pressed", F.models.has(m)); renderRows();
+}));
+
+renderVitals();
+renderRows();
+</script>
+</body>
+</html>

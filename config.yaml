@@ -1,0 +1,42 @@
+# ── Bariatric Jobs Pipeline Configuration ──────────────────────────────
+# Scope: national, full-time only, all practice models EXCEPT locums.
+
+search:
+  # Queries sent to Google Jobs (via SerpAPI). Each runs nightly.
+  queries:
+    - "bariatric surgeon"
+    - "bariatric and minimally invasive surgeon"
+    - "MIS bariatric surgery physician"
+    - "foregut surgeon"
+  usajobs_keyword: "bariatric surgeon"
+  # ASMBS Career Center search page (best-effort HTML parse; selectors may
+  # need updating if the site changes — see pipeline/sources.py).
+  asmbs_url: "https://jobs.asmbs.org/jobs/?keywords=bariatric"
+
+filters:
+  exclude_models: ["locums"]     # dropped at extraction time
+  full_time_only: true
+  drop_irrelevant: true          # Claude marks non-bariatric/MIS roles irrelevant
+
+benchmarks:
+  # Rough MGMA-style median for MIS/bariatric, used only to flag listings
+  # as above/below market on the dashboard. Update annually.
+  comp_median_usd: 560000
+
+store:
+  # A listing not seen by any source for this many days is archived
+  # (kept in the JSON for history, hidden from the dashboard).
+  stale_after_days: 21
+  new_badge_days: 7
+
+digest:
+  enabled: true
+  from: "Bariatric Jobs <onboarding@resend.dev>"  # Resend test sender; swap for a verified domain later
+  to:
+    - "ishan.kulkarnifl@gmail.com"  # Resend test mode only delivers to the account owner's email
+  subject_prefix: "[Bariatric Jobs]"
+  # Digest is sent only when there are new listings since the last run.
+
+extraction:
+  model: "claude-haiku-4-5-20251001"
+  max_listings_per_run: 150      # cost guard; Haiku makes this pennies anyway
