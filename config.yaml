@@ -8,7 +8,7 @@ search:
     - "bariatric and minimally invasive surgeon"
     - "MIS bariatric surgery physician"
     - "foregut surgeon"
-  usajobs_keyword: "bariatric surgeon"
+  usajobs_keyword: "surgeon"  # broad on purpose: "bariatric surgeon" matches 0; Claude filters non-bariatric/MIS
   # ASMBS Career Center search page (best-effort HTML parse; selectors may
   # need updating if the site changes — see pipeline/sources.py).
   asmbs_url: "https://jobs.asmbs.org/jobs/?keywords=bariatric"
