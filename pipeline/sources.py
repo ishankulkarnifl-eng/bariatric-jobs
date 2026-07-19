@@ -71,19 +71,38 @@ def fetch_serpapi(queries: list[str]) -> list[dict]:
 
 
 # ── Bright Data SERP API · Google jobs unit ──────────────────────────────
-def fetch_brightdata(queries: list[str]) -> list[dict]:
+US_STATES = [
+    "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado",
+    "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho",
+    "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana",
+    "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota",
+    "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada",
+    "New Hampshire", "New Jersey", "New Mexico", "New York",
+    "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon",
+    "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota",
+    "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington",
+    "West Virginia", "Wisconsin", "Wyoming",
+]
+
+
+def fetch_brightdata(queries: list[str], sweep_query: str | None = None) -> list[dict]:
     """Google's jobs unit parsed from a plain SERP via Bright Data.
     The dedicated Google Jobs page (ibp=htl;jobs / udm=8) stopped parsing
     across providers in July 2026; the jobs unit embedded in regular search
-    results still yields ~3 structured listings per query."""
+    results still yields ~3 structured listings per query. The jobs unit is
+    location-sensitive, so sweep_query additionally runs per US state to
+    surface local listings a national query misses."""
     key = os.environ.get("BRIGHTDATA_KEY")
     zone = os.environ.get("BRIGHTDATA_ZONE", "surgeon_jobs")
     if not key:
         log.info("BRIGHTDATA_KEY not set — skipping Bright Data Google Jobs")
         return []
+    search_terms = [q + " jobs" for q in queries]
+    if sweep_query:
+        search_terms += [f"{sweep_query} jobs in {s}" for s in US_STATES]
     out: list[dict] = []
-    for q in queries:
-        url = "https://www.google.com/search?q=" + requests.utils.quote(q + " jobs") + "&hl=en&gl=us"
+    for q in search_terms:
+        url = "https://www.google.com/search?q=" + requests.utils.quote(q) + "&hl=en&gl=us"
         data = None
         for attempt in range(3):  # transient 502s while the zone warms are normal
             try:
@@ -226,8 +245,9 @@ def fetch_asmbs(url: str) -> list[dict]:
 
 def fetch_all(cfg: dict) -> list[dict]:
     raw: list[dict] = []
-    raw += fetch_serpapi(cfg["search"]["queries"])
-    raw += fetch_brightdata(cfg["search"]["queries"])
+    # SerpAPI free tier is 250 searches/mo — keep it to the first 4 queries
+    raw += fetch_serpapi(cfg["search"]["queries"][:4])
+    raw += fetch_brightdata(cfg["search"]["queries"], cfg["search"].get("brightdata_sweep_query"))
     raw += fetch_usajobs(cfg["search"]["usajobs_keyword"])
     raw += fetch_asmbs(cfg["search"]["asmbs_url"])
     # Cross-source dedupe on (employer, title, location) where present

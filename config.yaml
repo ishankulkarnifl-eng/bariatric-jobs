@@ -9,6 +9,13 @@ search:
     - "MIS bariatric surgery physician"
     - "foregut surgeon"
     - "general surgeon"
+    - "minimally invasive surgeon"
+    - "robotic general surgeon"
+    - "metabolic and bariatric surgeon"
+    - "weight loss surgeon"
+  # Bright Data only: this query is additionally swept across all 50 states
+  # nightly ("<query> jobs in <state>"), ~50 requests/night of the 5k/mo tier.
+  brightdata_sweep_query: "bariatric surgeon"
   usajobs_keyword: "surgeon"  # broad on purpose: "bariatric surgeon" matches 0; Claude filters non-bariatric/MIS
   # ASMBS Career Center search page (best-effort HTML parse; selectors may
   # need updating if the site changes — see pipeline/sources.py).
@@ -40,4 +47,4 @@ digest:
 
 extraction:
   model: "claude-haiku-4-5-20251001"
-  max_listings_per_run: 150      # cost guard; Haiku makes this pennies anyway
+  max_listings_per_run: 250      # cost guard; Haiku makes this pennies anyway
