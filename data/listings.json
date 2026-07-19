@@ -1,215 +1,54 @@
 {
  "listings": {
-  "blue-harbor-health::NC::minimally-invasive-bariatric-surgeon": {
-   "archived": false,
-   "call_burden": "1:4 GS call",
-   "city": "Wilmington",
-   "comp_max": null,
-   "comp_min": null,
-   "employer": "Blue Harbor Health",
-   "employment_model": "hospital_employed",
-   "fellowship_required": true,
-   "first_seen": "2026-05-12",
-   "last_seen": "2026-07-18",
-   "mbsaqip_mentioned": true,
-   "repost_count": 1,
-   "robotics_mentioned": true,
-   "source": "google_jobs",
-   "state": "NC",
-   "summary": "Coastal MBSAQIP program replacing a retiring surgeon; established referral base.",
-   "title": "Minimally Invasive & Bariatric Surgeon",
-   "urls": [
-    "https://example.com/blue-harbor"
-   ],
-   "visa_sponsorship": true
-  },
-  "cedar-plains-health-system::TX::bariatric-surgery-medical-director": {
-   "archived": false,
-   "call_burden": "1:5 GS call",
-   "city": "Lubbock",
-   "comp_max": 720000,
-   "comp_min": 620000,
-   "employer": "Cedar Plains Health System",
-   "employment_model": "hospital_employed",
-   "fellowship_required": true,
-   "first_seen": "2026-07-17",
-   "last_seen": "2026-07-18",
-   "mbsaqip_mentioned": true,
-   "repost_count": 0,
-   "robotics_mentioned": false,
-   "source": "google_jobs",
-   "state": "TX",
-   "summary": "Directorship stipend on top of base; lead accreditation renewal for a 400-case program.",
-   "title": "Bariatric Surgeon / Program Medical Director",
-   "urls": [
-    "https://example.com/cedar-plains"
-   ],
-   "visa_sponsorship": false
-  },
-  "gulf-pines-regional-health::FL::bariatric-mis-surgeon": {
-   "archived": false,
-   "call_burden": "1:5 GS call",
-   "city": "Sarasota",
-   "comp_max": 640000,
-   "comp_min": 560000,
-   "employer": "Gulf Pines Regional Health",
-   "employment_model": "hospital_employed",
-   "fellowship_required": true,
-   "first_seen": "2026-07-16",
-   "last_seen": "2026-07-18",
-   "mbsaqip_mentioned": true,
-   "repost_count": 0,
-   "robotics_mentioned": true,
-   "source": "google_jobs",
-   "state": "FL",
-   "summary": "Join 2 fellowship-trained partners at an MBSAQIP center; dual da Vinci Xi, block time day one.",
-   "title": "Bariatric & MIS Surgeon",
-   "urls": [
-    "https://example.com/gulf-pines"
-   ],
-   "visa_sponsorship": false
-  },
-  "high-desert-medical-group::AZ::bariatric-surgeon": {
+  "veterans-health-administration::FL::general-surgeon": {
    "archived": false,
    "call_burden": null,
-   "city": "Tucson",
-   "comp_max": 585000,
-   "comp_min": 585000,
-   "employer": "High Desert Medical Group",
-   "employment_model": "hospital_employed",
-   "fellowship_required": true,
-   "first_seen": "2026-04-03",
-   "last_seen": "2026-07-18",
-   "mbsaqip_mentioned": true,
-   "repost_count": 0,
-   "robotics_mentioned": true,
-   "source": "google_jobs",
-   "state": "AZ",
-   "summary": "Straight-salary model with quality bonus; new Xi and dedicated bariatric OR team.",
-   "title": "Bariatric Surgeon",
-   "urls": [
-    "https://example.com/high-desert"
-   ],
-   "visa_sponsorship": false
-  },
-  "lakeview-university-medical-center::WI::foregut-bariatric-surgeon": {
-   "archived": false,
-   "call_burden": null,
-   "city": "Madison",
-   "comp_max": null,
-   "comp_min": null,
-   "employer": "Lakeview University Medical Center",
-   "employment_model": "academic",
-   "fellowship_required": true,
-   "first_seen": "2026-02-08",
-   "last_seen": "2026-07-18",
-   "mbsaqip_mentioned": false,
-   "repost_count": 2,
-   "robotics_mentioned": true,
-   "source": "google_jobs",
-   "state": "WI",
-   "summary": "Foregut-heavy mix (achalasia, GERD, hiatal) alongside bariatrics; comp by rank.",
-   "title": "Foregut & Bariatric Surgeon",
-   "urls": [
-    "https://example.com/lakeview"
-   ],
-   "visa_sponsorship": true
-  },
-  "northgate-academic-medical-center::OH::assistant-professor-bariatric-surgery": {
-   "archived": false,
-   "call_burden": "1:6 MIS call",
-   "city": "Columbus",
-   "comp_max": 540000,
-   "comp_min": 480000,
-   "employer": "Northgate Academic Medical Center",
-   "employment_model": "academic",
-   "fellowship_required": true,
-   "first_seen": "2026-07-14",
-   "last_seen": "2026-07-18",
-   "mbsaqip_mentioned": true,
-   "repost_count": 0,
-   "robotics_mentioned": true,
-   "source": "google_jobs",
-   "state": "OH",
-   "summary": "Tenure-track with protected research time; fellowship program faculty role available.",
-   "title": "Assistant Professor, Bariatric Surgery",
-   "urls": [
-    "https://example.com/northgate"
-   ],
-   "visa_sponsorship": true
-  },
-  "rivermark-clinic::WA::bariatric-and-general-surgeon": {
-   "archived": false,
-   "call_burden": "1:6 GS call",
-   "city": "Spokane",
-   "comp_max": 590000,
-   "comp_min": 540000,
-   "employer": "Rivermark Clinic",
-   "employment_model": "private_practice",
-   "fellowship_required": false,
-   "first_seen": "2026-07-02",
-   "last_seen": "2026-07-18",
-   "mbsaqip_mentioned": false,
-   "repost_count": 0,
-   "robotics_mentioned": false,
-   "source": "google_jobs",
-   "state": "WA",
-   "summary": "Multispecialty clinic building a new metabolic program; GLP-1 clinic integration planned.",
-   "title": "Bariatric & General Surgeon",
-   "urls": [
-    "https://example.com/rivermark"
-   ],
-   "visa_sponsorship": false
-  },
-  "summit-ridge-surgical-associates::CO::bariatric-surgeon-partnership-track": {
-   "archived": false,
-   "call_burden": null,
-   "city": "Colorado Springs",
-   "comp_max": 700000,
-   "comp_min": 500000,
-   "employer": "Summit Ridge Surgical Associates",
-   "employment_model": "private_practice",
-   "fellowship_required": true,
-   "first_seen": "2026-06-28",
-   "last_seen": "2026-07-18",
-   "mbsaqip_mentioned": true,
-   "repost_count": 0,
-   "robotics_mentioned": false,
-   "source": "asmbs",
-   "state": "CO",
-   "summary": "3-surgeon private group, 2-year partnership track, ASC ownership opportunity.",
-   "title": "Bariatric Surgeon \u2014 Partnership Track",
-   "urls": [
-    "https://example.com/summit-ridge"
-   ],
-   "visa_sponsorship": false
-  },
-  "veterans-health-midwest-network::MN::staff-surgeon-bariatric-mis": {
-   "archived": false,
-   "call_burden": "No weekend call",
-   "city": "Minneapolis",
-   "comp_max": 465000,
-   "comp_min": 420000,
-   "employer": "Veterans Health \u2014 Midwest Network",
+   "city": "Jacksonville",
+   "comp_max": 400000,
+   "comp_min": 252638,
+   "employer": "Veterans Health Administration",
    "employment_model": "hospital_employed",
    "fellowship_required": false,
-   "first_seen": "2026-06-20",
-   "last_seen": "2026-07-18",
+   "first_seen": "2026-07-19",
+   "last_seen": "2026-07-19",
    "mbsaqip_mentioned": false,
    "repost_count": 0,
-   "robotics_mentioned": true,
+   "robotics_mentioned": false,
    "source": "usajobs",
-   "state": "MN",
-   "summary": "Federal position: pension, no-weekend-call structure, established robotic program.",
-   "title": "Staff Surgeon, Bariatric/MIS",
+   "state": "FL",
+   "summary": "VA general surgery position in Jacksonville, FL; outpatient ambulatory care focus; $252k\u2013$400k annual.",
+   "title": "General Surgeon",
    "urls": [
-    "https://example.com/va-midwest"
+    "https://www.usajobs.gov:443/job/865728800"
+   ],
+   "visa_sponsorship": false
+  },
+  "veterans-health-administration::SD::general-surgeon": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Sioux Falls",
+   "comp_max": 400000,
+   "comp_min": 300000,
+   "employer": "Veterans Health Administration",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-07-19",
+   "last_seen": "2026-07-19",
+   "mbsaqip_mentioned": false,
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "usajobs",
+   "state": "SD",
+   "summary": "VA general surgery position in Sioux Falls, SD; $300\u2013400K annual salary, full-time.",
+   "title": "General Surgeon",
+   "urls": [
+    "https://www.usajobs.gov:443/job/872555100"
    ],
    "visa_sponsorship": false
   }
  },
  "meta": {
-  "last_run": "2026-07-19T19:12:15Z",
-  "sample": true
+  "last_run": "2026-07-19T19:16:59Z",
+  "sample": false
  }
 }
