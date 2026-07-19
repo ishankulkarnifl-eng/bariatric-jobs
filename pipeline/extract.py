@@ -19,14 +19,17 @@ log = logging.getLogger("extract")
 
 SCHEMA_PROMPT = """You are a strict data extraction engine for physician job postings.
 The end user is a fellowship-trained MIS / bariatric / foregut surgeon seeking
-FULL-TIME positions (any practice model EXCEPT locum tenens).
+FULL-TIME positions (any practice model EXCEPT locum tenens). General surgery
+roles are in scope; bariatric / MIS / robotic focus is strongly preferred but
+not required.
 
 Given ONE job posting, respond with ONLY a JSON object (no markdown, no prose):
 
 {
-  "relevant": bool,            // true only if a bariatric / MIS / foregut SURGEON role
-                               // (general-surgery-with-bariatrics counts; NP/PA, admin,
-                               // pure general surgery without bariatrics = false)
+  "relevant": bool,            // true for GENERAL SURGERY surgeon roles, including
+                               // bariatric / MIS / foregut and acute care general surgery
+                               // (NP/PA, admin, and other specialties — orthopedic, oral/OMFS,
+                               // vascular, cardiothoracic, plastics, ENT, etc. = false)
   "full_time": bool,           // false for part-time, per-diem, or locums
   "employment_model": "hospital_employed" | "academic" | "private_practice" | "locums" | "unknown",
   "employer": string,          // best-known employer name
