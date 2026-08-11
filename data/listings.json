@@ -82,7 +82,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-07-20",
-   "last_seen": "2026-08-01",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": true,
    "posted_date": null,
    "repost_count": 0,
@@ -178,10 +178,10 @@
    "employment_model": "academic",
    "fellowship_required": false,
    "first_seen": "2026-07-31",
-   "last_seen": "2026-08-08",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": true,
    "posted_date": "2026-07-31",
-   "repost_count": 2,
+   "repost_count": 3,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "AZ",
@@ -190,7 +190,8 @@
    "urls": [
     "https://bebee.com/us/jobs/physician-surgery-bariatric-banner-health-tanque-verde-az-united-states--resume-21486_3769686846?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "/goto?url=CAES6AEB7keqTSxO1evA8Ndq3mhj-IWR_Ja711k8gimC0yvOM_pLfrzO-iCzjghk5D3opQ8Jq-ITktkubHnLaAckd31BB6m6w_t1VW0XEipq0KN1dj3rH1cotD661-HehiqFc8hzZ_-Sud0CZh2sWcZkw0lNUnadaROADyMreTQXK2WcUTBpZNqPcgQm0QRVfTTSyBhK0KGitLveYoKEXRcnv1RuU5pCKZj71GLS3-Dldjm_wm71pWT-aieFTFDM69MQBFUOI12w5YNklfvjCta2NReCrFXZzA56fW5_IlCdhAaUm8VOWaL9ewXw",
-    "https://bebee.com/us/jobs/physician-surgery-bariatric-banner-health-tanque-verde-az-united-states--jobgoal-26656_5052_1267028?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://bebee.com/us/jobs/physician-surgery-bariatric-banner-health-tanque-verde-az-united-states--jobgoal-26656_5052_1267028?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://bebee.com/us/jobs/physician-surgery-bariatric-banner-health-sahuarita-az-united-states--jobgoal-25709_l_563B0Uhg3TxU3Fpnsgk-8cZAgOvrMW9Xbm?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
    ],
    "visa_sponsorship": false
   },
@@ -254,7 +255,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-01",
    "repost_count": 0,
@@ -351,7 +352,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-21",
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 1,
@@ -488,6 +489,30 @@
    ],
    "visa_sponsorship": false
   },
+  "central-maine-healthcare::ME::general-surgeon": {
+   "archived": false,
+   "call_burden": "Flexible scheduling with call responsibilities",
+   "city": "Lewiston",
+   "comp_max": 500000,
+   "comp_min": 435000,
+   "employer": "Central Maine Healthcare",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-08-07",
+   "last_seen": "2026-08-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-08-07",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "ME",
+   "summary": "Hospital-based general surgery role in Maine with elective and inpatient cases; $435\u2013500K, comprehensive benefits, relocation assistance available.",
+   "title": "General Surgeon",
+   "urls": [
+    "https://surgeonjobs.facs.org/job/general-surgeon/85459076/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
   "community-health-systems::TX::general-surgeon": {
    "archived": false,
    "call_burden": "General surgery and GI call based on experience",
@@ -595,10 +620,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-28",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-28",
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "CA",
@@ -606,7 +631,8 @@
    "title": "Bariatric Surgeon",
    "urls": [
     "https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-CALIFORNIA-PERMANENT-SURGERY-in-San-Diego-California-USA-1ED2E0E5CD6F2928B7/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.jobserve.com/us/en/mob/job/extjobm/1ED2E0E5CD6F2928B7?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://www.jobserve.com/us/en/mob/job/extjobm/1ED2E0E5CD6F2928B7?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.jobserve.com/us/en/mob/job/extjobm/1C4C1BA6EBFFD68612?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
    ],
    "visa_sponsorship": false
   },
@@ -647,7 +673,7 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 4,
@@ -699,7 +725,7 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-09",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-09",
    "repost_count": 1,
@@ -724,7 +750,7 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-08-07",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-07",
    "repost_count": 1,
@@ -760,6 +786,30 @@
    "title": "Bariatric Surgeon",
    "urls": [
     "https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-KANSAS-PERMANENT-SURGERY-in-Wichita-Kansas-USA-C94CD22C9A0555BBE1/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
+  "confidential::KY::bariatric-surgeon": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Louisville",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Confidential",
+   "employment_model": "unknown",
+   "fellowship_required": false,
+   "first_seen": "2026-08-04",
+   "last_seen": "2026-08-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-08-04",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "KY",
+   "summary": "Full-time bariatric surgery position in Louisville, KY; employer confidential via Metropolis platform",
+   "title": "Bariatric Surgeon",
+   "urls": [
+    "https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-KENTUCKY-PERMANENT-SURGERY-in-Louisville-Kentucky-USA-5B849AEAB0E3DB0373/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
    ],
    "visa_sponsorship": false
   },
@@ -949,7 +999,7 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 2,
@@ -975,10 +1025,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-08-08",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-16",
-   "repost_count": 2,
+   "repost_count": 3,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "OH",
@@ -987,7 +1037,8 @@
    "urls": [
     "https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-OHIO-PERMANENT-SURGERY-in-Youngstown-Ohio-USA-9B8F247100F6EB6287/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "/goto?url=CAESiwIB7keqTdG0MBq-jEJZFBVPiDgRsqq6QdfD_k3cpffNWqlfjpCU1KmV6j-AQmkQOfgdgzieTyqjfuEkTlJvB8vAfmdqP1uGGOWiwZnYcLh_oTbFTjLb-IuDiQXNAKsmz6A-1rMOxDFWTE-X50acqnA52Lnp85xUOuqGqhObf3W6mZhNXE3bZFtgNBSrZmR_qxCC6as67RrrmOrQ_RuLynZMOSO8QUnaXC_9v6BM4hYn_TWAY4QmG9pSBf-XUXFRIVVJTWPGoHuz-OnSi_DHnGDsjIdtb__ldqY623sz-Ibh2Gk-I2wU5UVGSqwuf1Pum8o_6ib6_XOYna7GMLZQrDGHich2N2BCe72g2Z0=",
-    "https://www.physicianjobboard.com/jobdetails.cfm/5769217/Physician-Surgery-Bariatric-Ohio-Permanent-Surgery-Bariatric-Opening-Youngstown-Ohio-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://www.physicianjobboard.com/jobdetails.cfm/5769217/Physician-Surgery-Bariatric-Ohio-Permanent-Surgery-Bariatric-Opening-Youngstown-Ohio-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "/goto?url=CAESiwIB7keqTYzRKbP6SUnOATuYxhImQWSJm2T8TPJCf3K13sIRqu2GQ8j4celGuLARIomBF0J7yui-ne7ONPXkBQRvkAO_G1G1Mjm3vY7eXWOYYIH0Le9oFUmYyOUrKE0VjsMAMrwsm3I9yOF9aY6_zerSvSs6m-GC4ppRylF23aa93NjMzmO9M8-oPDQ5Zk4O3XjR-97HAOouU7e-RL_2woSQ9s3W4ncQ__d3EmdvIja5pk4mbJwDh1NZdTe1VqtxJRFyuI_YoO3vrvnLCB9QQtoH1qJZRAb88kDnxBHvsacxJcriYCuA0oE2BQCPcX1vFLhtBJeY0f2zN0gt6k2tAVGpyqGZuDX175Oi52A="
    ],
    "visa_sponsorship": false
   },
@@ -1001,17 +1052,18 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-23",
-   "last_seen": "2026-07-25",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-23",
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "OK",
    "summary": "Full-time bariatric surgery position in Oklahoma City; employer confidential via Metropolis platform.",
    "title": "Bariatric Surgeon",
    "urls": [
-    "https://us.jobrapido.com/jobpreview/4341124018892439552?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://us.jobrapido.com/jobpreview/4341124018892439552?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://us.jobrapido.com/jobpreview/2605112325341970432?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
    ],
    "visa_sponsorship": false
   },
@@ -1049,7 +1101,7 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-13",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-13",
    "repost_count": 3,
@@ -1498,6 +1550,30 @@
    ],
    "visa_sponsorship": false
   },
+  "doctors-choice-placement-services-inc::AL::general-bariatric-surgery-surgeon": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Northeast Alabama",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Doctors Choice Placement Services, Inc.",
+   "employment_model": "unknown",
+   "fellowship_required": false,
+   "first_seen": "2026-08-09",
+   "last_seen": "2026-08-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-08-09",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "AL",
+   "summary": "Full-time General/Bariatric Surgery role in Northeast Alabama with laparoscopic focus at physician-owned hospital.",
+   "title": "General/Bariatric Surgery Surgeon",
+   "urls": [
+    "https://www.mdsearch.com/jobs/bariatrics/alabama/5319258?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
   "emplify-health-system::MN::general-surgeon": {
    "archived": false,
    "call_burden": null,
@@ -1741,6 +1817,30 @@
    ],
    "visa_sponsorship": false
   },
+  "hayman-daugherty-associates-inc::KY::general-surgery-physician": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Paducah",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Hayman Daugherty Associates, Inc",
+   "employment_model": "private_practice",
+   "fellowship_required": false,
+   "first_seen": "2026-08-06",
+   "last_seen": "2026-08-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-08-06",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "KY",
+   "summary": "Full-time general surgery role in Paducah, KY with vascular focus; strong referral base, comprehensive benefits.",
+   "title": "General Surgery Physician",
+   "urls": [
+    "https://www.physicianjobboard.com/jobdetails.cfm/7359246/Physician-Surgery-General-Kentucky-Locum-or-Permanent-General-Surgery-Physician-Job-near-Paducah-Kentucky-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
   "hayman-daugherty-associates-inc::MS::general-surgeon": {
    "archived": false,
    "call_burden": null,
@@ -1775,7 +1875,7 @@
    "employment_model": "unknown",
    "fellowship_required": true,
    "first_seen": "2026-07-22",
-   "last_seen": "2026-08-07",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 1,
@@ -1848,7 +1948,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-08-07",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 1,
@@ -1873,7 +1973,7 @@
    "employment_model": "private_practice",
    "fellowship_required": true,
    "first_seen": "2026-08-10",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 0,
@@ -2030,6 +2130,30 @@
    "title": "Senior Bariatric Surgeon",
    "urls": [
     "https://www.jobleads.com/us/job/senior-bariatric-surgeon-expert-laparoscopic-weight-loss--scottsdale--ebfde70728d64c4b9e83ed15060cd50fb?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
+  "hospital-in-lewiston-me-via-britt-medical-search::ME::general-surgeon-bariatric-mis": {
+   "archived": false,
+   "call_burden": "Shared call responsibilities",
+   "city": "Lewiston",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Hospital in Lewiston, ME (via Britt Medical Search)",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-08-11",
+   "last_seen": "2026-08-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": null,
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "ME",
+   "summary": "Full-time hospital-based general surgery with bariatric/MIS focus north of Portland, ME. Broad case mix, multidisciplinary support, flexible scheduling.",
+   "title": "General Surgeon - Bariatric & MIS",
+   "urls": [
+    "https://www.staffphysicians.com/jobdetails.cfm/2111323/Physician-Surgery-Bariatric-Maine-Permanent-General-Surgeon-North-of-Portland-ME-Broad-Mix-Bariatrics-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
    ],
    "visa_sponsorship": false
   },
@@ -2229,7 +2353,7 @@
    "visa_sponsorship": false
   },
   "lifepoint-health-saint-mary-s-regional-medical-center::AR::general-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Russellville",
    "comp_max": null,
@@ -2311,7 +2435,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-07-29",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-29",
    "repost_count": 0,
@@ -2504,7 +2628,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-15",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-15",
    "repost_count": 0,
@@ -2626,7 +2750,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-27",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-27",
    "repost_count": 2,
@@ -2652,10 +2776,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-08-07",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "NM",
@@ -2663,7 +2787,8 @@
    "title": "General/Bariatric Surgeon",
    "urls": [
     "https://us.jobrapido.com/jobpreview/5050692671056642048?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.learn4good.com/jobs/rio-rancho/new-mexico/doctor_of_medicine/5106357034/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://www.learn4good.com/jobs/rio-rancho/new-mexico/doctor_of_medicine/5106357034/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://bebee.com/us/jobs/general-bariatric-surgeon-presbyterian-healthcare-services-rio-rancho--pureheal-28528_25300_8acfc0519757cd9a3a48e61ed6d9b5ff?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
    ],
    "visa_sponsorship": false
   },
@@ -2765,7 +2890,7 @@
    "visa_sponsorship": false
   },
   "rock-health::TX::general-surgery-physician": {
-   "archived": false,
+   "archived": true,
    "call_burden": "7-on-7-off call schedule",
    "city": "Farmers Branch",
    "comp_max": null,
@@ -2814,7 +2939,7 @@
    "visa_sponsorship": false
   },
   "searhc::AK::lead-general-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "~7 nights/month shared call",
    "city": "Sitka",
    "comp_max": null,
@@ -2847,7 +2972,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-20",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 0,
@@ -3008,7 +3133,7 @@
    "visa_sponsorship": false
   },
   "southern-illinois-health-system::IL::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:2 general surgery and bariatric call",
    "city": null,
    "comp_max": null,
@@ -3185,7 +3310,7 @@
    "employment_model": "academic",
    "fellowship_required": true,
    "first_seen": "2026-07-21",
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 1,
@@ -3258,7 +3383,7 @@
    "employment_model": "academic",
    "fellowship_required": true,
    "first_seen": "2026-06-01",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-06-01",
    "repost_count": 0,
@@ -3294,6 +3419,30 @@
    "urls": [
     "/goto?url=CAESqAIB7keqTaxJ93oVLTgWAYS4moeWhRH2SZgSI1Ui6w1j0WT9nX6pmUY3vl0DkbHkP__P3Apf2w8AXXmqBbk7Qc1QtV02KX4pKlLRmT5l6NneQpsBvMGp2Jc73Rl0UkRfuGAhS8rFaBYqwWQ8ZMBhrxEKpv_n96Er-PyBJeF5kYkZVPCEqtQCWdWXThEAZ_LoNff-6i09WeOrCFakBiQ1lP64QCHlwiKLnw4KsGZutCV3uh_JLMnG54vcCAkM_DobdpojvCdwEMyQvq6hDDBHK-QSG9rQOzKQE_Vu7rIs91toLfqtBPpbHRCygdxh1qM6ddEPWniScYbHAqmzWo5o4elfnFVNVHtOjwtj5y9VRsB-2RtFA1uUIKVMvi0hbmqRznZuS4Teo68jvQ==",
     "https://talents.vaia.com/companies/society-of-american-gastrointestinal-and-endoscopic-surgeons/new-orleans/assistant-professor-mis-bariatric-surgery-120344053/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
+  "u-s-department-of-veterans-affairs::xx::general-surgeon-bariatric-colorectal-minimally-invasive": {
+   "archived": false,
+   "call_burden": "general surgery call",
+   "city": null,
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "U.S. Department of Veterans Affairs",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-08-02",
+   "last_seen": "2026-08-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-08-02",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": null,
+   "summary": "VA full-time bariatric & colorectal MIS surgeon role with education & research involvement.",
+   "title": "General Surgeon \u2013 Bariatric & Colorectal, Minimally Invasive",
+   "urls": [
+    "/goto?url=CAESkAIB7keqTV__DayER8R-nWlDz0dkvdKHR11HV8vIOKGBoI4QOel-ccp23z73ZbHMta-eW6xZgB9hnb0ApH2lz_do3wr_-usiLr6FMCvDt7TNzHz1K53oF9zQpY4ayxkV8OXmIw4meLS7PCLO6gX1DRapR4N-BkEbFPordi7b4AYHDOcyCZjzDO1nDGQB8kFodblT3lbgbeYmZzGaOfxrfbQ4RXYRnfNU07NeDNkJboWF-cqwtiv7X4E26xWczSk_DeJyyZfpMdAwB9750oYEVDyq92zZ5BoX9rJ8ym7fARu0NeQnOJJ_Taw-ZaM5DfTy8-wmWJCu9LOIsOkfDPgNEAtfe4l9QJujgaRXeraSYWDpQg=="
    ],
    "visa_sponsorship": false
   },
@@ -3334,7 +3483,7 @@
    "employment_model": "academic",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 0,
@@ -3471,7 +3620,7 @@
    "visa_sponsorship": false
   },
   "utah-surgical::UT::general-surgery-physician": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:3 call rotation",
    "city": "Cedar City",
    "comp_max": null,
@@ -3552,7 +3701,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-06-04",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-06-04",
    "repost_count": 0,
@@ -3625,7 +3774,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-08-10",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
    "repost_count": 0,
@@ -3770,10 +3919,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-07",
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-07",
-   "repost_count": 1,
+   "repost_count": 3,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "WV",
@@ -3781,7 +3930,9 @@
    "title": "Metabolic & Bariatric Surgeon",
    "urls": [
     "https://www.linkedin.com/jobs/view/physician-metabolic-bariatric-surgeon-martinsburg-wv-at-wvu-medicine-4448471807?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "/goto?url=CAES6gEB7keqTRDgKhMfTND2PAtJZU4kWryryae5zeOpqeIGvPZDGdV4mpLEK1XBWewhElWsjxEn1YUlf2yKX3Jd1Mgv9QHTpPoNMNmxvLxKmE1_KqssSU7kEtNp9ZmM92fyNJY8NWfFr9X4NACs-YXhJgTcjiK1SsGkZ96E2-ulT4lazHnzTpFF4p_bUmw6Oq14yjaYbBtkIGO9a-o0guVO1KcaGvujFAl-QUwNnQy5YEKZCe7ynsNtvpzsvMGwDof2Gn8U-s_d_Kk5AkVXA2Cje0oTSat2Gd4WqplK5lO4n_jQE4kZzvw9hcAwnzQ="
+    "/goto?url=CAES6gEB7keqTRDgKhMfTND2PAtJZU4kWryryae5zeOpqeIGvPZDGdV4mpLEK1XBWewhElWsjxEn1YUlf2yKX3Jd1Mgv9QHTpPoNMNmxvLxKmE1_KqssSU7kEtNp9ZmM92fyNJY8NWfFr9X4NACs-YXhJgTcjiK1SsGkZ96E2-ulT4lazHnzTpFF4p_bUmw6Oq14yjaYbBtkIGO9a-o0guVO1KcaGvujFAl-QUwNnQy5YEKZCe7ynsNtvpzsvMGwDof2Gn8U-s_d_Kk5AkVXA2Cje0oTSat2Gd4WqplK5lO4n_jQE4kZzvw9hcAwnzQ=",
+    "https://careers.diversitymd.com/job/physician-metabolic-bariatric-surgeon-martinsburg-wv/85466393/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.marithealth.com/jobs/65930449-ea70-49b2-8750-f4cfcc84cc72?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
    ],
    "visa_sponsorship": false
   },
@@ -3811,7 +3962,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-08-10T12:16:02Z",
+  "last_run": "2026-08-11T12:08:56Z",
   "sample": false
  }
 }
