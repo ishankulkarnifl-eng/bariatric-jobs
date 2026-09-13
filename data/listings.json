@@ -34,7 +34,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 0,
@@ -166,6 +166,30 @@
    "title": "Bariatric & Metabolic Surgeon",
    "urls": [
     "https://us.trabajo.org/job-4112-79d92cff4401f682e3decd6ac6339629?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
+  "adventhealth::KS::bariatric-surgeon": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Lenexa",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "AdventHealth",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-08-29",
+   "last_seen": "2026-09-13",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-08-29",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "KS",
+   "summary": "Fellowship-trained bariatric surgeon for AdventHealth Lenexa; sleeve gastrectomy, RYGB, revisions; multidisciplinary team.",
+   "title": "Bariatric Surgeon",
+   "urls": [
+    "/goto?url=CAESyQEB6zswFXDXKropjIkQnpx9WjJnXPyxpFYxgnjUr4tKpgJCXsRPu8pPSlSoMqoNCNJuzGcfZO-5ah9TLyngVSlZ3H2sfEmVZCv-DmfAEVnhth8x6Cl7BC_nMI1JJnqFcBUofOx5VvsWJFx4H7q6k0TsFVlrvbu4SOKaG_K4R0XOAI-M6YRsUfM7XPMCc7HUuRZWP8AFnaZ-AQ6EvpiFCEy4ACjD2lsBrtXDRQtnYt8qwI9PnhZVodYVRG1ncjw-7V7SLUcqh9W47tU"
    ],
    "visa_sponsorship": false
   },
@@ -307,7 +331,7 @@
    "visa_sponsorship": false
   },
   "archway-physician-recruitment-rapid-city-regional-hospital::SD::general-surgery-bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "7 trauma/acute care surgeons covering inpatient and trauma call",
    "city": "Rapid City",
    "comp_max": null,
@@ -367,10 +391,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-07-21",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-09-13",
    "mbsaqip_mentioned": true,
    "posted_date": null,
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "SD",
@@ -378,7 +402,8 @@
    "title": "General Surgery/Bariatric Surgeon",
    "urls": [
     "https://www.hospitalrecruiting.com/job/853464/general-surgerybariatric-surgeon/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "/goto?url=CAES1wEB6zswFdZ7HxP-umm4AaWhaiA2fdPl0l3VIKAf91Ro1gS1t_WDtME4qbGoUW7QfEfTqkig518iyzoX1uKXGTkfczszv-yUOK_rzbJYKFZ7iFwSJgu78HxaDwHXleW22J9AwrP6uu6T08eLm2jzrr62Zn7GO5PV2ELnV5n6kkVvOjht2e6BM-X_tv9_nnIXJIookxuVZkQxYX5HVyyMZcvngbMhnOooRdiYPWPaOkcMt2XRs8D6DvJl7h5fcYGvNdJj9sS0rACdfmkKNe1UWwi_JTXawrqjmg"
+    "/goto?url=CAES1wEB6zswFdZ7HxP-umm4AaWhaiA2fdPl0l3VIKAf91Ro1gS1t_WDtME4qbGoUW7QfEfTqkig518iyzoX1uKXGTkfczszv-yUOK_rzbJYKFZ7iFwSJgu78HxaDwHXleW22J9AwrP6uu6T08eLm2jzrr62Zn7GO5PV2ELnV5n6kkVvOjht2e6BM-X_tv9_nnIXJIookxuVZkQxYX5HVyyMZcvngbMhnOooRdiYPWPaOkcMt2XRs8D6DvJl7h5fcYGvNdJj9sS0rACdfmkKNe1UWwi_JTXawrqjmg",
+    "/goto?url=CAES1wEB6zswFYNdoEgJMUxiu0Pbq5jS6RPfOpFYHJNi2gJQ6g5MiEkoxJAhyARgDr-O895XOn5lKBYLaJTY1Um3YR-xyZKPz33JOIbof8e-nsJMMhnzagW5hCvNnRjzIh_2sFvTEbdxUPqAaQqq4WzUyGeXC7Gx-JNVjodow_3PAxFPghGf8qHIbSLTfR79KEijfoOdA2xuRRXz5ZPSpnJXug9Kj_rMsxmulvqLDV9HjhfQ34re45M29pg47VwQQakG0C7xa3O4aNbka7jBPC7Z5QDVxux0JuaQ5g"
    ],
    "visa_sponsorship": false
   },
@@ -1027,10 +1052,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-30",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-13",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-30",
-   "repost_count": 14,
+   "repost_count": 15,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "ME",
@@ -1051,7 +1076,8 @@
     "/goto?url=CAES7gEB6zswFeYYVi0MymM5bvTk0tOBbQahmfnI4h8zvWTOuvkrv6ndOpFP_vuRTmgpbFmUZrJ_90k_KvFg-yHsCRv9NeTW-aUnQss4g1m2O5cWS66vs0DsgRgpWrIOpy-CwtAUqBsy1Ar0ENCVlEZL5kIhFLY_PSdpIwkqdOFs7zMMqwUTaJxF0T4oH9Aj6SLhg8BWg_WuPhV2E8c8Gz4ymzeC1wMD6lI-Vea8-9djTl0Z6ZKgWebh1Ct1nPtRNMBoFIXI0yDVUDVu_ZKjxyuO2oyeT_mZwAxnOahV-78jYsGyNAHkK_YuHCkH7zvVuusW",
     "/goto?url=CAES7gEB6zswFRd9XlOyX9tQjwEVY1w-kX4cPKvqeLBUuvQJEa7__Q-MTH5m18Zo0a1X4y8s1RXLaTb8l6QmqMOZSyejx8N4E5Yu1NchpAT7dVy5gkt_8UnvmwkbQPxF8bLARzy53cG6RQrnUfcC3NV-u5fZ7ckVIQtSHCDc8BJ-6IgYHEaE7lAn8EvXbTYie9xzg2mQpVv_keEnCBg1DGqMBD1vibT-Awu_rTyDCuC4HNjse6hrd9GtKx5iR7EpIQFj4P7cC9ko1gQpJzsHKkMytXjjcjwggPP5_p4oj_La5vk_WGDR1r1Hq-CN8bIidDk8",
     "/goto?url=CAES7gEB6zswFUCgRXKuRw4naBuOWv0KSIgQUrA08m20-IyMbwHbDc07PQ_mk3EESgLy0Tb6NAfan1ygjA3Zhl9iOShXxXapZqsY0HUa3LzOjj1mNTn7bQENk5Pq8G0x1Nrh9WWJc90dUniW1z97RAB8xfhKSbP1ZaBYKWC2ytLq2Qsesk4gbccFhN2RtjU5Ukvfe4DT4cjThofrJ5PmdCtzqG8LjJaFNnf5zweoXrT-vpRXm8cprujWPEPr2cbkHNqYbG9lZo-MP2FY2nbnFZrCai5Esn8ieHyu1N1CrJ7JWDcjhKpzy7Wgiype30GFPyFA",
-    "/goto?url=CAES7gEB6zswFcnWQ5eT0T1XXUp2F-ZIC7qHzV-GiUrp0Rl7GxiyKZcSxtKLTiPBBUEuqh597B9NVNVozbvEc4WGlM5p6uyGJvXsZpBN80u1Pa_DZbq6qsBgxsSjl5tRSf7hjraCHV4KOBW1KitYGg1XgEdjJYtNJc_vOJE797qv5-xl3cRDlcZzSPC0PsHAaWo3T18KDA7aRgibbyRQhAJv6Bdi3zeZkbV3nr-WD7j8AAa36xNaQhQbwmu8YR5UY14KFS3PxYP5IEA6rqEBWmMdPWI42d1hNOJhE4Ou4lVK4-CvzbZ-Ysh0zX7_2vnWuHMg"
+    "/goto?url=CAES7gEB6zswFcnWQ5eT0T1XXUp2F-ZIC7qHzV-GiUrp0Rl7GxiyKZcSxtKLTiPBBUEuqh597B9NVNVozbvEc4WGlM5p6uyGJvXsZpBN80u1Pa_DZbq6qsBgxsSjl5tRSf7hjraCHV4KOBW1KitYGg1XgEdjJYtNJc_vOJE797qv5-xl3cRDlcZzSPC0PsHAaWo3T18KDA7aRgibbyRQhAJv6Bdi3zeZkbV3nr-WD7j8AAa36xNaQhQbwmu8YR5UY14KFS3PxYP5IEA6rqEBWmMdPWI42d1hNOJhE4Ou4lVK4-CvzbZ-Ysh0zX7_2vnWuHMg",
+    "/goto?url=CAES7gEB6zswFc9a5Xyi0DjRMKEOf7_Q2EWedP3RCb7A8gXo1suV8gXiWt1VB_v6SCExq3sug4Zi1qZgbkhquyQYV7FP6QP10tu1818G-aIwbuAmYfRxFi0CR9iVvzktX3Fp4bL9Hd-T5rSm_tZgQ39sSN_imKr8doJKTRv_3wnTM1fkdHNPJN81Qf1zn_oXPD3hFQVzlBfHyhnjNgsJNZQrFl6qS3ici5n3FybNyXg0X-XUbjQFbyx864tV__41zla0d-gI9FSw7w3Rnss6C-onrEn1cgqFeL5YmdylLPOsCPT2hRWS1bbdqb3bdvRwks_N"
    ],
    "visa_sponsorship": false
   },
@@ -2212,7 +2238,7 @@
    "visa_sponsorship": false
   },
   "continuum-medical-staffing::MT::general-surgery-bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 general surgery call",
    "city": "North Central Montana",
    "comp_max": null,
@@ -2795,6 +2821,30 @@
    ],
    "visa_sponsorship": false
   },
+  "guthrie-medical-group::NY::general-surgery-surgeon": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Corning",
+   "comp_max": 540000,
+   "comp_min": 459000,
+   "employer": "Guthrie Medical Group",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-09-13",
+   "last_seen": "2026-09-13",
+   "mbsaqip_mentioned": false,
+   "posted_date": null,
+   "repost_count": 0,
+   "robotics_mentioned": true,
+   "source": "google_jobs",
+   "state": "NY",
+   "summary": "Full-time general surgery at Guthrie Corning Hospital; laparoscopic/robotic/MIS capabilities; $459K\u2013$540K; NY licensure required.",
+   "title": "General Surgery Surgeon",
+   "urls": [
+    "/goto?url=CAESzwEB6zswFQmUAhhtH9jzjKX_IZM2PAuY6QuCIHJj2xEiIe02xaej5JuEyx--oUa7BLyQfrAE1XesSS1XsVe2dFP5DKeUpiUGViErhP8jQvFcg83ODlcEbY1SYqgcJuwWD4nOnN7MiTKMpkAZ-luupepe-eGIqHAMCV1NRs-upUDSrxxxCTdHbsbigKcGM-dhP_9pWtpapL9R7ykLhYH8Et9Or_gzCutRhPt3iIXYDTHiD5iJgps318wC0cveytZWj4C1yLkWlMJCeTE9dFhKeQY"
+   ],
+   "visa_sponsorship": false
+  },
   "harvard-medical-faculty-physicians-at-beth-israel-deaconess-medical-center::MA::metabolic-and-bariatric-surgeon-and-director": {
    "archived": true,
    "call_burden": null,
@@ -2978,6 +3028,30 @@
    ],
    "visa_sponsorship": false
   },
+  "hayman-daugherty-associates-inc::IN::general-surgery-physician": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Kokomo",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Hayman Daugherty Associates, Inc",
+   "employment_model": "unknown",
+   "fellowship_required": false,
+   "first_seen": "2026-09-13",
+   "last_seen": "2026-09-13",
+   "mbsaqip_mentioned": false,
+   "posted_date": null,
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "IN",
+   "summary": "Full-time general surgery role in Kokomo, IN with guaranteed base + RVU, $20K sign-on, 6 weeks PTO, H1B exempt.",
+   "title": "General Surgery Physician",
+   "urls": [
+    "/goto?url=CAESqwIB6zswFRr23kkYaQLICTCj9whMSNXx0PpgmrQQ27l2Rrv-Al_VOT2a9ZKnIvtMwLQJAL34JlfcvwpqL3jfrBe3t9R7rqBp_3-OLzQ9hr4px9ce7b1CDBdey3nGSpa1fIFU9Gbj4y0gxSrwFKjzRlRyTjFGdBFPRWvVUF23uEQc26LZC9T1IjwsWgWdJDoKp8YgjANPHEfvGtXAXgev3W3bvbCULIx4-Zf4bxgc0zypCv766KPBdzXWaPLozPqof6d8TROLd1UvMqDCKk76HyNWi02B371vYGCRI5Gs10VTqbx3s4mBQSmaBgDjKVfM4c9xHoQ1gSvM2g9rnOEZIUfjtBSLm0b1b93cgnpLS3o8WP57yO-KNiIo-x7jgsDK4el7Ai1jffwtWJ-GAA"
+   ],
+   "visa_sponsorship": true
+  },
   "hayman-daugherty-associates-inc::KY::general-surgery-physician": {
    "archived": true,
    "call_burden": null,
@@ -3148,7 +3222,7 @@
    "visa_sponsorship": false
   },
   "hayman-daugherty-associates-inc::UT::general-surgery-physician": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Mt Pleasant",
    "comp_max": null,
@@ -3245,7 +3319,7 @@
    "visa_sponsorship": false
   },
   "hayman-daugherty-associates::MS::general-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": null,
    "comp_max": null,
@@ -3592,7 +3666,7 @@
    "employment_model": "private_practice",
    "fellowship_required": true,
    "first_seen": "2026-08-20",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-20",
    "repost_count": 0,
@@ -3887,10 +3961,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-24",
-   "last_seen": "2026-08-31",
+   "last_seen": "2026-09-13",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-24",
-   "repost_count": 6,
+   "repost_count": 7,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "MI",
@@ -3903,7 +3977,8 @@
     "/goto?url=CAESrAEB6zswFckN0Z3i2Mi5blOC2QcihmqWfm9Ciw-Cg5w4YO7I9llVXSGZYTjhk29to4FXiAq1Q-DvljHGn85kEtrw9v8dWPESDYQmwvkYCcGBO4tTfrsr-znKLBulTZydhaDUlqhzDGZ2pOQ-oke1rWfnfwrqI75Xi0pWH34QxmvD1PhnfYS5ZgEdQTc4blLfntKFO2UxdO9ZkFK6ukxYPfniBTdcr4ZV2H6hoT1E",
     "/goto?url=CAESrAEB6zswFR5XkdHqCnoQXTZb66maSs2s2OlESk05-0q2bckK7p0C6br-WEQga3JbOzCjaV3oERtwFVOXJecWjIz8KeRbyj7CZ4WWArFTZR3-lsvBxKEaaT2zG-_6DT1oe9qB5xyxx8CaZL575XK0Vi5b34z5meBvLwPqVDcI70vZc2Vt-IgHMk1_zZYrMSbttw6HNZvPX2aYXdb4BTJmspN8-DtzjK4J7A7_fxoe",
     "/goto?url=CAESrAEB6zswFUb9XfoTmi4Lr1BzNQngdqgoNA8-v7GbhfxKEf73exFkIUSFSUVO70PmDqXMucJRq1s3aEG7YlCp-cuLt0RWuaI7dhCeJvbjgE3eEHFD3GHIiXQjoq88pau80oDfRE28RA72qbh2qeb6ByUJ3elkOBY4e3BLR8jXmYXNugNl9FrjF8anUT9R-bzEOQ4FVIVEG-vm1tjmKKZs5lsBptDneeGvdNqeP2zW",
-    "/goto?url=CAESrAEB6zswFRYce_PWN92BQae0z41QzFsz1K29H_PSqKWq1XNzt1r7u64Dw0cUFlghUOIUyUSgsWb1uebpJgKYteDRxDRg4_xg0Szg3AIhqyqMIlQIlwYzjnY_v6k_XdIPGf-C3y_BHZ_HAs8B1ykgRtgjTUyuzbPmJcpmpls3piCL15Pcu5sC_GDYn9ndZD9iiKYI0rC9iEBIuqqw46uBN7I6tBVBeDL-T1S2_7BK"
+    "/goto?url=CAESrAEB6zswFRYce_PWN92BQae0z41QzFsz1K29H_PSqKWq1XNzt1r7u64Dw0cUFlghUOIUyUSgsWb1uebpJgKYteDRxDRg4_xg0Szg3AIhqyqMIlQIlwYzjnY_v6k_XdIPGf-C3y_BHZ_HAs8B1ykgRtgjTUyuzbPmJcpmpls3piCL15Pcu5sC_GDYn9ndZD9iiKYI0rC9iEBIuqqw46uBN7I6tBVBeDL-T1S2_7BK",
+    "/goto?url=CAESrAEB6zswFVWo-xXp4rZKqzHHV36MlaYSuqXni7jSEW1cvfQzaGdbLdA-lNsDA7PNehhRCUyJvtKEeF7zXEOnR2-jxWGNhTwUZGtNFjtCMcfiOH7fa29LgVVLHcrKywS85r_ZRxEDO8GZ-DaEvnJl3FZB5VVUT9QLcshykqMwYCRkDuBOnr-evB866zCq0EGL9nnWLQS_8sViMfgmaZkjyiautvlkhN-pMs_7ctxd"
    ],
    "visa_sponsorship": false
   },
@@ -4066,7 +4141,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-14",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-14",
    "repost_count": 0,
@@ -4498,7 +4573,7 @@
    "visa_sponsorship": false
   },
   "nejm::WV::metabolic-bariatric-surgeon-robotic-minimally-invasive": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Martinsburg",
    "comp_max": 550000,
@@ -5787,10 +5862,10 @@
    "employment_model": "academic",
    "fellowship_required": true,
    "first_seen": "2026-08-12",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-13",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-12",
-   "repost_count": 10,
+   "repost_count": 11,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "LA",
@@ -5807,7 +5882,8 @@
     "/goto?url=CAES-AEB6zswFe0JN_E37rZ878T2zg-fOEZ2anO29i_8SmXTOVQMTNtov_nea8FaYzAr0s8CbnyH8uGrTaHb2llEPKxNGHctcGpFvZNQFkxwNISwvhx98o5gFQoCswitXqeJo7trZBJU_h6X7tp7fxhzjA942VPHP9YDOe_7w6ME_gaSZH6vAqiwdV-2pCFRDImYku46Ps7fQzd_6MJn5vIaUgUC3qHXKpzYaOCgYSzerN3eM3iSr37-GQDZh9u6FpQbJRHwOe3-oHcWUjbdvzMPM77wDbE-jHlBpBmrLh8SaTK45r6jUkTGclXyOGME8AksS97jZJ23T-V58w",
     "/goto?url=CAES-AEB6zswFcLm7ahvr54rmKtPeUWa4QcE3FWmoLNhAYrtZpYgbvjAkih8sWy93yTJB9P9aNSBuv9cZnUe5GTOsW2B22x3ALUeRLsjKkUM5yNVJSlWbWUYa-RGSbXTS7nIQty7SKlF5YS0kU0K82LYjTjTXI5FIYDe7a_oFMDRliw8hBnkUMDEEs_gHWlzawK5QAm3JoAW8bWzpdhay0nAM8c4-RffIrvHNzcT4VcGgd2NU3NmFJqT7U8IGSwZC3ykbD1SQXclv3jKK_MMLwXMTfrl3A0xd5crka60JcKPyX2fEJKAfDaAUjoXehjFnBNo5EIyeGf-MdRaeg",
     "/goto?url=CAES-AEB6zswFXN3B1_VCmjT3TDYcuT1mTpaGKMY__UYFDQJo_IILQAkc61OwPCwnzO-O3f0HMin5ty-JpAxAD9GlPx6FB2xvERPYEXnPqkQlR4J-8IBpAz5jRAQdhy1PP3Wne4Vc5i0DsyTjYkSqIItVplOzRf9EACd1xss_TJRKdqMX3skUigILxbuVwLicWpbE0sBJ7Z-Ym_z3N6rnoJzgYD7x875W3xg1_WKSGy-yZaJt6WH4E02QnZ6DmOTXclEC25r_ImGGdZk2Z8doOD52YcV5uKloP0opwQsCSRAcGVsQx3ozmQoVU0wyzhdmBes4stN_8S6yn20ZA",
-    "/goto?url=CAES-AEB6zswFTSMR_I_yk4KglUIEEkf-bv98dweWQR5YhNIimXP4YxVZVO6MGa5POkjaApa13UZbUUxWUNn6P4P53FNbvbMfR6-QBTOHbQrQA-jIeV0p6joX6aZ2ymYAFOzOPt1R2ZPq5vHjcNoMvtv9aBQxyAROHE8_HwuIZ8y9TkeX7auBe746V4TDuiB-aDDYiBJ7ZGq_RAeyt5Nb3-nlKHNQwUr4o0RpIK8n0QpTQ0Tw9kPdbjXRK7CwTdIEAA919sA5GlEQG9U6UK7pVYrO2L7to22VQ97NiRgwXjj1IaxnPz9kz8ndlkC1sbmsf0CcuF95DiZltAxRQ"
+    "/goto?url=CAES-AEB6zswFTSMR_I_yk4KglUIEEkf-bv98dweWQR5YhNIimXP4YxVZVO6MGa5POkjaApa13UZbUUxWUNn6P4P53FNbvbMfR6-QBTOHbQrQA-jIeV0p6joX6aZ2ymYAFOzOPt1R2ZPq5vHjcNoMvtv9aBQxyAROHE8_HwuIZ8y9TkeX7auBe746V4TDuiB-aDDYiBJ7ZGq_RAeyt5Nb3-nlKHNQwUr4o0RpIK8n0QpTQ0Tw9kPdbjXRK7CwTdIEAA919sA5GlEQG9U6UK7pVYrO2L7to22VQ97NiRgwXjj1IaxnPz9kz8ndlkC1sbmsf0CcuF95DiZltAxRQ",
+    "/goto?url=CAES-AEB6zswFRPqY-_yBiF6NOEeosol0T0V5TWK7KHGU3KYNjNZS6Zg-CPXvz7m2VD9_d65mKjhfUeMj3LCLl58IjVFlNWIxS1EjdWN18bWRwLoC5-OsuHi_loAnu4FcR44IVuM0_kx4rkgeicR5xDn65gpYcCqMmbSCh6HgD5mGxVpVXnyGzEtQBe7Jjj4j7S3nO18ZPus6zV_a2SLr-rReuLfoLy4bX7qSfgW4Z3FPGYmxjc3sZ5WC8na6k7sl6YWlgHXwBlJyoUvvNSTmFaudxGLhdCCY4fH2RAd9GIvz9ZOECPNpDq7IbqI_71PZZWHnooZvioq_pAE4Q"
    ],
    "visa_sponsorship": false
   },
@@ -6121,6 +6197,30 @@
    ],
    "visa_sponsorship": false
   },
+  "valley-health-system::NJ::general-surgeon-bariatric-acute-care": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Paramus",
+   "comp_max": 400000,
+   "comp_min": 350000,
+   "employer": "Valley Health System",
+   "employment_model": "hospital_employed",
+   "fellowship_required": true,
+   "first_seen": "2026-09-13",
+   "last_seen": "2026-09-13",
+   "mbsaqip_mentioned": false,
+   "posted_date": null,
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "NJ",
+   "summary": "Hospital-employed general surgeon, 25% bariatric/70% acute care, $350\u2013400K base + productivity, NJ",
+   "title": "General Surgeon \u2013 Bariatric & Acute Care",
+   "urls": [
+    "/goto?url=CAES1AEB6zswFXrZeqor_yg0LlrfAYyHbC936eP1ovgPih1Difc3YGYH2eJjge1BYAQdXKTe9-f3SYY0D68iS2ORVuomVUVMyKslZYI4g8JfglbG_U3LjmlZoia3XbnO-9gauKZN9pGxOnFaEBaLciC2CWhEg_fgugPeiUYgbB41OHxP2Ejl2CBrWRJyuS9_Lx2b6XFna0Jq8TYWN727dQJnxLuQlBE8HvLO5ERtu2NoMvn2LqA3mcETaBRQ0N-pUVYgh4JWycKlLuXIvTsDfAl5fc2oY5-S-g"
+   ],
+   "visa_sponsorship": false
+  },
   "valley-health::NJ::general-surgeon-with-bariatric-and-acute-care-focus": {
    "archived": true,
    "call_burden": null,
@@ -6156,7 +6256,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-12",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-12",
    "repost_count": 0,
@@ -6204,7 +6304,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-24",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-24",
    "repost_count": 0,
@@ -6618,7 +6718,7 @@
    "visa_sponsorship": false
   },
   "wvu-medicine-east-berkeley-medical-center::WV::metabolic-bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Martinsburg",
    "comp_max": null,
@@ -6719,7 +6819,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-09-12T13:04:30Z",
+  "last_run": "2026-09-13T14:07:56Z",
   "sample": false
  }
 }
