@@ -22,12 +22,28 @@ log = logging.getLogger("run")
 
 
 def main() -> None:
-    cfg = yaml.safe_load((Path(__file__).resolve().parent.parent / "config.yaml").read_text())
+    cfg = yaml.safe_load((Path(__file__).resolve().parent.parent / "config.yaml").read_text(encoding="utf-8"))
 
     raw = sources.fetch_all(cfg)
     extracted = extract.extract_batch(raw, cfg)
 
     db = store.load()
+
+    # Google hands Bright Data a relative /goto redirect that is dead off a
+    # SERP. Resolve it here rather than at fetch time: only listings we have
+    # no working link for need it, which is ~15 a night instead of ~180.
+    pending = [l for l in extracted if not store.usable_url(l.get("url")) and store.needs_link(db, l)]
+    for l in pending:
+        l["url"] = sources.resolve_job_url(l.get("url"))
+    if pending:
+        st = sources.resolve_stats()
+        log.info("Apply links: %d needed resolving -> %d resolved, %d failed",
+                 len(pending), st["resolved"], st["failed"])
+        if st["failed"] and st["failed"] >= st["resolved"]:
+            log.warning("Most apply-link resolutions failed; Google is probably "
+                        "rate limiting this runner. Those listings will show "
+                        "'No link captured' and retry tomorrow.")
+
     new_today = store.merge(db, extracted, cfg)
     store.save(db)
     log.info("Store: %d active, %d new today", len(store.active(db)), len(new_today))

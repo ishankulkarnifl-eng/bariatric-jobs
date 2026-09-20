@@ -47,6 +47,7 @@ days-on-market, NEW badges, and repost counts.
 
 ```bash
 pip install -r requirements.txt
+python -m unittest discover -s tests   # verify
 ANTHROPIC_API_KEY=... SERPAPI_KEY=... python -m pipeline.run
 python -m site_builder.build_site   # rebuild dashboard only
 open docs/index.html
@@ -63,6 +64,23 @@ GitHub Actions: free.
 
 - `sources.fetch_asmbs` is a best-effort HTML parse of a career-site platform;
   if its count sits at 0 for a couple of weeks, the selectors need a refresh.
+- **Apply links.** Google hands Bright Data its own *relative* redirect
+  (`/goto?url=<token>`), which is a dead link anywhere off a Google SERP, and it
+  mints a fresh token per fetch, so an unresolved token also reads as a nightly
+  repost. `sources.resolve_job_url` follows it to the employer/board URL and
+  returns `""` for anything it cannot vouch for, including a consent wall or a
+  `google.com/search` link. `store.usable_url` keeps those out of the store, so
+  a listing with no resolvable link renders "No link captured" rather than a
+  button that goes nowhere, and retries the next night with a fresh token.
+  `pipeline.run` resolves only listings it has no link for (~15 a night, not one
+  per raw hit) and logs a warning if most resolutions fail, which is what
+  Google rate-limiting the CI runner would look like. **If you see a run of
+  "No link captured" on the dashboard, that is the signal.**
+  Covered by `tests/test_apply_links.py`.
+- `repost_count` is still stored but no longer shown. It counts distinct URLs,
+  which after link resolution is mostly syndication breadth (several aggregators
+  carrying one posting), not recruiter churn. Badge dropped 2026-09-20; bring it
+  back when there is a signal that means what the name says.
 - Update `benchmarks.comp_median_usd` in `config.yaml` annually.
 - Saved/applied statuses are stored in the browser (localStorage) — single-device
   by design for v1. If she wants cross-device status or you want richer analytics,

@@ -14,7 +14,7 @@ def build(db: dict, cfg: dict) -> Path:
     listings = [{**l, "key": k} for k, l in db["listings"].items()]
     payload = {"meta": db["meta"], "listings": listings}
 
-    html = (ROOT / "site_builder" / "template.html").read_text()
+    html = (ROOT / "site_builder" / "template.html").read_text(encoding="utf-8")
     bm = cfg["benchmarks"]["comp_median_usd"]
     html = (
         html.replace("__DATA__", json.dumps(payload))
@@ -26,7 +26,7 @@ def build(db: dict, cfg: dict) -> Path:
     )
     out = ROOT / "docs" / "index.html"
     out.parent.mkdir(exist_ok=True)
-    out.write_text(html)
+    out.write_text(html, encoding="utf-8", newline="\n")
     return out
 
 
@@ -35,5 +35,5 @@ if __name__ == "__main__":
     import yaml
     sys.path.insert(0, str(ROOT))
     from pipeline import store
-    cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
+    cfg = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
     print("Wrote", build(store.load(), cfg))

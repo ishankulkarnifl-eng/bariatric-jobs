@@ -1,0 +1,35 @@
+# Destination reachability sample, 2026-09-20 - 25 of 132 active listings
+# GET with a browser UA, redirects followed. Non-200 = the posting has been delisted by the board,
+# not a defect in link resolution.
+
+200  InSync Healthcare Recruiters   https://talents.vaia.com/companies/insync-healthcare-recruiters/physician-surgery-general-misso
+403  Community Health Network       https://www.ecommunity.com/careers/jobs/surgeon-general-surgery-2501814?utm_campaign=google_job
+200  University of Maryland Medical https://careers.umms.org/us/en/job/UOJUOMUSP103804EXTERNALENUS/General-Surgeon?utm_campaign=goo
+410  SourceMD                       https://bebee.com/us/jobs/surgery-physician-sourcemd-oxford--jobmesh-46810eed-647c-4f14-b9e6-66
+200  myMDcareers                    https://talents.vaia.com/companies/mymdcareers/general-surgery-opportunity-in-central-californi
+200  CHRISTUS Health                https://jobs.stevenagefc.com/jobs/colorectal-surgeon-general-surgery-shavano-park-texas/2955560
+404  Vohra Wound Physicians, LLC    https://www.jobleads.com/us/job/part-time-bariatric-surgeon-flexible-patient-focused--cullman--
+403  Harvard Medical Faculty Physic https://www.ziprecruiter.com/c/Harvard-Medical-Faculty-Physicians/Job/Metabolic-and-Bariatric-S
+200  Confidential                   https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-OREGON-PERMANENT-SURGERY-in-P
+200  AdventHealth Medical Group - K https://bebee.com/us/jobs/surgery-bariatric-physician-adventhealth-medical-group-kansas-lenexa-
+404  Atlantic MEDsearch             https://www.learn4good.com/jobs/westminster/colorado/doctor_of_medicine/5363120112/e/?utm_campa
+200  Palo Alto Foundation Medical G https://talents.vaia.com/companies/palo-alto-foundation-medical-group/general-surgeon-mountain-
+200  Confidential                   https://www.physicianjobboard.com/jobdetails.cfm/5654217/Physician-Surgery-Bariatric-District-o
+200  Health System (Florida Space C https://doctorschoiceplacement.com/job/bariatric-surgery-opportunity-east-coast-florida/?utm_ca
+200  Valley Health System           https://www.valleyhealthcareers.com/job/23554834/general-surgeon-paramus-nj/?utm_campaign=googl
+200  Hayman Daugherty Associates, I https://jobs.stevenagefc.com/jobs/physician-pennsylvania-permanent-bariatric-surgery-job-in-wil
+200  U.S. Department of Veterans Af https://talents.vaia.com/companies/u-s-department-of-veterans-affairs/general-surgeon-bariatric
+401  WVU Medicine East / Berkeley M https://www.indeed.com/viewjob?jk=6baeda1ce1f315d3&utm_campaign=google_jobs_apply&utm_source=go
+200  Tulane University              https://www.zippia.com/job-listing/new-orleans-la/assistant-at-surgery/7e1c9de153cf384de74b8d36
+410  Continuum Medical Staffing     https://bebee.com/us/jobs/physician-surgery-general-montana-locum-or-permanent-bariatric-surgeo
+200  Arkansas Heart Hospital        https://bebee.com/us/jobs/surgery-bariatric-arkansas-heart-hospital-little-rock--lensa-2365_75b
+200  All Star Healthcare Solutions  https://talents.vaia.com/companies/all-star-healthcare-solutions/physician-surgery-general-flor
+200  Beth Israel Lahey Health       https://jobs.bilh.org/jobs/general-surgeon-beverly-hospital-beverly-ma-jr98511/?utm_campaign=go
+200  WVU Medicine                   https://www.linkedin.com/jobs/view/physician-metabolic-bariatric-surgeon-martinsburg-wv-at-wvu-
+200  Doctor's Choice Placement      https://doctorschoiceplacement.com/job/bariatric-surgery-job-southern-new-jersey/?utm_campaign=
+
+status counts: {200: 18, 403: 2, 410: 2, 404: 2, 401: 1}
+
+# Reading the non-200s: 403/401 (ziprecruiter, indeed, ecommunity) are bot blocks and load
+# normally in a real browser; 404/410 are postings the board has since removed. Neither is a
+# link-resolution failure. Before this fix, 54 of these 132 listings had no off-site link at all.

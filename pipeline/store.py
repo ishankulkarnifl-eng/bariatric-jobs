@@ -16,6 +16,29 @@ def _slug(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
 
 
+def usable_url(url) -> bool:
+    """A link is only worth storing if it works outside a Google SERP.
+    sources.resolve_job_url returns "" for everything that does not."""
+    return str(url or "").startswith(("http://", "https://"))
+
+
+def apply_url(l: dict) -> str:
+    """The link the dashboard and digest point at: first usable URL, if any.
+
+    First, not last: measured on 2026-09-20 against the 21 active listings
+    whose first and last URL are different hosts, the oldest link was live
+    16/21 and the newest 15/21. There is no freshness advantage to trade the
+    stability of a link that does not move for."""
+    return next((u for u in (l.get("urls") or []) if usable_url(u)), "")
+
+
+def needs_link(db: dict, l: dict) -> bool:
+    """True when banking this listing would give us a link we do not have.
+    Lets the orchestrator resolve only the handful of redirects that matter."""
+    cur = db["listings"].get(listing_key(l))
+    return not cur or not apply_url(cur)
+
+
 def listing_key(l: dict) -> str:
     """Stable identity across sources and reposts: employer + state + title.
     A recruiter reposting the same job under a new URL maps to the same key,
@@ -25,13 +48,13 @@ def listing_key(l: dict) -> str:
 
 def load() -> dict:
     if STORE.exists():
-        return json.loads(STORE.read_text())
+        return json.loads(STORE.read_text(encoding="utf-8"))
     return {"listings": {}, "meta": {"sample": False, "last_run": None}}
 
 
 def save(db: dict) -> None:
     STORE.parent.mkdir(parents=True, exist_ok=True)
-    STORE.write_text(json.dumps(db, indent=1, sort_keys=True))
+    STORE.write_text(json.dumps(db, indent=1, sort_keys=True), encoding="utf-8", newline="\n")
 
 
 def merge(db: dict, extracted: list[dict], cfg: dict) -> list[dict]:
@@ -44,10 +67,16 @@ def merge(db: dict, extracted: list[dict], cfg: dict) -> list[dict]:
         if k in db["listings"]:
             cur = db["listings"][k]
             cur["last_seen"] = today
-            # New URL for a known job = repost (recruiter churn signal)
-            if l["url"] and l["url"] not in cur["urls"]:
+            # New URL for a known job = repost (recruiter churn signal).
+            # Only absolute links are banked: a relative Google redirect is a
+            # dead link on the dashboard and mints a fresh token nightly,
+            # which would read as an endless stream of reposts.
+            if usable_url(l["url"]) and l["url"] not in cur["urls"]:
+                # The FIRST usable link for a listing that had none is not a
+                # repost, it is the link we were missing.
+                if cur["urls"]:
+                    cur["repost_count"] = cur.get("repost_count", 0) + 1
                 cur["urls"].append(l["url"])
-                cur["repost_count"] = cur.get("repost_count", 0) + 1
             # Comp disclosure can appear later; upgrade nulls only
             for f in ("comp_min", "comp_max", "call_burden"):
                 if cur.get(f) is None and l.get(f) is not None:
@@ -69,7 +98,7 @@ def merge(db: dict, extracted: list[dict], cfg: dict) -> list[dict]:
                     "robotics_mentioned", "fellowship_required", "visa_sponsorship",
                     "summary", "source", "posted_date",
                 )},
-                "urls": [l["url"]] if l.get("url") else [],
+                "urls": [l["url"]] if usable_url(l.get("url")) else [],
                 "first_seen": first_seen,
                 "last_seen": today,
                 "repost_count": 0,

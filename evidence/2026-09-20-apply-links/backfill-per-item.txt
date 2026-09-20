@@ -1,0 +1,499 @@
+# Per-item fate of the data/listings.json backfill, 2026-09-20
+# Recoverable in full with: git show HEAD:data/listings.json
+# Verified: no listing added or removed; no field other than urls/repost_count changed.
+
+## Tally
+  resolved_a_new_link: 52
+  tokens_dropped_only: 97
+  unchanged: 136
+  still_no_link: 0
+  repost_restated: 124
+
+## Per listing
+
+UNCHANGED        archived urls 1->1  repost 0->0  addison-kenway-associates-llc::SC::general-surgeon-robotic-broad-scope
+UNCHANGED        active   urls 1->1  repost 0->0  adventhealth-kansas-city::KS::bariatric-metabolic-surgeon
+TOKENS-DROPPED   active   urls 13->1  repost 12->0  adventhealth-kansas::KS::bariatric-metabolic-surgeon
+                   - dropped 12 google token(s)
+TOKENS-DROPPED   active   urls 16->1  repost 15->0  adventhealth-medical-group-kansas::KS::bariatric-metabolic-surgeon
+                   - dropped 15 google token(s)
+TOKENS-DROPPED   active   urls 2->1  repost 1->0  adventhealth-medical-group::KS::bariatric-metabolic-surgeon
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  adventhealth-multi-state-division::KS::bariatric-metabolic-surgeon
+                   + https://jobs.practicelink.com/jobs/1603963/bariatrics/physician/kansas/adventhealth-kansas-city/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 2->1  repost 1->0  adventhealth::KS::bariatric-metabolic-surgeon
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 3->1  repost 2->0  adventhealth::KS::bariatric-surgeon
+                   + https://us.trabajo.org/job-28652-e9d7e8cf42a766ca99d7265f354dc101?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 3 google token(s)
+TOKENS-DROPPED   active   urls 4->1  repost 3->0  adventhealth::KS::elite-bariatric-metabolic-surgeon
+                   - dropped 3 google token(s)
+TOKENS-DROPPED   active   urls 14->1  repost 13->0  all-star-healthcare-solutions::FL::general-surgery-physician
+                   - dropped 13 google token(s)
+UNCHANGED        archived urls 2->2  repost 1->1  all-star-healthcare-solutions::KS::general-surgery-physician
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  all-star-healthcare-solutions::KS::general-surgery-surgeon
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 3->1  repost 2->0  aoia::KY::robotic-general-surgeon-mis-bariatrics-focus
+                   + https://www.jobleads.com/us/job/robotic-general-surgeon-mis-bariatrics-focus--northern--ef51762cd984c7110462ce94ab7f0b101?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 3 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  aoiassn::MT::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  archway-physician-recruitment-rapid-city-regional-hospital::SD::general-surgery-bariatric-surgeon
+TOKENS-DROPPED   active   urls 4->1  repost 3->0  archway-physician-recruitment-regional-hospital-rapid-city::SD::general-surgery-bariatric-surgeon
+                   - dropped 3 google token(s)
+TOKENS-DROPPED   active   urls 3->1  repost 2->0  archway-physician-recruitment-regional-tertiary-care-center::SD::general-surgery-bariatric-surgeon
+                   - dropped 2 google token(s)
+TOKENS-DROPPED   active   urls 2->1  repost 1->0  archway-physician-recruitment::SD::bariatric-mis-surgeon
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 3->1  repost 2->0  archway-physician-recruitment::SD::general-surgery-bariatric-surgeon
+                   - dropped 2 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  ardent-health::TX::general-surgeon
+                   + https://www.marithealth.com/jobs/75a399c1-31a0-4b4f-bcfa-a541e7b07266?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 4->1  repost 3->0  arkansas-heart-hospital::AR::bariatric-surgeon
+                   + https://bebee.com/us/jobs/surgery-bariatric-arkansas-heart-hospital-little-rock--lensa-2365_75b7c3cd851a227aa1989f1de542e28132e54bb86aba08cef6b547a5343e3863?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 4 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  ascension-medical-group-st-vincent::IN::bariatric-general-surgeon
+TOKENS-DROPPED   active   urls 15->3  repost 14->2  atlantic-medsearch::CO::general-surgeon-davinci-robotics-shared-call
+                   - dropped 12 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  atlantic-medsearch::KY::general-surgery-physician
+RESOLVED         active   urls 3->1  repost 2->0  atlantic-medsearch::xx::robotic-general-surgeon
+                   + https://bebee.com/us/jobs/robotic-general-surgeon-bread-and-butter-surgery-atlantic-medsearch-iowa--lensa-7428_1d2d0995ef755203e57c7d08dc9172a6b711fcdc378662217079a0618b5befa7?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 3 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  atlanticare::NJ::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  atrium-health-forest-university-school-of-medicine::NC::academic-bariatric-and-minimally-invasive-surgeon
+TOKENS-DROPPED   active   urls 11->1  repost 10->0  atrium-health-wake-forest-university-school-of-medicine::NC::academic-bariatric-and-minimally-invasive-surgeon
+                   - dropped 10 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  atrium-health::NC::academic-bariatric-and-minimally-invasive-surgeon
+                   + https://bebee.com/us/jobs/academic-bariatric-and-minimally-invasive-surgeon-concord-nc-atrium-health-concord--ss-us-13zv6a3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 10->5  repost 9->4  banner-health-banner-university-medicine::AZ::bariatric-surgeon
+                   - dropped 5 google token(s)
+TOKENS-DROPPED   active   urls 10->4  repost 9->3  banner-health-banner-university-medicine::AZ::bariatric-surgery-physician
+                   - dropped 6 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  banner-health-university-of-arizona::AZ::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  banner-health::AZ::bariatric-surgeon
+RESOLVED         active   urls 1->1  repost 0->0  baylor-scott-white-health::TX::acute-care-general-surgeon
+                   + https://jobs.bswhealth.com/us/en/job/BSWHUS26014572EXTERNALENUS/Acute-Care-General-Surgeon-Pflugerville?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  beth-israel-deaconess-hospital-milton::MA::metabolic-and-bariatric-surgeon-and-director
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  beth-israel-deaconess-medical-center-bidmc::MA::metabolic-and-bariatric-surgeon-and-director
+UNCHANGED        archived urls 1->1  repost 0->0  beth-israel-deaconess-medical-center::MA::metabolic-and-bariatric-surgeon-and-director
+RESOLVED         active   urls 5->1  repost 4->0  beth-israel-lahey-health::MA::general-surgeon
+                   + https://jobs.bilh.org/jobs/general-surgeon-beverly-hospital-beverly-ma-jr98511/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 5 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  beth-israel-lahey-health::MA::general-surgeon-acute-care-minimally-invasive
+                   + https://jobs.bilh.org/jobs/general-surgeon-beverly-hospital-beverly-ma-jr98511/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 2->1  repost 1->0  beth-israel-lahey-health::MA::general-surgeon-beverly-hospital
+                   + https://jobs.bilh.org/jobs/general-surgeon-beverly-hospital-beverly-ma-jr98511/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 2 google token(s)
+RESOLVED         active   urls 3->1  repost 2->0  blue-mountain-hospital-district::OR::general-surgeon
+                   + https://www.indeed.com/viewjob?jk=36b282fb2d7f1f4c&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 3 google token(s)
+TOKENS-DROPPED   active   urls 8->1  repost 7->0  britt-medical-search-llc::ME::general-surgeon-bariatric-mis
+                   - dropped 7 google token(s)
+TOKENS-DROPPED   active   urls 14->1  repost 13->0  britt-medical-search-llc::ME::general-surgeon-broad-mix-bariatrics
+                   - dropped 13 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  britt-medical-search::ME::bariatric-general-surgeon
+TOKENS-DROPPED   active   urls 18->2  repost 17->1  britt-medical-search::ME::bariatric-general-surgery-physician
+                   - dropped 16 google token(s)
+UNCHANGED        archived urls 5->5  repost 4->4  britt-medical-search::ME::general-surgeon-bariatric-mis
+UNCHANGED        archived urls 1->1  repost 0->0  britt-medical::ID::hospital-based-bariatric-general-surgeon-mis
+UNCHANGED        archived urls 2->2  repost 1->1  brooklyn-hospital-center::NY::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  central-maine-healthcare::ME::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  chicago-surgical-clinic::IL::general-minimally-invasive-and-colorectal-surgeon
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  chicago-surgical-clinic::IL::general-minimally-invasive-and-or-colorectal-surgeon
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  christus-health::TX::colorectal-surgeon
+                   + https://jobs.stevenagefc.com/jobs/colorectal-surgeon-general-surgery-shavano-park-texas/2955560679-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 3->1  repost 2->0  cleveland-clinic-foundation::FL::general-surgeon-robotic-minimally-invasive
+                   + https://talents.vaia.com/companies/cleveland-clinic-foundation/general-surgeon-robotic-minimally-invasive-vero-beach-174372277/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 3 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  collegial-group::IL::general-surgeon
+TOKENS-DROPPED   active   urls 10->1  repost 9->0  community-health-network::IN::general-surgery-surgeon
+                   - dropped 9 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  community-health-systems::TX::general-surgeon
+UNCHANGED        archived urls 2->2  repost 1->1  comphealth::MS::general-surgeon
+UNCHANGED        archived urls 2->2  repost 1->1  comphealth::SC::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  confidential::AL::bariatric-surgeon
+TOKENS-DROPPED   active   urls 3->1  repost 2->0  confidential::AR::bariatric-surgeon
+                   - dropped 2 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  confidential::AZ::bariatric-surgeon
+TOKENS-DROPPED   active   urls 8->4  repost 7->3  confidential::CA::bariatric-surgeon
+                   - dropped 4 google token(s)
+TOKENS-DROPPED   active   urls 7->4  repost 6->3  confidential::CO::bariatric-surgeon
+                   - dropped 3 google token(s)
+TOKENS-DROPPED   active   urls 22->6  repost 21->5  confidential::CT::bariatric-surgeon
+                   - dropped 16 google token(s)
+TOKENS-DROPPED   active   urls 2->1  repost 1->0  confidential::DC::bariatric-surgeon
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 14->2  repost 13->1  confidential::HI::bariatric-surgeon
+                   - dropped 12 google token(s)
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  confidential::ID::bariatric-surgeon
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  confidential::KS::bariatric-surgeon
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 3->1  repost 2->0  confidential::KY::bariatric-surgeon
+                   - dropped 2 google token(s)
+TOKENS-DROPPED   active   urls 10->4  repost 9->3  confidential::LA::bariatric-surgeon
+                   - dropped 6 google token(s)
+UNCHANGED        archived urls 2->2  repost 1->1  confidential::MD::bariatric-surgeon
+TOKENS-DROPPED   active   urls 4->3  repost 3->2  confidential::MI::bariatric-surgeon
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  confidential::MN::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  confidential::MO::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  confidential::MS::bariatric-surgeon
+UNCHANGED        archived urls 3->3  repost 2->2  confidential::NE::bariatric-surgeon
+TOKENS-DROPPED   active   urls 13->4  repost 12->3  confidential::NV::bariatric-surgeon
+                   - dropped 9 google token(s)
+TOKENS-DROPPED   active   urls 20->5  repost 19->4  confidential::OH::bariatric-surgeon
+                   - dropped 15 google token(s)
+UNCHANGED        archived urls 3->3  repost 2->2  confidential::OK::bariatric-surgeon
+TOKENS-DROPPED   active   urls 5->1  repost 4->0  confidential::OR::bariatric-surgeon
+                   - dropped 4 google token(s)
+RESOLVED         active   urls 3->1  repost 2->0  confidential::SC::bariatric-surgeon
+                   + https://www.physicianjobboard.com/jobdetails.cfm/5763750/Physician-Surgery-Bariatric-South-Carolina-Permanent-Surgery-Bariatric-Opening-Greenville-South-Carolina-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 3 google token(s)
+TOKENS-DROPPED   active   urls 7->4  repost 6->3  confidential::UT::bariatric-surgeon
+                   - dropped 3 google token(s)
+TOKENS-DROPPED   active   urls 4->1  repost 3->0  confidential::WA::bariatric-surgeon
+                   - dropped 3 google token(s)
+UNCHANGED        archived urls 2->2  repost 1->1  confidential::WI::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  continuum-medical-staffing-great-falls-health-system::MT::bariatric-mis-surgeon
+TOKENS-DROPPED   active   urls 16->2  repost 15->1  continuum-medical-staffing-montana-health-system::MT::general-surgeon-bariatric-mis
+                   - dropped 14 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  continuum-medical-staffing-montana-private-general-surgery-group::MT::general-surgery-surgeon-bariatric-trauma-focus
+UNCHANGED        archived urls 1->1  repost 0->0  continuum-medical-staffing::MT::bariatric-general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  continuum-medical-staffing::MT::bariatric-mis-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  continuum-medical-staffing::MT::general-surgeon
+TOKENS-DROPPED   active   urls 2->1  repost 1->0  continuum-medical-staffing::MT::general-surgery-bariatric-surgeon
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 8->2  repost 7->1  continuum-medical-staffing::MT::general-surgery-surgeon
+                   - dropped 6 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  continuum-medical-staffing::MT::general-surgery-surgeon-bariatric-focus
+                   + https://us.trabajo.org/job-5213-f7e97699a8e38c53afa1e7426b12c15a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 14->2  repost 13->1  copley-hospital-multi-specialty-clinic::VT::general-surgeon-minimally-invasive-colorectal
+                   - dropped 12 google token(s)
+RESOLVED         active   urls 2->1  repost 1->0  cutting-edge-surgical-group::CA::trauma-and-general-surgeon
+                   + https://www.linkedin.com/jobs/view/trauma-and-general-surgeon-at-cutting-edge-surgical-group-4466517457?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 2 google token(s)
+UNCHANGED        archived urls 2->2  repost 1->1  direct-jobs::CO::general-surgeon-board-certified-robotic-trauma-care
+UNCHANGED        archived urls 2->2  repost 1->1  direct-jobs::CO::general-surgeon-robotic-trauma-care
+UNCHANGED        archived urls 1->1  repost 0->0  direct-jobs::xx::general-surgeon-robotic-cases
+UNCHANGED        archived urls 1->1  repost 0->0  direct-jobs::xx::hbp-foregut-surgical-oncologist
+RESOLVED         archived urls 1->1  repost 0->0  doccafe::CA::bariatric-surgeon
+                   + https://talents.vaia.com/companies/doccafe/surgery-bariatric-physician-350000-yearly-covina-38276571/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  doctor-s-choice-placement-medical-center::NM::bariatric-surgeon
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  doctor-s-choice-placement-services-inc::GA::general-bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  doctor-s-choice-placement-services-inc::NM::general-surgeon-davinci-robotics
+UNCHANGED        archived urls 1->1  repost 0->0  doctor-s-choice-placement-services-inc::TN::general-bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  doctor-s-choice-placement-services-inc::TX::bariatric-general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  doctor-s-choice-placement-services-inc::VT::general-bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  doctor-s-choice-placement-services-inc::WI::associate-bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  doctor-s-choice-placement::AR::bariatric-surgeon
+TOKENS-DROPPED   active   urls 15->1  repost 14->0  doctor-s-choice-placement::NJ::bariatric-surgeon
+                   - dropped 14 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  doctor-s-choice-placement::NM::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  doctor-s-choice-placement::SC::general-surgery-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  doctors-choice-placement-services-inc::AL::general-bariatric-surgery-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  emplify-health-system::MN::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  essentia-health::MN::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  gotham-enterprises-ltd::MN::bariatric-surgeon
+RESOLVED         active   urls 1->1  repost 0->0  guthrie-medical-group::NY::general-surgery-surgeon
+                   + https://www.guthrie.org/jobs/general-surgery/general-surgery-corning-ny?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  harvard-medical-faculty-physicians-at-beth-israel-deaconess-medical-center::MA::metabolic-and-bariatric-surgeon-and-director
+UNCHANGED        archived urls 1->1  repost 0->0  harvard-medical-faculty-physicians-beth-israel-deaconess-hospital-milton::MA::metabolic-and-bariatric-surgeon-and-director
+UNCHANGED        archived urls 1->1  repost 0->0  harvard-medical-faculty-physicians-beth-israel-deaconess-hospital::MA::metabolic-and-bariatric-surgeon-and-director
+TOKENS-DROPPED   active   urls 10->4  repost 9->3  harvard-medical-faculty-physicians-beth-israel-deaconess-medical-center::MA::metabolic-and-bariatric-surgeon-and-director
+                   - dropped 6 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  harvard-medical-faculty-physicians::MA::director-metabolic-bariatric-surgery
+TOKENS-DROPPED   active   urls 18->1  repost 17->0  hayman-daugherty-associates-inc::AR::general-surgeon-bariatric
+                   - dropped 17 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  hayman-daugherty-associates-inc::AR::general-surgeon-bariatrics
+RESOLVED         active   urls 1->1  repost 0->0  hayman-daugherty-associates-inc::IN::general-surgery-physician
+                   + https://www.physicianjobboard.com/jobdetails.cfm/7360597/Physician-Surgery-General-Indiana-Locum-or-Permanent-General-Surgery-Physician-Job-near-Kokomo-Indiana-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  hayman-daugherty-associates-inc::KY::general-surgery-physician
+UNCHANGED        archived urls 1->1  repost 0->0  hayman-daugherty-associates-inc::MS::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  hayman-daugherty-associates-inc::NC::bariatric-general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  hayman-daugherty-associates-inc::NC::bariatric-general-surgery-surgeon
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  hayman-daugherty-associates-inc::NM::bariatric-surgeon
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 4->1  repost 3->0  hayman-daugherty-associates-inc::NM::bariatric-surgery-physician
+                   + https://bebee.com/us/jobs/physician-new-mexico-permanent-bariatric-surgery-job-in-las-cruces-new-mexico-job-hayman-daugherty-a--jobmesh-fbb1c828-5c96-4400-910d-ff7c0be10eff?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 4 google token(s)
+TOKENS-DROPPED   active   urls 4->1  repost 3->0  hayman-daugherty-associates-inc::PA::bariatric-surgeon
+                   - dropped 3 google token(s)
+RESOLVED         active   urls 5->1  repost 4->0  hayman-daugherty-associates-inc::RI::general-surgery-physician
+                   + https://www.physicianjobboard.com/jobdetails.cfm/7361530/Physician-Surgery-General-Rhode-Island-Locum-or-Permanent-General-Surgery-Physician-Job-near-Wakefield-Rhode-Island-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 5 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  hayman-daugherty-associates-inc::UT::general-surgery-physician
+UNCHANGED        archived urls 1->1  repost 0->0  hayman-daugherty-associates-inc::WY::general-surgeon
+UNCHANGED        archived urls 2->2  repost 1->1  hayman-daugherty-associates::AR::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  hayman-daugherty-associates::AR::general-surgeon-bariatric
+UNCHANGED        archived urls 1->1  repost 0->0  hayman-daugherty-associates::MS::general-surgeon
+RESOLVED         active   urls 1->1  repost 0->0  hayman-daugherty-associates::PA::bariatric-surgeon
+                   + https://talents.vaia.com/companies/hayman-daugherty-associates/physician-pennsylvania-permanent-bariatric-surgery-job-in-wilkes-barre-pennsylvania-job-52023481/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 13->1  repost 12->0  hca-healthcare-portsmouth-regional-hospital::NH::general-surgery-physician
+                   - dropped 12 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  hca-portsmouth-regional-hospital::NH::bariatric-robotic-surgery-surgeon
+TOKENS-DROPPED   active   urls 6->1  repost 5->0  health-system-central-east-coast-florida::FL::bariatric-general-surgeon
+                   - dropped 5 google token(s)
+RESOLVED         active   urls 4->1  repost 3->0  health-system-florida-space-coast::FL::bariatric-general-surgeon
+                   + https://doctorschoiceplacement.com/job/bariatric-surgery-opportunity-east-coast-florida/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 4 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  healthplus-staffing::IL::general-surgeon-bariatric-breast-focus
+                   + https://talents.vaia.com/companies/healthplus-staffing/general-surgeon-needed-in-mattoon-il-525000-bonuses-75k-sign-on-23427444/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  honorhealth-medical-group-specialty::AZ::bariatric-surgeon
+UNCHANGED        archived urls 3->3  repost 2->2  honorhealth::AZ::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  honorhealth::AZ::senior-bariatric-surgeon
+RESOLVED         active   urls 6->1  repost 5->0  hospital-based-surgical-group-via-mymdcareers::CA::bariatric-general-surgeon
+                   + https://talents.vaia.com/companies/mymdcareers/general-surgery-opportunity-in-central-california-38061789/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 6 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  hospital-in-lewiston-me-via-britt-medical-search::ME::general-surgeon-bariatric-mis
+RESOLVED         active   urls 1->1  repost 0->0  hospital-near-monterey-bay-california::CA::general-surgeon-minimally-invasive
+                   + https://www.mdsearch.com/jobs/surgery-general/california/4786526?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+UNCHANGED        active   urls 1->1  repost 0->0  houston-surgical-weight-loss::TX::general-and-bariatric-surgery-surgeon
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  imed-staffing-llc::NM::bariatric-surgeon
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 6->2  repost 5->1  inland-valley-surgeons-of-socal::CA::bariatric-mis-surgeon
+                   - dropped 4 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  insync-healthcare-recruiters::IL::general-surgery-physician
+                   + https://talents.vaia.com/companies/insync-healthcare-recruiters/physician-surgery-general-missouri-permanent-general-surgery-opportunity-45-minutes-from-st-louis-mo-job-42353643/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 6->1  repost 5->0  intermountain-health::UT::fellowship-trained-general-surgeon-minimally-invasive-surgery
+                   + https://www.nejmcareercenter.org/job/1022443/fellowship-trained-general-surgeon-minimally-invasive-surgery/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 6 google token(s)
+UNCHANGED        archived urls 2->2  repost 1->1  intermountain-health::UT::general-surgeon-mis-fellow
+UNCHANGED        archived urls 1->1  repost 0->0  intermountain-health::UT::general-surgeon-mis-fellowship-trained
+UNCHANGED        archived urls 1->1  repost 0->0  intermountain-healthcare::UT::general-surgeon-mis-fellow
+UNCHANGED        archived urls 2->2  repost 1->1  jackson-physician-search::GA::general-surgeon
+RESOLVED         active   urls 2->1  repost 1->0  jackson-physician-search::MD::general-surgery-surgeon
+                   + https://www.doximity.com/careers/job_cards/d39d2302-5f5d-4c93-8d0d-dc3b5c3f2654?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 2 google token(s)
+UNCHANGED        archived urls 2->2  repost 1->1  jackson-physician-search::MD::robotic-general-surgeon-mis-bariatric-focus
+UNCHANGED        archived urls 1->1  repost 0->0  jackson-physician-search::MS::general-surgeon-robotic-tech-level-iv-trauma
+UNCHANGED        archived urls 2->2  repost 1->1  jackson-physician-search::MS::general-surgery-surgeon
+UNCHANGED        archived urls 2->2  repost 1->1  jackson-physician-search::xx::general-surgeon-robotic-cases
+TOKENS-DROPPED   active   urls 8->1  repost 7->0  john-d-dingell-department-of-veterans-affairs-medical-center::MI::staff-physician-general-surgeon
+                   - dropped 7 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  kaiser-permanente-the-permanente-medical-group-inc-northern-california::CA::general-surgeon
+TOKENS-DROPPED   active   urls 4->2  repost 3->1  lewiston-hospital-via-britt-medical-search::ME::general-surgeon-bariatric-mis
+                   - dropped 2 google token(s)
+TOKENS-DROPPED   archived urls 4->3  repost 3->2  lewiston-me-via-britt-medical-search::ME::bariatric-general-surgeon
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  lewiston-me-via-britt-medical-search::ME::general-surgeon-bariatric-mis
+UNCHANGED        archived urls 1->1  repost 0->0  lifepoint-health-saint-mary-s-regional-medical-center::AR::general-surgeon
+TOKENS-DROPPED   active   urls 3->1  repost 2->0  lifepoint-health-starr-regional-medical-center::TN::general-surgeon
+                   - dropped 2 google token(s)
+RESOLVED         active   urls 2->1  repost 1->0  lifepoint-health-wilson-medical-center::NC::general-surgeon
+                   + https://jobs.lifepointhealth.net/job/general-surgeon/wilson-nc/10027-s1/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 2 google token(s)
+UNCHANGED        active   urls 1->1  repost 0->0  louis-a-johnson-va-medical-center::WV::general-surgeon
+RESOLVED         active   urls 5->1  repost 4->0  lovelace-health-system::NM::bariatric-surgeon
+                   + https://www.jobzmall.com/lovelace-health-system/job/bariatric-surgeon-1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 5 google token(s)
+TOKENS-DROPPED   active   urls 3->1  repost 2->0  mayo-clinic-health-system::WI::general-surgeon
+                   - dropped 2 google token(s)
+TOKENS-DROPPED   active   urls 5->1  repost 4->0  mayo-clinic::MN::general-and-bariatric-surgeon
+                   - dropped 4 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  mayo-foundation-for-medical-education-and-research::MN::abdominal-wall-metabolic-surgeon-robotic-bariatric
+                   + https://www.jobleads.com/us/job/abdominal-wall-metabolic-surgeon-robotic-bariatric--rochester--e2a0d5f5ec3fde58eb651d2b2e51fd991?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 2->1  repost 1->0  mcm-associates-inland-valley-surgeons-of-socal::CA::bariatric-mis-surgeon
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 3->1  repost 2->0  mcm-associates-inland-valley-surgeons-of-socal::CA::mis-bariatric-surgeon
+                   - dropped 2 google token(s)
+UNCHANGED        archived urls 2->2  repost 1->1  mcm-associates-llc-inland-valley-surgeons-of-socal::CA::bariatric-mis-surgeon
+UNCHANGED        archived urls 2->2  repost 1->1  md-staff-llc::AR::general-surgeon-with-bariatrics-fellowship
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  md-staff-private-practice-group::TX::bariatric-surgeon
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  md-staff::PA::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  md-staff::TX::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  medical-center-las-cruces::NM::bariatric-surgeon
+RESOLVED         active   urls 1->1  repost 0->0  medstar-health-georgetown-university::DC::general-surgeon-faculty-appointment
+                   + https://careers.medstarhealth.org/careers-home/jobs/145907?lang=en-us&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  mercy-health-lourdes-hospital::KY::general-surgeon
+RESOLVED         active   urls 1->1  repost 0->0  mercy-regional-med-physicians::CO::general-surgeon
+                   + https://providers.commonspirit.careers/job/durango/general-surgeon/36427/94701199888?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  mercy::MO::general-surgeon
+                   + https://careers.mercy.net/career-areas/jobs/JR233415?lang=en-us&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  montana-health-system-via-continuum-medical-staffing::MT::general-surgeon-bariatric-mis
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 2->1  repost 1->0  mymdcareers::CA::bariatric-general-surgery-surgeon
+                   + https://talents.vaia.com/companies/mymdcareers/general-surgery-opportunity-in-central-california-38061789/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 2 google token(s)
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  mymdcareers::CA::general-surgeon-with-bariatric-interest
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  mymdcareers::OK::general-surgeon-with-bariatric-interest
+UNCHANGED        archived urls 1->1  repost 0->0  nejm::WV::metabolic-bariatric-surgeon-robotic-minimally-invasive
+UNCHANGED        archived urls 2->2  repost 1->1  nejm::xx::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  nejm::xx::general-surgery-physician
+UNCHANGED        archived urls 1->1  repost 0->0  niche-hospital::NJ::bariatric-surgeon
+TOKENS-DROPPED   active   urls 2->1  repost 1->0  northside-hospital-general-surgeons-of-gwinnett::GA::general-surgeon
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  northwestern-university::IL::clinical-assistant-associate-or-professor-of-surgery-esophageal-and-foregut-surgery
+                   + https://www.linkedin.com/jobs/view/clinical-assistant-associate-or-professor-of-surgery-%E2%80%93-esophageal-and-foregut-surgery-excludes-bariatric-surgery-at-northwestern-university-4333714147?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  ochsner-health::xx::general-surgeon-robotic-xi
+RESOLVED         active   urls 1->1  repost 0->0  open-door-unlimited-inc::GA::general-surgeon
+                   + https://www.mdsearch.com/jobs/surgery-general/georgia/21187900?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  pacific-companies::CO::general-surgery-surgeon
+TOKENS-DROPPED   active   urls 15->1  repost 14->0  palo-alto-foundation-medical-group::CA::general-surgeon-da-vinci-xi-robotics
+                   - dropped 14 google token(s)
+RESOLVED         active   urls 2->1  repost 1->0  pediatrix-medical-group::UT::general-surgeon
+                   + https://www.jobleads.com/us/job/general-surgeon-low-call-high-impact-in-salt-lake-basin--orem--eaced2a514e4e0961e876750090fca56f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 2 google token(s)
+TOKENS-DROPPED   archived urls 3->2  repost 2->1  physician-empire::WY::general-surgery-physician
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  physician-empire::WY::general-surgery-surgeon
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 4->1  repost 3->0  physician-empire::WY::general-surgery-with-trauma-bariatric-support
+                   + https://www.staffphysicians.com/jobdetails.cfm/4771025/Physician-Surgery-General-Wyoming-Permanent-Trauma-General-Surgery-in-WY-Within-20-minutes-of-mountains-reservoirs-rivers-and-wide-open-s-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 4 google token(s)
+TOKENS-DROPPED   active   urls 5->2  repost 4->1  presbyterian-healthcare-services::NM::bariatric-general-surgeon-laparoscopic
+                   - dropped 3 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  presbyterian-healthcare-services::NM::bariatric-surgeon
+                   + https://bebee.com/us/jobs/bariatric-surgeon-presbyterian-healthcare-services-rio-rancho--lensa-7428_14c3558f872ec170661fed3e6a7e42b1da3729ced675b01e96beaee46b21cd18?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 18->3  repost 17->2  presbyterian-healthcare-services::NM::general-bariatric-surgeon
+                   - dropped 15 google token(s)
+TOKENS-DROPPED   active   urls 14->1  repost 13->0  presbyterian-system-services::xx::general-surgeon-robotic-comprehensive-surgical-care
+                   - dropped 13 google token(s)
+TOKENS-DROPPED   active   urls 10->1  repost 9->0  private-general-surgery-group-practice-great-falls-mt::MT::general-surgery-surgeon
+                   - dropped 9 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  private-practice-northwest-arkansas::AR::bariatric-advanced-laparoscopic-general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  private-practice-nw-arkansas::AR::bariatric-advanced-laparoscopic-general-surgeon
+RESOLVED         active   urls 4->1  repost 3->0  providence-seaside-hospital::OR::general-surgeon
+                   + https://providence.jobs/seaside-or/general-surgeon/2B0FD7FFCD674AFBBF45F7083951FCF8/job/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 4 google token(s)
+TOKENS-DROPPED   active   urls 3->1  repost 2->0  rapid-city-regional-hospital-via-archway-physician-recruitment::SD::bariatric-mis-surgeon
+                   - dropped 2 google token(s)
+UNCHANGED        archived urls 3->3  repost 2->2  regional-medical-center-vidalia-ga::GA::general-surgeon
+RESOLVED         active   urls 3->1  repost 2->0  rochester-regional-health-united-memorial-medical-center::NY::general-surgeon-robotics-endoscopy-wound-care
+                   + https://rrhs.wd5.myworkdayjobs.com/en-US/RRH/job/UMMC---North-Street-Campus/Physician---General-Surgery_REQ_239404?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 3 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  rock-health::TX::general-surgery-physician
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  royal-c-johnson-veterans-memorial-hospital-va::SD::general-surgeon
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  sanford-clinic::xx::rural-general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  searhc::AK::lead-general-surgeon
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  self-regional-healthcare::SC::minimally-invasive-surgery-bariatric-surgeon
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  sentara-healthcare-inc::VA::general-surgeon-level-iii-trauma-physician-robotics-center
+TOKENS-DROPPED   active   urls 2->1  repost 1->0  sky-lakes-medical-center::OR::general-surgeon
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  society-of-american-gastrointestinal-and-endoscopic-surgeons::LA::assistant-professor-mis-bariatric-surgery
+UNCHANGED        archived urls 1->1  repost 0->0  source-medical-llc::FL::bariatric-foregut-surgery-division-leader
+UNCHANGED        archived urls 1->1  repost 0->0  source-medical-llc::FL::division-chair-advanced-gi-bariatric-surgery
+UNCHANGED        archived urls 1->1  repost 0->0  sourcemd::MS::bariatric-general-surgeon
+TOKENS-DROPPED   active   urls 8->2  repost 7->1  sourcemd::MS::bariatric-general-surgery-physician
+                   - dropped 6 google token(s)
+UNCHANGED        archived urls 3->3  repost 2->2  sourcemd::MS::robotic-bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  southern-california-permanente-medical-group::CA::bariatric-surgeon
+TOKENS-DROPPED   active   urls 6->1  repost 5->0  southern-illinois-health-system::IL::bariatric-general-surgeon
+                   - dropped 5 google token(s)
+TOKENS-DROPPED   active   urls 13->1  repost 12->0  southern-illinois-health-system::IL::bariatric-surgeon
+                   - dropped 12 google token(s)
+TOKENS-DROPPED   active   urls 9->3  repost 8->2  spencer-britt::ME::general-surgeon-bariatric-focus
+                   - dropped 6 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  staffmed-health-partners::xx::general-surgeon-robotic-laparoscopic-in-outpatient
+UNCHANGED        archived urls 1->1  repost 0->0  sutter-medical-group::CA::general-surgeon-hernia-abdominal-wall-reconstruction
+UNCHANGED        archived urls 1->1  repost 0->0  tacore-medical::AL::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  the-society-of-laparoscopic-robotic-surgeons::CO::general-surgeon-robotic-trauma-centered
+UNCHANGED        archived urls 1->1  repost 0->0  the-vios-clinic::CA::general-surgeon
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  thomas-jefferson-university-hospital::PA::mis-surgeon
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  tidalhealth::MD::general-bariatric-surgeon
+RESOLVED         archived urls 1->1  repost 0->0  trinity-health::xx::general-surgeon-robotics-trauma
+                   + https://bebee.com/us/jobs/general-surgeon-robotics-block-time-trauma-center-trinity-health-iowa--lensa-7428_e5222db2acb7e4859817e2b5179ee6e72c15227df7aabd7bf889a4022a6d4e61?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  tulane-university-school-of-medicine::LA::academic-bariatric-surgeon
+UNCHANGED        active   urls 1->1  repost 0->0  tulane-university-school-of-medicine::LA::assistant-professor-division-of-mis-bariatric-surgery
+TOKENS-DROPPED   active   urls 16->2  repost 15->1  tulane-university-society-of-american-gastrointestinal-and-endoscopic-surgeons::LA::assistant-professor-mis-bariatric-surgery
+                   - dropped 14 google token(s)
+TOKENS-DROPPED   active   urls 12->1  repost 11->0  tulane-university::LA::assistant-or-associate-professor-bariatric-surgery
+                   - dropped 11 google token(s)
+TOKENS-DROPPED   active   urls 3->1  repost 2->0  tulane-university::LA::assistant-professor-mis-bariatric-surgery
+                   - dropped 2 google token(s)
+TOKENS-DROPPED   active   urls 5->1  repost 4->0  u-s-department-of-veterans-affairs::xx::general-surgeon-bariatric-colorectal-minimally-invasive
+                   - dropped 4 google token(s)
+TOKENS-DROPPED   active   urls 6->3  repost 5->2  uchealth::CO::robotic-general-surgeon
+                   - dropped 3 google token(s)
+TOKENS-DROPPED   active   urls 9->2  repost 8->1  unc-chapel-hill::NC::bariatric-foregut-and-hernia-surgeon
+                   - dropped 7 google token(s)
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  united-states-army::GA::active-general-surgeon
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  university-of-alabama-at-birmingham::AL::bariatric-minimally-invasive-surgeon-lead-innovate
+UNCHANGED        archived urls 3->3  repost 2->2  university-of-kansas-medical-center::KS::assistant-professor-general-surgery-metabolic-bariatric
+UNCHANGED        archived urls 1->1  repost 0->0  university-of-kansas-medical-center::MO::assistant-professor-general-surgery-metabolic-bariatric
+TOKENS-DROPPED   active   urls 12->1  repost 11->0  university-of-maryland-medical-system::MD::general-surgeon
+                   - dropped 11 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  university-of-utah::UT::bariatric-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  us-navy-bureau-of-medicine-and-surgery::FL::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  utah-surgical::UT::general-surgery-physician
+RESOLVED         active   urls 1->1  repost 0->0  valley-health-system::NJ::general-surgeon-bariatric-acute-care
+                   + https://www.valleyhealthcareers.com/job/23554834/general-surgeon-paramus-nj/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 3->2  repost 2->1  valley-health::NJ::general-surgeon-with-bariatric-and-acute-care-focus
+                   - dropped 1 google token(s)
+UNCHANGED        active   urls 1->1  repost 0->0  veterans-health-administration::AR::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  veterans-health-administration::FL::general-surgeon
+UNCHANGED        active   urls 1->1  repost 0->0  veterans-health-administration::MI::staff-physician-general-surgeon
+RESOLVED         active   urls 2->1  repost 1->0  veterans-health-administration::MO::general-surgeon-bariatric-mis-colorectal
+                   + https://www.marithealth.com/jobs/0bf30dac-29e3-47ac-8589-ea1ad356b38d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 2 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  veterans-health-administration::SD::general-surgeon
+UNCHANGED        archived urls 1->1  repost 0->0  vohra-physicians::AL::bariatric-surgeon-wound-care-specialist
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  vohra-physicians::IL::bariatric-surgeon-wound-care-specialist
+                   - dropped 1 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  vohra-physicians::MO::bariatric-surgeon-wound-care-specialist
+TOKENS-DROPPED   active   urls 5->1  repost 4->0  vohra-physicians::VA::bariatric-surgeon-wound-care-specialist
+                   - dropped 4 google token(s)
+TOKENS-DROPPED   active   urls 7->1  repost 6->0  vohra-wound-physicians-llc::AL::bariatric-surgeon
+                   - dropped 6 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  vohra-wound-physicians::TX::bariatric-surgeon-wound-care-specialist
+RESOLVED         active   urls 2->1  repost 1->0  vohra-wound-physicians::WI::bariatric-surgeon
+                   + https://bebee.com/us/jobs/bariatric-surgeon-flexible-schedule-full-benefits-vohra-wound-physicians-eau-claire--lensa-7428_c55025835fe86b56ec6c6d4bef1a7cd35109cea11c32339e7961d76f966fe783?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 2 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  vohra::RI::bariatric-surgeon-wound-care-specialist
+UNCHANGED        archived urls 1->1  repost 0->0  vohra::WI::bariatric-surgeon-wound-care-expert
+TOKENS-DROPPED   active   urls 6->1  repost 5->0  wake-forest-university-school-of-medicine-atrium-health::NC::academic-bariatric-and-minimally-invasive-surgeon
+                   - dropped 5 google token(s)
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  wellstar-medical-group::GA::general-surgeon
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  west-tennessee-medical-group-hayman-daugherty-associates-inc::TN::general-surgeon
+                   + https://www.physicianjobboard.com/jobdetails.cfm/7350991/Physician-Surgery-Breast-Tennessee-Permanent-Surgery-General-Job-in-Tennessee-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+RESOLVED         active   urls 4->1  repost 3->0  west-tennessee-medical-group-hayman-daugherty-associates::TN::general-surgeon
+                   + https://www.physicianjobboard.com/jobdetails.cfm/7350991/Physician-Surgery-Breast-Tennessee-Permanent-Surgery-General-Job-in-Tennessee-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 4 google token(s)
+RESOLVED         active   urls 4->1  repost 3->0  west-virginia-university-health-system-uha-university-health-associates::WV::general-surgeon-minimally-invasive-hernia-abdominal-wall-reconstruction
+                   + https://wvumedicine.wd1.myworkdayjobs.com/en-US/UHA/job/General-Surgery---Minimally-Invasive-Hernia---Abdominal-Wall-Reconstruction_JR26-44520?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 4 google token(s)
+UNCHANGED        archived urls 1->1  repost 0->0  west-virginia-university-medicine::WV::metabolic-bariatric-surgeon
+TOKENS-DROPPED   archived urls 2->1  repost 1->0  wvu-medicine-berkeley-medical-center::WV::metabolic-bariatric-surgeon
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 7->1  repost 6->0  wvu-medicine-east-berkeley-medical-center::WV::metabolic-bariatric-surgeon
+                   - dropped 6 google token(s)
+RESOLVED         active   urls 1->1  repost 0->0  wvu-medicine::WV::general-surgeon-minimally-invasive-hernia-abdominal-wall
+                   + https://www.jobleads.com/us/job/general-surgeon-minimally-invasive-hernia-abdominal-wall--united-states--ee251299417d03a8d026ea517dc65ae89?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+                   - dropped 1 google token(s)
+TOKENS-DROPPED   active   urls 35->5  repost 34->4  wvu-medicine::WV::metabolic-bariatric-surgeon
+                   - dropped 30 google token(s)
+TOKENS-DROPPED   active   urls 2->1  repost 1->0  yale-university-school-of-medicine::CT::bariatric-minimally-invasive-surgery-assistant-associate-professor
+                   - dropped 1 google token(s)

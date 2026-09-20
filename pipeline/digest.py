@@ -4,10 +4,13 @@ digest, not the dashboard, will likely deliver most of the value.
 """
 from __future__ import annotations
 
+import html as html_lib
 import logging
 import os
 
 import requests
+
+from . import store
 
 log = logging.getLogger("digest")
 
@@ -38,14 +41,14 @@ def send_digest(new_listings: list[dict], cfg: dict, dashboard_url: str = "") ->
             "MBSAQIP" if l.get("mbsaqip_mentioned") else "",
             "robotics" if l.get("robotics_mentioned") else "",
         ]))
-        link = (l.get("urls") or [""])[0]
+        link = html_lib.escape(store.apply_url(l), quote=True)
         rows.append(
             f"<tr><td style='padding:10px 14px;border-bottom:1px solid #dce4e1'>"
             f"<div style='font-weight:600;color:#122b29'>{l.get('employer','')}</div>"
             f"<div style='color:#3f5a56;font-size:14px'>{l.get('title','')} — {loc}</div>"
             f"<div style='color:#0e7c66;font-size:13px;margin-top:2px'>{_fmt_comp(l)} · {tags}</div>"
-            f"<div style='margin-top:4px'><a href='{link}' style='color:#0e7c66;font-size:13px'>View &amp; apply →</a></div>"
-            f"</td></tr>"
+            + (f"<div style='margin-top:4px'><a href='{link}' style='color:#0e7c66;font-size:13px'>View &amp; apply →</a></div>" if link else "")
+            + f"</td></tr>"
         )
     footer = (
         f"<p style='color:#6b7f7b;font-size:12px'>"

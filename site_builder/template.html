@@ -63,7 +63,6 @@ h1 span{color:var(--scrub)}
   background:var(--paper);border:1px solid var(--hairline);color:var(--muted)}
 .tag.model{background:var(--scrub-soft);border-color:transparent;color:var(--scrub);font-weight:600}
 .tag.new{background:var(--amber-soft);border-color:transparent;color:var(--amber);font-weight:700}
-.tag.repost{color:var(--warn)}
 .comp{font-family:var(--mono);font-weight:600;font-size:14.5px;text-align:right;font-variant-numeric:tabular-nums}
 .comp.na{color:var(--muted);font-weight:400;font-size:12.5px}
 .comp .bm{display:block;font-size:10.5px;font-weight:500;margin-top:1px}
@@ -74,6 +73,8 @@ h1 span{color:var(--scrub)}
   padding-top:9px;border-top:1px dashed var(--hairline)}
 .apply{background:var(--scrub);color:#fff;border:none;border-radius:8px;
   padding:7px 14px;font-size:13px;font-weight:600;text-decoration:none}
+.apply.dead{background:var(--paper);color:var(--muted);border:1px solid var(--hairline);
+  font-weight:500;cursor:default}
 .status{border:1px solid var(--hairline);border-radius:8px;padding:6px 8px;font-size:12.5px;
   background:var(--paper);color:var(--muted)}
 .status.has{border-color:var(--scrub);color:var(--scrub);font-weight:600}
@@ -201,8 +202,19 @@ function renderRows(){
   }));
 }
 
+function attr(v){
+  return String(v).replace(/&/g,"&amp;").replace(/"/g,"&quot;")
+                  .replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+
 function rowHTML(l){
   const k = l.key, d = days(l.first_seen), mid = compMid(l);
+  // Only absolute links survive off a Google SERP; a relative /goto redirect
+  // would resolve against github.io and 404.
+  // Absolute links only: a relative /goto redirect would resolve against
+  // github.io and 404. attr() escapes because the URL is ultimately a
+  // Location header from a third-party host, not something we authored.
+  const applyUrl = attr((l.urls||[]).find(u => /^https?:\/\//.test(u)) || "");
   const loc = [l.city, l.state].filter(Boolean).join(", ") || "Location in posting";
   const isNew = d <= NEW_DAYS;
   const bm = mid ? (mid > BENCHMARK*1.1 ? "<span class='bm above'>above benchmark</span>"
@@ -218,7 +230,11 @@ function rowHTML(l){
     l.fellowship_required ? "<span class='tag'>Fellowship req.</span>" : "",
     l.visa_sponsorship ? "<span class='tag'>Visa sponsor</span>" : "",
     l.call_burden ? `<span class='tag'>${l.call_burden}</span>` : "",
-    l.repost_count ? `<span class='tag repost'>reposted ×${l.repost_count}</span>` : "",
+    // repost_count counts distinct stored URLs, which after link resolution is
+    // mostly syndication breadth (bebee/jobserve/physicianjobboard all carry the
+    // same posting), not recruiter churn. Badge dropped 2026-09-20 rather than
+    // show a number that reads as trustworthy and is not. The field is still in
+    // the store if a real churn signal turns up.
   ].filter(Boolean).join("");
   return `<div class="row${st==="applied"||st==="passed"?" applied-dim":""}">
     <div>
@@ -232,7 +248,8 @@ function rowHTML(l){
     </div>
     ${l.summary ? `<div class="summary">${l.summary}</div>` : ""}
     <div class="row-actions">
-      <a class="apply" href="${(l.urls||[])[0]||"#"}" target="_blank" rel="noopener">View &amp; apply</a>
+      ${applyUrl ? `<a class="apply" href="${applyUrl}" target="_blank" rel="noopener">View &amp; apply</a>`
+                 : `<span class="apply dead" title="No off-site apply link was captured for this listing">No link captured</span>`}
       <select class="status ${st?"has":""}" data-key="${k}" aria-label="Your status for this listing">
         <option value="">— status —</option>
         <option value="interested"${st==="interested"?" selected":""}>Interested</option>

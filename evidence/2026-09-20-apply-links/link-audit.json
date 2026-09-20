@@ -1,0 +1,18 @@
+{
+  "before_HEAD": {
+    "active_listings": 132,
+    "active_with_usable_first_url": 78,
+    "active_with_dead_first_url": 54,
+    "active_with_no_usable_url_anywhere": 50,
+    "total_stored_urls": 985,
+    "max_repost_count_active": 34
+  },
+  "after_fix": {
+    "active_listings": 132,
+    "active_with_usable_first_url": 132,
+    "active_with_dead_first_url": 0,
+    "active_with_no_usable_url_anywhere": 0,
+    "total_stored_urls": 381,
+    "max_repost_count_active": 5
+  }
+}

@@ -15,6 +15,7 @@ import os
 import time
 
 import requests
+from urllib.parse import urljoin, urlsplit
 
 log = logging.getLogger("sources")
 UA = "bariatric-jobs-pipeline/1.0 (personal job-search tool)"
@@ -22,6 +23,108 @@ UA = "bariatric-jobs-pipeline/1.0 (personal job-search tool)"
 
 def _rid(*parts: str) -> str:
     return hashlib.sha1("|".join(p.lower().strip() for p in parts).encode()).hexdigest()[:16]
+
+
+# -- Apply-link normalisation --------------------------------------------
+# Bright Data's parsed jobs unit returns Google's OWN relative redirect
+# (`/goto?url=<token>`). Rendered on the dashboard it resolves against
+# github.io and 404s, so every Bright Data listing had a dead apply button.
+# We follow the redirect to the employer/board URL instead. This also keeps
+# the stored link stable: Google mints a fresh token per SERP fetch, so an
+# unresolved token reads as a brand new URL every night.
+#
+# Resolution is deliberately NOT done at fetch time. Only a fraction of what
+# we fetch survives dedupe and Claude's relevance filter, and only listings we
+# have no working link for need resolving at all, so pipeline.run resolves
+# roughly fifteen links a night rather than one per raw hit. Hammering Google
+# ~180 times from a CI runner is how you get rate limited.
+
+_REDIRECT_CACHE: dict[str, str] = {}
+_RESOLVE_STATS = {"resolved": 0, "failed": 0, "cached": 0}
+_GOOGLE_REDIRECT_PATHS = ("/goto", "/url")
+_MAX_HOPS = 5
+
+
+def _host(netloc: str) -> str:
+    return netloc.lower().rsplit("@", 1)[-1].split(":")[0]
+
+
+def _is_google(netloc: str) -> bool:
+    """Any google.com host, including consent.google.com."""
+    h = _host(netloc)
+    return h == "google.com" or h.endswith(".google.com")
+
+
+def resolve_job_url(url: str) -> str:
+    """Return a link that works off-site, or "" if there is not one.
+
+    Returning "" rather than a Google URL is deliberate. A google.com link
+    that happens to redirect is still a link we cannot vouch for, it changes
+    every night (which inflates repost_count and grows the store without
+    bound), and whichever one we banked first would become the permanent
+    apply link for that listing. An empty result is banked by nobody, shows
+    as "No link captured" on the dashboard, and is retried the next night
+    with a fresh token.
+    """
+    url = (url or "").strip()
+    if not url or url.startswith("//"):
+        return ""  # protocol-relative: no host we can attribute it to
+    if url.startswith("/"):
+        url = "https://www.google.com" + url
+    parts = urlsplit(url)
+    if parts.scheme not in ("http", "https") or not parts.netloc:
+        return ""
+    if not _is_google(parts.netloc):
+        return url  # already a real destination, leave it alone
+    if _host(parts.netloc) != "google.com" and _host(parts.netloc) != "www.google.com":
+        return ""  # consent.google.com and friends are not apply links
+    if parts.path not in _GOOGLE_REDIRECT_PATHS:
+        return ""  # e.g. SerpAPI's share_link, a google.com/search page
+    if url in _REDIRECT_CACHE:
+        _RESOLVE_STATS["cached"] += 1
+        return _REDIRECT_CACHE[url]
+    dest = _follow_off_google(url)
+    _REDIRECT_CACHE[url] = dest
+    return dest
+
+
+def _follow_off_google(url: str) -> str:
+    """Follow redirects until we land somewhere that is not Google."""
+    cur = url
+    for _ in range(_MAX_HOPS):
+        try:
+            r = requests.get(cur, headers={"User-Agent": UA}, allow_redirects=False, timeout=15)
+        except Exception as e:  # noqa: BLE001
+            log.warning("Redirect resolve failed for %s: %s", cur[:70], e)
+            _RESOLVE_STATS["failed"] += 1
+            return ""
+        loc = r.headers.get("Location", "")
+        if not loc:
+            log.warning("Redirect %s returned HTTP %s with no Location", cur[:70], r.status_code)
+            _RESOLVE_STATS["failed"] += 1
+            return ""
+        cur = urljoin(cur, loc)
+        p = urlsplit(cur)
+        if p.scheme not in ("http", "https") or not p.netloc:
+            _RESOLVE_STATS["failed"] += 1
+            return ""
+        if not _is_google(p.netloc):
+            _RESOLVE_STATS["resolved"] += 1
+            return cur
+        if _host(p.netloc) not in ("google.com", "www.google.com"):
+            # consent.google.com, sorry.google.com: a wall, not another hop
+            log.warning("Redirect hit %s instead of an employer site", _host(p.netloc))
+            _RESOLVE_STATS["failed"] += 1
+            return ""
+        time.sleep(0.3)
+    # Still on Google after five hops: a consent wall or a /sorry page.
+    log.warning("Redirect never left Google (%s hops) for %s", _MAX_HOPS, url[:70])
+    _RESOLVE_STATS["failed"] += 1
+    return ""
+
+
+def resolve_stats() -> dict:
+    return dict(_RESOLVE_STATS)
 
 
 # ── SerpAPI · Google Jobs ────────────────────────────────────────────────
