@@ -15,6 +15,8 @@ GitHub Actions (nightly cron)
        │                robotics, fellowship, visa) + relevance/FT/locums filtering
        ├─ store.py      dedupe on employer+state+title, first_seen/last_seen,
        │                repost detection, staleness archiving  →  data/listings.json
+       ├─ cluster.py    one job, one card: groups the postings that describe the
+       │                same opening (presentation only, never mutates the store)
        ├─ digest.py     Resend email of NEW listings only (silent when nothing new)
        └─ site_builder/ regenerates docs/index.html (served by GitHub Pages)
 ```
@@ -77,6 +79,28 @@ GitHub Actions: free.
   Google rate-limiting the CI runner would look like. **If you see a run of
   "No link captured" on the dashboard, that is the signal.**
   Covered by `tests/test_apply_links.py`.
+- **One job, one card.** `store.listing_key` is an exact `employer::state::title`
+  match, and every aggregator spells the employer differently, so one Lenexa
+  opening sat in the store as seven rows ("AdventHealth", "AdventHealth Kansas",
+  "AdventHealth Medical Group - Kansas", …). `pipeline/cluster.py` groups the
+  postings that describe the same job: same state and city, overlapping employer
+  tokens once noise words are stripped, and compatible role signatures. On
+  2026-09-20 that was 146 active postings for 115 real jobs.
+  Grouping is complete-linkage: a posting joins a card only if it matches every
+  posting already on it. Chaining A to C through B put a bariatric role and a
+  plain general-surgery role on one card; the stricter rule cost two cards out
+  of 115 and removed that entirely.
+  This happens at **presentation time only** and never touches the store, so a
+  bad grouping is a code fix rather than a data recovery, and every posting stays
+  visible behind "Listed N times". A card's identity is its earliest posting, not
+  its representative, so a saved status survives a better posting arriving later.
+  The digest uses the same rule. Once a digest is actually delivered, every
+  posting of each announced job is flagged `announced` in the store, so no later
+  wording of it is emailed again - `first_seen` cannot be trusted for this,
+  because `store.merge` backdates it to the posting date and a wording arriving
+  tonight can look older than the twin sent last week. If real openings ever start disappearing, suspect
+  `cluster.same_job` and widen it; `tests/test_cluster.py` pins the cases that
+  must NOT merge.
 - `repost_count` is still stored but no longer shown. It counts distinct URLs,
   which after link resolution is mostly syndication breadth (several aggregators
   carrying one posting), not recruiter churn. Badge dropped 2026-09-20; bring it

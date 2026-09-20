@@ -7,12 +7,18 @@ import json
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+from pipeline import cluster
+
 ROOT = Path(__file__).resolve().parent.parent
 
 
 def build(db: dict, cfg: dict) -> Path:
     listings = [{**l, "key": k} for k, l in db["listings"].items()]
-    payload = {"meta": db["meta"], "listings": listings}
+    # One card per job. Aggregators spell the same employer five different
+    # ways, so the store holds five rows for one Lenexa opening; cluster.cards
+    # collapses them and keeps every posting on the card. See pipeline/cluster.
+    cards = cluster.cards(listings)
+    payload = {"meta": db["meta"], "listings": cards}
 
     html = (ROOT / "site_builder" / "template.html").read_text(encoding="utf-8")
     bm = cfg["benchmarks"]["comp_median_usd"]

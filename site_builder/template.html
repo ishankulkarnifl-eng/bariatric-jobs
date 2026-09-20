@@ -63,6 +63,7 @@ h1 span{color:var(--scrub)}
   background:var(--paper);border:1px solid var(--hairline);color:var(--muted)}
 .tag.model{background:var(--scrub-soft);border-color:transparent;color:var(--scrub);font-weight:600}
 .tag.new{background:var(--amber-soft);border-color:transparent;color:var(--amber);font-weight:700}
+.tag.merged{background:var(--scrub-soft);border-color:transparent;color:var(--scrub)}
 .comp{font-family:var(--mono);font-weight:600;font-size:14.5px;text-align:right;font-variant-numeric:tabular-nums}
 .comp.na{color:var(--muted);font-weight:400;font-size:12.5px}
 .comp .bm{display:block;font-size:10.5px;font-weight:500;margin-top:1px}
@@ -79,6 +80,19 @@ h1 span{color:var(--scrub)}
   background:var(--paper);color:var(--muted)}
 .status.has{border-color:var(--scrub);color:var(--scrub);font-weight:600}
 .summary{grid-column:1/-1;font-size:13px;color:#3F5A56;margin-top:5px}
+.alts{grid-column:1/-1;margin-top:8px}
+.alts>summary{display:inline-block;cursor:pointer;font-size:11.5px;letter-spacing:.03em;
+  border-radius:6px;padding:8px 11px;background:var(--paper);border:1px solid var(--hairline);
+  color:var(--muted);list-style:none}
+.alts>summary::-webkit-details-marker{display:none}
+.alts>summary:hover{border-color:var(--scrub);color:var(--scrub)}
+.alts[open]>summary{border-color:var(--scrub);color:var(--scrub);font-weight:600}
+.alts ol{margin:9px 0 0;padding:0 0 0 2px;list-style:none;display:flex;
+  flex-direction:column;gap:7px;border-left:2px solid var(--hairline)}
+.alts li{font-size:12px;color:var(--muted);padding-left:10px}
+.alts .alt-emp{color:var(--ink);font-weight:600}
+.alts .alt-meta{font-family:var(--mono);font-size:10.5px}
+.alts a{color:var(--scrub);text-decoration:none;border-bottom:1px solid var(--scrub-soft)}
 .empty{background:var(--card);border:1px dashed var(--hairline);border-radius:12px;
   padding:34px 20px;text-align:center;color:var(--muted)}
 .foot{margin-top:26px;font-family:var(--mono);font-size:11px;color:var(--muted)}
@@ -150,6 +164,28 @@ const STATUS_KEY = "bariatric-jobs-status";
 const statuses = JSON.parse(localStorage.getItem(STATUS_KEY) || "{}");
 const saveStatus = () => localStorage.setItem(STATUS_KEY, JSON.stringify(statuses));
 
+// A card is one job assembled from several postings, and statuses saved
+// before that existed were keyed to an individual posting. Read through to
+// them, and on the next write consolidate onto the card's own key so the
+// status survives whichever posting represents the card tomorrow.
+// When two postings she had tracked separately merge onto one card, show the
+// one she got furthest with rather than whichever turns up first. Writing
+// consolidates onto the card's own key, so the value she can see is the value
+// that survives; picking arbitrarily would throw away an "Interviewing" that
+// existed nowhere else.
+const STATUS_RANK = {passed:0, interested:1, applied:2, interviewing:3};
+function cardStatus(l){
+  const found = [l.key, ...(l.postings||[]).map(p => p.key)]
+    .map(k => statuses[k]).filter(Boolean);
+  if (!found.length) return "";
+  return found.sort((a,b) => (STATUS_RANK[b]??-1) - (STATUS_RANK[a]??-1))[0];
+}
+function setCardStatus(l, value){
+  (l.postings||[]).forEach(p => { if (p.key !== l.key) delete statuses[p.key]; });
+  if (value) statuses[l.key] = value; else delete statuses[l.key];
+  saveStatus();
+}
+
 const listings = DATA.listings.filter(l => !l.archived);
 if (DATA.meta.sample) $("sampleBanner").hidden = false;
 
@@ -162,7 +198,7 @@ function renderVitals(){
   const states = new Set(listings.map(l=>l.state).filter(Boolean)).size;
   const v = [
     {v:newCt, l:"new this week", pulse:newCt>0},
-    {v:listings.length, l:"active listings"},
+    {v:listings.length, l:"active jobs"},
     {v:median?fmtK(median):"—", l:"median stated comp"},
     {v:transp+"<em>%</em>", l:"disclose comp"},
     {v:states, l:"states"},
@@ -182,7 +218,10 @@ function renderRows(){
     if (F.hideUndisc && !mid) return false;
     if (F.comp && (!mid || mid < F.comp)) return false;
     if (F.q){
-      const hay = [l.employer,l.title,l.city,l.state,l.summary].join(" ").toLowerCase();
+      // include the employer names this card absorbed, so searching
+      // "AdventHealth Kansas City" still finds the merged AdventHealth card
+      const hay = [l.employer,l.title,l.city,l.state,l.summary,
+                   ...(l.postings||[]).flatMap(p=>[p.employer,p.title])].join(" ").toLowerCase();
       if (!hay.includes(F.q)) return false;
     }
     return true;
@@ -191,14 +230,27 @@ function renderRows(){
             : F.sort==="dom" ? days(b.first_seen)-days(a.first_seen)
             : new Date(b.first_seen)-new Date(a.first_seen));
 
-  $("countLine").textContent = rows.length + " of " + listings.length + " active listings";
+  $("countLine").textContent = rows.length + " of " + listings.length + " active jobs";
   $("empty").hidden = rows.length > 0;
+
+  // Setting a status re-renders the whole list, which destroys the expanded
+  // <details> and drops focus to <body> — so an expanded card collapses out
+  // from under her the moment she marks it Applied, and a keyboard user is
+  // returned to the top of the page. Carry both across the rewrite.
+  const wasOpen = new Set([...document.querySelectorAll("details.alts[open]")].map(d => d.dataset.key));
+  const hadFocus = document.activeElement && document.activeElement.classList.contains("status")
+                 ? document.activeElement.dataset.key : null;
+
   $("rows").innerHTML = rows.map(rowHTML).join("");
 
+  document.querySelectorAll("details.alts").forEach(d => { if (wasOpen.has(d.dataset.key)) d.open = true; });
+  if (hadFocus) document.querySelectorAll("select.status")
+    .forEach(s => { if (s.dataset.key === hadFocus) s.focus(); });
+
+  const byKey = Object.fromEntries(rows.map(r => [r.key, r]));
   document.querySelectorAll(".status").forEach(sel => sel.addEventListener("change", e => {
-    const k = e.target.dataset.key;
-    if (e.target.value) statuses[k] = e.target.value; else delete statuses[k];
-    saveStatus(); renderRows();
+    setCardStatus(byKey[e.target.dataset.key], e.target.value);
+    renderRows();
   }));
 }
 
@@ -209,27 +261,28 @@ function attr(v){
 
 function rowHTML(l){
   const k = l.key, d = days(l.first_seen), mid = compMid(l);
-  // Only absolute links survive off a Google SERP; a relative /goto redirect
-  // would resolve against github.io and 404.
   // Absolute links only: a relative /goto redirect would resolve against
-  // github.io and 404. attr() escapes because the URL is ultimately a
-  // Location header from a third-party host, not something we authored.
+  // github.io and 404. Everything below goes through attr(): employer, title
+  // and summary are Claude's output over scraped third-party job-post HTML,
+  // and the URL is a Location header from whichever host Google redirected
+  // to. None of it is ours, so none of it is interpolated raw.
   const applyUrl = attr((l.urls||[]).find(u => /^https?:\/\//.test(u)) || "");
-  const loc = [l.city, l.state].filter(Boolean).join(", ") || "Location in posting";
+  const loc = attr([l.city, l.state].filter(Boolean).join(", ") || "Location in posting");
   const isNew = d <= NEW_DAYS;
   const bm = mid ? (mid > BENCHMARK*1.1 ? "<span class='bm above'>above benchmark</span>"
                    : mid < BENCHMARK*0.9 ? "<span class='bm below'>below benchmark</span>" : "") : "";
   const comp = (l.comp_min && l.comp_max) ? fmtK(l.comp_min)+"–"+fmtK(l.comp_max)
              : mid ? "~"+fmtK(mid) : "<span class='na'>comp undisclosed</span>";
-  const st = statuses[k] || "";
+  const st = cardStatus(l);
   const tags = [
     isNew ? "<span class='tag new'>NEW</span>" : "",
-    `<span class='tag model'>${modelLabel[l.employment_model]||l.employment_model}</span>`,
+    `<span class='tag model'>${attr(modelLabel[l.employment_model]||l.employment_model)}</span>`,
     l.mbsaqip_mentioned ? "<span class='tag'>MBSAQIP</span>" : "",
     l.robotics_mentioned ? "<span class='tag'>Robotics</span>" : "",
     l.fellowship_required ? "<span class='tag'>Fellowship req.</span>" : "",
     l.visa_sponsorship ? "<span class='tag'>Visa sponsor</span>" : "",
-    l.call_burden ? `<span class='tag'>${l.call_burden}</span>` : "",
+    l.call_burden ? `<span class='tag'>${attr(l.call_burden)}</span>` : "",
+    (l.postings||[]).length > 1 ? `<span class='tag merged'>${l.postings.length} postings</span>` : "",
     // repost_count counts distinct stored URLs, which after link resolution is
     // mostly syndication breadth (bebee/jobserve/physicianjobboard all carry the
     // same posting), not recruiter churn. Badge dropped 2026-09-20 rather than
@@ -238,19 +291,30 @@ function rowHTML(l){
   ].filter(Boolean).join("");
   return `<div class="row${st==="applied"||st==="passed"?" applied-dim":""}">
     <div>
-      <div class="emp">${l.employer}</div>
-      <div class="title-loc">${l.title} — ${loc}</div>
+      <div class="emp">${attr(l.employer)}</div>
+      <div class="title-loc">${attr(l.title)} — ${loc}</div>
       <div class="tags">${tags}</div>
     </div>
     <div>
       <div class="comp">${comp}${bm}</div>
       <div class="dom${d>90?" stale":""}">${d}d on market</div>
     </div>
-    ${l.summary ? `<div class="summary">${l.summary}</div>` : ""}
+    ${l.summary ? `<div class="summary">${attr(l.summary)}</div>` : ""}
+    ${(l.postings||[]).length > 1 ? `<details class="alts" data-key="${attr(k)}">
+      <summary>Listed ${l.postings.length} times — show every posting</summary>
+      <ol>${l.postings.map(p => `<li>
+        <span class="alt-emp">${attr(p.employer||"Employer not named")}</span> — ${attr(p.title||"")}
+        <div class="alt-meta">${attr(p.source||"?")} · first seen ${attr(p.first_seen||"?")}${
+          p.archived ? " · no longer listed" : ""}${
+          (p.urls||[]).find(u=>/^https?:\/\//.test(u))
+            ? ` · <a href="${attr((p.urls||[]).find(u=>/^https?:\/\//.test(u)))}" target="_blank" rel="noopener">open</a>`
+            : " · no link captured"}</div>
+      </li>`).join("")}</ol>
+    </details>` : ""}
     <div class="row-actions">
       ${applyUrl ? `<a class="apply" href="${applyUrl}" target="_blank" rel="noopener">View &amp; apply</a>`
                  : `<span class="apply dead" title="No off-site apply link was captured for this listing">No link captured</span>`}
-      <select class="status ${st?"has":""}" data-key="${k}" aria-label="Your status for this listing">
+      <select class="status ${st?"has":""}" data-key="${attr(k)}" aria-label="Your status for this listing">
         <option value="">— status —</option>
         <option value="interested"${st==="interested"?" selected":""}>Interested</option>
         <option value="applied"${st==="applied"?" selected":""}>Applied</option>

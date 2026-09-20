@@ -24,14 +24,14 @@ def _fmt_comp(l: dict) -> str:
     return "Comp undisclosed"
 
 
-def send_digest(new_listings: list[dict], cfg: dict, dashboard_url: str = "") -> None:
+def send_digest(new_listings: list[dict], cfg: dict, dashboard_url: str = "") -> bool:
     if not cfg["digest"]["enabled"] or not new_listings:
         log.info("Digest skipped (%d new listings)", len(new_listings))
-        return
+        return False
     key = os.environ.get("RESEND_KEY")
     if not key:
         log.warning("RESEND_KEY not set — skipping digest")
-        return
+        return False
 
     rows = []
     for l in sorted(new_listings, key=lambda x: x.get("state") or "zz"):
@@ -77,5 +77,9 @@ def send_digest(new_listings: list[dict], cfg: dict, dashboard_url: str = "") ->
         )
         r.raise_for_status()
         log.info("Digest sent to %s", cfg["digest"]["to"])
+        return True
     except Exception as e:  # noqa: BLE001
         log.error("Digest send failed: %s", e)
+        # Not announced: a send that failed must be retried tomorrow, not
+        # recorded as delivered and silently dropped.
+        return False

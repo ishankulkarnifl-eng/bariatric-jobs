@@ -14,7 +14,7 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from pipeline import digest, extract, sources, store  # noqa: E402
+from pipeline import cluster, digest, extract, sources, store  # noqa: E402
 from site_builder.build_site import build  # noqa: E402
 
 logging.basicConfig(level=logging.INFO, format="%(name)s: %(message)s")
@@ -46,9 +46,22 @@ def main() -> None:
 
     new_today = store.merge(db, extracted, cfg)
     store.save(db)
+
+    # A "new" listing is often just another aggregator's wording of a job she
+    # has already seen. Only announce ones that are genuinely a new job.
+    announced = [l for l in new_today
+                 if cluster.is_new_job(db, {**l, "key": store.listing_key(l)})]
+    if len(announced) != len(new_today):
+        log.info("Digest: %d of %d new listings are re-wordings of jobs already shown",
+                 len(new_today) - len(announced), len(new_today))
     log.info("Store: %d active, %d new today", len(store.active(db)), len(new_today))
 
-    digest.send_digest(new_today, cfg, dashboard_url=os.environ.get("DASHBOARD_URL", ""))
+    if digest.send_digest(announced, cfg, dashboard_url=os.environ.get("DASHBOARD_URL", "")):
+        # Only once the mail is actually away. Recorded on every posting of
+        # each job, so no later wording of it is ever emailed again.
+        cluster.mark_announced(db, announced)
+        store.save(db)
+
     build(db, cfg)
     log.info("Done.")
 
