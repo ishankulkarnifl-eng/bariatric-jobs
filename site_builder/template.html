@@ -58,6 +58,7 @@ h1 span{color:var(--scrub)}
 .row.applied-dim{opacity:.55}
 .emp{font-weight:700;font-size:15.5px;letter-spacing:-.005em}
 .title-loc{color:var(--muted);font-size:13.5px}
+.also{color:var(--muted);font-size:12px;margin-top:3px;font-style:italic}
 .tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
 .tag{font-size:11px;letter-spacing:.03em;border-radius:5px;padding:2.5px 7px;
   background:var(--paper);border:1px solid var(--hairline);color:var(--muted)}
@@ -273,6 +274,21 @@ function rowHTML(l){
                    : mid < BENCHMARK*0.9 ? "<span class='bm below'>below benchmark</span>" : "") : "";
   const comp = (l.comp_min && l.comp_max) ? fmtK(l.comp_min)+"–"+fmtK(l.comp_max)
              : mid ? "~"+fmtK(mid) : "<span class='na'>comp undisclosed</span>";
+  // What this card folded in, visible without expanding it: a wrong merge
+  // should be catchable while scanning, not only on inspection. Employer
+  // names when those are what differed, titles when the employer was spelled
+  // the same way every time and only the wording moved.
+  const alsoNames = (() => {
+    const emps = [...new Set((l.postings||[]).map(p => p.employer).filter(Boolean))]
+      .filter(n => n !== l.employer);
+    if (emps.length) return emps;
+    return [...new Set((l.postings||[]).map(p => p.title).filter(Boolean))]
+      .filter(t => t !== l.title);
+  })();
+  const also = alsoNames.length
+    ? `<div class="also">also listed as ${alsoNames.slice(0,3).map(attr).join(" · ")}${
+        alsoNames.length > 3 ? ` · +${alsoNames.length - 3} more` : ""}</div>`
+    : "";
   const st = cardStatus(l);
   const tags = [
     isNew ? "<span class='tag new'>NEW</span>" : "",
@@ -293,6 +309,7 @@ function rowHTML(l){
     <div>
       <div class="emp">${attr(l.employer)}</div>
       <div class="title-loc">${attr(l.title)} — ${loc}</div>
+      ${also}
       <div class="tags">${tags}</div>
     </div>
     <div>

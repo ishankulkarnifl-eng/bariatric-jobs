@@ -92,7 +92,9 @@ GitHub Actions: free.
   of 115 and removed that entirely.
   This happens at **presentation time only** and never touches the store, so a
   bad grouping is a code fix rather than a data recovery, and every posting stays
-  visible behind "Listed N times". A card's identity is its earliest posting, not
+  visible behind "Listed N times", and the collapsed card carries an "also listed
+  as" line naming what it folded in, so a wrong grouping is catchable while
+  scanning rather than only on inspection. A card's identity is its earliest posting, not
   its representative, so a saved status survives a better posting arriving later.
   The digest uses the same rule. Once a digest is actually delivered, every
   posting of each announced job is flagged `announced` in the store, so no later
