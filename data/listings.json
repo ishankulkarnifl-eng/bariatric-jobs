@@ -58,10 +58,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "KS",
@@ -69,7 +69,8 @@
    "title": "Bariatric & Metabolic Surgeon",
    "urls": [
     "https://www.marithealth.com/jobs/e78f5226-cd50-4f12-b754-f09f2721493c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESiQIB6zswFRYVZZxE4ABhFyBidu9kuyzwjep-VoMaPlulWMppplFbyoieIhr8V-eS44mNcpW85B2CBiXnnICb_d__0tBaNp4ref4eMg0XxBGlUIO4Mg5NLpxof13IhGOzRc1jXfefiZEdmo1ePpZwVd5rK_v-AXRfQcJiRCAnWFADdGryqzRXLkpsMMOjiBXSruGlqVOTv80UHdKZlIuc9cOoDq4z7sTBKsYEmzSb_6_PtCRUMxie_Sjg2HnAu7MuSXKM3qR8aydA1FTsG4Wacxry4z_t90IQVlYiHCTPkuMc_116LiTaATrRYgM03Ctpasb_Af7Rk3U4cD0QyPzagr6poZDUK-BfoKaQ"
+    "https://www.google.com/goto?url=CAESiQIB6zswFRYVZZxE4ABhFyBidu9kuyzwjep-VoMaPlulWMppplFbyoieIhr8V-eS44mNcpW85B2CBiXnnICb_d__0tBaNp4ref4eMg0XxBGlUIO4Mg5NLpxof13IhGOzRc1jXfefiZEdmo1ePpZwVd5rK_v-AXRfQcJiRCAnWFADdGryqzRXLkpsMMOjiBXSruGlqVOTv80UHdKZlIuc9cOoDq4z7sTBKsYEmzSb_6_PtCRUMxie_Sjg2HnAu7MuSXKM3qR8aydA1FTsG4Wacxry4z_t90IQVlYiHCTPkuMc_116LiTaATrRYgM03Ctpasb_Af7Rk3U4cD0QyPzagr6poZDUK-BfoKaQ",
+    "https://www.google.com/goto?url=CAESiQIB6zswFdsRvMK4Vd0goTnNroKX5Sa4E8-4aZE0q2uxUekdGwQc-zGvVinenGfc2XJMA1cW653OvdudEI4LZaGsOq-He7UuxsA4Vv4SEzIfyFMCmB92qc6tg8PzJHBtPj3Zr2_i_jmIBnnloJyIcvyzQTRcxh9QrLp2oVLfR9ZVMplCdtPPgFxP98_QmckgR9IoJXjd4BCHwwyphjtR8msThDT0h8LTjpTw-OtNMf3MG3lsZ59JW3inXE4ypa4PmMlTB2BQPi9MZ3NJdRZ6W8VYK5tXYapCtlnVCDA62dKhQNNP4z69xgwToUcWNuh-ck50j4R4xxX0JYtUwRR_W61oRNj86nljGgo5"
    ],
    "visa_sponsorship": false
   },
@@ -107,17 +108,18 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-09-14",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "KS",
    "summary": "High-volume bariatric & metabolic surgery at AdventHealth Lenexa; minimal general surgery call; fellowship required; robotic experience preferred.",
    "title": "Bariatric & Metabolic Surgeon",
    "urls": [
-    "https://jobs.adventhealth.com/job/23744370/ahmg-bariatric-metabolic-surgeon-adventhealth-medical-group-kansas-city-metro-lenexa-kansas/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://jobs.adventhealth.com/job/23744370/ahmg-bariatric-metabolic-surgeon-adventhealth-medical-group-kansas-city-metro-lenexa-kansas/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAESkgIB6zswFXWjefybCjNrowtu3r2T50P6ykuEDb73NIf1BwP86jkMX3kdRWR77DiM1dvovMB2_sZNTF4GkD5wogglcUE3AF9f6mcFSM-tfee_dFKpS94Vicj4QSBVQRGuXu4SRS3r1EkhGzUAMcI5QvJZ38s_FmXrNvXy6cKZO_sf6mY7SJVWLVNusYN_d7XvPSNcccJVzjGF4dPBesLmneNuQSIlOwBkQDXg-jEXtfGzMJ-A2WBdIeqSNMeJg8d22QDgworVMMzEL2cSZIaj3AXSMniFBUr34UP62ZXLK_eoeRrTRv0ecq5LK-oBnubaKVP-lvZfnXC1e5dSFhHpDMqYh__1B32fbfLcjqH43_wVoiVC"
    ],
    "visa_sponsorship": false
   },
@@ -581,6 +583,31 @@
    ],
    "visa_sponsorship": false
   },
+  "atlantic-medsearch::CO::general-surgeon-robotic-laparoscopic": {
+   "announced": true,
+   "archived": false,
+   "call_burden": "1:4 general surgery call",
+   "city": "Denver",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Atlantic Medsearch",
+   "employment_model": "unknown",
+   "fellowship_required": false,
+   "first_seen": "2026-09-14",
+   "last_seen": "2026-09-26",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-09-14",
+   "repost_count": 0,
+   "robotics_mentioned": true,
+   "source": "google_jobs",
+   "state": "CO",
+   "summary": "Full-time general surgeon with robotic/laparoscopic focus, 1:4 call, Denver CO",
+   "title": "General Surgeon - Robotic/Laparoscopic",
+   "urls": [
+    "https://www.google.com/goto?url=CAESvQIB6zswFZQR-THRQbBa2KDTepw5NlTrdGULR72oJNcU7AaAauKDnzkhV66Pw8XhxV1CzKw2htwJweiDZ1RRuzW2KaRjawOyGGppE0Iqgh2_UDUyeKF1w2_B3gw38cLjyDWm6UkPxZv7hYi-H_BhVO_CKTt_FfTFwn4BgDyzYtTV-sCBEAubg1Rmf6gMefja5GFXiUK_AdV76v5cJrqRVRbGMs_3aynmNNmccfLFIAUatJP-HH2W0_noFM9wSaRpcvgqdRkldaYzvMMUMuMRtpBQc2zVWG8Ec-JWLVh5QwKFu7tqvIN9K_YSQGBrFLn3AFKPNldeouKi2KyJrRNvcZ2OnnTyjHzr4MGugiarcMe9p6od_V5OSD4-eUoA57DOIEjkygtzcIR3lJlqv8MzklqdtcAEpEtT_oSPGPLQ0A"
+   ],
+   "visa_sponsorship": false
+  },
   "atlantic-medsearch::KY::general-surgery-physician": {
    "archived": true,
    "call_burden": null,
@@ -862,10 +889,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-01",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "MA",
@@ -873,7 +900,8 @@
    "title": "Metabolic and Bariatric Surgeon and Director",
    "urls": [
     "https://talents.vaia.com/companies/beth-israel-deaconess-hospital-milton/metabolic-and-bariatric-surgeon-and-director-34910588/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAEShwIB6zswFWnJJYQLbK_HB0hjq7TBv6ViZaMZOg43WLz4TpHrz8yDoW8YqIyRjko13JWurEe1ZvWdmwKgqcN9eAsVEIAF4Cw5Xd5zGuEIsSpIR7QeAZlBZ8HWW97MQ_fwnNrkiC41GAEiQB2BCGiohKfEREp-HsDLTuKL4-L23Z-Zi9lWUhGGI2ThE944DNGACdRDqEsRFm9eCsrr7c5yAXtlwfnWO4F3Ny9GSqzTuqqpyuRlk8gEYoVYHTytGs6219TwpUKihPNXkUk_BhlOUI4MDGQOpnGnsqHT3a5rMZ1EMUevaWXKnxM3o5nVojaxOZV8kFRdyHjO3sWLsdSa1HlU6U9kPm-pzg"
+    "https://www.google.com/goto?url=CAEShwIB6zswFWnJJYQLbK_HB0hjq7TBv6ViZaMZOg43WLz4TpHrz8yDoW8YqIyRjko13JWurEe1ZvWdmwKgqcN9eAsVEIAF4Cw5Xd5zGuEIsSpIR7QeAZlBZ8HWW97MQ_fwnNrkiC41GAEiQB2BCGiohKfEREp-HsDLTuKL4-L23Z-Zi9lWUhGGI2ThE944DNGACdRDqEsRFm9eCsrr7c5yAXtlwfnWO4F3Ny9GSqzTuqqpyuRlk8gEYoVYHTytGs6219TwpUKihPNXkUk_BhlOUI4MDGQOpnGnsqHT3a5rMZ1EMUevaWXKnxM3o5nVojaxOZV8kFRdyHjO3sWLsdSa1HlU6U9kPm-pzg",
+    "https://www.google.com/goto?url=CAESigIB6zswFRNClvTQ7uDiBBvlF7Q1r4lUNU65A1pqIPA53eGandNEeexXoPZ8O27mTrgEzL89lgnrGDpgRhjvPRviuOmnMlmvxXzjuSCM1XqkoT_jKIkOkocx6gWyS2cvbYnsYbuy730OAIGXSYZZDqU9tN4CQEaIxe2KBUmAoc5j7dxERk1J2YtLpeVCPayzU1jv8pvyJesLxY6-T22CuIbu8DDBeI8TY0TitelmDhHEGohukk3kslcJ6cHFViEUNb5ZXSSOdZV7V5Amo5kQ97j15VHMfoInrRNMTjSuE5gAYQB_0eHxD9CW0gIARJmoA9E71N-m4Mr5_guNexKi1VVKDquNkd4rHtHBuA"
    ],
    "visa_sponsorship": false
   },
@@ -974,7 +1002,7 @@
    "visa_sponsorship": false
   },
   "beth-israel-lahey-health::MA::general-surgeon-beverly-hospital": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Equitable, structured rotation covering ED and inpatient consults",
    "city": "Beverly",
    "comp_max": 450000,
@@ -1031,10 +1059,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-21",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "ME",
@@ -1042,7 +1070,8 @@
    "title": "General Surgeon - Bariatric & MIS",
    "urls": [
     "https://lensa.com/job-v1/britt-medical-search-llc-defunct/portland-me/general-surgeon/05a778d3c54453bfba9e252b2f2ed81f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESgQIB6zswFRn7N0wyXBtf1rMGq8s5wSkXYtJKEoe04sjrqWmQLxP4jx1zkGXffSaWhiDwIyGX_x6YcZ7pBcBGNciM7dLRLQwTrLjcEbBEOiODdlU_8526X7b_xIE8tu6IngRKPiq8fz6Y8mykE1AP809g21uTHkZl7D_ihhnytpnPEOBC_XgFqfggEGwJVHxyiqy4lWtNC9kDCa-fs6M_qrDHv2BP9eeQTtlt01ySqBiUqSNu6b3xfoLM9-3MV4J23OGeCSLa-s6Kt0pe2vJDhOMeJCQXTQrGMADUOXJC5065hhWH72i1G-em7w0JI8XzJCsWQw2xO0kq5s1W03PoNyD0vw"
+    "https://www.google.com/goto?url=CAESgQIB6zswFRn7N0wyXBtf1rMGq8s5wSkXYtJKEoe04sjrqWmQLxP4jx1zkGXffSaWhiDwIyGX_x6YcZ7pBcBGNciM7dLRLQwTrLjcEbBEOiODdlU_8526X7b_xIE8tu6IngRKPiq8fz6Y8mykE1AP809g21uTHkZl7D_ihhnytpnPEOBC_XgFqfggEGwJVHxyiqy4lWtNC9kDCa-fs6M_qrDHv2BP9eeQTtlt01ySqBiUqSNu6b3xfoLM9-3MV4J23OGeCSLa-s6Kt0pe2vJDhOMeJCQXTQrGMADUOXJC5065hhWH72i1G-em7w0JI8XzJCsWQw2xO0kq5s1W03PoNyD0vw",
+    "https://www.google.com/goto?url=CAESgQIB6zswFacQn29VyYsP9Q-eDX8anb9ne_GhymwU9oASIRSUkSjzbe9RqMb5S0W_e6L88w3fHGZsF7taDcixScNunIhJxZO0_t97LRGvZoqq0YPkXJ81XJr0jka3rFIrPZ9eprI-oZe2xmfTR68ZNbpu56g33uyGkfJJDtc4rNOG1NTGuStfONm7h-h1qPnpQGEvQ1M6Ts_HsrRwgraacsmVGpCMmjLVlDH7f3D40S-lCKyk_rlFRlIOz9kF0P2srRF318lxzF3ywYBqNAHkPvQGaauj7xklMynlQSep3y30QV3b3GN4lO4_2RatzwExMZAgm-MNWYVohJyquSSNtwurkA"
    ],
    "visa_sponsorship": false
   },
@@ -1120,7 +1149,7 @@
    "visa_sponsorship": false
   },
   "britt-medical-search::ME::general-surgeon-bariatric-mis": {
-   "archived": true,
+   "archived": false,
    "call_burden": "Shared call responsibilities",
    "city": "Lewiston",
    "comp_max": null,
@@ -1129,10 +1158,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-08-24",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-16",
-   "repost_count": 4,
+   "repost_count": 5,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "ME",
@@ -1143,7 +1172,8 @@
     "https://us.jobrapido.com/jobpreview/3811388387600891904?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://jobmesh.io/job/c962cf0d-c92e-4632-916f-cbdc5b126e92?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://jobmesh.io/job/0fda3819-2790-4c13-ac61-bb73a7ec2dd9?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://bebee.com/us/jobs/physician-surgery-bariatric-maine-permanent-general-surgeon-north-of-portland-me-broad-mix-bariatric--hospital-11924369?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://bebee.com/us/jobs/physician-surgery-bariatric-maine-permanent-general-surgeon-north-of-portland-me-broad-mix-bariatric--hospital-11924369?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAESwgEB6zswFeNxY4IY_OtDhGjy9VYnHh2xcqums97dCYLwmXONBx19zGzXHQPNmqigwRfohsjoTYye-lZAgnu_HxeLRWwnXmvQSf71DbN39cK_sNyNssDGCa0kFsnxr-hvedDl6MUGZpwbDQahQMraRmIkcTS4Ctj1BzHY15z2bc9RUaQoPPdWmp1BkIAFXDnPvx4s_YKDRL-cc3xQtUjo7_05WAbz4zE1iC0PS5zflr3IGs-VWcQiHTTdPJlblmM2k_Tbsw"
    ],
    "visa_sponsorship": false
   },
@@ -1596,10 +1626,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-09",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-09",
-   "repost_count": 4,
+   "repost_count": 5,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "CO",
@@ -1610,7 +1640,8 @@
     "https://www.physicianjobboard.com/jobdetails.cfm/5763740/Physician-Surgery-Bariatric-Colorado-Permanent-Surgery-Bariatric-Opening-Colorado-Springs-Colorado-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-COLORADO-PERMANENT-SURGERY-in-Colorado-Springs-Colorado-USA-8AEF5ED8E10E1FB140/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.jobserve.com/us/en/mob/job/extjobm/46E0ED4A797B000BF9?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESkgIB6zswFfSH9UEAV0CHboMAqZUmWxmC9tYjmpn_0E-cM6IM4DS-ajTBxBcEmetc9wmPOT7xc7oOVGvz9tcPI3EbwjKN5OjzeJ-FtcOKfS6KMWPn-EfKvDPh_kqUBOBkIIKiSaq2kbo12ygv-DaI06EQ1TkjA-wFNdVYdKro9zzc5iaaQEd9aZoQyJo3pLguOOVsOiTCLqXoiTxc1Ux7sL4rJ2xE9gET7wkwlc4SW4RTw6n6JUHa-99vcRuBAa4yydVFKExH4NDiRlGsAVkDUzehbNSOXBQIWlxo_ZTg59_wzUZZ1C40qzXhZZoHJusqdMvr6Pnk5hQmwL9EbXjZrDslHPATKkNnPCbz7OL1milRjnP4"
+    "https://www.google.com/goto?url=CAESkgIB6zswFfSH9UEAV0CHboMAqZUmWxmC9tYjmpn_0E-cM6IM4DS-ajTBxBcEmetc9wmPOT7xc7oOVGvz9tcPI3EbwjKN5OjzeJ-FtcOKfS6KMWPn-EfKvDPh_kqUBOBkIIKiSaq2kbo12ygv-DaI06EQ1TkjA-wFNdVYdKro9zzc5iaaQEd9aZoQyJo3pLguOOVsOiTCLqXoiTxc1Ux7sL4rJ2xE9gET7wkwlc4SW4RTw6n6JUHa-99vcRuBAa4yydVFKExH4NDiRlGsAVkDUzehbNSOXBQIWlxo_ZTg59_wzUZZ1C40qzXhZZoHJusqdMvr6Pnk5hQmwL9EbXjZrDslHPATKkNnPCbz7OL1milRjnP4",
+    "https://www.google.com/goto?url=CAESkgIB6zswFfxSLvGSAcgQbBhbHMPB9gKxN9sN6K9nNmJbo-rmybA1xkQsEOoYOSIquBKwvjtuiJycqzppfTqt-mMyZUm4nRv08a2hXOjX7XaGJuabhZeMLVkNPdDc83nDhEnVNro3YtirMD9U0IV8RZEaIuJd49FVVNXNAIiUbNpIreUSbmWNAaLXBpi3F2po5d71e0EjI15Dnt5gq76JsLAYu0SFXmP0_LA0ApFX0RvNJt9llyrTF258GZ4ToTZRkR83QyPZ5jAFix5uoSzEHbFwJ-eVHUQlHUM7lzxRDAvlBVhelbinvMsshZPChHQ7KjiyOhDUQzFPO7WqJY8jP8PuYHG8DeMorpOsWeKCdADP7SiD"
    ],
    "visa_sponsorship": false
   },
@@ -1952,10 +1983,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 4,
+   "repost_count": 6,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "NV",
@@ -1966,7 +1997,9 @@
     "https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-NEVADA-PERMANENT-SURGERY-in-Las-Vegas-Nevada-USA-95630E75F648AF61B3/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-NEVADA-PERMANENT-SURGERY-in-Reno-Nevada-USA-0EC8A314E1A77EC428/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.adzuna.com/details/5842405884?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESkQIB6zswFY-lRhwkwhexgeKPC7kmGpPVEnQgnJDi1dFgPxHZMMVcr9jxeIAy7ZFxruP3xvOVryL__u9l6riVF4ZpjVXHpmjHaWjEyYt_bPEGk5W-S_QTG73G6pP52F23ZH-O2d9HPuTaVTFFUXRWzk2U6HZC3E3I76hfwqu1exce2mMHah0tA1Lti7gjzT6f-Nzoyzpa0rXrKKbTy2k0N6k2v9ziGZJMOhnmJ-jXVJMWMx2vIzJqP_VzL3_dd_UTi0OBqTCbeYOSoUJ-aS2PjmcDjkAIb_s30jlZVGF4kyhYwxvyiaEEdPRhM0HGtTQY2UuV-TGtoxI6Q7LsFLGyyan7ot29_hXO2BD7qlnMviUKp4s"
+    "https://www.google.com/goto?url=CAESkQIB6zswFY-lRhwkwhexgeKPC7kmGpPVEnQgnJDi1dFgPxHZMMVcr9jxeIAy7ZFxruP3xvOVryL__u9l6riVF4ZpjVXHpmjHaWjEyYt_bPEGk5W-S_QTG73G6pP52F23ZH-O2d9HPuTaVTFFUXRWzk2U6HZC3E3I76hfwqu1exce2mMHah0tA1Lti7gjzT6f-Nzoyzpa0rXrKKbTy2k0N6k2v9ziGZJMOhnmJ-jXVJMWMx2vIzJqP_VzL3_dd_UTi0OBqTCbeYOSoUJ-aS2PjmcDjkAIb_s30jlZVGF4kyhYwxvyiaEEdPRhM0HGtTQY2UuV-TGtoxI6Q7LsFLGyyan7ot29_hXO2BD7qlnMviUKp4s",
+    "https://www.google.com/goto?url=CAESmgIB6zswFYxZQLFsbYOszIY2Dr_EfX10rgFqC5fYyYscARW9T1WOXbic3I2FdTtP2bUxcyeIITfxO8365gBNl4nTyZ0vsgyW7mBo-W6Lez0haSNQOIymM2PpLytl2qCOYVQRS5vNKexRw00xvp0BrRcQ3aGraMUtDKSLGVjnCM0iJ9vgZykEDD_FJTi4OWvxg950JOR9mwc099N3ikfarzEjk529h_gMjfHP8KXLoGJ44iz-fKaD2dH1TXahxuUdOHt9v2phk50xYOWmIveFuVDmu4iyo05LMn-rdG4PUB7k6xPFBbyp2av_eYggKZgtTPYR_eCPTvAe5JvREXBBQr4zD3My7aZ1u1hynPfL31ifqadDFXVLsxkd7Hs",
+    "https://www.google.com/goto?url=CAESkQIB6zswFdgQ8MVsECZshTU-FskgoEVPxNiy7LSH2qz_Rut2WDEeZ2gHa_1HMmmnppsZ-DLIZCGyj9Ze3H-ACE5hU4UxPUp9oXQ796fCmltIh53z8B9Ez_HqBuOOAbyVmStLXzRArZlec5q1NBGDOjVePYDY272lTKyynkvmczHeB1tkHXGE4Rj2cZdjr6kSh0RMRtC5nJXpX83_E6QSVGDIKpsoW9TluqMnkrVTi2pYZJu4H8f67z21TfwGsLPr2G7dBfH28wI3LATES5P4iCVIE80GSmMZ7hqR5PtthRJAa5J0N5vltGJhg4U0Agz319TICSbcpFTwcp2LbCt008WConCLpmuiTTYZfoWbvtcVk44"
    ],
    "visa_sponsorship": false
   },
@@ -1980,10 +2013,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-16",
-   "repost_count": 5,
+   "repost_count": 6,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "OH",
@@ -1995,7 +2028,8 @@
     "https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-OHIO-PERMANENT-SURGERY-in-Dayton-Ohio-USA-B794C33BE07D56E7F3/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.jobserve.com/us/en/extjob/PHYSICIAN-SURGERY-BARIATRIC-OHIO-PERMANENT-SURGERY-in-Cleveland-Ohio-USA-5B7448E060C711188D/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://talents.vaia.com/companies/confidential/physician-surgery-bariatric-ohio-permanent-surgery-bariatric-opening-dayton-ohio-job-3233847/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESjQIB6zswFe3p-Ubu5iQ971n-dqZCKZXcmeTtjDNLFW_twHsmFdus7nq_ZPFwBuHLhLQG1xor87PRp0Ui4IN5ba2ADor-NaQ37rERxJUzD6_33yX2ktzE838Bcml6uNeXfcLYXJl-MFtD-mke-4Xs2KQSVg1OqyMX0yjc9d4YaMtjvk2b3YK99-N13LZMiaQf5FZacqIR13BQu28zPAKWgjThht8qwn2v3wfXvsxGP772ig7-739Ij9ebSxvRXnmEBMRmfde4Bb3xscLOxfWZlEoasZl9A4sXTJNtf9ZQFHxeANfn1Kkc_NgTwy9J6PJDLielcI5q88p7OvU2YCEChRU3V3_wxK4EaZGefp5Gig"
+    "https://www.google.com/goto?url=CAESjQIB6zswFe3p-Ubu5iQ971n-dqZCKZXcmeTtjDNLFW_twHsmFdus7nq_ZPFwBuHLhLQG1xor87PRp0Ui4IN5ba2ADor-NaQ37rERxJUzD6_33yX2ktzE838Bcml6uNeXfcLYXJl-MFtD-mke-4Xs2KQSVg1OqyMX0yjc9d4YaMtjvk2b3YK99-N13LZMiaQf5FZacqIR13BQu28zPAKWgjThht8qwn2v3wfXvsxGP772ig7-739Ij9ebSxvRXnmEBMRmfde4Bb3xscLOxfWZlEoasZl9A4sXTJNtf9ZQFHxeANfn1Kkc_NgTwy9J6PJDLielcI5q88p7OvU2YCEChRU3V3_wxK4EaZGefp5Gig",
+    "https://www.google.com/goto?url=CAESjgIB6zswFXS3HVEjChYOab1LHKwrwqIKAaFH0v9nSddf9f-vCGzN-56xTGZqkpw9qtva8mmbU2y5TM2CuUwUZVvdNyqfHFeHsJTs7YEv-f1onBLjJhrjaC71IS0yXP7X-oclYeTTjPBeBGsisaCyJRRcBoM-53qInanQHyjd5x36WFg1JUqr4IS5iQgRFs9eiWO7PAVRL49dvdLTI7-loD2yBP5RlZUXcDbSIwV7ayKdnt0qb1aCrsls8yeHlwirl2b3y00GkgPgVyrH8Jj1SHPUIH1GYuZjxxueoqpNG0WWDfb0TUcGxbm8_e-bG1_jU81nowMnBXtrxcqEulHzzNsZrU9J1DqoAiziMX0ifuM"
    ],
    "visa_sponsorship": false
   },
@@ -2107,10 +2141,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-13",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-13",
-   "repost_count": 3,
+   "repost_count": 4,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "UT",
@@ -2120,7 +2154,8 @@
     "https://www.whatjobs.com/jobs/physician-surgery-bariatric/salt-lake-city-utah?id=2884433593&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://jobs.stevenagefc.com/jobs/physician-surgery-bariatric-utah-permanent-surgery-bariatric-opening-salt-lake-city-ut-salt-lake-cit/2898761876-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://jobmesh.io/job/9fad745e-5e1a-43e9-b570-31a51845302a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://talents.vaia.com/companies/confidential/physician-surgery-bariatric-utah-permanent-surgery-bariatric-opening-salt-lake-city-utah-job-37081526/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://talents.vaia.com/companies/confidential/physician-surgery-bariatric-utah-permanent-surgery-bariatric-opening-salt-lake-city-utah-job-37081526/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAESoQIB6zswFT3vNcV-OWbdtrcdwmSJWIa6JCTdeMGvflJg0K8yoR1ajYJUQGezVaPZuHBda951xF3yRXGhCcs-T2tkk0qogSs2_bPbtD1GdpZ763572DDEdrgV45w962rekLANJ_j2FCWvxtnUwHCVc88hmL7aOwS9Rj3wD_90yMQAE_hZJq21zs-epd2z2Tz_wkOS-CIGnW6Z-c1-qSqptJlTiX13xL5jDi6OsM_KAsULQO5Lk-_UnWSO8bF5N8elLj2mJASZXm2XVeyfq8BoHdiRRx8A9TFXbUgVjsUYL06a9W-F9jB5HDPUpOxzfestXwmQnp8y55_8XLGGwAQeQEIAkwXhOK4vNvMaKsrBerVs0lEZLGs946eaqSClfoWVg-Rf"
    ],
    "visa_sponsorship": false
   },
@@ -2790,10 +2825,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "NJ",
@@ -2801,7 +2836,8 @@
    "title": "Bariatric Surgeon",
    "urls": [
     "https://doctorschoiceplacement.com/job/bariatric-surgery-job-southern-new-jersey/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAES3AEB6zswFWL0VnauhuIAaWz3C97WFuzd2KON-5Mmg8dIvg82GtgLyiaQhQChE-vBrG7Hj1qAha30OFn-wcRrqfMA1iLyiZxAXx9tLFTQ_klDSlkw5JRVtNhOh8f3OVuSSG9OGf_XD0sZrp-Qv6MtIgjgzWou_o_RBjFClPbb71P0nRGFAS30FIvHmoX8vh5SBIcTD0Sfp-FxCjKgid3AbsnQ7f4OYThLm1tYxoNpEUytWLVHe2jsHYZpzQwFAlBFMq03eW2_HEF-34mlmJX1jzSXbE7a9oVFmsyCXRP-"
+    "https://www.google.com/goto?url=CAES3AEB6zswFWL0VnauhuIAaWz3C97WFuzd2KON-5Mmg8dIvg82GtgLyiaQhQChE-vBrG7Hj1qAha30OFn-wcRrqfMA1iLyiZxAXx9tLFTQ_klDSlkw5JRVtNhOh8f3OVuSSG9OGf_XD0sZrp-Qv6MtIgjgzWou_o_RBjFClPbb71P0nRGFAS30FIvHmoX8vh5SBIcTD0Sfp-FxCjKgid3AbsnQ7f4OYThLm1tYxoNpEUytWLVHe2jsHYZpzQwFAlBFMq03eW2_HEF-34mlmJX1jzSXbE7a9oVFmsyCXRP-",
+    "https://www.google.com/goto?url=CAES3AEB6zswFZD3d4wH01hfzjKpYU3LEGZIsBBt0FYOT7La6GNWaYvsEjRjBXhxAzeh0yfVaH8nJ8o6TURuRWX7ePd_E5Y4Ebrt9gGtKHoGl5-3J4QlIxANGGCWz5rCCibqiHFRLXWnIKpZMYp0jnqRuLfpz1eX839jUC3kUxJh8iJA0sbHApGkziFSyET-s-OAEcI7ibE1tmwSfrqOefXRok6RnTDCnpGFldavPvdqfSSS0Z5c9AdLVdAWCyIv9gvPAB1oG06xjAG0vJ7lbaaonJi98t3sgiZeFOi7NaWt"
    ],
    "visa_sponsorship": false
   },
@@ -3346,10 +3382,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-08-08",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-08",
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "PA",
@@ -3357,7 +3393,8 @@
    "title": "Bariatric Surgeon",
    "urls": [
     "https://jobs.stevenagefc.com/jobs/physician-pennsylvania-permanent-bariatric-surgery-job-in-wilkes-barre-pennsylvania-job-east-strouds/2915089864-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESowIB6zswFZe3cB5kTiiqI6qJm7_anJlhFO_iCPSjqWjFQ4Z_pCQh2rkORGL-yeyh12MEjS1pwnojvHh4cidePYEDbpOsJYw-jiDF_tyU3m5bzWO3D47qyd5qTasDKZw7HiEBkIndMLYL5lASNs9Ng62DhTwpU7A-sGWxq1zpBRFhF0_jeGBtAB1ap_siIopgKed_dDdtfsrB63H5T0jxD0XbppNBThg5o3lTlLCQDEzTO5V3ueJT4dsJOFcLjJjLcgJpJ46TsLM1DqCoBKrH-s93K7VSY6A5TbdMkAYwCnFkUF6BfNcUnuQs3dO1Vi8ky2wbvVdDj9cRhPUYdwg1uxS64ICaPjqHAMBDBg1SWcaQcAC_FX7EPTM7ChjqS-daaUCMbHI"
+    "https://www.google.com/goto?url=CAESowIB6zswFZe3cB5kTiiqI6qJm7_anJlhFO_iCPSjqWjFQ4Z_pCQh2rkORGL-yeyh12MEjS1pwnojvHh4cidePYEDbpOsJYw-jiDF_tyU3m5bzWO3D47qyd5qTasDKZw7HiEBkIndMLYL5lASNs9Ng62DhTwpU7A-sGWxq1zpBRFhF0_jeGBtAB1ap_siIopgKed_dDdtfsrB63H5T0jxD0XbppNBThg5o3lTlLCQDEzTO5V3ueJT4dsJOFcLjJjLcgJpJ46TsLM1DqCoBKrH-s93K7VSY6A5TbdMkAYwCnFkUF6BfNcUnuQs3dO1Vi8ky2wbvVdDj9cRhPUYdwg1uxS64ICaPjqHAMBDBg1SWcaQcAC_FX7EPTM7ChjqS-daaUCMbHI",
+    "https://www.google.com/goto?url=CAESowIB6zswFe2b8WwZqByIMrH261zumzKj6yTqDPEUdQA0lozZp5ia1yk_nSmAamO6ZImfpep7pGH1m024NTYYHQfjfGqHPAhBZ8D1MPBd4fmFJsqPIlh3p_4BvyS7rkZrYZcU87HDSG9XNlavVrAGeiP1r2L3raJzlumxV8fIfpGioYywa7ge3vQp49OuWsZzytDn7eMEvgPvIKhZ_E10aMVxsc6bl2l235nmAq2ErzGeICHPSMw4yP4J0_v51QwqqqznRYK1-dIShtzdbrxNAh1BjHmZa8iwKGFrHnbaQmrQIYwmp9zYoXKoDd47FpsYzQa2_yjZ_JRQvNVGjLN7OZP4p9xskAygq6O97xYqWh95j3vRtmUZrfL5VzIbZnbX0uK9TC8"
    ],
    "visa_sponsorship": false
   },
@@ -3588,10 +3625,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-02",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "FL",
@@ -3599,7 +3636,8 @@
    "title": "Bariatric & General Surgeon",
    "urls": [
     "https://doctorschoiceplacement.com/job/bariatric-surgery-opportunity-east-coast-florida/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAES4wEB6zswFTgWDM8nY-kMV5GUUashIF_FzzefA8oOqS2bGCGNnjQy4vZVJM1oDG7Gmnx845PrydVpsayDSK_Lc2N8CjdjkSj6CNlqBxLnG7111ybP6GBGRRIcpcA1XvAI0o-Hqp-yktPMs2Pwkst_0wBgURwQbnRi00m6U-gSOtawTrfvrQwfvh_QP2jg9OgbKaS6U1t8Jv0g_CNcqo8u4ke_XIjy0JoMU84nNNvrmCZC7BNGxCvTjvUhZffN18upkUctchn1bcCaEdmPmGhvugLW86bGQfLa9FRo7MtWTkrDI9sEpg"
+    "https://www.google.com/goto?url=CAES4wEB6zswFTgWDM8nY-kMV5GUUashIF_FzzefA8oOqS2bGCGNnjQy4vZVJM1oDG7Gmnx845PrydVpsayDSK_Lc2N8CjdjkSj6CNlqBxLnG7111ybP6GBGRRIcpcA1XvAI0o-Hqp-yktPMs2Pwkst_0wBgURwQbnRi00m6U-gSOtawTrfvrQwfvh_QP2jg9OgbKaS6U1t8Jv0g_CNcqo8u4ke_XIjy0JoMU84nNNvrmCZC7BNGxCvTjvUhZffN18upkUctchn1bcCaEdmPmGhvugLW86bGQfLa9FRo7MtWTkrDI9sEpg",
+    "https://www.google.com/goto?url=CAES4wEB6zswFRW5bPkO8ll-uFj215Bfu6esDeyyxBdciqQbXkcRF7L9vMD3wx4wFABoYgQzy6_s2c9Crrcs6WtsGJSCaW7Apn_GjC9zTeCrZ3dhcqK_XHsLzqovRpRUB-GyfSBOhtW0o3yVmz9siNyNtFyGMctCR8x9TCxuckG0Rnzi0P1vnX2zoiyOo-mVFWyO8nS_hlapa4I1FX34-3PFQVYozsNQ8Hrkzpf2l_dVbLqOtMPfM3f1UCb47-yIDkxh7IWAExvYoylTjYHZ-Bp8TO9R-Ia6wNXvNOk-9FBhUGxTFGU35Q"
    ],
    "visa_sponsorship": false
   },
@@ -4150,17 +4188,18 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-18",
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": null,
    "summary": "Full-time general surgeon, $550K base + $100K sign-on, robotic cases, loan forgiveness available.",
    "title": "General Surgeon",
    "urls": [
-    "https://us.jobrapido.com/jobpreview/3791035482477953024?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://us.jobrapido.com/jobpreview/3791035482477953024?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAESwgEB6zswFWkjHFhLVZJYIZa7qk4GwXQl2fuvIOvKZ7IaKvFkU0nkFuEI3nRsts8f-zCWdpAmT14O7uU2ofTqivbYNdmXFjG6eDNcXQ-Q_LjXU3r0v3y1ddoE_1zV8R53qvsbSm12lU28xgPjpDRLUcGBbs-12WjoqpGX4YCD9sm2H6WXakcdEKaYp9w6ZQJD_F-ocejlf9p3GvtNjFBq3_W-v68UP-xVoS0UGyjZcWR9h3l8RLC0MZ_l2k45Os4LAnv70g"
    ],
    "visa_sponsorship": false
   },
@@ -4420,7 +4459,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-14",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-14",
    "repost_count": 0,
@@ -4444,10 +4483,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-14",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "NM",
@@ -4455,7 +4494,8 @@
    "title": "Bariatric Surgeon",
    "urls": [
     "https://www.jobzmall.com/lovelace-health-system/job/bariatric-surgeon-1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAES0gEB6zswFeBJ5NHG9g56cwHpWZrPoHCtQgBvBB8hAV_MLS-SwBPQuTsSbWzBrO8RpmH2RG4nDb7w4E7e1K07j1-WCXv6EG2kRFkD4DGhs2OJOOZzjxvuE7haPSlDppG9mmSjE6QrAHv_3wOxVSg0h8BYKlNaz4mAbX8mIUWf0t4kuKVPU9_EpdRFYUbgvx9NxScDvwwDHir4o5QFX00oayv9f3NWJbrerHWSmvvgppsmC5YAJNzm8MVcrt1BdqkXxcji9Vv3Sk9blY8Zz2931kqoaoU"
+    "https://www.google.com/goto?url=CAES0gEB6zswFeBJ5NHG9g56cwHpWZrPoHCtQgBvBB8hAV_MLS-SwBPQuTsSbWzBrO8RpmH2RG4nDb7w4E7e1K07j1-WCXv6EG2kRFkD4DGhs2OJOOZzjxvuE7haPSlDppG9mmSjE6QrAHv_3wOxVSg0h8BYKlNaz4mAbX8mIUWf0t4kuKVPU9_EpdRFYUbgvx9NxScDvwwDHir4o5QFX00oayv9f3NWJbrerHWSmvvgppsmC5YAJNzm8MVcrt1BdqkXxcji9Vv3Sk9blY8Zz2931kqoaoU",
+    "https://www.google.com/goto?url=CAES0gEB6zswFfUmBYf1x1yYckfc8rnCP7Rq-55WjtdOrAeqocSkF7arZyX-ceGcf2O2usI7PKahz1ruVCz4BuCHlZMB-dKfO5PObTStijv6gpNWD8dzVoL_CvjDm55CEToUoTN1QJL2MyO2CO2hIDZukg8cO9Vk9ShsBCq0fgOiBEPcKrV1XFiRLam9re2s4P5fzTBPINFPq4sibk0j8glkxo2IUNf5R9lhspZR9yFRPTMLQzUk8ebjrcSYzYi9-W0Nt5d7AuWJKxTRL96luEnT2rHcM_Y"
    ],
    "visa_sponsorship": false
   },
@@ -4493,17 +4533,18 @@
    "employment_model": "academic",
    "fellowship_required": false,
    "first_seen": "2026-09-21",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-21",
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "MN",
    "summary": "Academic bariatric & robotic abdominal wall surgeon at Mayo Clinic Rochester; $350\u2013550K, full-time.",
    "title": "Abdominal Wall & Metabolic Surgeon - Robotic Bariatric",
    "urls": [
-    "https://www.jobleads.com/us/job/abdominal-wall-metabolic-surgeon-robotic-bariatric--rochester--e37c9cf4857307db4535d996381acf4bb?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://www.jobleads.com/us/job/abdominal-wall-metabolic-surgeon-robotic-bariatric--rochester--e37c9cf4857307db4535d996381acf4bb?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAESiwIB6zswFeR_ueggzCvV5Ku1wxXx5O8MLEyTWzh7eZ7CFzUa10ShLckG9cmed6U1xA4J6IUJTxt7SC03f24lq4iE_RUKZJ1DR1OeYZC3ATjfZImbAuPTbHGfzv7z0ei9ZEI76QMN5n5Cd6UdxvOugJ_bMjq3WXSY1517Gk9IHbrekga7WQ8DzkfPk8nJX1NG_SBQ7QmApl84Z_qHcEqDjfYg47l732lSZAdNYfYlMOtTT0jdQmzVcgYoIWoPO-kXwX0wonOHP_MTzt1l20A-GdDSN7tSxvtaCCYqZkhuLIIRS_LXVy7rGn4h3OAYuN_TXrDSv_wPC4Jg81IGu-oTN_CXpjvawW6TlxNUrYA"
    ],
    "visa_sponsorship": null
   },
@@ -4541,17 +4582,18 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-21",
-   "last_seen": "2026-09-23",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "MN",
    "summary": "Mayo Clinic seeks General and Bariatric Surgeon in Mankato, MN. Full-time, $350K\u2013$500K. Academic setting with mentorship.",
    "title": "General and Bariatric Surgeon",
    "urls": [
-    "https://www.jobzmall.com/mayo-clinic/job/general-and-bariatric-surgeon-7dax2s2eik?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://www.jobzmall.com/mayo-clinic/job/general-and-bariatric-surgeon-7dax2s2eik?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAES3AEB6zswFUp-V4oNJ4LbYIdqMyKJFFpDR_HZrgnZLdslJgqm1giv_jq7uYj9CzXzPZLNxcgfG-dIp7S-F77wVldmpKh-RU02t_2g37sFLdScq_qiTjPlniOAnH8O020BamU40Lv8BRR4leHUuJaBBjzcdswywwviblVF84j1JzaKLlyAAlMElthRhf5RqxQBJWuLlIUF_S1YEpmJIMoUD1RjHRurYYb5VBw38pGj4ni8VcITD-Rj9e7rwtWHWV9Hwy0CXjiozm2TEGm0vVdFj4rMm0dYMsc77OzYx-mN"
    ],
    "visa_sponsorship": false
   },
@@ -4613,17 +4655,19 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-07-29",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-29",
-   "repost_count": 0,
+   "repost_count": 2,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "CA",
    "summary": "Private practice bariatric/MIS surgeon role in Covina, CA. DaVinci robotic platform, 1:3 call, $350K+ Year 1 guarantee with productivity upside.",
    "title": "MIS/Bariatric Surgeon",
    "urls": [
-    "https://www.monster.com/job-openings/mis-bariatric-surgeon-covina-ca--dc471994-3a41-4f21-b5bf-28320117b4f5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://www.monster.com/job-openings/mis-bariatric-surgeon-covina-ca--dc471994-3a41-4f21-b5bf-28320117b4f5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAES9QEB6zswFdkyK9gBEaeZChaBX4Ilt_tUJJGQt4CUhUh2NyBk9bMkwFytALK2BBHl7B9sQPYyu8qM6DoD-84QCJ7U3qisNleAYcntbBrZhKwQZAkkZMGDMg3we_Cu78N7DDRkBO1p5hpdxxz0R0cPwO2bQwvk2CeN8sNOskghfC6-6iro3qQEEEsEVqrRi_vLj0ZoPu-CTJ7Et1O36TiHl2BY5BkRjXeP8k2-VradpLHtHlS55DWCW0PlvfP-BDjF_iRs_knsonB5BwGbSEXRMmjYcWgSsRgJt4jMLmuV4O4IlhCNWcTOvqBEEIgslYGvmFzfl8TpGQ",
+    "https://www.google.com/goto?url=CAES9QEB6zswFS91mQI6Tf4oMxqqEo2A0Vq_bVvhv5yECafAs2v7J5_yFnmUXIuVkRCqupHWRzR_PJmVTTlCLmAVqiummIFuR25tcWaUFSYhvPgotIxlm7Zm6gq4EjGNytx8TMNyl21xncHvJ2iT6XGn7gL_kxRGTrCOEQEpk57OI_Jy0jGJThqyFN0ppeUUSIJH8v8Db4981ALK2vnGrim8I-cyYo6dCNiZwtCKaJbztDgadcBab902WdjDFm3apPll1Xy8MxItAxQGAXMhdELWTsGbMMY86oxy33HXIx7qdLnqumW7D7i4-TOAlFKSTOrnlFhzLyQT0g"
    ],
    "visa_sponsorship": false
   },
@@ -5086,6 +5130,30 @@
    ],
    "visa_sponsorship": false
   },
+  "northwestern-university-feinberg-school-of-medicine::IL::surgery-faculty-esophageal-and-foregut": {
+   "archived": false,
+   "call_burden": "shared call coverage",
+   "city": "Chicago",
+   "comp_max": 410000,
+   "comp_min": 365000,
+   "employer": "Northwestern University Feinberg School of Medicine",
+   "employment_model": "academic",
+   "fellowship_required": false,
+   "first_seen": "2026-08-31",
+   "last_seen": "2026-09-26",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-08-31",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "IL",
+   "summary": "Academic foregut/esophageal surgery faculty at Northwestern; MIS/POEM focus, no bariatric; $365\u2013410K",
+   "title": "Surgery Faculty, Esophageal and Foregut",
+   "urls": [
+    "https://www.google.com/goto?url=CAESuAIB6zswFUt-dNd1CGIBJUmSfjBM1fUK_i5vdZvGTqDQsyVdXhpf5iSmD58blZ1O5eCtcFJQyTOr-M0-_L9zpG90MMetxXkX36UWQkwDa80stQH7pzCwPd5xpXyBMWERxNxreuPM0kr68ewG5_bNpKNVgGVdekkv13heCTknsut2OdnBTW5MLwUzoFallUU4jAImh4zL1b7rW8piBmyLAYFFJbNQZrCgyOT9ueUnUoBYuOW3PQ2h_QZgrpPabvV_jEYlptGNEGDQCVGnyniZYata1VCL-YdU2G1wq2tN42jzg7ykR7ZjY9KRhUrLLJYO-sBLg8P4PPUe9wvZgPREh7J7bj2ft7aY8KUHRQKFTlSkO9cN_xWTasjWrLJqFTN2mAEzJ3DRYW-NPZ6cpzZ0Ve8yqrJ7jgAGkMk"
+   ],
+   "visa_sponsorship": false
+  },
   "northwestern-university::IL::clinical-assistant-associate-or-professor-of-surgery-esophageal-and-foregut-surgery": {
    "archived": false,
    "call_burden": "shared call coverage",
@@ -5217,17 +5285,18 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "WA",
    "summary": "Foregut surgeon role at PeaceHealth St. Joseph Medical Center, Bellingham WA. $495.6K first-year guaranteed, weekly call, full-time hospital employed.",
    "title": "General Surgeon - Foregut",
    "urls": [
-    "https://www.google.com/goto?url=CAES7wEB6zswFdg9j8FopyDFynOPWyLq_qjGe3TgLMIOEzs544sok-JSu5bGPXyC2yYAcYzH1OPeMqN1_u5NAirfMlt0W4vrXbbtstKOdO6_3Fzea2eDNMUlz9io-CJK-oiH3f-mtMjWvzrOVDFAwHN610Asu6hZ0XMgjM9MmNEzwh4Or5xdFmcWqgLCgWEHZm9tyeUx_wPwFeH8Yml8gxUxCmJrJQF0q196rqZ1XARE0fXqkRJi-B_nF7Hflj0J7Ycs5gleoMfHqIVTYIH3neXsIjNq0A8MZE10redNk6D2Lewyjv9nEWKsaAjMrwP4481BdA"
+    "https://www.google.com/goto?url=CAES7wEB6zswFdg9j8FopyDFynOPWyLq_qjGe3TgLMIOEzs544sok-JSu5bGPXyC2yYAcYzH1OPeMqN1_u5NAirfMlt0W4vrXbbtstKOdO6_3Fzea2eDNMUlz9io-CJK-oiH3f-mtMjWvzrOVDFAwHN610Asu6hZ0XMgjM9MmNEzwh4Or5xdFmcWqgLCgWEHZm9tyeUx_wPwFeH8Yml8gxUxCmJrJQF0q196rqZ1XARE0fXqkRJi-B_nF7Hflj0J7Ycs5gleoMfHqIVTYIH3neXsIjNq0A8MZE10redNk6D2Lewyjv9nEWKsaAjMrwP4481BdA",
+    "https://www.google.com/goto?url=CAES7wEB6zswFUll775Wadhnmnlh0rDENsL_SXIq5vvWfDul4MrwhOVQC7hVvMx9dAUtevXtcEEaT9ib20n3rDh9P218sxgwO0IXJqzZz9qDcHQLn_LX_IAAkrc4Ov84e8LkEag6ETFOJW7hbmR_FPiLozW6MzwK0amIERbXq1xLSqMqI3RNWWaXuao0ARdWta560-egHUd6z_gwGNqRMd10qDQE64N3CQCt8jOH7OTah8xjbKuMFzFJVXWyUQwo_Iy33kOmXHEFdO8GXjutKD0U4kMeSXYcsu8uyZyzbZl35I8Ot0cnvqtL4eBUsmUOiMRDGQ"
    ],
    "visa_sponsorship": false
   },
@@ -5338,10 +5407,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-27",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-27",
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "NM",
@@ -5349,7 +5418,8 @@
    "title": "Bariatric & General Surgeon (Laparoscopic)",
    "urls": [
     "https://www.whatjobs.com/jobs/full-time-bariatric-general-surgeon/rio-rancho-new-mexico?id=2920500108&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://bebee.com/us/jobs/full-time-bariatric-general-surgeon-laparoscopic-presbyterian-healthcare-services-rio-rancho--pureheal-28528_25300_05aa39a1fa0121d0fc31652f8381a9e2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://bebee.com/us/jobs/full-time-bariatric-general-surgeon-laparoscopic-presbyterian-healthcare-services-rio-rancho--pureheal-28528_25300_05aa39a1fa0121d0fc31652f8381a9e2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAESzgIB6zswFUQJQVbSfXEZI972ZV2z6WCBKlAo6nciQ2IppPDLfJie4VOD_6A4EQeMYTnost8JbT16Pa-QQXINXVTFXQ8QF4IoL7IunQxaJpI58IyXGlulG7pk20d1O98ORRbBsULn6gyyIFDYd0AoS3SGmURYiTpDtgJCzRck1IQ_ggVuflD8zIC82iNzLoYbBPl6zH4B8BPme0Dea7NpWXp-8cOMJLpRiVjfVrTE79KO6KhToQwzQnXp9NdKCLKIRXCjjLXNttMmAX2MC0NZWDrRHIurRCLS17jRNJ7IQoBTHbdc-H8CQuIZa8Yz_cILpoY0u75Rm3PGwVp4xIGczJy6VXbqiYSR4HzxJrO34SNlHC4YMG9p52NkCbUJwakpri09_fg-Y4xRUMrZMiSicyrdeIom2CiDmu9rgMixxlU1wHZdNSXiNavCSQ2s2V3Z"
    ],
    "visa_sponsorship": false
   },
@@ -5388,10 +5458,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 4,
+   "repost_count": 5,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "NM",
@@ -5402,7 +5472,8 @@
     "https://www.learn4good.com/jobs/rio-rancho/new-mexico/doctor_of_medicine/5106357034/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://bebee.com/us/jobs/general-bariatric-surgeon-presbyterian-healthcare-services-rio-rancho--pureheal-28528_25300_8acfc0519757cd9a3a48e61ed6d9b5ff?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://bebee.com/us/jobs/general-bariatric-surgeon-presbyterian-healthcare-services-rio-rancho--lensa-7428_b5c2beb8d9c95b4b741d0f745ae217b7ee1abe56b37dc74e758ed13d467887e0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAEStwIB6zswFUK7ZXYOd4IYdk8XLsVIfGfxZZgcukqG1mPtIY9demW_Guv5IcCJh3DldK5cauuOKSfZN8ZerkDac_sbHDLBiLjIIshcHCj8omQ7SVVCQa934s-bqKihMx-p5h7zhPLyWDsRUyAn6tXqrevDk2T1uvXMguFUGxfM3au2rWJsT_RnOPUaOtvaO_OeSVwFldqm_Qcuog9XbI26HTKlw3kt4goJ1650E1mOdn7EOX1qqwUyvpvHh3fzRW4ogyKc2aso1arZ3WwZFDUjY9OOJQE5kpBrzpHdp1zzxesh6rwcBQXuUQtAW8PYSy4DGA_BTRZKfRwTL_HVvW8p15lovLYgUMfOFP-LwITg6khJEIJHdlakF2h9_uHVxAAWXn5UJd4-5OhSsSpbkqu9Q8Wc9SiuJ5_rfg"
+    "https://www.google.com/goto?url=CAEStwIB6zswFUK7ZXYOd4IYdk8XLsVIfGfxZZgcukqG1mPtIY9demW_Guv5IcCJh3DldK5cauuOKSfZN8ZerkDac_sbHDLBiLjIIshcHCj8omQ7SVVCQa934s-bqKihMx-p5h7zhPLyWDsRUyAn6tXqrevDk2T1uvXMguFUGxfM3au2rWJsT_RnOPUaOtvaO_OeSVwFldqm_Qcuog9XbI26HTKlw3kt4goJ1650E1mOdn7EOX1qqwUyvpvHh3fzRW4ogyKc2aso1arZ3WwZFDUjY9OOJQE5kpBrzpHdp1zzxesh6rwcBQXuUQtAW8PYSy4DGA_BTRZKfRwTL_HVvW8p15lovLYgUMfOFP-LwITg6khJEIJHdlakF2h9_uHVxAAWXn5UJd4-5OhSsSpbkqu9Q8Wc9SiuJ5_rfg",
+    "https://www.google.com/goto?url=CAEStwIB6zswFcosXfBCNWA0AskRhJYUwgD-vreYqyzt0NnmunnXNtEg0x6aiH8yKS6L9BPVnyxgd0kTH019pDTYnlJjl1nQgHnqOgSuBffGXYv2_IinUT-jG-6jbHPBtTjtjxK3MaeDmlJ5sWCVy_jO8ghHc3zH9jA9GtVdylgg52c4njWmlAK-xT8vaTQkSA6pl99q2eLCwCeT-5o6gKqY_pTvjWfIWPkWd3V4SaKdyWLpttAD2Yvp-r83taICSNDWNIgyMrG15BgWpPYyp916bxvkHeGK6iG7jSyLb04sjgIh22h9dOtCnvKAq8GD9ahH-DEYGZdSC0ia3LQ_IhpwfbiD7YoCOk4pilsviDEj85Hz3f5kdTw592BU4WdzJ8kpmPjImPJBquxwlwxtnavhzP4c3RJKiA-m4w"
    ],
    "visa_sponsorship": false
   },
@@ -5440,10 +5511,10 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-08-14",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-14",
-   "repost_count": 1,
+   "repost_count": 3,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "MT",
@@ -5451,7 +5522,9 @@
    "title": "General Surgery Surgeon",
    "urls": [
     "https://bebee.com/us/jobs/physician-surgery-general-montana-locum-or-permanent-bariatric-surgeon-job-continuum-medical-staffin--lensa-7428_1504ecf462618b95d8c01a5bb321e12160ac8f9dccb1c79125ad37dc6ac6e177?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESmgIB6zswFYqVbb-D4WdiQDJr9EG925OrxcODe4x-fnZ-1JCv8FCriasPJTSPpgYiCyPkXf7c2hK7qa694JnKDBQZijinbitXjhp5t8Bz9wYTCo6JLAiikKJMlN9uCewL0r6mCsSJqlmYaTVY_4C7O5Dr0rgOWJZT-8kVJgDjF-hc3iUB5_E2ynNv60bMTSwgX_po4cmbnQp4axfMSgU-Q1XXnTF102sLIjMrDxIaefUeBR2KLtIQnTR5rQ5ES1amDvGxZx9hPi7QXgj-UBxEP49_HAtD995CgJLBXxbsKZw-LSMaixTDieAQANz4iuvbB_Pb5LpBU74oUsxxYGOIl5jQgmmc1JZHPzHlyTW-NWC2lmk07aSJ1_0ZVPs"
+    "https://www.google.com/goto?url=CAESmgIB6zswFYqVbb-D4WdiQDJr9EG925OrxcODe4x-fnZ-1JCv8FCriasPJTSPpgYiCyPkXf7c2hK7qa694JnKDBQZijinbitXjhp5t8Bz9wYTCo6JLAiikKJMlN9uCewL0r6mCsSJqlmYaTVY_4C7O5Dr0rgOWJZT-8kVJgDjF-hc3iUB5_E2ynNv60bMTSwgX_po4cmbnQp4axfMSgU-Q1XXnTF102sLIjMrDxIaefUeBR2KLtIQnTR5rQ5ES1amDvGxZx9hPi7QXgj-UBxEP49_HAtD995CgJLBXxbsKZw-LSMaixTDieAQANz4iuvbB_Pb5LpBU74oUsxxYGOIl5jQgmmc1JZHPzHlyTW-NWC2lmk07aSJ1_0ZVPs",
+    "https://www.google.com/goto?url=CAESlgIB6zswFbiOdDBfBKcUq0qlcvVqDQX6iDSGv4eHzvknDHvVGTwqa6vz-20vwQFKx-2QPFjlHTDcXhK7Ncv0oIxW5UoRaEgfmMBQ1MGxftN9styYZ8mjvdaBvIfRf0qJ3MujBdXIhY9yQghCLzRFermHCgXFCuwMoCQgj6XQlGhoYEzDZbREcamQOLMiKKCoj4u-B7ozKXTD5E-9IGy_ItQO3YPTg2nqxEyLEslWY7uDCv5GFURg7cJC-MiE8GSUqYhC1Ii5zGjQhknDo5Ll-7RvmngCUrMUUcFOEaBAVS4Dzr8f2MY4tDTssxeITbtmsgxXXNAC3eRwULfhi73qvmN2kT-mw0cCXe-EdFhi9t4iZufi9muDnw",
+    "https://www.google.com/goto?url=CAESlgIB6zswFUR4mtPMhZm0EAEDeXHoWt2viUw0U2A4cCxcS16pIn3T5WAuhRnR24hSVRPUe8duxTYcApzQYR2Ikum_0rzqJ-lrTdLhCUxcv5hFnv0rZRzQ2fd-4O8wjYyEYWdbwewnNzE8eIfpL3j0DN8b2M-txsybw8lgqgXnSanPx352ASvqEW6b23hrz1zyOux02HogQj5P-e6bo93bN05qjmx9tHQI-oRU-tdFhXM77hlvy751aQ710C3pKLqQIdbtUZsI9IWG9-qkSHyDpVRbJr0zGHK3YY69VhJSST5HwrkBgZNQ0_eN8qdA7aOxYfP26Q4POLvycwoDbeHFLvtxeE-WPYfTlJHzcMGHMAvhOCl4C71URw"
    ],
    "visa_sponsorship": false
   },
@@ -5758,10 +5831,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-20",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "SC",
@@ -5769,7 +5842,8 @@
    "title": "Minimally Invasive Surgery/Bariatric Surgeon",
    "urls": [
     "https://talents.vaia.com/companies/self-regional-healthcare-physician/bc-be-minimally-invasive-surgery-bariatric-surgeons-18283956/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESjgIB6zswFfHe099jUz35s9aLUL3BB6KjAZtAKvZdyquq05NvphdUC72UQAGyuI_dT52uykYclpLYs1q_TbAChYQS7XMepliAF1MSPJAwmDJTpaWereFd7yWRAXTaT4xdhT3UEjzya-OpdRHN-0OBCDqj19XkuREQgFF-eGDvIS9lj_w224kFauVmd0xs45jcw-hjGFjzE1PY8BMDbkRJmKroQEUcJ1JTd5xzAOOwAkxJ0mrLcvh37m_AKwdhUBYE_uff9ukBkiNBol5ok4OyloeUgDAXETbyV2iV8PZtvSlWS7thnoy3G7wfL7GR9CFVD-ocSW702SiOB0kRTWCBBbZpAYM4W8ZpWENwTQJMEos"
+    "https://www.google.com/goto?url=CAESjgIB6zswFfHe099jUz35s9aLUL3BB6KjAZtAKvZdyquq05NvphdUC72UQAGyuI_dT52uykYclpLYs1q_TbAChYQS7XMepliAF1MSPJAwmDJTpaWereFd7yWRAXTaT4xdhT3UEjzya-OpdRHN-0OBCDqj19XkuREQgFF-eGDvIS9lj_w224kFauVmd0xs45jcw-hjGFjzE1PY8BMDbkRJmKroQEUcJ1JTd5xzAOOwAkxJ0mrLcvh37m_AKwdhUBYE_uff9ukBkiNBol5ok4OyloeUgDAXETbyV2iV8PZtvSlWS7thnoy3G7wfL7GR9CFVD-ocSW702SiOB0kRTWCBBbZpAYM4W8ZpWENwTQJMEos",
+    "https://www.google.com/goto?url=CAESjgIB6zswFYUHYnfZ0Bp3wXSTX4jOOs1hutW4sTbGS8g_MhHCc5xaRxn8L46g0eEk-gS6R6v1SEsJM0usTLk4S44oHzzIac_EhPJ_8x9wwWgjHaVyE3IFaz0l22kxq-9epqhJyNNTmzT78BKNVDGIVF56dYGp9QecJcDpm4tONkXpJ3s16XAY5NkcrRDQRVqUzr0bjbGwPeFd329N_8WEKw-doQKAZ_RHm5UzxFSiB9-77zAkLs6ZIN60Hr0WLIjWsPzL1sXCuaMd_NVx-qcLaBczwgOvV6SjBd2DMyNq6qFAMhYrpObrx_1PhxT0DUQ2cjW6cQ0XyRANki_180INihRnlJZmIzcTbkzuND7E7js"
    ],
    "visa_sponsorship": false
   },
@@ -5856,10 +5930,10 @@
    "employment_model": "unknown",
    "fellowship_required": true,
    "first_seen": "2026-09-21",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-21",
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "UT",
@@ -5867,7 +5941,8 @@
    "title": "Robotic MIS General Surgeon \u2013 Foregut Specialist",
    "urls": [
     "https://www.jobleads.com/us/job/robotic-mis-general-surgeon-foregut-specialist-30k--ogden--northern--e2fa28f9c0722bc7bf213d7450eb8cd4b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESkQIB6zswFeU3_BhMn-HlEJV9qf3SxFVgnDrqvfZHGaZ3TF2GD_liMDNnsB0nV69YMwxfQdFVKVh7H3iZ9HR7gaIuhLZH24HPi9kucNCUcKM8xfhSoqnsbssXGsQzRDYdLsohjAMrUwf8Fb45_NqQGUdUdyFknlpnzrXN4AgSNNFLx90X2NfU7Kyf6atgnG5cf8ToWG67ZlZ31mjQHIAg6HgVgiDSXJZ63pLof4LC5eZU4E90ifWEdRPxByVl3KegGOE1rnOyfX4l7AQvw9dOm32YGxoDU1_3_hHeumVastZtv8ia2vQQsAqb1pOp-eV2s_n9vxKP1KFy5YBcN2s6Y1UzQj0IpkK5p2RXlhAgu8Hc9do"
+    "https://www.google.com/goto?url=CAESkQIB6zswFeU3_BhMn-HlEJV9qf3SxFVgnDrqvfZHGaZ3TF2GD_liMDNnsB0nV69YMwxfQdFVKVh7H3iZ9HR7gaIuhLZH24HPi9kucNCUcKM8xfhSoqnsbssXGsQzRDYdLsohjAMrUwf8Fb45_NqQGUdUdyFknlpnzrXN4AgSNNFLx90X2NfU7Kyf6atgnG5cf8ToWG67ZlZ31mjQHIAg6HgVgiDSXJZ63pLof4LC5eZU4E90ifWEdRPxByVl3KegGOE1rnOyfX4l7AQvw9dOm32YGxoDU1_3_hHeumVastZtv8ia2vQQsAqb1pOp-eV2s_n9vxKP1KFy5YBcN2s6Y1UzQj0IpkK5p2RXlhAgu8Hc9do",
+    "https://www.google.com/goto?url=CAESkQIB6zswFcPdDFCcAZzsy4ZJIWoGJ7bbEvlki2kGr1QAWCAzq0TJ9lDrdEJByKDlte4uu2gRmZ964AzDFHp3vyxZVLNczaOiSTu2h01w11eA1uJk5jpHGCU1m65I448hXl21v2Ww4Y_k9tkn0odYWzieE4_2vCsS1UX7OCMclcTlbCL0hVM0W5o_Z_gvaOG3TPBuCOIzlTPhsULRY9L6XKkvJpkzsTmB6o0QmK2JyhzY8QGPNv9dQ8itS6prz-vwy9P710KurChOHII1xfZhoJMmHILWa0e5JVgsyiS_rHSv18iGHyXUeO-4dX7VSFhcYcnObnJ5bmufwlwD5a3kStwE0lPXGFO-pNhUzKzv5Z1bHKw"
    ],
    "visa_sponsorship": false
   },
@@ -6101,10 +6176,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-14",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-14",
-   "repost_count": 3,
+   "repost_count": 4,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "ME",
@@ -6114,7 +6189,8 @@
     "https://bebee.com/us/jobs/general-surgeon-bariatric-focus-collaborative-practice-spencer-britt-lewiston--lensa-7428_c369bf8b9061cb4dc9e0cfabe1d790c2d3d5a484c074868654ed60cf9c9bfed2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.learn4good.com/jobs/lewiston/maine/doctor_of_medicine/5344905409/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://talents.vaia.com/companies/spencer-britt/lewiston/general-surgeon-bariatric-focus-collaborative-practice-122773550/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESvwIB6zswFYqby2Mti1XaYNu-iuc2O41sLVYEIyz7_LbO_rQga6OFMvQh-Zte5n1_omComp3zH1t8DMQhqeuCxcztmbeUQ6PzAzV16z41C-rBYuzt1hEt2Zg3lZjNMHi3_CR4pfiHE6bywAoWjkpMm4BhNjDF8eisjB4NhCgNKGaQVkxkMp_txhVvC1jG3ImxA1VewU2kUsgNwmtL9oTyKpz-1Vxy5CVa_kwecY7LFw9DtPSnNQQLoabcUSK7g3_s6xIFOfAgG1Qn1vKtD6yh2lB6mDAu6GFTVpYl6WpzFGl0QPJ4DlBGGPGUbJe8XSkACP4Vn0xxRy7GuXHlkmbrLhg68a-NimxgROz5vENP5F5u028uUhtbMgRFHwZlBdsGJTa2K2_xlB87Dq5tImgOCrmtnwHxiNFptsM4RJEiOJrY"
+    "https://www.google.com/goto?url=CAESvwIB6zswFYqby2Mti1XaYNu-iuc2O41sLVYEIyz7_LbO_rQga6OFMvQh-Zte5n1_omComp3zH1t8DMQhqeuCxcztmbeUQ6PzAzV16z41C-rBYuzt1hEt2Zg3lZjNMHi3_CR4pfiHE6bywAoWjkpMm4BhNjDF8eisjB4NhCgNKGaQVkxkMp_txhVvC1jG3ImxA1VewU2kUsgNwmtL9oTyKpz-1Vxy5CVa_kwecY7LFw9DtPSnNQQLoabcUSK7g3_s6xIFOfAgG1Qn1vKtD6yh2lB6mDAu6GFTVpYl6WpzFGl0QPJ4DlBGGPGUbJe8XSkACP4Vn0xxRy7GuXHlkmbrLhg68a-NimxgROz5vENP5F5u028uUhtbMgRFHwZlBdsGJTa2K2_xlB87Dq5tImgOCrmtnwHxiNFptsM4RJEiOJrY",
+    "https://www.google.com/goto?url=CAESvwIB6zswFSiqopzNmKByhJaHIaGlKP36Z8dCf5IyUJknqR5w3K-wONll3JkH9xIPw7lCUSjO-XEK6QKcy8EsZpX_ntWAVUX8m3zf0et-RlHFf6-KA4nqgRSYHZ_TNQZWaXUYxEVa18ZJvXsXIV1yR35gSb0HKsgDDe2ux0-vNtI0oKRXI_G78RItX6VdjV6o4h4dfLqU0cPrxjOZ8CmskWHzxCaj5nbfxdKGMdYAmbKVzmznEZdO3k9KCfZYwqTwXaukiXEtx5MwCD-nuFBgD5CG5kixYAZEX1y9ZJSKcYS4hSlBr_gKjqAlcTLswdQ2zzrwVg01YbKPiHJSyPVGNALR49CD4fKNx9szGzOOIzpU5miMpFvTFdJvfDyGhBYMwby2xJ5CqypZh0grzvzKjsG9UdlYnJ0pIEZh3t3nwd-E"
    ],
    "visa_sponsorship": false
   },
@@ -6153,17 +6229,18 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "GA",
    "summary": "Full-time general surgery position in rural Georgia community hospital with broad elective and emergency scope.",
    "title": "General Surgeon",
    "urls": [
-    "https://www.linkedin.com/jobs/view/general-surgeon-at-stephens-county-hospital-4471463215?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://www.linkedin.com/jobs/view/general-surgeon-at-stephens-county-hospital-4471463215?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAES5AEB6zswFakiznkNjNcHt_dsDoYNoGAp0Xx4JKELFVxHDGtP2kF7icFrSE4lxcmM79F5oQbFz24GUt5vXzhz1bKu8oLnMsKYTNaN4NBphJE80DOlQ4bT_zwjxyufGUYoG-EJUMCFBX5c00pZJmnmr9R3lplfBBBIuKSflB2FyodzGuIPuLjFP7DR_v2GKQK2k-keiuQEMs2Rp64uVyGyEG68z1UCNc50RFHRiToCGFPzmAd3Iw6ege94sF4t8RPx6QFicDSPhE2xFJaQZRBZ1flFlDv929YaTZCv7J53REntJVT3ZTc"
    ],
    "visa_sponsorship": false
   },
@@ -6441,10 +6518,10 @@
    "employment_model": "academic",
    "fellowship_required": true,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 2,
+   "repost_count": 3,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "LA",
@@ -6453,7 +6530,8 @@
    "urls": [
     "https://talents.vaia.com/companies/society-of-american-gastrointestinal-and-endoscopic-surgeons/new-orleans/assistant-professor-mis-bariatric-surgery-120344053/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://bebee.com/us/jobs/assistant-professor-mis-bariatric-surgery-society-of-american-gastrointestinal-and-endoscopic-surgeo--pureheal-28528_23106_1b108a550a56ab833d69e395c49e8670?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESqAIB6zswFbI5WhiPLqdRw5H9X7tWAPUHBHrmZcXLxo689spp-c4pzjek7sYwoVsuAtq38PdjESWOts8dBVCV8ZXVwdUMYNHlJeUUgZ7sRvh5olnfuAsdCumuXs6ZzshmyUt_GlGS8iOwIAYCzsmPZBaN3UqzQsR09JNdDKugTNiJInOBybSy1pfgW1Z7NQWg4M7tIjaDtUi5-P2FVOGxuvIWQr0wh6lkotrDyswfVB4zYzI5bnwW-c6K1l7sxGBUUPldwRZuPo3pMVUqqWEbWd6mVZWd0l3Dt8k0TDG1lh4W2feAX6S5QJhVgQI5gMoY7R-0xPDWdHu1-e7OICIbYn0bOTL6MALIW2vjjy7q0-rYXYGIX5jJlJGxOHGE5u23ngD9XfggvnqMug"
+    "https://www.google.com/goto?url=CAESqAIB6zswFbI5WhiPLqdRw5H9X7tWAPUHBHrmZcXLxo689spp-c4pzjek7sYwoVsuAtq38PdjESWOts8dBVCV8ZXVwdUMYNHlJeUUgZ7sRvh5olnfuAsdCumuXs6ZzshmyUt_GlGS8iOwIAYCzsmPZBaN3UqzQsR09JNdDKugTNiJInOBybSy1pfgW1Z7NQWg4M7tIjaDtUi5-P2FVOGxuvIWQr0wh6lkotrDyswfVB4zYzI5bnwW-c6K1l7sxGBUUPldwRZuPo3pMVUqqWEbWd6mVZWd0l3Dt8k0TDG1lh4W2feAX6S5QJhVgQI5gMoY7R-0xPDWdHu1-e7OICIbYn0bOTL6MALIW2vjjy7q0-rYXYGIX5jJlJGxOHGE5u23ngD9XfggvnqMug",
+    "https://www.google.com/goto?url=CAESqwIB6zswFaWrwGiPtmvJnqmClS7lvNFoevwR25fTmFy3y_hvl9L3PZBVAwYiyD4KtumTO6L33WCQY3ePt6kBbf6VXRFXXXpMT4R-iiAt_d03-7RiX4mlG0Rb25nQxfLvgMrLj0E6zRy0fqUu0GaxyV60bW-wYDik3z88RMOY91KqQwKvVjx2D0HmdLG_TtW_w76lSSF5SEkkijPMvxVIEKqJ2HMQdsth2gw9hMaeYjkioZPBmp1WhaPrxl_L7SDPpxCugHn5mR4LbZHnUYPcejANyGJJZxiycdcE3HbsVXvq9SALhi8HhvR7eG3WhiGS8WoQIpaSi-XJ8ZohWWskUHoPYYlYZ8Nr45YqrJqy6xVZsdk4u3R7c9gIY4dkhUuH6SD_rcgQO_cl89DNXw"
    ],
    "visa_sponsorship": false
   },
@@ -6527,6 +6605,30 @@
    "urls": [
     "https://talents.vaia.com/companies/u-s-department-of-veterans-affairs/general-surgeon-bariatric-colorectal-minimally-invasive-150672910/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.google.com/goto?url=CAESkwIB6zswFc7yBJhGnJk1eixrARXQ1OkjP1tUcegIDYrfCIGBFqBSn2KAEuliDyb8Iw34vJjVu151yjSOafXL2jFALYspv-C28zw_4V5j2l8n7GhvK5dtnG2Fc3-jAUIU7BgU0zbylJv3DNYx1Tsbdoz8zNM2Mv3W0NpN-t08M0p6gGoo1P3bxM4mV3WxPrwL85cgrLZ0ONR54PxWtiT3jzbqeMH4fMKKSnuQrp4t8ELOLXfCiCUhCSCykeRoKecVOKQeTpKxpjvvlkljq8V_OqlavqgkanDs7sDagUmGpIZ3Yh7qMnc37faWy-Q2eHqk-2DnKB5_NVmkK65zsYNM5Q4kK1JbyjwsMo_JrCNIy4FupxUxKQ"
+   ],
+   "visa_sponsorship": false
+  },
+  "uc-health::CO::robotic-general-surgeon": {
+   "archived": false,
+   "call_burden": null,
+   "city": "Greeley",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "UC Health",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-09-08",
+   "last_seen": "2026-09-26",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-09-08",
+   "repost_count": 0,
+   "robotics_mentioned": true,
+   "source": "google_jobs",
+   "state": "CO",
+   "summary": "UC Health Greeley seeks full-time robotic general surgeon for elective and emergency cases with da Vinci Xi.",
+   "title": "Robotic General Surgeon",
+   "urls": [
+    "https://www.google.com/goto?url=CAESsgIB6zswFW3hvIvf4att5ODMQ0iyZcj92aENyTIL7r8Bx_zzY84C5UHUDsS_3mMPn3LtWetUlWPCIIgX5w2n966Qo17nOtuV3vFrYqePql0rKgFs0Dj4sdhOe8h1SR1jSWUvjobfPS2j2lY4uTdSIUlkY2_HwafM8AWReM3ancp02UGqwzI3u6SGKRE-bpA3se1Vc4WEVwdJenZhEeFezFI_QhuM-UaO7JgHEY9DDJlezrIZ8i1YzXKY7kmc-W9stpjWwEpwwVZceYzol7wlv52kbppwu5b9B7Laj9nCMJ01jyDn4Xj2AkfKfAod7meqg5eSLK1Ku_OG6ZxFwVf7ygqi6Ipu5iwMSzT-s450CURw0gI4NgH3oDc7-7EWXSd_2PMWp0SXX_-_U4sFIX0oeLVmaAI"
    ],
    "visa_sponsorship": false
   },
@@ -6789,10 +6891,10 @@
    "employment_model": "academic",
    "fellowship_required": false,
    "first_seen": "2026-07-28",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "UT",
@@ -6800,7 +6902,8 @@
    "title": "Bariatric Surgeon",
    "urls": [
     "https://www.jobzmall.com/university-of-utah/job/bariatric-surgeon-kol99xbaby?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAES1wEB6zswFZGeTbXLKCKm3jfJFBJ2PfDMumtPtthzxN9VDtxLed6fsFZDWU0GloTXB47J78EVxT1tPZvaS2PfhnnyEzcj-AMpsAjBfSNj0RePTGU-6mmxfy0kXoGo3dW4uaDS2DoSmz974ZpgfRdYvO3PMDW2A68gA0zX1clDRyWBNNyw9ONQjMxNpPNg3kQiPDmThZgUYhi57BSEn8yfbFrrXksVzj_J7XNYCy6XkR-qyRGc-ovDlqBB92WGrV6U_CfTMLCNE1juZDG-RuZPog8eIOvhpBjtnQ"
+    "https://www.google.com/goto?url=CAES1wEB6zswFZGeTbXLKCKm3jfJFBJ2PfDMumtPtthzxN9VDtxLed6fsFZDWU0GloTXB47J78EVxT1tPZvaS2PfhnnyEzcj-AMpsAjBfSNj0RePTGU-6mmxfy0kXoGo3dW4uaDS2DoSmz974ZpgfRdYvO3PMDW2A68gA0zX1clDRyWBNNyw9ONQjMxNpPNg3kQiPDmThZgUYhi57BSEn8yfbFrrXksVzj_J7XNYCy6XkR-qyRGc-ovDlqBB92WGrV6U_CfTMLCNE1juZDG-RuZPog8eIOvhpBjtnQ",
+    "https://www.google.com/goto?url=CAES1wEB6zswFdV2dTu-7uWroDj27_grHMcfjMdAiEdTzZw_THsdoIO02JMba4rbZfZdW93FIxnbm6bv8M05lS5tzfpb_sNG6h1Ze7l695Hf7H2m_YLBna1HVbmlZaSnjzBwNF4rnPu8_NrV1Ke5yardwpYOJCKjKJJKhlHQBDKJiEMR9V7MWlb3fI2R-YrU4dErr-UPVZnSk8eK-sLZgLfGbA0QjPB6QMrIvM3JqBQjnnDK0vTfv0CrUlX_fibrPgEfoXYgt0cHwNMVkfpC7g52-1FhH3_2ix40Dw"
    ],
    "visa_sponsorship": false
   },
@@ -7032,7 +7135,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-22",
-   "last_seen": "2026-09-23",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-22",
    "repost_count": 0,
@@ -7139,6 +7242,31 @@
    "title": "Bariatric Surgeon \u2014 Wound Care Specialist",
    "urls": [
     "https://bebee.com/us/jobs/bariatric-surgeon-wound-care-specialist-no-nights-call-vohra-physicians-birmingham--pureheal-28528_25200_ad93e3dfa82066de006af70602c1031f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+   ],
+   "visa_sponsorship": false
+  },
+  "vohra-physicians::CT::bariatric-surgeon": {
+   "announced": true,
+   "archived": false,
+   "call_burden": null,
+   "city": "Waterbury",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Vohra Physicians",
+   "employment_model": "private_practice",
+   "fellowship_required": false,
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-26",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-09-18",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "CT",
+   "summary": "Bariatric surgeon, mobile practice, 3-day/week minimum, wound care focus, Waterbury CT",
+   "title": "Bariatric Surgeon",
+   "urls": [
+    "https://www.google.com/goto?url=CAESxgEB6zswFZez_6fM24QST1PI-iAzQmJRnbHdkfNINaogVYNcvS26oQeZWvypZ7y7Yx9hEWRBRsqxlUA_-g4BJY0mhb4tUhXRp8EzoioAbDe1TW8CEtlAmIG7XyaY7VtCpe5GjdR7-cBtQeV546lwlGAKNWfeMRxLgrX8tmujrZLjhQ2lIkYJabI7cLNF0j2XsK6OEfctmSpPLQIwvovqx10vIWMTr8UFRh9lQCyGrVFpC01BiaDfNzoUy_0OBuGMpbRIzlBGBcA"
    ],
    "visa_sponsorship": false
   },
@@ -7368,17 +7496,18 @@
    "employment_model": "academic",
    "fellowship_required": true,
    "first_seen": "2026-08-15",
-   "last_seen": "2026-09-20",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": true,
    "posted_date": null,
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "NC",
    "summary": "Academic bariatric/MIS surgeon at Wake Forest/Atrium Health. Robotic & endoscopic procedures, fellowship training, research, leadership track.",
    "title": "Academic Bariatric and Minimally Invasive Surgeon",
    "urls": [
-    "https://bandana.com/jobs/ee9b2d38-1c91-4294-8f78-a9eebe05b3b5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    "https://bandana.com/jobs/ee9b2d38-1c91-4294-8f78-a9eebe05b3b5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "https://www.google.com/goto?url=CAESyAEB6zswFcliBPD1Kd2IpsfQ4HFzEgwgVQmQm3Xu20x4MzZ6PF1XE0Vk4W_1ist1DqX0JQnUt9Dy66zOZYjCkM8JUSolT27ZdVj5UkZ7RviUdWtVEQQN57VCNottYxPTyCRum0Hk7Lcszftk3KssmlCqOhyQkq0fkwfT7Qg1xN6bNWXEMX3iKUepKfUyXNcGodF30p4s2holauTyqUwkIkP04QkSzg0ET4IVDJ1m2fc4nLOjm_zNUM5mSHjB9SZKWFie9qkp9AYqjQ"
    ],
    "visa_sponsorship": false
   },
@@ -7536,10 +7665,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-08",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-08",
-   "repost_count": 2,
+   "repost_count": 3,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "WV",
@@ -7548,7 +7677,8 @@
    "urls": [
     "https://www.indeed.com/viewjob?jk=6baeda1ce1f315d3&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://wvumedicine.wd1.myworkdayjobs.com/en-US/WVUH/job/Physician--Metabolic---Bariatric-Surgeon-Martinsburg--WV_JR26-42310-2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAEShgIB6zswFdTrdwlCjVvWvDiftdx3GUmrvIXzgU8pe6ByKiRDa72uWA_D9aFFd6OslAaXu3sxuLan32yAh4Ou5qGUMst3S5SOKLyV-vb1df9SCI7BlxGBHgbEsUAcy10VocKu2zeEmgYSccF4zVmyp4H27ZPkPyaiRTydRAFts3MQ7hCEoP7KGAua-PEYX3dzrBbFlqdFqk33D7v01QXp3QbBw2h2Vm916hK-DSVt2jno6ppiLJg3npcknGgVpH6u5WCVgzP3SSD9ndhvDagSB1RWXVkpx6KrCY4Bf6fjCBwuJU4YUHFJv0Mxwhlzn-SnRg7aD52eZyFIh-5e_2w48cOkKNyH7bcj"
+    "https://www.google.com/goto?url=CAEShgIB6zswFdTrdwlCjVvWvDiftdx3GUmrvIXzgU8pe6ByKiRDa72uWA_D9aFFd6OslAaXu3sxuLan32yAh4Ou5qGUMst3S5SOKLyV-vb1df9SCI7BlxGBHgbEsUAcy10VocKu2zeEmgYSccF4zVmyp4H27ZPkPyaiRTydRAFts3MQ7hCEoP7KGAua-PEYX3dzrBbFlqdFqk33D7v01QXp3QbBw2h2Vm916hK-DSVt2jno6ppiLJg3npcknGgVpH6u5WCVgzP3SSD9ndhvDagSB1RWXVkpx6KrCY4Bf6fjCBwuJU4YUHFJv0Mxwhlzn-SnRg7aD52eZyFIh-5e_2w48cOkKNyH7bcj",
+    "https://www.google.com/goto?url=CAESiQIB6zswFWZvPtqMxDs668PXzkKb-m2t79SMjXOCmAaUQGcvydN5i6rX08hiAcL-irDHwQhR9HpFjIjYDLkofY_F2m4M_GRtfKA2XTrOfT-4coIZLPGZToj1izXS1eEJNGXBPOlP1VtnKbw7AdlHhYUOy9QQpb10Tf2rnyJ6d9S-vSdE43z2O3LZVv7720lzFfwt2egem4IZ6okh-6W-BEJ9oyd6D6K_cUwQwfID4P4HNa0kOE3Y6-1fKBmFrOgFIoV8CkRltF0b_d3h-8oGeuCba91DS3GpnD2aroE1UupMoABoDusxvWxa409VhDmjxXcTIry7XSTjQ_NckGp0TsiDpZQYhPcMWYrR"
    ],
    "visa_sponsorship": false
   },
@@ -7586,10 +7716,10 @@
    "employment_model": "academic",
    "fellowship_required": false,
    "first_seen": "2026-09-08",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-08",
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "WV",
@@ -7597,7 +7727,8 @@
    "title": "General Surgeon: Minimally Invasive Hernia & Abdominal Wall",
    "urls": [
     "https://www.jobleads.com/us/job/general-surgeon-minimally-invasive-hernia-abdominal-wall--united-states--ee251299417d03a8d026ea517dc65ae89?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESlQIB6zswFREJJKi-iaBzr3LTCRpJpWgtbAweFy4bbR9tJK11mA8eXKQfjJWUcVbkPu_vw-1q2tynHS_kJCD8XhQCr3ORzDCrCPTdA1Uy1Kc7P45GhzSUKdx5svRdaEMA7MNKCldw3Gsfu6THDaPbwxAenBhe6gwdjbivZeZ1ohGEipvQgdEHNqLpHrn4MIxncHCqOGgbZ2KHfJ2raHWFb2YqH9JlNjt4mVuqNiYrrHhJh2HEtR2PBNfxLNGrh5ZcoJTxFstMdOJY87wDQcc77xW1dgHRr5_bw7PLQ71LCkOwTx82jxRTIrmK_PAv4WAsh6XU6g-z83BbOVILUyoSbHO7SfZVYx2cUNtTv_5thSAoom9gv_8F"
+    "https://www.google.com/goto?url=CAESlQIB6zswFREJJKi-iaBzr3LTCRpJpWgtbAweFy4bbR9tJK11mA8eXKQfjJWUcVbkPu_vw-1q2tynHS_kJCD8XhQCr3ORzDCrCPTdA1Uy1Kc7P45GhzSUKdx5svRdaEMA7MNKCldw3Gsfu6THDaPbwxAenBhe6gwdjbivZeZ1ohGEipvQgdEHNqLpHrn4MIxncHCqOGgbZ2KHfJ2raHWFb2YqH9JlNjt4mVuqNiYrrHhJh2HEtR2PBNfxLNGrh5ZcoJTxFstMdOJY87wDQcc77xW1dgHRr5_bw7PLQ71LCkOwTx82jxRTIrmK_PAv4WAsh6XU6g-z83BbOVILUyoSbHO7SfZVYx2cUNtTv_5thSAoom9gv_8F",
+    "https://www.google.com/goto?url=CAESlQIB6zswFa6i-YonKwF455ALnr4bggvaYxAuDx7I4dPlYxDnqQZfs1_CqD6QIFef80xNUZ_BmTyMwRZ8PgebNxPVgSZl3ogCQ-yckQxsxtAKHdmg6ctlEGRhDK3NifUODnBGb3ZDw7ppCu2xH05LzPJTQhiaO9g_BTGrWS3RtMpmD3BQI0IdcfeyHJVbfbM1Lt2etwVvkJbvIkxrEYUdOCJDQJw7UBRT4ATcy2NoD-ycBB_0Ux_t_DkCD7QlqKBs3LNvjukCNjsxD4KOxUsVYbIYgLu_WqPbcbUkxd8yTN9iFwUUtr-TjpCC7nGrYE4J56jUBe_BkX-N5wyLRjoK4RoCk7Mjj7-mDnbUfnK-It5Vhrd1RjFR"
    ],
    "visa_sponsorship": false
   },
@@ -7611,10 +7742,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-07",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-09-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-07",
-   "repost_count": 5,
+   "repost_count": 6,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "WV",
@@ -7626,7 +7757,8 @@
     "https://www.marithealth.com/jobs/65930449-ea70-49b2-8750-f4cfcc84cc72?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.jobleads.com/us/job/metabolic-bariatric-surgeon-robotic-growth-leader--west-virginia--e7d87a28ee850f8aad6709e68c874e001?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.nejmcareercenter.org/job/1015041/physician-metabolic-and-bariatric-surgeon-martinsburg-wv/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESrwIB6zswFQEFksvlGv2MFHIsRQ7wCCQ3eye9s7ONaoPBLyirQpLCvD3cqPy8xJrUnjwEnmu1cR8ZY6aYO_9u-v8jmwGVbDjugEh7lJuDD7FYqrU49beVNJoUOnwLXvcEn4fxCy7fPmQQuQrd3bp5jbR7JOU1L8fWMUUpNLpMka10GljFsaVGY1eeDTJuMKRc6UBmly5-9AMN86TY2v74p-RBrX_gr39MLKndcTZgtS-HePvfh43C29Fll2lQ08TaYJTEt7u0cF7M00yAD8OtwK7exQxUV_J1VugD3tXZ1VesZk04FOEeF2-xdsbLj-VenPhVnNppE0JnxoS1E3DETDHUNuSHZbTi-al2Mq_CMTaAyWcsVwK5wUQ_nMUarVdi9fifVGF5ncEWCMHnCBbadbc"
+    "https://www.google.com/goto?url=CAESrwIB6zswFQEFksvlGv2MFHIsRQ7wCCQ3eye9s7ONaoPBLyirQpLCvD3cqPy8xJrUnjwEnmu1cR8ZY6aYO_9u-v8jmwGVbDjugEh7lJuDD7FYqrU49beVNJoUOnwLXvcEn4fxCy7fPmQQuQrd3bp5jbR7JOU1L8fWMUUpNLpMka10GljFsaVGY1eeDTJuMKRc6UBmly5-9AMN86TY2v74p-RBrX_gr39MLKndcTZgtS-HePvfh43C29Fll2lQ08TaYJTEt7u0cF7M00yAD8OtwK7exQxUV_J1VugD3tXZ1VesZk04FOEeF2-xdsbLj-VenPhVnNppE0JnxoS1E3DETDHUNuSHZbTi-al2Mq_CMTaAyWcsVwK5wUQ_nMUarVdi9fifVGF5ncEWCMHnCBbadbc",
+    "https://www.google.com/goto?url=CAES4gEB6zswFcNFPsGWmIJyCaiyFFKa04PZ5WWUmOq-UeQ473zI9smZgSJyBwJKNYPWo_nbaMb0AZiwu59gmQhB5eJxL3auc2U7Zm90YX5tnsBKmR66YDtLmLDGxSUn0rpxNWUtgLTNE4XdwlaiJHuOI4GIPwp28JnygSDadTzDp-BqqntVxYEkc6JPYm5YvVRU-Pkr0OvRPC5N5Fb9l_LRfxpxYIeKulJJlkb0C-qFP3S8xKOUf3aouwiQbKhJdj6A9INX1GYBQVOgF_xfmGlOr2H-G0TGuemL7vfJTWMBUkBOiGLC"
    ],
    "visa_sponsorship": false
   },
@@ -7656,7 +7788,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-09-25T15:05:34Z",
+  "last_run": "2026-09-26T14:03:11Z",
   "sample": false
  }
 }
