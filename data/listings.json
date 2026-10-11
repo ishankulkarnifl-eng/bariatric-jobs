@@ -25,7 +25,7 @@
    "visa_sponsorship": false
   },
   "adventhealth-kansas-city::KS::bariatric-metabolic-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "No traditional general surgery call",
    "city": "Lenexa",
    "comp_max": null,
@@ -58,10 +58,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
-   "repost_count": 10,
+   "repost_count": 11,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "KS",
@@ -78,7 +78,8 @@
     "https://www.google.com/goto?url=CAES6wEB6zswFR7PtMaUanmW8liSgtbMzureNxmSf9pwuh776ez6gv4gpEZLc3qG8vD4g6AJa5KB_Qe1erBevxbfWfkp19s9SW9XR4i49hMtCnxb0VbSEmEM-6vXHduaKWFr6pxvi8dGzqnr4HZgCbAu6M6bJAFtVFQ_TN3l-57UnU3Wu5izWf_Owvnz22AxWNCZSTIDrts_YoNLNRty0s1sboxRJp6uoFlziuFp_gRGbNNtfUn3962JSTTLYC6m_DoOdnETAUSqJoU7RFa1wQ8RXmvMMoSyZz2OaeWDeDlOo0_p6xwOjz_94rz2ghxP",
     "https://www.google.com/goto?url=CAESiQIB6zswFWi6kokHe7P0MsnXM8mU1wV0ZuVyhnXiW31fZYRhqqL02SCzG0JXIXhAO0-dYDszL1rc2evpLTiXfKr0x6hW7yZAsRunWEhEmk9FNajYYQLkSqtEN1V7eK5Epv1ugyj9v4ra63Sz-Aq9zVrk_awA83va3FtB5T1aI574NMGruqy6Eqrn4xlLBOfHun44LdLr2gex8pc0to8CBZ90y8pYCbsgfuiaVZAD7ZE_wvYabCVhYli4Y31f9tVqhlvZv2PiVEDgmwpezHpBBEdMkh4c8JuNY8VGXMd6CoY5F5b3nfP9SZJhZrxHmO0is0CCP4W9D91-H1a5tB-IMTszk03l2J4I3VT6",
     "https://www.google.com/goto?url=CAESiQIB6zswFSvX3habcwOD74PzywLUtFjjddh2Kc0f4Yp4-v8eIwg20ypMNERMQjz_Ei32VXddfeUUUOyUE43gFbRpgglMwTHasubzOXj-EWChGCAtb7-BpevTijA-3grPuBAGXZwZ66gOJ3lS49sS1QffpPQA43jwj5Kjl9GZcod-Xbg2YUoLE02MrP2US1ioWEZSVzuu_TsnhQNuClS4X7ZBGpZseQsh19ZLUzjzbidegjTxX4q_oAe7la2EpUGpiSPZMgnvUH_VajEGR0s05QXZBCtZ6OrIJhhi5tXMlG_0JOlDlhYcv6vMVoo4-m5eyH2xvbV4014ScGZDF5sKaUo6WiZD1WLxLRoG",
-    "https://www.google.com/goto?url=CAESiQIB6zswFaDfg-JL25DR1cYjsQL2czHC6zMdFLsJF_H2I2BDP_I0zVa3ExB0ehHYt6odguuc7CML69CDGoGWIEBPnm58jxspFItnd8owvD3W97VcAfZaHGiwhi0wzziYEDxZJOTHTL6hlG_4wyFWLEiI5xDIs2CW5lkQmBh_go_qdWI4IV79NtXpqeI1tfd_0lxm0Tuj2S3R-PjUyg0IZlIzU7HVklb1to__kd4EYMHko71sRIRQVXiMEczyGagsFcUWJEqePKdfSpyra63EZFpcFGiWCzWQ4Ed61sypoRyh1qdhR5BS9g4LQQXxClaBUlNEgDfcCNSpxAsLXOLjScOKsKcSGEU_5wfo"
+    "https://www.google.com/goto?url=CAESiQIB6zswFaDfg-JL25DR1cYjsQL2czHC6zMdFLsJF_H2I2BDP_I0zVa3ExB0ehHYt6odguuc7CML69CDGoGWIEBPnm58jxspFItnd8owvD3W97VcAfZaHGiwhi0wzziYEDxZJOTHTL6hlG_4wyFWLEiI5xDIs2CW5lkQmBh_go_qdWI4IV79NtXpqeI1tfd_0lxm0Tuj2S3R-PjUyg0IZlIzU7HVklb1to__kd4EYMHko71sRIRQVXiMEczyGagsFcUWJEqePKdfSpyra63EZFpcFGiWCzWQ4Ed61sypoRyh1qdhR5BS9g4LQQXxClaBUlNEgDfcCNSpxAsLXOLjScOKsKcSGEU_5wfo",
+    "https://www.google.com/goto?url=CAESiQIB6zswFYwn25_pkKkWKo4reh-B5IMh1xAZzW0VKakL00joyXSDrHQt41tXtc4gzCNxNYAmjD0RfKD10dksgv1REot_821-mGlZDwV5Pu82xjJV80PfspZjB5OFK22EvCMJDQjK7qRvUiseFUiN6ildEX29rhJFVebUKVWavem6rf-q_VqGWC-87c-WUI8ssJJYagPUWpZc9BoKgoX3aCrWMyDh8hUtamcsiDahck5HjyeOB2wqwTY4nXNr6Hi1o2HUDdzaNCxNk7RX7I9lU87RrfzFE0auJuziNdeyazvbjfAnf1OvCnpD6EsFs3qXZFyJRPWsaI5iGBYmXFsgP6YXQWKs4XRd0uHB"
    ],
    "visa_sponsorship": false
   },
@@ -122,10 +123,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
-   "repost_count": 6,
+   "repost_count": 7,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "KS",
@@ -138,7 +139,8 @@
     "https://www.google.com/goto?url=CAESkgIB6zswFa2evtuAtgzht9tfQB4gxMzuhwRczCXHk_4Rsdv7RAQJx6jiN2alCMKNfSBHbgy8j8H9Omh4PMwP2lAXUnVa1iuBwozQM2G22qqVFFbt823uDR-34AoJPJUZAnz2dPt9JRURO8svXp9gXZ5LFzSrZUEEJrJ91mAcsZ-MBAJEKv7FAP17DW1Mr8wP1OmdPC52kUR9aWSzpb3QADsiE1BC-kSs-6t5TjasPgv1JJ121poyosFTosyyc_DPRkiJ4Q56KPZhR5G00S5Cy6AuLavRuKvT7Y2ltUKZl8MEmVSqcihrRUWh8WAgxa1FOsFtqKtUh_5xJ4d7qUu3oFR-MHDt_X5j8lRpO9sgkDqFEgfv",
     "https://www.google.com/goto?url=CAESkgIB6zswFQIMqeBUanO8HkXRakUhmcoN1ezgQuiHw1mkH0vKbwjG-1F6RtEAecsELCb0d4CO46rzd47KfB4fTcMY_AQofMUKCKU5c4bKAtGNJdmE3B-_sxZ9T_Z5e6gk8p1pCjU4IiPo6wvuds5ECxtP9TcDeLqf3rnDe062_pbLL8sNodV3bLJ1xsEbXQBiz_nKKbtQfN5URFLSxCzsce-U5_4QxwMi6cH6Ks4yvRmMK_yD_FSJ_Iyfmhznqbl0fKl1D6oiF5AASmjk8C157Ycg-U8bT3vnc-FtSq2OSHAMBvqQLam9NYwWDcki3p3_GTP60WFEKuZTRXZKMDe1uOz39kSLWo911oDDQcoNtKkUFTRr",
     "https://www.google.com/goto?url=CAESkgIB6zswFR-bWXHIZS24wdpgVki0bl73ZhLhpRkSDTNhcn6Dvo2nQhDUJFB86NhisJTb28IUGmucbqFKR-2a2Ra1LbOueGbcm4JRamfN4hBnz7EweCW52Fstozre6HvNW_YlU-mQlW8oQZG3Pk0XtYLo-KrSeaWJHYM9u77YtL0bSZy5H2AZ7AiQX9kHiqR_quUN4NVndBsgU2dObZa1SwkYC7Lqu-iB2tF9yoocmkf6tv9SiMXyaK-7TGNQyJGBtjjX3Dj3b49SK8ydNShWm2t2umPUpibwpnR40xI3dOD2RfDuypVb55SWdSHnD6LSyIumqu8z18jKplRAbwN1MK11a9EHXTlOpdY0rSNpO17P0qlK",
-    "https://www.google.com/goto?url=CAESkgIB6zswFeRZQ8Z2n4Yl57oZaK93kWy2oh7ko3iwo7T-3Sk64aUibnflUyu8Dw_pb_32SeKcwgX5AWdbRs5Y99xwaFQ4ZrkNlsAx8Mt5KcHQ9nrCPjxdA9Vlm30A9Y9KFJD7q-LTHxQnCO-C-wAJxzgjDUAVJxEdjT_340rgu2zY_gEn911HjFmW-GTndYVJPvX1qrQHRdbCeB32Jw2t3B2pnhq2rkJVxEW73s-H0Ucf5QGuoDtEnFolJI3_5VAsuPb9a4joR73MpFWNESqa96AtIWc_TYLfiFTNYWOAfphCxg7VyfHRrZ_RmNBdBSx697ki9fUzthhLpWFtYr2X3OX9tlibQMU_llpaBDhgkmd4rDwJ"
+    "https://www.google.com/goto?url=CAESkgIB6zswFeRZQ8Z2n4Yl57oZaK93kWy2oh7ko3iwo7T-3Sk64aUibnflUyu8Dw_pb_32SeKcwgX5AWdbRs5Y99xwaFQ4ZrkNlsAx8Mt5KcHQ9nrCPjxdA9Vlm30A9Y9KFJD7q-LTHxQnCO-C-wAJxzgjDUAVJxEdjT_340rgu2zY_gEn911HjFmW-GTndYVJPvX1qrQHRdbCeB32Jw2t3B2pnhq2rkJVxEW73s-H0Ucf5QGuoDtEnFolJI3_5VAsuPb9a4joR73MpFWNESqa96AtIWc_TYLfiFTNYWOAfphCxg7VyfHRrZ_RmNBdBSx697ki9fUzthhLpWFtYr2X3OX9tlibQMU_llpaBDhgkmd4rDwJ",
+    "https://www.google.com/goto?url=CAESkgIB6zswFbfnqZ6OCnrsPY-h7bnu8nr449BI2-adCnanuxVZw1-f13SIKpf1MMarxMUgj9J0lIh4cIyOZYqeYqvtiGWA6Wa-x3AILaZmmv6WOsUjPKqlENsObZAKfR2qBsnwm_1SXcFiMViCw7vJCgxliHDPHQdHjgLqOqafgSZp_1UyjSMGfGhzyJNNJ57_3rRFUCWGNgrW3xU7aqPqe44XvlXFiMrEYTFei7OpXQlJGrUUWEYlDygQDeUt26DX68cVX_KOKrMCLXBQepLMVLdVjujIFVuKFZx2vYnN3Vbw3CFt_3Z9FoF4bzCpvqvPs5I37If7fX9-LEQbl2dcG2Sj7cCV_OjthqLe-WTrHtbT1gEw"
    ],
    "visa_sponsorship": false
   },
@@ -176,7 +178,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -935,10 +937,10 @@
    "employment_model": "academic",
    "fellowship_required": false,
    "first_seen": "2026-07-31",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": true,
    "posted_date": "2026-07-31",
-   "repost_count": 12,
+   "repost_count": 13,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "AZ",
@@ -957,7 +959,8 @@
     "https://www.google.com/goto?url=CAES7wEB6zswFbyI3YomUnDullzCr15qn_EmzYxKXq5CFgeoOf3sr9veXET2pK3b29aPg0U8TVv3Zu7GD_ObqlSwn9EjflEQBNeA3I3aM3sWDQKGoQmjbuJ1zUo1qHPefnB7UFqLCEA_SUSECdgk_Z36eewG_FnV9-1jU2EXJNmucm5NDjeq4aJP5al-VkPgoVCM3RR98ZC44Gi7jVdywxq_QJUOS2kelwJrSGzOYrNdHN51uOviZC1QxtYrilfGmG0aWBgg8ukoaOj_4QFhhN-ulO9SYOdRpOipYAWxj7hAw_DWmLtCYf251f4Xl7i9Coy8gw",
     "https://www.google.com/goto?url=CAES7wEB6zswFai2fSBFekuxrRypAg5LHvV1dwZ2o7l9tUWeLbB4MpAQb1DS9F57ZSKoauzcglsPvU8SfDCo5cw009dAmF3e8OtWvssucbGmbU6VaS77xcAYBy826TD0nMSeWIW__wXKJ_d67mPOcKZV3XdAnrdfI236Iezcoys0egnMmX5EfHgXw90Ox3hfx9KovhO5HLAMHfYRaBPsPfjtwSJvT8-6cJNQBEv5bKzflCsSnGZ9KJLrKF7913boSzHPdeKVTGreu-8VExIdRv0npdhKYMo9VKHXCKb5jUkqCKz40_z528e9LNIgHNM9WNyB6w",
     "https://www.google.com/goto?url=CAESjAIB6zswFZeZJkMPjuhdtEYNaOXxGzm2EvrbSXogYVnUvL2DZjMLICqMQpgMPwKpP3yw4y6hsTbMkEwbQd60dXwUz56UW4TT7D2os6I-ZXGlwGey5I-V7NcMTg6Y0z1n14Ewwwyk6ciDQFu-fS5CvKXo6Y6TiSJMLgXQU3vv77qUC-gkfy4ha3zKn81cnU4GTKIF_u9JYIkZZroXb8geL3GmBzs8-nJJiWzuHtLa9ynSOJgKJxqO1L7EtoNxtJSykHfY75s5owM-EEWZuJN8pYZ-VslP6zTzjRgs_gVb4yBNhGZM7uuqJOGNkc8aDjpKUq0jbDB1OvSaC3CTgZemX602XTHIs1n6NQ3qSco8",
-    "https://www.google.com/goto?url=CAES6AEB6zswFUfN7agpv9D3Eb4Zk3mw0OuaMZgpvSuFgCG5scG9TMjexfaKwkEvsqC9Emnz6zHnJiKMO0I5PreDVTJBAWcTfaosw6hIHqtsxlvrjVl9Aj9MOwkI9Fh7kBEpfmu827sba9dcB4OSS0j8bsOL-tADf6Md7hfh1dlghbuAt5H-0g8fr1woDxVSazBdG0-XaH0C0o7kWAU7-9go_XY9Gg4JWJHDuO44mKIePeTyrckXJb8WDepsMWo9ESdBbg9jf26c45TR0XOKhylQxmnFLx51Zc6OmfUXj1EwCP9l0KDLt3S_QJ4G"
+    "https://www.google.com/goto?url=CAES6AEB6zswFUfN7agpv9D3Eb4Zk3mw0OuaMZgpvSuFgCG5scG9TMjexfaKwkEvsqC9Emnz6zHnJiKMO0I5PreDVTJBAWcTfaosw6hIHqtsxlvrjVl9Aj9MOwkI9Fh7kBEpfmu827sba9dcB4OSS0j8bsOL-tADf6Md7hfh1dlghbuAt5H-0g8fr1woDxVSazBdG0-XaH0C0o7kWAU7-9go_XY9Gg4JWJHDuO44mKIePeTyrckXJb8WDepsMWo9ESdBbg9jf26c45TR0XOKhylQxmnFLx51Zc6OmfUXj1EwCP9l0KDLt3S_QJ4G",
+    "https://www.google.com/goto?url=CAESjAIB6zswFWWTI8qpzlmEtg2NTrpQcp7oq4vl2YXcHQLEpwtX_fH1AobmRyUluzCgx8X2QwZ5HsSNC7bQEXqhn-VUhzCmp5zi-Ttwg7oavpYcK2i_P1izmSt1NkQX6cefhH5sYkSDDjauNiCkO408csuvBctOByiuFkxrzCGmMykUJ2g4U6JMmpDbn00vK00YLKS5ZA4GpKIZyzLrJnsDv5QMrUF3Oh2F7wytwj9RxUn6EtUD6iRa2s5V7RvU3BFVdcsBYNpAbyi-qQHsq5bdR5644s3NVNxQft6VYK74mCF1DVVHJwVxXeVOp5vyoIfLiEch1ImFPvIko5zxh_nlZNox73dL65y7SOZOSWzV"
    ],
    "visa_sponsorship": false
   },
@@ -1470,6 +1473,30 @@
    ],
    "visa_sponsorship": false
   },
+  "cambridge-health-alliance::MA::general-mis-bariatric-surgeon": {
+   "archived": false,
+   "call_burden": "1:6 general surgery call, no trauma",
+   "city": "Cambridge",
+   "comp_max": 410000,
+   "comp_min": 335000,
+   "employer": "Cambridge Health Alliance",
+   "employment_model": "academic",
+   "fellowship_required": false,
+   "first_seen": "2026-09-28",
+   "last_seen": "2026-10-11",
+   "mbsaqip_mentioned": true,
+   "posted_date": "2026-09-28",
+   "repost_count": 0,
+   "robotics_mentioned": true,
+   "source": "google_jobs",
+   "state": "MA",
+   "summary": "Harvard-affiliated academic general/MIS/bariatric surgeon role with da Vinci robotics, teaching, 1:6 call, $335\u2013410K base.",
+   "title": "General & MIS/Bariatric Surgeon",
+   "urls": [
+    "https://www.google.com/goto?url=CAES1wEB6zswFW9xySz9HlO3q6Cx1rY-9Zf1unqKqKXMjNyLcdCUEUzIi9lYDmYKu-60xFsrTbW62Mo_r9ak6RVotV45ii_Eb2CTOYVy4FciUD9D9Po8HbqdNOd1WgjlQNQXYcZduM0kAQAit_IqehajyU0qSnXgjSMJQahUez2hY9T-avh7R2MkoZlnIhuzhRTezfBZ1NN2oODyaVvm9gAISTHl-p4-XL2OiQsUkuXz6El3BMBnvtTy1D2u3fjgGUJN1_fh9HiAZ88ABP-0WoqC73PL_3TV8RAVHg"
+   ],
+   "visa_sponsorship": null
+  },
   "cambridge-health-alliance::MA::general-mis-surgeon": {
    "announced": true,
    "archived": false,
@@ -1596,6 +1623,31 @@
     "https://www.google.com/goto?url=CAES4QEB6zswFScEkxlJ07nA07_pN-ew8WLg0C0rkqIfZ3ENmcUvSm9cYYmJy8-T6HBk7KL3paot96PSi-Rs4SVDIFu1AewONVV47cWruhjQ6p_zMKG425Jp774oZX2tpyrCNBo2YuIYBhG4aftjzAH5DrW3qWo1JvqLgI5qRHd_PVQin1OsqYNl-2q593CQ5VnIjtpGwT6YC54B0U35S7bYh53qmW6Wws9xoQN4oHj6w3Pjz5XXKEhJPCpd-eHA9MTqTTuzh0mhxFe3mkbONNjC9iTjsWM2KApl1Eon839JBOm2wag",
     "https://www.google.com/goto?url=CAES1wEB6zswFdHCCv74NWO_h3dAFHxzMsw3gr6TdlZIKkKwfxq_yKOKPgL_DmCyhFZJTJAWsLTtfJb8nOz793nessEgVeYoUKDkKRLyfR96PGbHQHeQwc8yfXgZ41725gdRt8rKAwrwppL8fDsEYMjHR6Zeqp8nmMgrxQ67vzFB_tle_uNrimG9iOPrHBp6ATSxZWC3b-7L6RKnaUWozqpcnYqBZklKUMVEEkbCyVhDBrKHmucPHo06nu2aqICi26Si6eVRViYUKkJujG2iYPrLxXe8NcFVZeVCMQ",
     "https://www.google.com/goto?url=CAESxgEB6zswFf2WTDaq4s29QQVHMXpgwoME478m94G13C6_nvkJxsmlAZpdP87Db_9D7dKb4MAletliawkreuhOgT9N-CwxtUyJbIVo5BFFuRM1dR3VEmgbZtV4KL8lx-L2BNGqcfIDzyyMJDBNNIkfm04NoIX8HDz4zg3TpZAbyJR_wulIZoU-d9lNi8FO3C00fsah5hzJ8keD4zCSaFBm5w_lOkdXCroeQGyvlSazkkknLZ_lojphFN8CAkXZyhvRG4xK6Nfj7IA"
+   ],
+   "visa_sponsorship": false
+  },
+  "cambridge-health-alliance::WA::general-surgeon-mis-robotic-bariatric-expert": {
+   "announced": true,
+   "archived": false,
+   "call_burden": "24/7 in-house housestaff support",
+   "city": "Everett",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Cambridge Health Alliance",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-10-09",
+   "repost_count": 0,
+   "robotics_mentioned": true,
+   "source": "google_jobs",
+   "state": "WA",
+   "summary": "Full-time MIS/robotic/bariatric general surgeon at Cambridge Health Alliance (Everett, WA) with HMS faculty appointment and resident teaching.",
+   "title": "General Surgeon: MIS, Robotic & Bariatric Expert",
+   "urls": [
+    "https://www.google.com/goto?url=CAESxgEB6zswFV9Cik0yXGghyxSkb7lri9Bk7RYeehi1PiTUlZi75ia4oVZmjs3r5fZJmCBk_m7-XdQwD_bVfmX-27BL_rTKmqJNFQtxi_R8tT0zZrgXp4DStuj3dfxlbNufzgRB5-1KI4sp11exh7oqq_y5yDj5ZKqiu1yzc0tgEd8uJE9YOYDoYvLf2-u_LliTmzRpKwvgiJYu0EAYwMOg4IKRLwKYSV2fwZUTtnCI-pDV83jvdmN51pm4_hsZLWXl9DQkrf0vCKk"
    ],
    "visa_sponsorship": false
   },
@@ -1733,10 +1785,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-04",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-04",
-   "repost_count": 4,
+   "repost_count": 5,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "FL",
@@ -1747,7 +1799,8 @@
     "https://www.google.com/goto?url=CAESigIB6zswFUbHtkiabPsEW619D6xH3UxKLVUZMu2IActvbleI_XVg8c0IzP2W2lHyoSoAt3wlc3fyoC6X83OUkCjl8N3Ea-U3qkBYD9-SETdi_k0lImzAjybTXh6HoI2-Sr3puktxgLPNCacocFJin4pxAunTW-E_6nauxjagYgHCRYM-xYCQHkgm9KCi1aGdfx_mGvbAk6ym1jUjMLO4KzqiPG2yV_3F8k4DmJL5nZZWTdaveNpEtEEIvgqpEWYdQwsQHmokDYD3-NYawcQJiIrlLSuY_RjhJSQx6S6ugOmURZ1oK4WjYAa7bWrgms076QlBGYJ7mggaaH1DQodCafoEzbevEN9CebiAXg",
     "https://www.google.com/goto?url=CAESigIB6zswFewNL4pO4Yoaj7sf-sfgO5Ds9ihXrrUJbfYLwhadeuZSWhF_oYOI0APEqMrIiK4nUojRPGgPDzyDS1Xp-i7mKmJ2CDgwoLALeRT49wKZzQzvZ4GmlXPK8i7pIwaSuyJkSkwIDfKlTpzweSwm_8Q_Y-xOTQVy9lkqASiDp_6DvuzJH8wzatC5d39wJad8afzp1B7AQXf6q1XBiu7GqhjLgWTmjFzS_dyL_CewUSxFvg7GmUmCsXRdw7a_NOD2E3zAlbMmlVGHMW4byjD06Byyqf06-iBGo1Hgm3Gv2KIe26KgwgZUfeK97JTNScjeWNVlPc4MiyHxiaKZ58GpALWgHngxe2pHPg",
     "https://www.google.com/goto?url=CAESigIB6zswFUbX4LAbJmyZl-GkxyXJnlchufDNZo90ZM4ilCsmRouzD_tJTN12iqD83WxZDmzaY2ejsKAPPiR3j1O_tPGpPQX9QXzVJL1cnuOjhAN4cTvJKM8-1zfk3Ar0yjx1cR-pgUErWcT0S88l9HtAPOoaRD9rzSncpi9vzNuS3844xH484Al9I9EJyEMKKSvoQAM_DFpSIbF_zqLnXZlWOb_rDUDOUXWPriTeRgj5BY9kAOLxe71s5ohbLHug6ehA7K-B-46HwryT8CrhIDc8x0SNv-mMw1gJxs4qFyGJeL6IEesln7Imn4PGHHKVP25IdaS0FUd2HpLQIsOHt5G-CCFD6F8DeNjSAw",
-    "https://www.google.com/goto?url=CAESigIB6zswFUFYQs8ITYnZB8nnEiWub0OEDBQXdVltSDISi8-TZd_fjpxa20-O00GN5n0PrSXDPlhgi9GIQrHtUWFux2sr_FHDGd3-PZzdZAmSABbXSP8XCr8JNdGA-eDaHLB48biOIJYECo1MAfcm6-aq3m6EOy4kBRowPLPYDHLoM0EsCaNC51zzpjWkLhuDNqcQ-ZAkPfinBHeY_OZSQZlYWYqrocNxPWAFHYAAQuf0nxp7_j3-2_3jPrsruim9YtfDoPTKJywZptvZhGinrgQ73c0Zh_kIlu5Q8hGr4YfZOZt-qxdyO7gsTSKwLovQgwTjsbKeL3RlS0T8l3UkmCDVO61lQh7WubELdg"
+    "https://www.google.com/goto?url=CAESigIB6zswFUFYQs8ITYnZB8nnEiWub0OEDBQXdVltSDISi8-TZd_fjpxa20-O00GN5n0PrSXDPlhgi9GIQrHtUWFux2sr_FHDGd3-PZzdZAmSABbXSP8XCr8JNdGA-eDaHLB48biOIJYECo1MAfcm6-aq3m6EOy4kBRowPLPYDHLoM0EsCaNC51zzpjWkLhuDNqcQ-ZAkPfinBHeY_OZSQZlYWYqrocNxPWAFHYAAQuf0nxp7_j3-2_3jPrsruim9YtfDoPTKJywZptvZhGinrgQ73c0Zh_kIlu5Q8hGr4YfZOZt-qxdyO7gsTSKwLovQgwTjsbKeL3RlS0T8l3UkmCDVO61lQh7WubELdg",
+    "https://www.google.com/goto?url=CAESigIB6zswFaBxvZkZ3kj6Xd05AEo03WTyKV9fsM4EKeWreNGl8778EaRkj4Kemh7dp4eWTS9Ofuqv8yWC5dzbOPcvi2ZJ90htiiPN9M1UlxuC95cuweznhkT6K7WL-vHr8hNhOTztZtzVooN7ybbP-n1lXt5BpkRSbaDrg8TzGPdw8q01GYYPfPAyY9so6t9wGTrymnx3X7TMk5wvkSKF-e0R9-7laxOJcDP9Mo16hd9OOmSJnfW8YD7BbUhwRR8yf_HvwiFR3o5bhe51a5rcCg5frpNeMwwcC41aszw44_LcaQ5l7yiEf-9x7E-gu4XnFoq9sTloftvfuCo6hzuJVivNJuxhJIwp6-ia0w"
    ],
    "visa_sponsorship": false
   },
@@ -1934,10 +1987,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-09-30",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": null,
@@ -1945,7 +1998,8 @@
    "title": "Robotic General Surgeon",
    "urls": [
     "https://www.google.com/goto?url=CAESwgEB6zswFSNezPLdMTatQ3K0PxM14AqAD5vlcQZg2sE7dzv4i7DzuwSyCpxSln9zhDQQI5Wr-55rUNPkbBJT6mWK9illwlXZ2Spp0wbcg3bPQYaAsVyzWs2b-SIrxA5sST2c_mkBXm0dkEW3PBgxOBT8Rtpla1Io_zxNhE6GRCITASKBxyugbDbbpTh7Ji_8MppUlyusk1cpiGlOX8BB8vS0BhsGLox48A9z6Kl5ldlNIk3Pq0BJ98ezi6v4kh9VnxBy4A",
-    "https://www.google.com/goto?url=CAESwgEB6zswFU4lWxs209DPO0vN_KMdl1hJdjweSBmVGAVE3yqO6ZPrx0JEdHEw4ijbTXzammvQF_vuCKf7b6w31MmKTQyQbau1YGx3CmaJEXAQnZT2tym_dfpbNwiVbgEg6yJxr3rCq6IaKkNq2C_tj-wco3h5ILDWV6vE9oLL_Ry9JKEizez60MpC8Ic5oBN6mjWYiIANc8DNchcuvZY9hc4REtZ-8KyRXKGZ-6w_QkWvLuUbeLyNcFQlMkKzMiLRLZKLow"
+    "https://www.google.com/goto?url=CAESwgEB6zswFU4lWxs209DPO0vN_KMdl1hJdjweSBmVGAVE3yqO6ZPrx0JEdHEw4ijbTXzammvQF_vuCKf7b6w31MmKTQyQbau1YGx3CmaJEXAQnZT2tym_dfpbNwiVbgEg6yJxr3rCq6IaKkNq2C_tj-wco3h5ILDWV6vE9oLL_Ry9JKEizez60MpC8Ic5oBN6mjWYiIANc8DNchcuvZY9hc4REtZ-8KyRXKGZ-6w_QkWvLuUbeLyNcFQlMkKzMiLRLZKLow",
+    "https://www.google.com/goto?url=CAESwgEB6zswFSKP7Gwjskd_LKjtdV9gw7T-lh-aQynpPrsxTw9na1Tl1thfqJVJC2tx3coMBhqe0rkwKqoOFOXndLQD-ralV10vL-xVaqjDnQfbzBoKCuEUoX56Psyzl-D2OL1r94rViVsr0_v0ig1u60T64FLwAdCYN3-8ErHFVcUjJsFBxocmdnCVc05x3R9lt2KQsnmeZJ9Sk-GsXbWMOfZp0_rFQai3uZA2yaCWtCDbxtW3wqQk_EDaoWGn23AapCcA_w"
    ],
    "visa_sponsorship": false
   },
@@ -2076,10 +2130,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-09",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-09",
-   "repost_count": 15,
+   "repost_count": 16,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "CO",
@@ -2101,7 +2155,8 @@
     "https://www.google.com/goto?url=CAES2wEB6zswFSP2AkGeNo8efSncAeeCGlmtE5xknsm3Ji_5swiVWb-dZz9UYpoI8csSWOvZvty7qPExXc6-yisv0pD5q0G1u7EGSZirTcC2MTz22u9IMtIyrh2SEKrG85D99Ni_8G4lP_suzlwpglltAxqljNIxDqw4Fz2rYKS97RHe6PZd-oxQKpTEwhp1kTiRsUbDiTwSKngsnSMOzDUaMDVZ4d59bAJjjn1qRatAaY1W_Hziwhudez-eeBRnOhJmHiI7aLuY2XUM9VAyAdFhmeDmt9axgR3gyireiTE",
     "https://www.google.com/goto?url=CAES5QEB6zswFSQHM9VN4Xivad9M1sgDyiHS3nBDoo7u-DgLwgHRK5IilvADi66eVZedLlsTUxlp7jHg7A-7KQ01QReaovTeyfEcFXjEwvhf84Roo1HW8hbsdmkAoEkFtIUbgVL1yx7LWoYHNxwEuLi39Pp4INo7Qe_ZWzIIaGIaTvJktj7dpiLYnXhJIbuNp748HSelBmieBofOOiKxYQaEBCUcECwfOVSQak3vqNvkmwtonnzlLtKoSnCmA_kp3Yjht5KVAn46PkH8GjxjJzEAsIP-nItMBH7ZA4AGpZbMMZJa5vc3pPlE",
     "https://www.google.com/goto?url=CAESnAIB6zswFcVNlmAWjxER-7wNwagOz0YN1i8gSy1PAIfyadhFCVoAix7azecAN-hJT-Uyxx4xpvw2Wn6Vom_fQD8sHTRuy3i5Jz5bsv188_PO0IGsE0Mcen9508oJLAwiAK3AuaRO8_89f-1iyRHpHcJN0iS-PAZLNlblLNHUtHEFMRLxkyvSkinza7cYJEhoE64gjlnyKtzHAulx1Z3UIjPBrPsDBTyXHXTIB72_45Kh7gb8DY5fnj_rqCqlDB8AS4GCa18D0MrxwqjwDt-Vx8gI0LNU9tm_ZtlHcjb25ufktiHf95TmaJQFNnU7SHh-w8Ka0l6qsNTdg-BgJmlmBakJKbBqkpnoe_rj4etqbZvTcCROA1HM6IQgd_zwyQ",
-    "https://www.google.com/goto?url=CAESkgIB6zswFQQRa0pUaKnMjLanOESAz5zpEIR9czYD_hgL-Hg-eYC89F7w3tLOHE6Cwua1emAq3GExrJ69hHwv0LQ4ybg6HdthO1L_7h4I0TKZ9JHcr6R2rQ-fT5FHglUoyLPIpb3VX_n62VQ0lors_i6-Zuc_xEB9DvMTHWPIzAkkXglnKGB9HPBRs2COUeKv9zmpflvz3aaYesXmTE8VRCt4FNvfL-8mRGhdjAzRnTBV8oyK_cO_rjw72pezWmEUHS0MeQGcrS5oOkcGf8Or_pEqQCE84yFzYnYlFMMVyzUHZ5z_wCxomxzmnVRqtN-B_stwhATqGYYAbHOIa5TJzk4B-93lmASteNJq9qVF77cBAFo5"
+    "https://www.google.com/goto?url=CAESkgIB6zswFQQRa0pUaKnMjLanOESAz5zpEIR9czYD_hgL-Hg-eYC89F7w3tLOHE6Cwua1emAq3GExrJ69hHwv0LQ4ybg6HdthO1L_7h4I0TKZ9JHcr6R2rQ-fT5FHglUoyLPIpb3VX_n62VQ0lors_i6-Zuc_xEB9DvMTHWPIzAkkXglnKGB9HPBRs2COUeKv9zmpflvz3aaYesXmTE8VRCt4FNvfL-8mRGhdjAzRnTBV8oyK_cO_rjw72pezWmEUHS0MeQGcrS5oOkcGf8Or_pEqQCE84yFzYnYlFMMVyzUHZ5z_wCxomxzmnVRqtN-B_stwhATqGYYAbHOIa5TJzk4B-93lmASteNJq9qVF77cBAFo5",
+    "https://www.google.com/goto?url=CAESkgIB6zswFTzngaVbq6DWnw37YIplhftd8jnRy34enZ_qm9eUSge1S0NOlFpeS2NvQafGjJSOwo2bu7ff0z2baL1S5X7GasEZ_PyjIWCr9ptPrvz8jGHxOyTNXJuuV8QbrUXpO3B8kORc3h8wkFSUVPGHdI-n-O0PaJtkHE6M5Ybtvqdk-bNwOUNHfWAhRAl1lC3WQeN22P1MvkeQ2DQaNzizrBpZN3ocZTRSdqGks1EKxth8Y6iHCjWaVfGLIcPJ96fILtSJHPWcgkFo7cdrX3pPlrXlh79YeWWTJqHc3vRHofnHTlC8GokxyegabBbd1nY-ouHDkE6qyEYcf2PHQGF0wOWNALqBwlfZ0t_ZaWFmAfEA"
    ],
    "visa_sponsorship": false
   },
@@ -2226,10 +2281,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-16",
-   "repost_count": 5,
+   "repost_count": 6,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "KS",
@@ -2241,7 +2296,8 @@
     "https://www.google.com/goto?url=CAESjwIB6zswFfaoJudonJdAqOhOUYPEGDYC3L92xMXEsp_BNAm4ADFJskxqsRZTrr-9eRkdKspJKO7pHklkqrOuhvd925x2y-tDt4o7cNOVwKjO-j5IOSakyzdOwDVwMND2M3Le3d08QncYVyJTw4ZsXHDPdH_uxeq19lr-BhfM2c9w5QNRUT7Va5IMn6ksr1pzkzB_v9pWPKbJvF8k4XPWBdiUERvoVvrvyxc7moyXSJi9y864bn9eIugTVfLeriDYYPqRoUylzK8UqirqZgE9WxJxMNhFpFphmnqp5wU79vBJsHkbJm1j1YMGMSlVB2-nwWY7B-W3l4H-kv_yTAl7IB7tBo3q1MtxXn2Z9enqMkmO",
     "https://www.google.com/goto?url=CAESjwIB6zswFY4HfDEN0__W0o7Mny1cuxCP9aQMWwrdRObXPeqi0yy0BijQYB161wEvYN22uNBoJzhHgr7WP-ArdWlDSA6jhWAN3jrqduNRz6Oe3KkyD0oKjajbUEOcy-KXNfjZQAPCS5noRJkG--UB2XXwkrgsBnaprCSPF2d1kEBd-s9ak1iId_Rdkviy47XkJ3cEXtoq59sAOW2zmibXMOKY0abxsVHQqHUIRNC92bnoUTNOOOOFISaE2JW0OYH57BRlt3gR_2tjbmjKpWVKZPKIFrdYNGquzsjxX59Q_cUTvcu6WwFweUzqLeqvftK6Ur0bmr2uvV8dkP176zNmg7vlfq5h67c7QCRyMdJxO5P5",
     "https://www.google.com/goto?url=CAESjwIB6zswFbmQ_vPly0jHx-Apn3gKx-LEWhw88hS9tmsSX4NkflwpsuwBEPrSujqKw8hDo9GqbbSNpJdIM0M5v2sVPXH6agTFyKP_iUCDbGP_RkrXcH3FAWnRQaQFAv89vxUVZgfTr5Pwt5FIJvQdFk5uGqMlaJ3asfptIYe8avJIJAVAGd2Oxf5Lr69FxkXZ1MPRlygOx_GhLxVtduocI10iDOsa_MnUQyhtZeckBX1cUnMI3HnHjWC2V57fuKzzKe50o2ygNY6ZyEpWyB5XXFLu4u4kAuPuYzfZCtEZDp-ruI5Qf4-iLAs4FtY-fsWfv8plow8kQpHZ2HtQpunrYFVWBRHSB7rN668wt_3NgZ3B",
-    "https://www.google.com/goto?url=CAESjwIB6zswFdHs_1whGyJ6-M4qbD09C-qOr8JEdEx0O3Zo5wB2fUtAI0toJTl79l7D9N32im3pGX340rsGA8fjDt2KGx8DtQFrpflAtreKYflpRq--955lKyK4plin6aPuO7VQQVQfZc3G95waU9P6_aK6cnCb5whdx9AkGt22dw561YUPm7y9QRUGIQuLQcNciFRYF6ZSRqdvUi2eCsYypAKhdmgamQFpzoSn540PX-x8MZT4mEKtO967vce61BxStdLbKX1wcM5xzmB0MUCsTL4huGQ7e1udV-sH4PVRHefjWowvH0e__1SYI_sx8nKC8OnTfJrShtB0h_wzVpnlYLIzo_MZ4S0b-5i97TGKoHSh"
+    "https://www.google.com/goto?url=CAESjwIB6zswFdHs_1whGyJ6-M4qbD09C-qOr8JEdEx0O3Zo5wB2fUtAI0toJTl79l7D9N32im3pGX340rsGA8fjDt2KGx8DtQFrpflAtreKYflpRq--955lKyK4plin6aPuO7VQQVQfZc3G95waU9P6_aK6cnCb5whdx9AkGt22dw561YUPm7y9QRUGIQuLQcNciFRYF6ZSRqdvUi2eCsYypAKhdmgamQFpzoSn540PX-x8MZT4mEKtO967vce61BxStdLbKX1wcM5xzmB0MUCsTL4huGQ7e1udV-sH4PVRHefjWowvH0e__1SYI_sx8nKC8OnTfJrShtB0h_wzVpnlYLIzo_MZ4S0b-5i97TGKoHSh",
+    "https://www.google.com/goto?url=CAESjwIB6zswFfTCJvw2eS9VhpcEl3lIJfsY6VME1hur7cHPGtbe1pRl0cZcUCi66bddvv9veUqtghP_EE9UJ84Gif2dYFIEik8N6I6gxtjR66hHGAHU2nAlYBwbhXqiSC1j9v_w-fyNS3OAW4Z1-0AJsSkAa6uCQwgZrSRRX9KN2_yAS5U6JKT5qCVOr2dq2Q6fTVBR5P0woQ3pkvRqzoZInJGM1Xy3LKED8P3plFaNzAU8QUHvsbwUHVlpSFvNLzpwYRvnIYYXpjXtHf8W1zwkSEXGgObnl4hDPbvx20SJkpa_OohKPN3S9NZHuwqA5WQzUbcCQKwMxcmTtlW6jXPl811I2HX7-lGQVIzjiQY0iP4p"
    ],
    "visa_sponsorship": false
   },
@@ -2513,10 +2569,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-05",
-   "repost_count": 3,
+   "repost_count": 4,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "NM",
@@ -2526,7 +2582,8 @@
     "https://www.google.com/goto?url=CAES4gEB6zswFTi5JiuWBHBf8CoaJxUd9M9shC9NjLPmPsK7h2YjweSgaFbyuiFcDg4sXBB8nsakSbWTQdikhdLulUUtLiRAQ6U0X4O9attAzig_Tw8mGvwk75pg9aQY8oVUfKhruYNAOf9ocm9iVojISGQcplOJRcvb-IToqDEqE-w4Hgn7sGHdqUZPprcmpzasGJPn10eYaFEwVODrh12uTbcuUl81mcumB_gASwUqFsNkqA4yF0cjAjAGSttvr9AaxMLg1Bt9VCzKmzrEIcHhyxa5seuir1iISDzHkEnNTmiFOkO0",
     "https://www.google.com/goto?url=CAES4gEB6zswFZq7wcLyhtP44QA_CV83EPJ4G3pwGfbu9mgFJZBce6PM1Shluos703N4fQviVVnMi8eBhnq_OYQk0Gnwxy7mYfvbxq8TY3VKQGS8EW4ed1mpQlzl4R5jEfFb9zN9Z62eMjW0ySkz0NzEL3HXM461Fd8iKwN5hVkw_SHFXpeM42MMQBUdAXqJvUe6Pjwe3sP1sNvrdCwqgLy3_Nhisy5PX4ru4pb2ggVIIQohqtk7rs8AxvNw9aELB7TnbvJejB-uXiaDz7QFDttH7Mg4j7PtWc9O10d6at3XllvzqFIq",
     "https://www.google.com/goto?url=CAES4gEB6zswFZf177B2e20dPN-esq63wplNWAaXLZ9cjH3he1ZN_e4iLRiJmFnx0Y0aMkoS2VwjnzSyZ_FQMxUx6c5X8wmYLildoC4PdQRCIHjNwfVOwGcF4iX8v_W-JB96z2lduZknnNaIGjMLNrgrePUi1kgv0-slpLOzPHWJgu1LPftxFNIoCbjx43OTN4L6Y92h0GUxir5UHj5RpD9zHijSj5ce3iDLk_7iki8IbhUdzQWwagWJRlslMYArA4Tljzlo1hJle86JVQIAitLbYmGJMj-va2eiNACrg_i7FKXGV8aD",
-    "https://www.google.com/goto?url=CAES4gEB6zswFThvSzHwY1TmKrRen8lgIv7Gc3CT2WSQ6XQjqncGNjxfMIfuPwoRpvZzFKF5X3alxJjE12_KrEnFKLXh5OEe9qzdBiEEYM5Jx_S67e5yeorklhyr32ojWDsevj8Ss8e6W3iikcgGEoIMfI8dvK_J7M3gmUBxK7dCfOAwDxGADCJf7G-Vq_ILJqh73uXsbgxP0rfjAeuLOTbM6aKn-oob0gd4PqDu21TJjlt0YrSYLrJYrz-VCxijwVzssndxxR-XbIyuc6JlFZ2FmajF05UwHVthUDtoAS_LQyfFMRZx"
+    "https://www.google.com/goto?url=CAES4gEB6zswFThvSzHwY1TmKrRen8lgIv7Gc3CT2WSQ6XQjqncGNjxfMIfuPwoRpvZzFKF5X3alxJjE12_KrEnFKLXh5OEe9qzdBiEEYM5Jx_S67e5yeorklhyr32ojWDsevj8Ss8e6W3iikcgGEoIMfI8dvK_J7M3gmUBxK7dCfOAwDxGADCJf7G-Vq_ILJqh73uXsbgxP0rfjAeuLOTbM6aKn-oob0gd4PqDu21TJjlt0YrSYLrJYrz-VCxijwVzssndxxR-XbIyuc6JlFZ2FmajF05UwHVthUDtoAS_LQyfFMRZx",
+    "https://www.google.com/goto?url=CAES4gEB6zswFcnNm_-PilrUL5hnu2zElNgaT5HZetcpNDEVGDsGWXQWQ2KmFPD4_lbK29sdrt2CsN2Gc1fM3ViJkTqXurOcmEw6UEaGRZ0WGK8pWuYUiiu8AVjkpbCmQgumJHPyHyF12oSkN5COsSkJHDX6y15Ia2Ercome1N-UxsNT3Veoy_G3Rg14V49mIZtTC5cuOGg99rGgScPt6kNkD-mnIghP7kuXEXd4PkY6hs5rgOJX6Wh6okm2POWSMHMnONv9zrLdfyLLOuXvgtmu5kK8updKTiBcgf7XFz6OhupUEWDH"
    ],
    "visa_sponsorship": false
   },
@@ -2540,10 +2597,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 13,
+   "repost_count": 14,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "NV",
@@ -2563,7 +2620,8 @@
     "https://www.google.com/goto?url=CAESkQIB6zswFfhzsXoQZBEKtRA1b0_7UAqUinIGb8L3mjdYK7Gb-ffY4fOK7UOhrDArXVmmvteO7fG-emKOf3eav76Kp9UpcQe_DMQRcSJM1m4vAxOFaA6nTkgDmBo9LJbBHj544SXuRoCS1BZy866zQgSVrkVRHTVXz9_TlyoZVPU5R638IgBXmCAUXL88Cvuaq27-PR7AU0dlqR0J58h5Dtj8vntzfwog3SEQ5d1cx7LYQHjAreUD0YvKE3f62EKw8EnZedAs3FVdqQtUuZ1Sy3bqqVK0Nyg2K7UtJ5pLiAg2SGzd1CQlJpOyIz54iAGbXchn4KPX2SVyNwZDF4alxZ1ms9toKKkAM4_6qBUVhJB0AwQ",
     "https://www.google.com/goto?url=CAESkQIB6zswFVmizuEwB5K16flzAAA5NJncM6bm2_-ObU6gvRyn0j3Z3CDS0FKbqXeCoiSoAI0iLrVm3oqNGqhzyesRWQfuwQRTQpqxVVkidGF84ur9ijp_N8t8PM8BurB6jeVd5tRGknLnM4ecN9ffaov1PU9Zqahb9LYCSoIh5HxoDNX6qRDG2msf3cZUq0jRKOhR3PSK06jUV0okI-LTx6KNRGmjgNBEzFKyBpLA4z0mxPdQ1czg2qbpDHY3bAuJh4aktPReHmjPQR9prd-68dM0t-uZK5UIqJcLSi8o4haZxZ3KY34Z-gF4rWe4f8iXhy7U11vuRJqZe58yPcBWrdQ4PhHEibgbYq-qu-GUhY41Clk",
     "https://www.google.com/goto?url=CAESjAIB6zswFddsqWTSLSDUF62s3Jemes9s9dgcQI4hGIP5E3dECpgkzS7G_Rd0Q0xwklu22ZxV73BoIDa7cwDHlC9Z0aBi-1RXjdh4xJ-hQx0KaBA27EsS2OHjMtR3LLJd0YZkwXyh5rp6Lfp1UEryuyhYyxq2AVJqAG64EIJrYxKfIoPfUnwTh9a0lxMMtVS1o7GQTbiPj78FfbuvBgGh5lhNw05HRN0rM2bqLAK1_a5mZq8Su-jUId0G1DR4Cp9VaxK3doW7KSYhaYKac8qn5b7iM-hRwYD6jr_GErT5blGb0HR5W3tbbD8fOuf0gnpbvRr9kNzIZlHvO4rmrCzqsfMuaRylW3rFPeAQt8KA",
-    "https://www.google.com/goto?url=CAESjAIB6zswFSu8SuIEwjO6B5WnB-YITiBs-nIo3EW9DQud5axloiarm54PsbSwMiIYBNmx5slw60orA1QEkU__yuOhf_2PU5w8sHD5_pm2lYn7EbyoOMOLDHSb3HHo5DUEIPSrhhUEP74KgdtJqsDhE7nGpfPbSGj4JytiSnxPYg3768F871Os9wSzL2ePSOON4vf3y3dc3pCsa4h6VFJPn0qcqVSrY_Cx5JGYiDHbrzL9VAA3vEwosY6Wy6nmonCWAxxPysxY9jJZczy3xIogoD8X2REonZBUFKbc-tfePTTZPZTbtQeuCRK9jU9oB0PuVryLnDq98Rt5g8UL3D4EFrrQjj0OF1ySlkbcMVxj"
+    "https://www.google.com/goto?url=CAESjAIB6zswFSu8SuIEwjO6B5WnB-YITiBs-nIo3EW9DQud5axloiarm54PsbSwMiIYBNmx5slw60orA1QEkU__yuOhf_2PU5w8sHD5_pm2lYn7EbyoOMOLDHSb3HHo5DUEIPSrhhUEP74KgdtJqsDhE7nGpfPbSGj4JytiSnxPYg3768F871Os9wSzL2ePSOON4vf3y3dc3pCsa4h6VFJPn0qcqVSrY_Cx5JGYiDHbrzL9VAA3vEwosY6Wy6nmonCWAxxPysxY9jJZczy3xIogoD8X2REonZBUFKbc-tfePTTZPZTbtQeuCRK9jU9oB0PuVryLnDq98Rt5g8UL3D4EFrrQjj0OF1ySlkbcMVxj",
+    "https://www.google.com/goto?url=CAISmAIBUDfUEgFkOOw_HeWm5gJVEoHq0O7kNNDjyex1yBibNOVkF9WPjm5VUKDCAUqK8iPSa-oNrg9Cchfs_w7nDZ2KNd9fACOo77I-BIwi8ptjkx3nNREJVWXm8cffN34NKytUkW7nYUbABXPGDjG2bSjK4AqSt6FHdBgUAySE91tEf1Vh09m39rht5uB1fSWHpI0pz-XzZt1moHf1SdqT3LvnggxxKw2czLRoLjR_VISEQ9zbQKEXRBtDPncfsAK9foRfK3sjXXAeXwQBTvikutmOeVfc5dKJl3wdrh7lMkMRNXMdJ64vB6RrDziv_frnnbIDrKbLqB6HLf5Yk84eSeQbf4P5lCwFWrnaVZLB5orCbqCFiz7m6pQW"
    ],
    "visa_sponsorship": false
   },
@@ -2577,10 +2635,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-16",
-   "repost_count": 13,
+   "repost_count": 14,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "OH",
@@ -2600,7 +2658,8 @@
     "https://www.google.com/goto?url=CAESjgIB6zswFRfDqT2IedkGzLXuZA9LuAbyu2HQJKoG2mU_E1oCdDT375zd_zfnxq9NLyfcIwBKNZa9ORE-n-b4cWOY0nWboB7OZrUpfmhbXIo3-OiTP_0CSY6WXH31irjr1wVWp-7X745X9J9Io0KyW8iGuBiwGtTKR6l16iaBo0NdWXz_ebjGntK5btufIFCkWY6WLg4ppINUePlgqQnxc45crFi1QMy2ukh4RPtYKg8sl9yQfzyBu_dcRe7H0OtvAdonuKmb1yHBDKtJK4CFSjIo5HncjLSn5Tez8OIeKbAgBqggTN9Ob4EI8AHYMVBn7SdgqD-TZX78NZBZq-WkZwCQFBsAbnzoVjpN7s3AWDc",
     "https://www.google.com/goto?url=CAESnAIB6zswFaY0YcyN8Nujctybx8aESgRx-4xb6alz51n7O9FrSPGZbC98frJhx4FjiI5GCzo_qA68Hc9AjJNmMVxgc37mGlBAtsUaUYD44o4OJXNq6gmd_2t5-dPORlp8Ku3h-pErvUd7EjzGaaQYrtU2wE55vsDAroHWLLXxJURIf2vUDw6-ZtbL91aZrEnSpG-uQeoszi3DbhaXs8yQcjVmdAip9mAdywB3KzFDaVSwDrE0fasAlQXPnqrWwo0e-5HG7HY8wsSHt_q-WY993QU_1LV_22HJEu-q51lgl1ZdUVU_PK1bSvPAHbqOAvQA2wlFwE-O8aUu1gmv3Uo1Ghq7pA2IPtbZnH-xgx7D-L9iE_19_2qfnOvm4V8JQA",
     "https://www.google.com/goto?url=CAES2QEB6zswFdyuDkvZxscJ0wCss0LD64nZxGeoeK10U3X0yQNmWoI--oY393fbm9oKXdm7ygu3QzfMp4hRhWqbNNbnnA6rue4APetzpndIc4C0tfc49HRIV5zXDmtNh_fFCNk_SNdwLleoaxkAnBXm5Bj5ApkUTyrjd2oVj59k1dFYvWJtl9SKfgBaTvB6YNE0mHBackLGCvuA8CEXAGA5dNneZtdybStYc80eC1gatCD25Wr31EcAqTmBSzedcJFTyVsKqXtJVTzBTg27WH7e87SipUFPyYbc9kaE",
-    "https://www.google.com/goto?url=CAESjAIB6zswFTLpqqYQE-ViZteDCNnyuzMmD9WyexHJYUQMn8086fR3uqhX4rzbAr3cBfHU59CKg3xhAMtZqOzFyxqiIkJ7KWZWNaQffmiYzGyfmhA9IM2fVcnFAGuxavBVj7y9jeXoatgqTguxth1S8js8g1H08a2MbNJM4eDF2pDFhUq70qB5kJ01WS5VlnwNcl2DnmMCt4-5sNdcFqSEI6E0ByRC68MBWdts28-2AT7kW3szRmN5xkqUTSk2zGlfByT3ya4DfHRORXYxdk7Rc5yVnXcX2UmtNLGWTlCrB03Vj9QIA7g4QUhq8ZeKyTOFLNNCclua1xuMjwolU6sD7Add6Pgq6_MCVdEmIsM2"
+    "https://www.google.com/goto?url=CAESjAIB6zswFTLpqqYQE-ViZteDCNnyuzMmD9WyexHJYUQMn8086fR3uqhX4rzbAr3cBfHU59CKg3xhAMtZqOzFyxqiIkJ7KWZWNaQffmiYzGyfmhA9IM2fVcnFAGuxavBVj7y9jeXoatgqTguxth1S8js8g1H08a2MbNJM4eDF2pDFhUq70qB5kJ01WS5VlnwNcl2DnmMCt4-5sNdcFqSEI6E0ByRC68MBWdts28-2AT7kW3szRmN5xkqUTSk2zGlfByT3ya4DfHRORXYxdk7Rc5yVnXcX2UmtNLGWTlCrB03Vj9QIA7g4QUhq8ZeKyTOFLNNCclua1xuMjwolU6sD7Add6Pgq6_MCVdEmIsM2",
+    "https://www.google.com/goto?url=CAESnAIB6zswFf2q7Mxw5RGF8mW629GtCLrkwaJNC7H_lK3O0sFj8bKJMMlMb837NPs1n-gt8b_AmUXhaerUIWTEmbR-mRUy2n70cIGZn6N_-YtmfUFm0W1FRmcf-IPM3Cqk5EWPZMWJkQuiGuDQgozC6ORAnJTBcSEiasTy-ddAB-_Bd3iHN2788IdhHn8aKjMWDIeHOgZMwvbOpu1yAjFotIw8FSLv1gzjZXjYVHh3UAvCf5MPobFGZd1CrESLQIFYc4e1M0PehGGlv1fTy8UTx4tkMl_kZI2WKPXSc0FrVrQvf9-3kIO0cwBhkEjubdyn2K6zVZ2r7F2N_QYK_VnlnyFd52y0C1vJDF2VahFQRMxht4QdbELQeEB00SJDBw"
    ],
    "visa_sponsorship": false
   },
@@ -2640,10 +2699,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-11",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-11",
-   "repost_count": 7,
+   "repost_count": 8,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "OR",
@@ -2657,7 +2716,8 @@
     "https://www.google.com/goto?url=CAESkAIB6zswFdB6--pM0iRPkQ_0cZHOdoMKll1s5SRKmLEYmty22yXuPEndc5GKUvUN7lrzIbCEvnZQOFmQE8aJSZp642zpzQYEFU00wbtT15DdESljWxlOAqFXr7tK-hPfooautyHZFUpvOsWNxJXJXjZykuCqCeia0jTxcqhy24uK_QgkD-KBasNGURT-doFof5zUeJK_ddKpY5i-hM9NCyAa7iJ4SVn510iJuLqcCxQg3WI_j0ATjO63uc3rjqaDYLArJ-K012P2D48XfA-sD22MXD2CN80_ylUDcxt8fQEaj-3jmlXgWN6S8q3cbraa6iAAogvdQySUVVB6q_Dy0ZzUWUx8Ww-wEiCZxYbKuobc7Q",
     "https://www.google.com/goto?url=CAESkAIB6zswFeC3yq8v33f489OGPe8xFKg0WbP0tpYCIa0-p1WLT5M_9Iway2tplvEPnDu8zo3KD4VCsm0AFAXgrT67MhPmEVWHs_44p-mzcuL4BLNyPA_FglCnNG2jrxY7G6y0Bumvs2JEdJMWpIoFuAfW-kcX_c8mV1wN-DtyYueb0eEJviNws4_-JVwJ6YgGS0VyfbCtVAMk7kkEtBUUKNM27N1WC0J-bkGfzwQ7quNfy9YvUBjYQpRyzvcVR6wkmoJFNEenWtq6lT_BeXQ_j7gBlRPGsYEjkhC2VDcEpS2DJbdCNdnKAxgFNdWfXB3ugPdlWyaLcqsAhnRIdx0zf9PPegj0zPth8taNfrTFsas3Ug",
     "https://www.google.com/goto?url=CAESkAIB6zswFYYQaZJwqWZa-LHFb38vSQkpjjwSzd9gnX04-c7XOUtLqvfiuJ2dV_RYnlp6j9ksgTKfB43YxUM2cOzECQKzeVonMkpXavi9bM1tewF5QSgn6BUDdJaxetvgw9Oa8eXz3TumBdGDzn9QjUbyQ2Rm5g9pUIZTX3opxdsnFq-FDrT6nbUfTVVkaEPk7sYShLuW9HQFZ7NMavtRamcEm5u13zMm0Ym9LJanlQrGwcAcC3bSyH6A-Vvnbpc3hlAdEN9_5jcdsddLv-Ix8w8Xh_v1KrfXf1DKaBow10AQ4Nz5li2_uCFUcu7AXm5vFCghgcDwQVfruSVE3OrgsAZzCjAHmDKNVF0ZKaKNUnF9vA",
-    "https://www.google.com/goto?url=CAESkAIB6zswFSZrZP5Bfyvz-8KiSb8Yhvc2kKhvvm3diqhFHitoMzbJ4YBGCFOpqjia1ji4nTe7n2dAIl7CSQO94FQHmMs3zUHYO9TEiUx0S24LFsd0KZKip6xjBWTGQtpoVbJ9ygq1jJhh0ATYztSTdwbfLhLaMtA-iwFFxx6dcNpMwVftD2JWlHLsGn1RQGOINq1As9aZGLyOKyJ9J1XNSLjhCD1YIyA44CzfqHRKpNUK0433AQec8Damrpumo8suVtHUi5NWF8vMvupUWg2_09YkErllg345Eqga3Q2yjlFFJsUUWFUzbrFqxFRK6KwntUy-oqoOzDhVwSd5p0y4cX0VCVz4ZcIFplbVley7bkrSLA"
+    "https://www.google.com/goto?url=CAESkAIB6zswFSZrZP5Bfyvz-8KiSb8Yhvc2kKhvvm3diqhFHitoMzbJ4YBGCFOpqjia1ji4nTe7n2dAIl7CSQO94FQHmMs3zUHYO9TEiUx0S24LFsd0KZKip6xjBWTGQtpoVbJ9ygq1jJhh0ATYztSTdwbfLhLaMtA-iwFFxx6dcNpMwVftD2JWlHLsGn1RQGOINq1As9aZGLyOKyJ9J1XNSLjhCD1YIyA44CzfqHRKpNUK0433AQec8Damrpumo8suVtHUi5NWF8vMvupUWg2_09YkErllg345Eqga3Q2yjlFFJsUUWFUzbrFqxFRK6KwntUy-oqoOzDhVwSd5p0y4cX0VCVz4ZcIFplbVley7bkrSLA",
+    "https://www.google.com/goto?url=CAESzAEB6zswFZdYhpweB2z2Gc5UJ3tHbwYUbrpwoViHpoOfGbw0StHTIa9zoOEG_T11lwDT8B7jyc1E4VKQQqZcV0tn077NUT2ptFH-ob46NTtrLmOBRBCyO7UVEz0Ay5ryCgMOdDK7skwg9fTQCAEpNHtSWsSqwWi-GezrywAI-LpZtxjIS3ITlSng6k_WndYFl_nAAMWw69mcb-FQ8kmbieppl78t_KR2RfOM4HSwvWhYlFW1fTzlAMD3lF2DNYcJtcJ1tKUdfhyWXk5b8DU"
    ],
    "visa_sponsorship": false
   },
@@ -2758,10 +2818,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 5,
+   "repost_count": 6,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "WA",
@@ -2773,7 +2833,8 @@
     "https://www.google.com/goto?url=CAES3gEB6zswFbPcjijtm3k4B180s2mpPOYpZKil14q4enaihJIFvKwSgG0tH8DCg5GbHy9R3sIaGTbRafUulF6eMDbpHGxfi7ORqijvZjLpYOid72CGaRwm4ORWxcaYcvPye3bXprU1Tuw2y5uaae-N82aZYmJryKoSUMFPyJwd9tD7LA6E59s_HAw1OR9eBCbJZt_fIzMBNL168NvzEN98gLdoHcGAkQo8QbOUfYV7yHAaVdAEU_OPsO2pCdiye2L2RzYBCprsb4uc4-92H2jpXo_jBwTtAKjX3Ms5qGBnLBw",
     "https://www.google.com/goto?url=CAES3gEB6zswFc4Hkxr5CQuH-JqpDnotqkVAhnDq7ZCjCFF3KbSEgTx2cRTqXhCKBk_IZpjQYJHGLrRc-uiT4cOZEpe3g7xK09zv9JizWxJCJAoA4bS4WjAFjAfJsVgSKPzmWtBB0rj19T-yMAgasVEmGsGPVl2mhoFcPQTTtwa-AMyILyULN4ZEVi-njuEJGKK6vV6PwhkXpjwkDl1tghMEcS_10v-Eu99y4pggAK3DYgOeavemo8JRUt4SPumqnM3qLoL11mtLZ4UUnkpuPVgrg_iaWa1lRHIVWd5fajkKN_0",
     "https://www.google.com/goto?url=CAES3gEB6zswFXZDP2-wjESKmVj3OnsjoZs5ajd1KbvzfnvxE0vqhlyIJtHiMB7TjfCrR8F1zxg9SupJYAHYlDeIkfZBv5KtcSsPXfR-4s60Oz3MfT87ZWuGrL3_0da2zT6jNxVHPrJOkBqQkWvsOw8tk6bicQ0CJJWG0c89_IUNhB8peAqa7ZPSON39jd4A1asIoLMsxITGjpviJa6Shld6MhSlRFs5B6mXmKN-DuwVMKdu5RRKX-Bc-3uR8FiPKChkh8rJ4g29uSbH3vOgyzVvxaWecoCKNpMtWaqv8HuSCYY",
-    "https://www.google.com/goto?url=CAESpQIB6zswFcge9jfpgMkpY8dnMYL-Lb2i4jOB0UfoE4olU7lQb55cJRIO2_eTANWzba3VvHjb1puqb9vkasI8Nh7SOZsz2VPb5EqQROG8mNututgsk4pQTKwANpX6eaFErggvuTlYtXGvhSMi3wMtXzX4BSJxhhce2l80-xA0cuwdqCO4lRntxsiFn53k20VazYSMjlWHISK3AeK2QYQXEE5n_tATDVOFCGbvbVq1ZaEo_OLO7oduhEqM3B-uVwK-7pAG5djub3pJiHSDfMxaVtbCGzX-4MMVtqQ3b06iSOIagnGcbY7cBDV32VbHfqGBRfCEIBB7G8BuJ1BkRyfCHJm0NZCaVCMRjs0XK0uxuNIFf8TpTxrnL-vY5LhxJRE4pF0eGNODdA"
+    "https://www.google.com/goto?url=CAESpQIB6zswFcge9jfpgMkpY8dnMYL-Lb2i4jOB0UfoE4olU7lQb55cJRIO2_eTANWzba3VvHjb1puqb9vkasI8Nh7SOZsz2VPb5EqQROG8mNututgsk4pQTKwANpX6eaFErggvuTlYtXGvhSMi3wMtXzX4BSJxhhce2l80-xA0cuwdqCO4lRntxsiFn53k20VazYSMjlWHISK3AeK2QYQXEE5n_tATDVOFCGbvbVq1ZaEo_OLO7oduhEqM3B-uVwK-7pAG5djub3pJiHSDfMxaVtbCGzX-4MMVtqQ3b06iSOIagnGcbY7cBDV32VbHfqGBRfCEIBB7G8BuJ1BkRyfCHJm0NZCaVCMRjs0XK0uxuNIFf8TpTxrnL-vY5LhxJRE4pF0eGNODdA",
+    "https://www.google.com/goto?url=CAESpQIB6zswFQBxa3zG4tmV5HPC7KTJ1ru9ltwBWFfbmw0uphIapZSk9O322IDVI7LppYjaAn8tq9xN7KD5EvyJl-wlDbapo0pMN4a3N-jkzFzloXPdvbtAHALpGKJLvtuFa2R0FWQk0DKjzowd2jpPFTNbRBCPuvD3V0zR2ckwAUQnJkvcq4QkbBHDYVaUWk6k6ykHKL_V-Uw3-TzwIdyRw4-wR5UnYStuSulphMJmLV1EwZrT2wjnyZdDy2cP5UIkefJs4AsWcsI2QfP3eDNlnqa9CaORMveO6cWvXi2KfqtWzfRot0XZt-Ews6SeEIz4BfPR7RJT0z0a80d5vnHFABBo7S45q7zlAsVcjTqiPj9c_vZazg3SG_Mu-DRqcNXKB5hzjqXkvw"
    ],
    "visa_sponsorship": false
   },
@@ -3281,10 +3342,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-13",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 3,
+   "repost_count": 4,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "NM",
@@ -3294,7 +3355,8 @@
     "https://doctorschoiceplacement.com/job/bariatric-surgery-job-las-cruces-new-mexico/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.google.com/goto?url=CAES3gEB6zswFYlVPDnqun-ZbQEICIC2oz8V8rj6h5U5Q8B3_d9Rnyr0FpZUIDJ79hflWCqvMqsN1uUSZK5XG5U1blcEcYpWfMBVqMoDlgu74rUs2DF8RhQgGa79vny3L2QXGiARCw-qJsQP6L4W7vlvw0nMXG_E868qBikG7JNrC04eSPMKOMfbq4OZN0WevVzRXY5PcECiXx_bKUk4m-MrzwkdZO6KVbs-ti8StdSI2S0_4TfZTZhqOoXXyeZQjQj5IsEXfZzi1IujSEcnHhWNyopsjQU2rYBzjNte6V6EqOE",
     "https://www.google.com/goto?url=CAES3gEB6zswFSlIgBZ8AMWLxCehmfNTxX9MV5WD1xPlL_MgR8t05euzwRMzJhTIVGjSCUz4-t43gdyTI-C0NsoEi-s8P3QvhDPaWGVmmhzbXsdc0AdyhEZCfCf2pdhpgVHr7VP3wAJPNYBQzJr9tMSU7IL8I_QPPyicK8fEU6C_0uKhrqTO2Ls2duHYQk5qgfLyxD1GrF8Zbb1kF99d7GDlfQATDoAhCXEb189mtHd4oyjzf5I9pEmlQ6FkOk_UDUqelz0_wvxAM_zhtdeY9bYzCQ11eoLalzVzNnDCz1IA7SM",
-    "https://www.google.com/goto?url=CAES3gEB6zswFbsyjknmgP7Vmf97a7z_zK8SlH_Jx1w9ov8-PwPzpchle2jKj93431YjdOE9tnfeEk23CNX-NeREhZgnsCGnBxFdug9S6oow9P1bCUMgtiSBobaugKqfv6SObxo13ioNudlZadKmBmdsmf6IPLgYxbsSPEVBiddd6OsSqsQqh3cS45_7sO3KdjHy3EiVh0Z6porh0WoAjEloUKH1nddX_Wt7ga5QjYqA44yCbPZ4SdSJhwiQxOpWZfsaG75xgmnhKyuoXy_d0vJ3fefvBBCeK6QYwmS6yQxyffQ"
+    "https://www.google.com/goto?url=CAES3gEB6zswFbsyjknmgP7Vmf97a7z_zK8SlH_Jx1w9ov8-PwPzpchle2jKj93431YjdOE9tnfeEk23CNX-NeREhZgnsCGnBxFdug9S6oow9P1bCUMgtiSBobaugKqfv6SObxo13ioNudlZadKmBmdsmf6IPLgYxbsSPEVBiddd6OsSqsQqh3cS45_7sO3KdjHy3EiVh0Z6porh0WoAjEloUKH1nddX_Wt7ga5QjYqA44yCbPZ4SdSJhwiQxOpWZfsaG75xgmnhKyuoXy_d0vJ3fefvBBCeK6QYwmS6yQxyffQ",
+    "https://www.google.com/goto?url=CAES3gEB6zswFXENmizwkPw5p1jL-6I6PH9ScNmSIdSC_-uTgGSdrmbGZ8grH1sbPWRsar-V-8UyM82xJAkoP07xV7KtrMJygxjCYQeHcvKnTJFuYtA7cW0FqHq7wHJicObwS936jT1Y6XYBP4ZefPMozrBQXvunOkrxyNp9CeBis2xcRN7vP10jO18Eo3H3dj49jpwhq3IKrgHHLb1H3y-IEP6wjJnklJ5LFt2nZaOsXrgrmbILgz0_b6EzCaRcP3tKj5CrEwMTPl4KQAWAeRWFba9chOsbriZAx4-StxrrGSo"
    ],
    "visa_sponsorship": false
   },
@@ -3502,10 +3564,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 13,
+   "repost_count": 14,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "NJ",
@@ -3525,7 +3587,8 @@
     "https://www.google.com/goto?url=CAES3AEB6zswFYF6LxrDGVtfnizAbKkoW937sflA6fY8bzmk4e5LZ8svDhw6kSgHYQAYaPz5amRtwm_qYJtO0i67Qudw6pxjXbPrrsAXhjUqpP8xqcDQwFZryHDaUJvF5BzpRUb9SO6k_NZ1EPuJgtnbN6_of7gVjIj9c3D_QBYiJQhqAmpDgfyPi0frRVdCyGH1qTuPwbDGRDUhnmuvrEqb9P7Zvq-5RsWnu-nzBC2JPZLv8X3sXP6q8LUJi9asRWw2rpMnfuay8vxssIAKd20wdXFU8Hgrlqc06aRixGjV",
     "https://www.google.com/goto?url=CAES3AEB6zswFesx1hjpMbmhD5YMFLT-WJjXNioCFDSksX68eucWTHludykG6wVnsGZ-pAmLxDGTSMFY-fEOTDONf8of9od7SjJC4diLwPBAtBFdNiuTV5VL5yNoWolZI4IQ1g4dUNhTidve6MgjGbZgMG3PYjPy6ETy2KWhR0VOOy-sf00NJzyd51jzu3GcqR9lmjkDmgKuWWxf9q_GIv490hI4oGAwB4hlyzEiwD6ELq-vxw7qoESBIbkUWhfqJayrml8gAQScz53GGY5b5-2xqc36ZAQjRgPOu_b6yKhh",
     "https://www.google.com/goto?url=CAES3AEB6zswFSPSWed_4bQOT7hxuZCMlG7lDUkpVM0QpgKeDgSQ9ApPX46fdZF2kFHjk3-mgl7ydN-JEK1XOg-fgnn3r1atMBzUrN369An39qrdzPaauaRxPNhWCsU6Rq287tQPGL_f8SkqVgLGYS1DGglqTOmsXPdAR5HJLMYL_l2Lkc1PD1aoHvFz8XnlJyJaFrDSvTeqbrOk1E0fehoF5P5b1reHr68znjril9JMBceNFkM6ke6tUYWMsaF10Bmyqscx4N6nCOmNgSIMRTucfMlObLsUl0h3gYAGPXZf",
-    "https://www.google.com/goto?url=CAES3AEB6zswFYpm5Kw4f7zIcAC3MdF4e83LUDXqSBiWCr57OX0ToxEWHFHqqhbZe9UIKIAdmNFkQL0MYVEVM0ykm0XDT-1jNprwRhrDZtQOVSQg_Et-8LBVfGekeK-qI8RPOlSq8VB-H3D1ZF_n73HfoUZ8JL4M0EfnbvyBNwrb0xpi1CKlxZ3w2W4KgsrchPiYAMNjfRPnM2BO4q4H55W_fvByxBjmQjKLWZ2kcV9GrjyPuGFmcHuVoU7_GRlbeZUnoRi3Bhm7uAAKcJwb4ybyEjAHYHh_z1-fklGpWfKx"
+    "https://www.google.com/goto?url=CAES3AEB6zswFYpm5Kw4f7zIcAC3MdF4e83LUDXqSBiWCr57OX0ToxEWHFHqqhbZe9UIKIAdmNFkQL0MYVEVM0ykm0XDT-1jNprwRhrDZtQOVSQg_Et-8LBVfGekeK-qI8RPOlSq8VB-H3D1ZF_n73HfoUZ8JL4M0EfnbvyBNwrb0xpi1CKlxZ3w2W4KgsrchPiYAMNjfRPnM2BO4q4H55W_fvByxBjmQjKLWZ2kcV9GrjyPuGFmcHuVoU7_GRlbeZUnoRi3Bhm7uAAKcJwb4ybyEjAHYHh_z1-fklGpWfKx",
+    "https://www.google.com/goto?url=CAES3AEB6zswFYJPR45-lvFnFr5ZyusF52_5RXLqEYSc8vZMWetNa7JlzqdYqPhTnCAEyVL9tZY7CphA0nIlIpydZvUR-6PayzdnoA-2HaF_YrGTNn-6BvoJxBunXo1YQSJ8XbibtFMzDzsN02i8lMR8pRKW_r2cbpSTEkOmwBTD_qNE0mZohYbuQR1Di4K4uKmmtarD8Lf-mS9YScGzrwi0YBAhyfWpEhdqBzmRd9y-_hOfeiHnpSBvx17LyVM4pGUxK6Iyc6v6p41KUKV2lbgGD7FsswJKcERkrdw-JtSp"
    ],
    "visa_sponsorship": false
   },
@@ -3877,7 +3940,7 @@
    "visa_sponsorship": false
   },
   "hayman-daugherty-associates-inc::AR::general-surgeon-bariatric": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Shared call coverage",
    "city": "Alpena",
    "comp_max": null,
@@ -4008,10 +4071,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-25",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-25",
-   "repost_count": 6,
+   "repost_count": 7,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "MS",
@@ -4024,7 +4087,8 @@
     "https://www.google.com/goto?url=CAEStwIB6zswFXGe0TNQ7I8JcV0m_LNq7K3_OsxNEanhgZu1eCTjSLLuE8v0CN_RyqqDBKDzT7AXlCHmcMEyxNjBlKUU3HnsYR7-awlLs-f1DR3npUiDsxPSnpESCt3QZLFzHQFIpkI4wM6mHlHrUYfyQDC_dEAGEEKLZzPZuJkaeIr2Lf-rmpn6-ka_nUjxd6y-6sDVDzEOVJh5I8JzeN-cYucP89uHe4VuV9GQ-Wpq8VFc6jyykCOfh0ZA83c6jsEVThaux2agOj3TgY05hTeD8V9s013H8fCJ7NXiZ3THSbk_r6SzTDb-M92EkmfosxLUmlDvkmsmnX2TX3E1IUWL_OdhsARwMO_sq5jF6TEN0xAw_f0e_v-GCJLaoaNZimaUuvKR-UXUIpazyEDqYCvygawoHkx57fliNg",
     "https://www.google.com/goto?url=CAESywEB6zswFaWEy-u-X3lj5zBcBSYBLOmYTqIkhowvyAevRN6_2MWaH8q_7kL-c2vOH0DewdV99PsX8FSN2JNWgIdZ6xxEEEAZXw_c5W7mJl-RJl8uNXO9esJgaP1hDoJtJOCKX6NOOiQjXzzYCGYEh6yffsfcA4rhbzF51tKOUnNhSbEIoWhFf1m9ymbXU-_GJzN253Gb2AqZlRTyNDSRB1tq9TTvfXxMfa2CG13FTbb5bpKBiPdP__oG0PlEHJu2OLzvLzNtHoBsogkyxg",
     "https://www.google.com/goto?url=CAESywEB6zswFTR9y5WGiTDkYG8oL2-bUTPlaGDZ_0H4KsxVaWHqrzyI2bgtQT3G1cIdwBhAD8YMLi0_tMBiMUiCKNIiTHT0tUdw1zuO1Zt31XExTVbY0QnwWx5z048ncOAD1noacetHDB2ZVTu_L52a1rsaCbj6tOf8u3YVwjby1hdTFEq8DLbYuZwSSvYp7hHQICsoAKeqKB51A3jwEpozB2XW0txYB45I0fUorJOC3G92jKGVl-M81_Kul-VfaOyk8xhOV628m2kzIfO2_Q",
-    "https://www.google.com/goto?url=CAESywEB6zswFRr2pN0IvwbOKpT6o8Fu1bfLdYtflTlidaazOOct-rxFHaPX5VDJaR8DWZJaVKVLG5tDKifKxI9OTLhp2gldruBk2Iiqd5_ZRQldK7t-qFYwHRvztXdG3ScLsZhmBT--ObnOnGA6JbarlHCF6ZApKjSqfLiJWRNv8ULPwgJjqkHNPaDaKZsLB8fqu2W8hmXTn1s1XE1pIaJiyqefeA9YM1NyA_5PIF5M_v1JB43-F8Al7yLyu0a494e8UCWnYCGV2j8oFuTdUg"
+    "https://www.google.com/goto?url=CAESywEB6zswFRr2pN0IvwbOKpT6o8Fu1bfLdYtflTlidaazOOct-rxFHaPX5VDJaR8DWZJaVKVLG5tDKifKxI9OTLhp2gldruBk2Iiqd5_ZRQldK7t-qFYwHRvztXdG3ScLsZhmBT--ObnOnGA6JbarlHCF6ZApKjSqfLiJWRNv8ULPwgJjqkHNPaDaKZsLB8fqu2W8hmXTn1s1XE1pIaJiyqefeA9YM1NyA_5PIF5M_v1JB43-F8Al7yLyu0a494e8UCWnYCGV2j8oFuTdUg",
+    "https://www.google.com/goto?url=CAESywEB6zswFegUyhpURCD7Dok0UPeGyPsZgJ6hk33DtWxD2lAgXLCpCOgXS4c4KFhokNAsvXqeKQqxwwIvmMfs7M5g8Iy6mAo3eyhEKhfv7SH_Kj4aKgQOW1QWaPyOnxSmri2VY6mR8y_lfllhXcHDstzvzZ_GRdkNh49b8DVlOeprJB5aPctlZl1hGzABNEe5DXoBVo4yOVB1woUDjcPmq4gnfIiZZkP-z0Pn9tNpUkNGJHEfE6vusQfdszxXx3pyeAB83ht8y_uW6pz71w"
    ],
    "visa_sponsorship": false
   },
@@ -4138,10 +4202,10 @@
    "employment_model": "unknown",
    "fellowship_required": true,
    "first_seen": "2026-08-19",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-19",
-   "repost_count": 5,
+   "repost_count": 6,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "NM",
@@ -4153,7 +4217,8 @@
     "https://www.google.com/goto?url=CAEStwIB6zswFcq5pfxeeHeKIINvW2UQZJPsNWnT-cL1FPd89RXcvLgbUq9rqLj9fYCGybDlvD_h_4ZaBE9VxBWpVb8XVzyv6KKzpoS-leZm9nq6WswMePMaHc4mhqMZzci8TRLKhcpXdql4qwDxLxism_hC_oKYpLaJieES19kd1062NET2GKDYV_WuXoTK9r8ZIRM8vbZ5jdlQR0aqS5FaD6dd-fkwZD5FhR0tTu2FHGkkDxDNVrzrupooh9u2IpVTGSwprOsoJeloNXUm-vWltGzpUzE4hr8c6eDvOaDTzgPoGx813yXaoNOsc1sKgzoG16Qs5f0kPyw8XsGGWKx2OmZPA7Oq7q8aEN8Pd_CEaWgxACWaHbpTe1lyyvmGvAIqTwJcgT2j_YVCAfPRSNgT2VIkhZ4U930G_g",
     "https://www.google.com/goto?url=CAEStwIB6zswFZRvPXnpAmfiDilk8sjjY0eBKshtdw6c9dZ9E54XL81KgNCwje0C9BiMUxC2cT53M80skgBPI2oZU0Vw8sZJcI-yen5m-wZFOesNuRAewPdeOOG66niJYFRxB6MP7OfohKCWYKplJXJEB79LoREPlg3SzFh0Ib62CkwHohvk30smCs2qoRfpIZgF4Z3T3BGCxO49USVmNyaA2veWUTDqVCCi-yXaIUcbeBfpzifSq39j3t2iRT1wDXI4bK7jg7hejsDecgjvYw3JEpkA3LQD0LWchZubYf_6Y__8kKMeRBBZI4aC-xH4n5-YeIrjEyKFzYLZxgf5zI2N-T7D4i9SeJtcZjQi9CLfcuQcujZfqJfxA8gEegmGUFnsxxlKm-g1-ycnnhfGZILTH47BYAC65ZD4Kw",
     "https://www.google.com/goto?url=CAEStwIB6zswFeBTujYz1zLpaBidCfWpCCxzGLbTD982Z5UqsTMVyYcAkOZs1VjCMG9HG4eou7Ii0Z2tSesaRvDT_0R71yC4TN0OkwwBqxWbxF4Iei2-Year9WNjwk9MP7iV_Yu29jpglig9eESkJmLEulBHbGtvTxCbdLiDe__ixM0LIm5UndCNTpEE4WXRVGZlMuVKLx9hu9teSQpB3QxZza_GnQ2-sNorUpupuIiD4GqZUbjn12pbuY7jYMtXV919QguDekM3caHNXJ2nOVYcFJS7KWoV_TW3bntPB18S5Otu3ST1OTy2KzrvITvF3vdw8jkmirR19ATHuujq6eE6qMeFB07tlKFRpTQQnSAyvFYF-VPEjrOw23SfoGHm6LmMwhrzu3L2HAbbgmbws2Jw3GO1iPspDpcdHw",
-    "https://www.google.com/goto?url=CAEStwIB6zswFUm7WkNmoxPPbdWDxafaooZtrUXIPJBvpX_yXzW2c1iAN_dkRWHAffKy6B2loNv9dxUyjzPbU2CLMFQiO2ipGNBUjmrURaw_8TitTvbLixc-L-V3hPwy0s6n_qOZn89u-VaufXi1g5EyKgnFpuwnQYh2keEEjUMucKqd819NC5CHFgStvydvEWZkQOTUdxBRYuXFg2bsO_d73iguGdo815NddGFT14MuByKsIXyeiizvuHMR12rughG-35u3YoWrwwoJ_PzXHSPbg8XAyb8d-C9frTkgoIhM-CLf6AjhbnTkELWepG9h4XODnefFhTwXVDJGxJsBVFIy9s0X47YCVcLEFm_NvKIO_HuZhbXgMYzXYvTsVgHzi3D7mrCH3sMPaas804bUDLMH3ZMYmIJhYFLkTA"
+    "https://www.google.com/goto?url=CAEStwIB6zswFUm7WkNmoxPPbdWDxafaooZtrUXIPJBvpX_yXzW2c1iAN_dkRWHAffKy6B2loNv9dxUyjzPbU2CLMFQiO2ipGNBUjmrURaw_8TitTvbLixc-L-V3hPwy0s6n_qOZn89u-VaufXi1g5EyKgnFpuwnQYh2keEEjUMucKqd819NC5CHFgStvydvEWZkQOTUdxBRYuXFg2bsO_d73iguGdo815NddGFT14MuByKsIXyeiizvuHMR12rughG-35u3YoWrwwoJ_PzXHSPbg8XAyb8d-C9frTkgoIhM-CLf6AjhbnTkELWepG9h4XODnefFhTwXVDJGxJsBVFIy9s0X47YCVcLEFm_NvKIO_HuZhbXgMYzXYvTsVgHzi3D7mrCH3sMPaas804bUDLMH3ZMYmIJhYFLkTA",
+    "https://www.google.com/goto?url=CAEStwIB6zswFUugsmH1ORuNg9RmeHpnJhW_JPxLaue_AyWOkio_2cOVwpkkPElFv4Ec9ONCizYUNlAqZVFAMNE4YJntAAx7qm8o5kDDHrMefyav_WdlIf9flph4r7v2kLmXimQs2b-JSBpeCUE0gg3DxYzlo-CmXZPD6RVq0rC1RkRb7nx5KLtxPKGVHsLsGAY_LUVHLTS3twR6Bip039nOnzddL6L-XaD0sq19kXpmiZLQUJb8WyKSyIBVD41w8hN_rRqC6CaTSaAhdVhAsIT3CcMr3wuYwjq6ezz5l8VXpYzSAkN59Jx8PIBTEp1zqkK-yhVOykxf1VLl_QfrDEdm439qcGwHHTLC-wjsDU9CSaZbTBx8EWmyQ6PJKZDJf4X-jqzrdkOfczuiyosh3iNnyU0nlZCbjzK0lA"
    ],
    "visa_sponsorship": false
   },
@@ -4392,10 +4457,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-09-30",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 4,
+   "repost_count": 5,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "NH",
@@ -4406,7 +4471,8 @@
     "https://www.google.com/goto?url=CAESyAEB6zswFS1aziKPfzc2iZpqXJe5usFJG3yTddGymQKHYWulfR077Xl_HDqVxibaAOeN1QkL7ZP2j5DAcKmuiPpAXXIVxyzYAGIJJoYlPvHBDptxRJPQ3Tq8crWk_gZjhCW_5JaY3T-nQ_Y-rXtHHS-5MwMzpFjrP0KcoNN_bR8D5MK-4lSx6KsRoiaTtOPYBeN8SzaV8jBfe4uwqDWsqtrLQbtlnbanF_Cxwk6yKRbbiJIg-HFGNlQKPQ_19_R6oUms9dRA5OJxzg",
     "https://www.google.com/goto?url=CAESyAEB6zswFZVAfyGc4tZnjbPn8q_IR2Wx6ksA-St-rklMuFQQ-d2yWeoPK7GPeEPELkMVUS_p6UNsGIIqWDNq3Q1uBMNbF0iuhtO4A7OJq9j5I9GeEy26dJhylfLts8r0vvPsYrL5F5-ktxrm2P5Ij3OBuXVugaCpEqBgRaFIr7Iq8Aut7JnwrsPBrxFBckR7xyRnKfVPANP53BDaqwwN_0UjhmEpVuJ7bozA52ZisUBNnk0J1yajw5GwIaE1JVReQckKD1FA4JFSQQ",
     "https://www.google.com/goto?url=CAESyAEB6zswFe44apoIymtYj1K47BILWbL0-KoX-8QWmOKN8OjoSyxRJ5yDc0UrXzh5dFUVuLA-ByF8ihSyRzzVe_M9RQCYw4Qp2keXQBxU4yUq23QJmCjKCbEGAMc2UOvqY0sLbxzYGrnNASIG25RX2BrrG4KisWMZPPRA7H7KMsm3cPlLD2WqvgWj3wVD7oTOIkXeHcekGp8Mv_4nKuT6GSU-_5buCU9OBu5o0ev49QVNMNvSMxaOUw5be3i9HYupoPzhQp38Gkyltg",
-    "https://www.google.com/goto?url=CAESyAEB6zswFcGkMbdyebncifAUJc5mQQdeOyLZubUPdT8DQgTqSdOtZOOY8qapZReHcxsGy8VGlPqFZ2HlSutjvF-TAaiouy1Ku3PSILHZ3mgt14c5BixRmZitOK0fDOR0mzmGIC3fiCduU4tgSC-y3BA2CLyZTlfE7gf1KUHKtPoTlGO1_DL5p1AQb7c6XUMR0ZuzZgY1kAhSvskgtOrm-SjXpKSLbQVBw7-bmaubhLjbRPwSBDPDldO_F5b6vgptL-q0t4mn7jrs7Q"
+    "https://www.google.com/goto?url=CAESyAEB6zswFcGkMbdyebncifAUJc5mQQdeOyLZubUPdT8DQgTqSdOtZOOY8qapZReHcxsGy8VGlPqFZ2HlSutjvF-TAaiouy1Ku3PSILHZ3mgt14c5BixRmZitOK0fDOR0mzmGIC3fiCduU4tgSC-y3BA2CLyZTlfE7gf1KUHKtPoTlGO1_DL5p1AQb7c6XUMR0ZuzZgY1kAhSvskgtOrm-SjXpKSLbQVBw7-bmaubhLjbRPwSBDPDldO_F5b6vgptL-q0t4mn7jrs7Q",
+    "https://www.google.com/goto?url=CAESyAEB6zswFa0piLm0EjRTpGLUI9lC1RwrWAmdxBPeZWjzacGHbEzyjZIQP3jG4iWfblmvMZI28LeERoIRZVyGtyOA4UQn0oMjnoZw7kM-ggEBHzDkW8b3cEsdTkwyYo281J8rKuG6hH6mgCEKKTK-SUlFqZVm4d1dQpIevjicmYaktKOazWZSOkTxQbERAIxONpq6-0EnvaTnhRc139N9BQME6Dppg_RFLe9Wx6ICZctZiH8m3Sl4CU1EPT17g_tmw8LXXNig7SrNww"
    ],
    "visa_sponsorship": false
   },
@@ -4433,6 +4499,31 @@
     "https://talents.vaia.com/companies/hca/bariatric-surgery-job-in-portsmouth-nh-35423472/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
    ],
    "visa_sponsorship": false
+  },
+  "health-marketing::OK::general-surgery-physician": {
+   "announced": true,
+   "archived": false,
+   "call_burden": "1:2 general surgery call",
+   "city": "Oklahoma City",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Health Marketing",
+   "employment_model": "unknown",
+   "fellowship_required": false,
+   "first_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-10-10",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "OK",
+   "summary": "Full-time general surgery with GI procedures, 1:2 call, visa assistance, relocation/CME support available.",
+   "title": "General Surgery Physician",
+   "urls": [
+    "https://www.google.com/goto?url=CAES5gEB6zswFbzjg1lGlBmZywkG9MyKX_VM3shPDnwxMSx3Zr5V7l0ebbJtcp3dFvgwEMn8FVh4DHsFz_3NRKRc9ep33Oonix0eC8PAsTc3gmxq5P353pwDUknLSG8FV17e0jEPblGPEksbCwnMnTwrGILAimT2nwY-GGGwXZRa4LQ7hD4VTnzjBo00wZtZlfrdBgUIHwi9y04KAkQtrI49_IxEMX9h9654aTxMO52HXE8Adpq8is3RGf96fSCyjLM5yrtf_qxJFI1PJeIp0uLNeXPy4Uhz9le6e3-s2c4CR1meN0eaTPNw2A"
+   ],
+   "visa_sponsorship": true
   },
   "health-system-central-east-coast-florida::FL::bariatric-general-surgeon": {
    "archived": false,
@@ -4656,7 +4747,7 @@
    "visa_sponsorship": false
   },
   "houston-surgical-weight-loss::TX::general-and-bariatric-surgery-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "General surgery call",
    "city": "Houston",
    "comp_max": null,
@@ -4715,10 +4806,10 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-07",
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "GA",
@@ -4726,7 +4817,8 @@
    "title": "General/Bariatric Surgeon",
    "urls": [
     "https://www.google.com/goto?url=CAESywEB6zswFfyKstQM3zVlWvYrDvS5jyzlhMIi0mrBAVyRQqU1cMZKq4zSbEUX-EEvggKdpBlB6mi9CIUFc9_-cYYZlJ9fi5XyCRWxlU2SxByHf7OBlCwYZCRSGp847lwVsBbM4ErZ7TzHOlgtQ56CJJVtZIE_2mMM2Pj6ReVMcUdG9Whr96UusCb3GJCU6BQ7wjrD1gMWFPKUMMHg2x25UfrL6_a6l5DNDqCXQSVaCGYKhVY9dE5Iuj9SCbgFRETx9O6wDSZ_draX5y1AOA",
-    "https://www.google.com/goto?url=CAESywEB6zswFQpBLB1zBQViA6s6k_tZ1SivPadFm0mtcY0cSJTiDIMW3M-y6OW-pJKeE8PL_scQmWNPSTWcp67a7s5DQUMQkTce5iDO1CWqIM2H02GY3XTddPiXMRDKe-UF56Y7WuyBzdqkN4KjuPikldhH6Y1-Be1HeMec3phtsa_TkSsCFrMIx9YFQrvOFlAgU9nrZUPRzIoPIcJgmzSYOIIJwOYI67k3couuQAieXhVnbjlgZvEm7fQF3GvgnXbkS4cyUdJUsAad5F86FQ"
+    "https://www.google.com/goto?url=CAESywEB6zswFQpBLB1zBQViA6s6k_tZ1SivPadFm0mtcY0cSJTiDIMW3M-y6OW-pJKeE8PL_scQmWNPSTWcp67a7s5DQUMQkTce5iDO1CWqIM2H02GY3XTddPiXMRDKe-UF56Y7WuyBzdqkN4KjuPikldhH6Y1-Be1HeMec3phtsa_TkSsCFrMIx9YFQrvOFlAgU9nrZUPRzIoPIcJgmzSYOIIJwOYI67k3couuQAieXhVnbjlgZvEm7fQF3GvgnXbkS4cyUdJUsAad5F86FQ",
+    "https://www.google.com/goto?url=CAESywEB6zswFczac7_Qha-sF6qcfwR-U3KlY-8b2iz9o6QlNJ2BSwwsruDCl3uwDuwttEXHI-9J0S85MLF9_SlaugDu2WoKECxhJhHi4i_3rCkPZqXmP-MKYnhbgRnauZVMEseB-c3cynMzJ0FYAGQ0QodBM3IrFy_DHRELkPqsiXIucYbxeTJfrCrJPjhxyvykdbKl2YEC4gP6wk3wLc_rlo6kRoWgW4G3AVz4RzoMOxbxCL_-e5M6g0vO7HI3oNCgIlanW6gwedGaB0lEWw"
    ],
    "visa_sponsorship": false
   },
@@ -4895,10 +4987,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-09-16",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-16",
-   "repost_count": 9,
+   "repost_count": 10,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "UT",
@@ -4914,7 +5006,8 @@
     "https://www.google.com/goto?url=CAEShQIB6zswFaSe1ZuCIPWe0KbdJkKL4a3sTzBsbBaNyEPdMiARdJ_LA8kRrku-ja_2Xskn5llApIu64nof_48bSGbOtiocvjmHT9cZ6hr_uhDtYgY0HMD8IbdhnoRxSkRdfP0rDq5xiyyfVqrLpBn4pO6cjQprmzLzBQQXqkkC-HksW7TyAxfJN8X41fNcUeVWLTHQCr9lm-0hz8v8ZSmYmur3HPqak462NwLqcw3carAEuQnq-6Zp5ExaGK3srfT8iRGhmyYv97a7PQf0ChQ234nV8O42_FWIaQ70eR4RFCb1GN87GrVMUO8ElnL-F8wo3C4qB5--InrxGHUAjCzprIWqCxZNBno",
     "https://www.google.com/goto?url=CAEShQIB6zswFQmCL_HxY_XC7TdUBxPs-XS0eC9I9TtqdopcQrhOvCVocjanvvjBka4cIv3pPSiVAhEq2Lu-phea1Y5gbhmWCiaiNt2A6votQ67E0MSUSXBUmxvEGh7zIkIka0PWHhpBvD3xFHlfFl64Vb4hxJsbcWosPuW7to1AbJu36TEMTzZvKYFVxUQlZAfhE8GeXqVx12ogXhrxCEPwal_V8ESZfZioBpd70-aoURwwj4D8ezZQ-FgFXnS_XXR6XcvWFEZfx97r2jIg-CLafCZafTJ8TRH9ESXzNc_ytqLXCq_90CyEn21GHyMUDLg2piqsyZ83OUiCy4wlgmcyWbHkSeBL3ug",
     "https://www.google.com/goto?url=CAEShQIB6zswFYojf-MwFfyR5FwA7onXd1dhqRANcRy7Ewdh6riy7PyzhbzVCJVbI1102XtEi6kD8cGuD5_UWH1Rt2WBMuzIRcal7wSksDdpMEC5CJLRDYhxn_zoTJOL-jRJKz1DaJaLdR6-UEn1D-PjWJIZI6OysteSklzqga9_eKxB7u0IV_I6796VYn2TVRh8xCO3DKeqzcI-HIcsnVHJDZGZg4Ohfhma-cPtT5nCM54cXt6NzBuhVwwNFa9p3ZiPdV38fvDh_Rrk50ufnkp85cnrzKr4J3OY68eoINffmos5t_hw3NHMwLligXeKJJRPtI7zkdk3WdG08OEhRgshC64g3Labd_w",
-    "https://www.google.com/goto?url=CAEShQIB6zswFQz7cZipqaGqrXrl0Ym5wBRYGy-5dVzsjMKuOlDt1e1PkMnhJanC7NbUdG6B-3DAAPdCN9-GJ0IWAq1PIvqSd2RmDzI09DxJyzmwWmATK-02BQ9BsrXBDzPkgYer_1bfbDZsOqxbxnMas9ZHJ-GVnJ1fqLIYEsh1s9m_I4JHnDKkQk7mSugIhdGql1RZQsV6zTWIKmVoBWVBLyDz7wn-FTE_wP1cg3MW7zuELvauZXLpCTNwX-740MA2fCYsmAJYCpUzGyPBV8tF9PmDAdDEd8ZAaVFC5Z8lXzhpbrqEQjMAdCHJVNTbl6xsHuQB3KBkl5bPKglIs0aG6CsjTc1Ky5c"
+    "https://www.google.com/goto?url=CAEShQIB6zswFQz7cZipqaGqrXrl0Ym5wBRYGy-5dVzsjMKuOlDt1e1PkMnhJanC7NbUdG6B-3DAAPdCN9-GJ0IWAq1PIvqSd2RmDzI09DxJyzmwWmATK-02BQ9BsrXBDzPkgYer_1bfbDZsOqxbxnMas9ZHJ-GVnJ1fqLIYEsh1s9m_I4JHnDKkQk7mSugIhdGql1RZQsV6zTWIKmVoBWVBLyDz7wn-FTE_wP1cg3MW7zuELvauZXLpCTNwX-740MA2fCYsmAJYCpUzGyPBV8tF9PmDAdDEd8ZAaVFC5Z8lXzhpbrqEQjMAdCHJVNTbl6xsHuQB3KBkl5bPKglIs0aG6CsjTc1Ky5c",
+    "https://www.google.com/goto?url=CAEShQIB6zswFan7jN5-_GGWSoLAlDmh4MzDyBkeUvuN7YqqA-EKuFCcBCFLMuCFUvu7Y_8GZNjZ5AaQ1l7s2iShGeeW1S4H7R647ZrHTZ2R73zVApwHiiPXavIDx3ES9gCqKc8pMTgAP8Gt8yFcJ5yCwMqzc6ZNMZOUTN_wPqRRyAVgquDW6efqrD0-r2PvYrP5e4cxOqeHSQIKyoegtI-P8vIVXlO_8BYqyyjM2AQsW3BaxJKruk1ptmo7WOKXZt_QlJegoczqGtbfbaGSza2J85iJEGKwo06dYMcZxGhfaTgCUlvX3SpqeiGaxUCzZVxA3_BD3dA3NwhgTsONVXEQLpHFcCN_xSU"
    ],
    "visa_sponsorship": false
   },
@@ -5026,10 +5119,10 @@
    "employment_model": "unknown",
    "fellowship_required": false,
    "first_seen": "2026-09-14",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-14",
-   "repost_count": 5,
+   "repost_count": 6,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "MD",
@@ -5041,7 +5134,8 @@
     "https://www.google.com/goto?url=CAES8QEB6zswFQNeaQize8Nhfkxp8_dD8DKbgFCMQdfTPLG1a858jpvXxPjisjZcCJqH3O2-Mh8sgDH7h6_-cBbNbPa-xjYfYyu5PMi3lHTaej5ripcUPHupS4Fpwadx9r8BTrcA8k_f7DzYolyL-zRow2PnR_3b1Nx_DX1cPwV0C4U4AIlJOOHD9-Nhte7GEOPXaAXgbC3Xes32FC_30SnuBXCa1uwWdjoTBX9JgZ-eSgCs04ZxG562faEuH6c46DaIgvupl00zMRFXMfrYU-lrFgatQCj1PX9g4HtvFHZGAvgjbYA11sYRljBtHId-_i79bTN1",
     "https://www.google.com/goto?url=CAES8QEB6zswFdG1PICQUri2oBtJWEyY_jFEZsaZfK8iWHZNIrLJ4ydonk3Fdt_elvTHeYJCz0e9o6W2awgH6jqf3bVTUgxCG8lYCDako3_rMLU0Cssqra6wyiPI8dbBff3SbGn4IANz8a_GNLl-APQ8aWTY6eY6zQFHe7lxI9ZIgCP5c5IQ7OFPM8lP1332wTNQAp8ShSa41OAcl48LPgcyueOkYpL4XNA4VVnxXDJ-TPMi4vuyGkDrL4_i0M0utA6Xg75Tl6KBii80uII-GBLufawQ9OnZAPaXIEh7uihz-GtET_FHjNXhDf7242aVcMgIIi1A",
     "https://www.google.com/goto?url=CAES8QEB6zswFT1ZRXWQMyTcoLpZdc-mT8ektHwY_mC9IUVk7hhnFA9smiiqINvtqaf-gyWbXg43JwS-0NBeuxkH8rz4WOQnnBw01kVcAwNfbDDdiRFBWx7E_PsgVrR4e3uEpF2Q34yGsboaJ6P67V_sl78MA0nwxKXIzoYMBR3QGyv2C19yELU2ABh1OMPCxVOcZZeD8CyXlbAViI63nFKAnCNRuQMTSWwWRYgICwe1-HcAXw_ZC17_KAqDavprnHDwjQa2byM4QZg2iy4DU1NZRhNztrcz_roh2P0p_AmIDygAAKSg36q-AKNhsdDfY14Jq2-P",
-    "https://www.google.com/goto?url=CAES8QEB6zswFdNEi5MmAxxSHTWEFm67yLBScGy0Ml_uTUdy1CAKpRVX6mmFcgdpntaU0ZnZ1GoMu0HaaOyHfGux2zMVIicqsoxgbEm0RGDAqE8mjXvJ_y4dbClyfwuGlJ2jZzfzsG6d-wqEgghaPrIZKZ7CGNtKR-uuHQ-q4OjVOr2Fu5exs0rtlfdT2MCTnR2FMrQYKd0SDmZHAyFSuOUTiG_Vwahajf4FUPn41j38-7PWGeOz1h76L3-ZRaBl30d5VlVhGvXLtsO6amB8ZDTT1jEoVK4uu0gVI2o7e-iDz8pxhE5-S3-I45pS4Spzla0FvmDf"
+    "https://www.google.com/goto?url=CAES8QEB6zswFdNEi5MmAxxSHTWEFm67yLBScGy0Ml_uTUdy1CAKpRVX6mmFcgdpntaU0ZnZ1GoMu0HaaOyHfGux2zMVIicqsoxgbEm0RGDAqE8mjXvJ_y4dbClyfwuGlJ2jZzfzsG6d-wqEgghaPrIZKZ7CGNtKR-uuHQ-q4OjVOr2Fu5exs0rtlfdT2MCTnR2FMrQYKd0SDmZHAyFSuOUTiG_Vwahajf4FUPn41j38-7PWGeOz1h76L3-ZRaBl30d5VlVhGvXLtsO6amB8ZDTT1jEoVK4uu0gVI2o7e-iDz8pxhE5-S3-I45pS4Spzla0FvmDf",
+    "https://www.google.com/goto?url=CAES8QEB6zswFfH9vN_Bi-jBncaISo1Ia1lJtm7YeoFnIoHFkt2B7Sb2Awc7oBLHxqmhVPeUUGDMgSQBviUhWxde3mztNKYoldRpFuUUxqt10T2BtGCZG8r-IUEir0BABkAEZ7jEeX8iwuDariZr17N9qa7eVIO---Hh4HMIS6HazF-IW8pPixdtr3Q2fYkgZ8ItqVNm1UTiJyYT4AiyJn4MhQJc9iP_Y0LHCuDeoba26Nbi3zeK28ds10RSOiYGO_2GWtWtVWQTsYyE46CaVnT2bO8DjuwTxkacuwotSIVNtMFhKFwB3bHFeC5qFhc6-68LJ51N"
    ],
    "visa_sponsorship": true
   },
@@ -5252,16 +5346,16 @@
    "archived": false,
    "call_burden": "Shared call responsibilities",
    "city": "Lewiston",
-   "comp_max": null,
-   "comp_min": null,
+   "comp_max": 104000,
+   "comp_min": 80000,
    "employer": "Lewiston Hospital (via Britt Medical Search)",
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-11",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-11",
-   "repost_count": 2,
+   "repost_count": 3,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "ME",
@@ -5270,7 +5364,8 @@
    "urls": [
     "https://www.doccafe.com/job/physician/surgery-general/20424014/general-surgeon-north-of-portland-me-broad-mix-bariatrics?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "https://www.staffphysicians.com/jobdetails.cfm/2111323/Physician-Surgery-Bariatric-Maine-Permanent-General-Surgeon-North-of-Portland-ME-Broad-Mix-Bariatrics-Job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-    "https://www.google.com/goto?url=CAESrQIB6zswFUa63-_LuFvkc_LInFVWav9aCBNnYc-qfziXfqnb-bXPAUUHw7lSZJme6ABOXu6VuWibqIq4uILNR3CUzD8LwcKGBDKoKeTzPPkPzBN2J2i9aWuq11pSRVJGLpU9vXHPowFp2eqeS6tnc-pshkQ_yIRe8-qrLkn_RHv8gJm5a1HkK4ceD6IXMDc0tWSLfTau8qXYXUXHmE9hC4jTnXjZ-vICFxeW6L9K9DkAaoPi6yWAaL0oW-Kd4IteqNaIN9zCwPSsj9davoO_x7e6kXxmbz3Qlv-nX5tq5AsSo2w2ov0Tzc8oDANAvWFIFLpFeK8DemsnwTHakOi-mxjTAt2mhtI_h-EHkrmORHv_AHiYI3XLrVmBG9g7yRIY_z7Aa7WNnoK9mc15E7Ya"
+    "https://www.google.com/goto?url=CAESrQIB6zswFUa63-_LuFvkc_LInFVWav9aCBNnYc-qfziXfqnb-bXPAUUHw7lSZJme6ABOXu6VuWibqIq4uILNR3CUzD8LwcKGBDKoKeTzPPkPzBN2J2i9aWuq11pSRVJGLpU9vXHPowFp2eqeS6tnc-pshkQ_yIRe8-qrLkn_RHv8gJm5a1HkK4ceD6IXMDc0tWSLfTau8qXYXUXHmE9hC4jTnXjZ-vICFxeW6L9K9DkAaoPi6yWAaL0oW-Kd4IteqNaIN9zCwPSsj9davoO_x7e6kXxmbz3Qlv-nX5tq5AsSo2w2ov0Tzc8oDANAvWFIFLpFeK8DemsnwTHakOi-mxjTAt2mhtI_h-EHkrmORHv_AHiYI3XLrVmBG9g7yRIY_z7Aa7WNnoK9mc15E7Ya",
+    "https://www.google.com/goto?url=CAESwAIB6zswFeZKhYeGZTBze_eRsv_scWU5UufZdcFbJE90HnBKpO5s3mDChywpykG7uocR7g0IGKHGRLbrZfanhFdCgMMTR1y8FqWYnGx76HKx5dYa4rBEHcFmFKoTUbQt1a6FXZJRva_1eGAb_tM8LiSxIkPTEDsLyOPJAGjX6Qo_zC6TKQYHF9-Bu5VW4UVqA-CjFib6YD7yNcDZ9us6BShRMo9tlmGkxxklBf4HPXIsFyrBcI5WzidUbdNbaJd2lzOBS_NAmJHvWXFwCSn1tZz7_nekZqARGcEVJ2r5Zsw1AVUnM02Znmkj8nLz1PTsZGLHYWOzuNBgx20XiazsdDKx-SC1P7D-NuO4MJdOpWjA3U2X3ncFR2r_mP9lYqGmZK-bMCBe8ciYCn8wTnmRjrEZhha6-sfLz0NdtXVnZ6K_eQ"
    ],
    "visa_sponsorship": false
   },
@@ -5379,7 +5474,7 @@
    "visa_sponsorship": false
   },
   "lifepoint-health-starr-regional-medical-center::TN::general-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Supportive call coverage from 3 additional independent surgeons",
    "city": "Athens",
    "comp_max": null,
@@ -5663,10 +5758,10 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-07-29",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-29",
-   "repost_count": 8,
+   "repost_count": 9,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "CA",
@@ -5681,7 +5776,8 @@
     "https://www.google.com/goto?url=CAES9QEB6zswFT1VN5OvLeTc3_IScBvEURAS4NYAEZRDA9si9mnRkjQmUBVyuYDhksDyCHXYfv49S8JbFKiS5mmeHvdFWiSMZbEiSXp6E6M5PC87_5xkxERA5Ekh1mRGSHagLkDatFRYuNAVHTHSBrfS4oYW9gjQFRWjxj2yMqY59uaRCA6i75K3FX77Zljn0Nn9Oz0fz_t8buqnnxo1BVzXyn57AXDtXplpvsV3b3pcmNgF9ougws3FtjbkapEqlQo1S_IhZLiWf8anor_FqwBC01EkpL6oHU6bf_3U81ZWoLOZGrXKwQCtq8z8Zac6Wvc4ZL1NKWL0ZQ",
     "https://www.google.com/goto?url=CAES9QEB6zswFcs-A8DLWcHNPNTktghej_Vptyy5g8Qu4J64-z1KzYm-IpIqQ2R7tx7POdZecZrKDBYldmo259OkCFF42wQwQ4qaYZFX6yT-DF015D6FiWG0V1T45EUX8ifyf2CxFMqrqXM9XFi-dbCNGlKOTBMViIf4n5BUB0hLNyRHT0ieTtTjRB2O39N0rT2kvk-J5j0qPaPBGUPu6XhWOjSoPbHDtbohb_iQJnkNeTQJmh9FNswKuIHV9GfzQ_Ssv94VMKl5n9CCrBEnQpBtqw9rqC1cF5O4uK81POILxazi1IzjZS0fl--rgQ0gOz9AvsfaBeJ8Bg",
     "https://www.google.com/goto?url=CAES9QEB6zswFXDzXYFXBdPaNLCF7JI-d0zMrXKw1-umtMn85E19hCN7BI1XB3J80I2dAvmWIylHY_aAnuJ5fXdSyR-3tdnWJg0lEhyzUI9T0jDpF_eNO_7908nmjX_FZV9xNvImeUBey8rzgpqVD2oRDfBbBgMv7TvCAtU396_nxnIDuho4Gd-zK1zeiDD2n7sJnOJM1gxf9gVLdUXZhpobmR4Eouk1cvNssKoYO11RhliKY7VVGQJGhVjivPHfI1MpSKXbI-a1jXB1PySGb1WZNgnNHmrH6jWPIztSMuZiemvTPfZHGXbFDnCf6WKoa4Z2a0YE3cyZpg",
-    "https://www.google.com/goto?url=CAES9QEB6zswFUxHfoJw2gJsYE6f-1IFMdr2dyQ4JSxEjBPi-Qk-WzlukPtr1lteVU4HI8pKcKM_UEPOJ85MZLmQ4dSWekOTyLPVhE84svZAyw6HN_8TbEgnoC-qzSMyaZ8dGAq2IONOaQNuoz9qWA2RRCRzy_sQ3T-O6CuRYPB4OOBeLIfOFq98xnuzV5DNiDkRLL5GBwm49G9BcUj969jUq1nWnb-8_KrXwEqajjQNS1_ywBa8Z_KweRMkSIYQYbuxY8FePa5j1LxaYdsORj66gQyjSKhbsZj28LmUV_IvBxZqjsp-K4-Q0eYrQUwXkDWdFYhHlEvQxA"
+    "https://www.google.com/goto?url=CAES9QEB6zswFUxHfoJw2gJsYE6f-1IFMdr2dyQ4JSxEjBPi-Qk-WzlukPtr1lteVU4HI8pKcKM_UEPOJ85MZLmQ4dSWekOTyLPVhE84svZAyw6HN_8TbEgnoC-qzSMyaZ8dGAq2IONOaQNuoz9qWA2RRCRzy_sQ3T-O6CuRYPB4OOBeLIfOFq98xnuzV5DNiDkRLL5GBwm49G9BcUj969jUq1nWnb-8_KrXwEqajjQNS1_ywBa8Z_KweRMkSIYQYbuxY8FePa5j1LxaYdsORj66gQyjSKhbsZj28LmUV_IvBxZqjsp-K4-Q0eYrQUwXkDWdFYhHlEvQxA",
+    "https://www.google.com/goto?url=CAES9QEB6zswFZtSXQnUWTV10N_X2N3iwPfQTd41EEpRRU4NCZO6g4yltHOG0GhClUPjgawMdkyveegV02U3LzBi5aQfmIrv993dVLb8JUBaKB3g8PuIHsdaRhhOnM8oe8wN_RFXisXakYC7MEPr29PkZMJwEoixir4T2PYAfVe9rQ244xaOFGhIk1SYIVUdEdiAkpPurD4tHpm8UNqOZpe9t8Uc7c73mHs8Q9c52TKEGfefWFqUnbqcbBiYs7q-9XlDFJQGEqetOVHej15JkULzmM0QiREoX0KEp2UmeXWrSXO7yFVu2GO2TdvGwZUFvcPkiTRsWpQoYQ"
    ],
    "visa_sponsorship": false
   },
@@ -6233,7 +6329,7 @@
    "employment_model": "private_practice",
    "fellowship_required": true,
    "first_seen": "2026-09-27",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-27",
    "repost_count": 0,
@@ -6458,10 +6554,10 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-07-29",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-07-29",
-   "repost_count": 8,
+   "repost_count": 9,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "WY",
@@ -6476,7 +6572,8 @@
     "https://www.google.com/goto?url=CAESzwIB6zswFcI1yX2RK5tqOq9E6vC8xfngPW2Nu8onnD3mhKfBcqBY0G9lknbRKPfRRpp3HPPe2GrqPVDcQxIXEU8WqZVjxkH9IROBoEdhVdCwf6Z5uUCvMLwPK9wP-ayNdilNBcpjEiIDWJ99y2wzqxbp0aofCasJT5GeUIhgxpvcu0UaoP267cYs-vaGfp3fTb7azdBNRFo0S4AqJmtrBQYC8IONIFKxtY5zlWAt_Gp0RBzy6Fk8J-Y8X4IivHE55CjJahtIVhMPIOxpol4EHrjvbyw1amjfar7sJrlk0s7hsQecqXjnzH9S_YeAjCqUVsJtAo-z2TOQw0wXvcOmaQNZXeGlkMztLdVyqG4J3cyw7IHPQCYDLLkFWLxdpayJdCElyjUc4uUUtmEggKfubVGh1f8vGaPAPeM8mBDI21kGUnwVUl6qQIpoWM4I_OseDg",
     "https://www.google.com/goto?url=CAESzwIB6zswFRUIgRuQJVnES_NiTU118QmLSFmnf3T7oJHv3woLdkfcheoDW0iqLlKQ94xyTxVcOvEdso50IKl9Y0YGjLV2AhuY_zbD5cwk48vVPnaXpnt_PbhT5XVQbuOam3ShSqh4fS1ALmlY8RiEzRql-R8eZilP0gPehDIEHDRjTaAvJ3_mF_-bKG-O7rXUOJeprW65lOIkP-vy2lyVgVjDXmODJtvQ_XOTNRYW3GaU48G09DkDSiNLH3g7z7I9SU9AwLnx-UOQP4MT6TMTZ0TYfBToZEDhj9kds7PLqfEeGi4CcbP1T8ubrXw1vl5x9hduTvL_M6DyAJq8d9BKffBm8xEvO4TEE78tYwFU7JYxKOdv46GT8WtaR-_zD-lNpGZFFJhVAcoigmToWDUIaHZgmTqsFL-luGRLNxv6KvARQohmNi4yFh6ug0IWmglkiQ",
     "https://www.google.com/goto?url=CAESzwIB6zswFaqjbyt45pMVVx9jXjWGm9f-LemGfscPm9t0awPIYWksnzV-OtnJ1isFzb5JUF34YO3AQSx2Tb51qWN_QIkPDxFODmXrIe23OP9VrmV1D45J73dnb0BGRBgOwoKCjGSS9JCL2dIdONehAAax52Ogyq7LvZMeXD-4gZzAu7f9lauuQ3duhbaUlTT2vv51GSr3ah-sNqM0ZGONxrOKsQnaibej854vCYesln_AdXx3oEdNBiPTCwNmer96NnYW6gMfi_dBlv9wCYdGsY_KFlQJfAc37RgbdhipPfsEEzF7wenlXoG3fZFZHwSNjsHoEfIPUiAhPMYtzWGSXE7TXVwLpRPX_lxbZfYI1MLV40FxTKEX7j2Z9xJSRjI9cKQux_SFv_-Gpl8c_l-va8CJ9CW88yeh-WDtkkUK9MDhAD1lXPx12ff56eKBiVfABw",
-    "https://www.google.com/goto?url=CAESzwIB6zswFUckZ3DB--TRhFQAbz2xoSQmHgajL_5qlLIOj21We32gfhA6rj5Sb5lIlvKIjSQ0w1dpt1aXABWKpJHERKBN_mbisOJs1fXQKGFfSdpGfcdK9P1fkrm2bKUvoNfEgV3XS-lgCIkOZIhHARzGsLq3t817ct-OQRljYMg9jJIzBNn9wT-jIvCPxeedXdaO8ZbE10y2fcxKxi9ScCZHvXfbvyNIfN3s6c-5I5kA-nub6CtG8sJOvD2Iz4D3czOmPZQY0I0mhZmhQiU9bgAiP-l4Ic7UJuSjX-D5Bc1Q0uPonFfTQxwVrT7WhnlLELSYXvhmYvxeCrODyunJ1hLwi60CIj3qRr_y-CUwjf6Cj4ItN6THL5suVH4THMp-ikjrmDSy-4VcR8v0WNXAGTO4SfdjsVpwQo7XLoTOzR8QH4J4HZiZLDQHKi9QqEa2fg"
+    "https://www.google.com/goto?url=CAESzwIB6zswFUckZ3DB--TRhFQAbz2xoSQmHgajL_5qlLIOj21We32gfhA6rj5Sb5lIlvKIjSQ0w1dpt1aXABWKpJHERKBN_mbisOJs1fXQKGFfSdpGfcdK9P1fkrm2bKUvoNfEgV3XS-lgCIkOZIhHARzGsLq3t817ct-OQRljYMg9jJIzBNn9wT-jIvCPxeedXdaO8ZbE10y2fcxKxi9ScCZHvXfbvyNIfN3s6c-5I5kA-nub6CtG8sJOvD2Iz4D3czOmPZQY0I0mhZmhQiU9bgAiP-l4Ic7UJuSjX-D5Bc1Q0uPonFfTQxwVrT7WhnlLELSYXvhmYvxeCrODyunJ1hLwi60CIj3qRr_y-CUwjf6Cj4ItN6THL5suVH4THMp-ikjrmDSy-4VcR8v0WNXAGTO4SfdjsVpwQo7XLoTOzR8QH4J4HZiZLDQHKi9QqEa2fg",
+    "https://www.google.com/goto?url=CAESzwIB6zswFW5oyZ2uGgOdNWeg4pYXvr2u5rYdXce_eZt0US5oMXmjgQ4hh1zAg3_YsVqYmHMyed73KNOnBX05ll3XmeCBFlpIx1M9lJi15zFiNs_Wzh3lrLKNmVcoD-K0Fh0o12vZcUOCz_dvLmo-NQ4S3LtRcSxNlywpqCXV7tcLhFuRynxBxyDkCDZPZarGTPfU5KuD7rrAjB5xN7cXEKmvIdicils4f-HpB6_TUF-PlZBTjfYMNqK8zq0UBJO0rC1i_a3Nkt6b--sEimPIBeWx2dhLz9VGsEILfmSVGDHSbgQl1xWHhrLYeb_YPyNj5C5VXr39HENrr5K1TP3fvRho1i0BrLbUwbw8EwSf5gJvNR9vNCQBVX7Yf-1x4bfcM9O6ox5Y_j0ZkEb7M6gm4Pkhh9vSdgwAlA9XNYBl5FelfxNav7DrPZhEXwbnSux05A"
    ],
    "visa_sponsorship": false
   },
@@ -6659,6 +6756,31 @@
    ],
    "visa_sponsorship": false
   },
+  "private-general-surgery-group-practice-great-falls-mt::MT::general-surgery-bariatric-surgeon": {
+   "announced": true,
+   "archived": false,
+   "call_burden": "1:5 general surgery call",
+   "city": "Great Falls",
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Private General Surgery Group Practice (Great Falls, MT)",
+   "employment_model": "private_practice",
+   "fellowship_required": false,
+   "first_seen": "2026-10-08",
+   "last_seen": "2026-10-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-10-08",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "google_jobs",
+   "state": "MT",
+   "summary": "Private practice general surgery with bariatric focus, 1:5 call, partnership track, level II trauma center, Montana.",
+   "title": "General Surgery / Bariatric Surgeon",
+   "urls": [
+    "https://www.google.com/goto?url=CAESpAIB6zswFQi4eecdrIfu_AoLsUQeUASVgOZqOsisBzGIKaM-5rrlpygyI1u_rP4t2rzIVyxFgnNowFvHJBbkDQ9YIyEKGN7EtzFe3lg7g--UXrdwskwcAyJ2qmDdl3QC53V58ZLGJQk34MlpeIEc6p07hK7g6VFdi5PLzYw0Awxx051Ya1cWYrZcdJf5qiSlwIu4hc9KMR8SAZnDMzHShl-YF78MUg1blixqJXW1OsLxdMVIlSVAw65jo0EQD1MtPood2so8MB8u98I_poEnC2uxA5UMcKkEd_zV8bdEFHPFWEeLmGYxikSUSsmITtNv3rE65e8_bmIgHnqNQPZzYldHSl_yq--0Zv50hggO9IJEEHqQ_lT1wcRa3qvAPWxv9RSwwydD"
+   ],
+   "visa_sponsorship": true
+  },
   "private-general-surgery-group-practice-great-falls-mt::MT::general-surgery-surgeon": {
    "archived": false,
    "call_burden": "1:5 call schedule",
@@ -6787,7 +6909,7 @@
    "visa_sponsorship": false
   },
   "rapid-city-regional-hospital-via-archway-physician-recruitment::SD::bariatric-mis-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Trauma/acute care call coverage available; elective-focused track",
    "city": "Rapid City",
    "comp_max": null,
@@ -7017,10 +7139,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-07-20",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 7,
+   "repost_count": 8,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "SC",
@@ -7034,7 +7156,8 @@
     "https://www.google.com/goto?url=CAESjgIB6zswFZWdHkSkiCPCCNOTfwKdTbN3YkpS46un8wvEKW0G6yjGwW_ME0JMniaugP8GPSybQ8SdCqQTt-9eWv50IEguP2t5vfNXPhWIVDdeYBqEGv2x830tt1bwyiO5tQn0jbLl7L_FtDDiM5dBh73Rw1uOnYnsztkebSr9muUzDorUAGsdKcoAn4-nYz9yl6jNGopkz3-RqRGN8hT5IK9LlGZnQhojLMCAq3Vp4gvGN-zQe-uTcUkevB6sPs5ruT-EuO3cyfVnCUBvDqpy-Bl_2gGh9nuCMD1gtkMFuSflQQwyXa8IXGCDs_l0TSI3Eb6XNo3hgVtjzLY01VB0XbI7UJQGkoIN3dJafDTfXAY",
     "https://www.google.com/goto?url=CAESjgIB6zswFbofs9DX1CLSSEMThRZpQHP59rqzWYxuFVUsABXB8v8i4yJR0LSleKhwM9sNylL-6_bvCw0kJ20J2Zhmc4-ooCNaol6YNNAyOqXmO3fUadDGqkC_IGwMD--Te4qk24KDDxV220C2yh4RhDBOLFsT3F17sJXgItBgipCm9WiZekndYqyvWr_qCVEGg59D17Q7_velD1_VVbcC0tsaI_lmG_sqUoTp4M3KbCJ1IZdq47v3bDtkay1jXYpIpKVPvyfCUP1wtJo553tflTjybUAyoX7zuqkVv2VHXrr3Om7aI9L8ZAvYx9dNNAXXbOIzFVokK7wr1fLLBPNA32EkV7kL4bQsObkzH8uO3i4",
     "https://www.google.com/goto?url=CAESjgIB6zswFfX59j2Ufp3k2f-4YVYLe3pAZtS_o8GFofZYQ5JilmVA0d2C9gtbalsFhzz9Kt4BkHWDFGxEqjz6kD7mTTd7-zIWiWLDRfWIAVLgdrUJu2g-m9SaWQdLGR-xudC-eZtxRKwz_45rqnD2kJk7dv5vBM_ODfh1TDCh2iA4m-5UHFW14ekvt7Qhw670bfiJ8wTciC7g0rUVIT0H2AlOj81ncRk3AIVEt96llvsYJYpzn4NVLQHGBS4ckTSzAeUlM1bw-Wl7RJi8s9SLEh8rp7UrvRqtQKQLgzB-zJa_37H8T2r9dgtUYzOcHDJ2Vmj_5KShGibmfzZ2YqJzWomD3RE4HzMPYWdgfzOtqdE",
-    "https://www.google.com/goto?url=CAESjgIB6zswFfE2B4MJr8YQj-tLa7L90bPf97yog_wUb4UD12xJfph1aPPlqcYp29V7lXMVwbOMmRKCEZLE7YACFabQUe3cP_rjq-Y4Bqpjn5Xg8N6VyP6Ldy0iBJxyl_GQxdJ-Uu4cjjxqR0epnGQQh_lhzMnOUcBOu-JI3bn9jJMet8ERgeZTawkEl2amq0DJoQnmXWU2xxLAHlMs-vp6WXZcRxQLEmR8_M2bhXZKSYa3ZhfbAj7pUNGQ4MZrGgKG6g1M93Y9jQ-EBGZlh-0fhQ_lGbWLUa1Pn8s_Mo-5XBPRqFzHxiVOoUnZTLLL0C_4EP3CorRlI1xHwYdMG9_6rNSvdGkrD8rc_ucIvmhA9Qo"
+    "https://www.google.com/goto?url=CAESjgIB6zswFfE2B4MJr8YQj-tLa7L90bPf97yog_wUb4UD12xJfph1aPPlqcYp29V7lXMVwbOMmRKCEZLE7YACFabQUe3cP_rjq-Y4Bqpjn5Xg8N6VyP6Ldy0iBJxyl_GQxdJ-Uu4cjjxqR0epnGQQh_lhzMnOUcBOu-JI3bn9jJMet8ERgeZTawkEl2amq0DJoQnmXWU2xxLAHlMs-vp6WXZcRxQLEmR8_M2bhXZKSYa3ZhfbAj7pUNGQ4MZrGgKG6g1M93Y9jQ-EBGZlh-0fhQ_lGbWLUa1Pn8s_Mo-5XBPRqFzHxiVOoUnZTLLL0C_4EP3CorRlI1xHwYdMG9_6rNSvdGkrD8rc_ucIvmhA9Qo",
+    "https://www.google.com/goto?url=CAESjgIB6zswFWh1n2PlDSbtrek1dLRCPxaEOg3wiYg06jSBPxi-v24eGkCxEaLF7qEVYH48AUUaNk_kXMqumHzHhHqOjd5NZraz1aLQlZ5G6EI3pvDgW1gO88HtNFOZy22AkUgnEf_azZP5mQeHBeRkL65vOYyI5ghRFQf6dseEjcSy5b7F81zyObcqYGWeHV2wA6vW5oI-sT6NBq2939D5rwDw1sNHK8iq7HvQKO8How1HCPl38xU3ypN5OUSsTrMSWQYb2ULAQsNTVYVFzEXLrinvj9xPZZEWjJQKa6tYyhkj3WK-Y9hgZiJQNXpG4HWRf6rLgkruP_zrYZyG25C069SfNMN67kcCUL_EZVkvSXk"
    ],
    "visa_sponsorship": false
   },
@@ -7336,7 +7459,7 @@
    "visa_sponsorship": true
   },
   "southern-illinois-health-system::IL::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:2 general surgery and bariatric call",
    "city": null,
    "comp_max": null,
@@ -7694,7 +7817,33 @@
    ],
    "visa_sponsorship": false
   },
+  "trinity-health-of-new-england::xx::general-surgeon-robotics-block-time-trauma-center": {
+   "announced": true,
+   "archived": false,
+   "call_burden": null,
+   "city": null,
+   "comp_max": null,
+   "comp_min": null,
+   "employer": "Trinity Health Of New England",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-10-08",
+   "last_seen": "2026-10-11",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-10-08",
+   "repost_count": 0,
+   "robotics_mentioned": true,
+   "source": "google_jobs",
+   "state": null,
+   "summary": "Full-time general surgeon with robotics and trauma center focus at Trinity Health Of New England.",
+   "title": "General Surgeon - Robotics, Block Time & Trauma Center",
+   "urls": [
+    "https://www.google.com/goto?url=CAESsAIB6zswFeOHw3SqYkWCGb5soJ-smbgjDQKBmChWuGsfSrAsX9Szn1clFzJFNXFsb8ys3f4OIoA5Tdh6WxD6QnlJBYoQuzJxABW1a0ifACM629cujrlz9TroSc6GrWh4tI_ZKtGViz1uO4hdTp61geNoTdGWs8lUNbjvuiMCTJ7R84fsbAT2EzlfKvr3m_lAvv-UK2rlpIR9BDkyObs0936rn3CjWJgESKjR50-nbbpkH1N2i7IbnM7pMNr9AD_j2zOsaeWG3bxjoG3MgVEeCO6u1okT5vXR55U7EKLbI0hs62JFqzRcqBA-hF3GHTqDiuX7FsewybRnpsSyBJ1Y-17YTf_oG2WJ2VCEyNXxsoiuZT44KwXlX8COzTveoLCysvGD_HPUfILGjvT7stkcqOhv"
+   ],
+   "visa_sponsorship": false
+  },
   "trinity-health::xx::general-surgeon-robotics-trauma": {
+   "announced": true,
    "archived": true,
    "call_burden": null,
    "city": null,
@@ -7776,10 +7925,10 @@
    "employment_model": "academic",
    "fellowship_required": true,
    "first_seen": "2026-07-19",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 10,
+   "repost_count": 11,
    "robotics_mentioned": true,
    "source": "google_jobs",
    "state": "LA",
@@ -7796,7 +7945,8 @@
     "https://www.google.com/goto?url=CAESqwIB6zswFa7dYq7UhlCbJ162xw-YsCeT0KktYG5WYKiYI0gzRLAzHVfFCCSqhZkSVOIJ1dPmvcXvLkdmZCmJj8shn9eikI1AedoTtoD-wWZDvlutQ6yKrGQ7SacCTypwRuo7SstbMw0V_fpbugTxdvHpNkrCSgjhk9gXxKSd2B1G6hq3Y9zrVY3S7IbvKi4C0SAJuJJdx0qz-IcfEW_ihM_E_J0t527-8uvyMaz0Cph5zdbmMqYXyJ41mDQ-nNM0zvC_PhKYoAuoZhEUDQJgifW_OStF9EJBGMSwtHCW4QK4-ewCzJDweqfS4HrKZp4fh0AHX9-x_tWVAChoGPHuYEAPP1K44FlsDABLTVOwCLX5JMLEUoXV_w04E9aABLyrAoAwCQWgOr8DuahUBw",
     "https://www.google.com/goto?url=CAESqwIB6zswFRfc-e2dRAwc-DwMTEZU__ImA7Kv_ceZtCnQSXtSN2CnNHrrFGAMHWxZ6_fv4Zvn3kkUi7voSojiGyWfmOeANqo_9hFRcNZBbhl1xZpoCz3nKiGQnRUH8NOIf0KJ-QK5o_g6kPDoM3c6cWC4L2Wozwe-6MlEEEqJk_1OdGFPz6cNcdNUxVuKDoLk3YiP3k2jSZd-U8v0DNaRGFVCXnpq3CcxgwDvXbgDACRE8TllE2VS0AVqdxvztwu4Lapc80dphZC9o3WtAOe6cozxUWQpmXfG85Dh86OXnxA-eHZ5yig_yPuaRWRSeYPq2fANgXs8H9rMK0BHxN5GLqdna3ye3b9AXgiLWo_8BzdmG_QZYMqSspBjO1VDjd_ZLD_cB-BYdviHCp2E0g",
     "https://www.google.com/goto?url=CAESqwIB6zswFWQnSWY6sr7u3TG0p7MH9Xr7gLyx8GLIpz1W4hu-3vjTZs3LTJKbGmXsY_YZj3h5r7vwoIbZEeMem-kRdSCLWW7YQQUXquOd8L9chM0ZgGFrP-tGjKDFAKCokkLCIsjT_L_ok-zoMmBW-w24Jd3pn7q3te8D67IxwRMJTv9aShTrBLbum33KUcfDeCI0EH169Mu0Ezl4v8JDBJOY3ksnd9k4FK24v9ALNFTz1O3BHhDRwppKHkG0gnb_rexMNQonaB4RHTSxDYQQBmq0x-tb4a-8_1YeI3Mlg0IreBJt5FANUfPnbIp391m780ZO-qnTSJDOj56rWNvwksuf7MrPtnHXVwAQ8-ETuatbXqVFgr3WRI-z0dSh1EdPAk4h18W86x9scv9jAw",
-    "https://www.google.com/goto?url=CAESpwIB6zswFSRwMgFFHGhw-5rUQkJmiAGD-d3tZr3oAtfSLHwdqvrgf-bcyggWkVNnouidjwHUHKHUr-2Zp3Chob6F-eQhCapXhfFq46nUgI_WpAO0EogfMdXDuW-wZ4Q9FkAzqpAAMw0OGwkVTPzfq_ZTrDE3WabZ7ZqmC-SNVXyNHvegxMq0wkEXSO_EAGwwcpkf-p4XBemg363j--abXjIVl7O9uMzA9vIpzmSWEdp_457hgUHugsxcyVa6hkUKc4Zhx9HksQ27zyLK3ld32x3l4_2GRgyXMh-TZM2uP-dVCwzxhLMvkFJzDlOa7g-OLrU5xF1cUN7TWb02njFFiyyuGhWIuzDzaCViI6m-z-KGV70xe0iGLANWaY2Od7pUrJew_iVULdUk"
+    "https://www.google.com/goto?url=CAESpwIB6zswFSRwMgFFHGhw-5rUQkJmiAGD-d3tZr3oAtfSLHwdqvrgf-bcyggWkVNnouidjwHUHKHUr-2Zp3Chob6F-eQhCapXhfFq46nUgI_WpAO0EogfMdXDuW-wZ4Q9FkAzqpAAMw0OGwkVTPzfq_ZTrDE3WabZ7ZqmC-SNVXyNHvegxMq0wkEXSO_EAGwwcpkf-p4XBemg363j--abXjIVl7O9uMzA9vIpzmSWEdp_457hgUHugsxcyVa6hkUKc4Zhx9HksQ27zyLK3ld32x3l4_2GRgyXMh-TZM2uP-dVCwzxhLMvkFJzDlOa7g-OLrU5xF1cUN7TWb02njFFiyyuGhWIuzDzaCViI6m-z-KGV70xe0iGLANWaY2Od7pUrJew_iVULdUk",
+    "https://www.google.com/goto?url=CAESpwIB6zswFWv0tXr2gByQmSZHUN8E-5CI0128LFgWZN4CGLlK4DXuGmLVJrHQA0UvR8DJiFaokShBxrMPOIQtbK2D2EiZI7-hAw5aHyV3Bx5lvvCv64A_Nf2U8NCWzEwENVJNkvYYQgBE5Yq-_tdr5k2tomq5r0pEJ7XGkT3GVEv6lRhT3JuIlpuF4gc7dn04Ii4YGVcyzAYDWcp1jZNLSQ-1XlQXoCXImoCgZiPRpC0P5WIPyQnlEKdHuvEXWIjVJiTC-zyrEVvIS6-CLK2gzqcO7thdEt42FgFx-kj5SyfYZFtUOoupdvyDZP1WzoArabB550Kokh7pkUrAqLJWCFmSEOVuxlYrv0QOs4rQ-K8M7z3IiEpdA6gLYTQn_kGEfaxO8r_-nNcP"
    ],
    "visa_sponsorship": false
   },
@@ -7858,10 +8008,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-02",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-02",
-   "repost_count": 8,
+   "repost_count": 9,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": null,
@@ -7876,7 +8026,8 @@
     "https://www.google.com/goto?url=CAESkwIB6zswFX6632XCtTIsG-ttrUJfiRSu7w87aZqMQWkpkJZ5-vFNxufEWd26ssHJctUBkaU3kX5SOeuIhEdCGE80rwy5O8dAJdJ9MeKUvVyL9tSChRDc0eCy7657LHnAKFcuBDf_CXm94L2SK5g7qFwSbH581abp0dTFTGYoeszWykGBpVNsqN0W9mMbXV5VkUyyydXnzWYq_Rs3QaKxI4Ntx9bH6SXgOQfiP2-3XI5DrDjKbImwPHvB3rqZUlSCSvo4obIJNg4kix03QguB7udn-7UGS2GE5mS1NQ6F-Yh54D27MEMe0MGXErLKKjUGGyHepLwzvy7xe2jvGZF5dF2YvsHbdqcGhZudyR9zSj-yQq50TQ",
     "https://www.google.com/goto?url=CAESkwIB6zswFWs9Yp4fDUZH5JIC4enWMpoOsjXbzWzozMA54uwN4_eVnzqnd1IMfrwETUs8jYOPi8NtAAmp1u9vo_foejf8LJjXKIK5cAQi4C_T1Cl00BQ-LjO-YQyN6hickgRQBlmLtExcjy9ecB2vlOABPzCktcOg-XlTzDFyOHqdNxB-yRwn7Xad32JP8Du75G3dKYVBZZHwjDKyUVFyuJuH8g8reifmRiohh8gi3QpAeNGAxokoCZ2ALGQ48nbL96RHa0BQO0naosd6VspXjb9DFienU195KSLKn6Dv3PA3iloVrSoIoO_xOpPfmA0aYZOSOuk2oQAIvWRxXb-3ZbqyLZwtv0uBrdFtYR59OwKIGDqdfA",
     "https://www.google.com/goto?url=CAESkwIB6zswFaEf6Ch6ogQemsMZrAUAEQTmxmZH5M0MgJg5dfah5n28LtEkvZ_QspXocmqpf_Kp_SGxuzIQkUSBgifWXM95C6IdyO6-bJgbCtjz307vJrBi7zzHHaC9VL7supYOiIr2PrV8JkEADGTEe6NK45mtSw_ThCigX4h17M_E-oVOGjjuX-v3vnEpJPnctFXvdi3FeMZCFXMVLzmbd86kIZgZNgrUbN_6Lk76x5OE_e0by5955dIQAKndS4VV-CFGb5oEvbyp4qjGZtFRgxXNGr5XQ-YRbSZLPYuR_lRXSmDvtmWFez-Os_Zb8jmP7ulcQXh15zymAOAOhHCZJo4HLH-aJBSvGM5QKLQsJP_5h0S54A",
-    "https://www.google.com/goto?url=CAESkwIB6zswFbaJ9kVO43w0LfZDmUarz4eJJ27NNhAXi74A7r7V8_tHV9cVUq5qMrG9BlBN4luCpdprh39wP3wCuuZmjAy3b7lMeXlrQAksAepLtxf6sOLr9-UcxvGRWCIWIN2h8NXu7p73uaXaQNP2UAmXqVPfb5TlxUciocaCndnlWXjYB1IFxmFELptGB13A1KCdPTqKFQoLjL5owpENdfB-FAumgg1ydJM0GYQpKrsAkXGsyLBqvK0PT2KrYoJ0c3DRAc7xVZJIadTYB-kkZ7beAS4AC84zIR_TxO3QAWukoOQruTiBcOioxvc6dgtWFbCVzCwnb-S_OEtNt-JQIwjLumNiGT6XAC351QatYc4WJcuq2g"
+    "https://www.google.com/goto?url=CAESkwIB6zswFbaJ9kVO43w0LfZDmUarz4eJJ27NNhAXi74A7r7V8_tHV9cVUq5qMrG9BlBN4luCpdprh39wP3wCuuZmjAy3b7lMeXlrQAksAepLtxf6sOLr9-UcxvGRWCIWIN2h8NXu7p73uaXaQNP2UAmXqVPfb5TlxUciocaCndnlWXjYB1IFxmFELptGB13A1KCdPTqKFQoLjL5owpENdfB-FAumgg1ydJM0GYQpKrsAkXGsyLBqvK0PT2KrYoJ0c3DRAc7xVZJIadTYB-kkZ7beAS4AC84zIR_TxO3QAWukoOQruTiBcOioxvc6dgtWFbCVzCwnb-S_OEtNt-JQIwjLumNiGT6XAC351QatYc4WJcuq2g",
+    "https://www.google.com/goto?url=CAESkwIB6zswFXHLAgKz2jFxshZmr7mO8NGE900XMvV_ub0NdRyQCf5CdaYnN_h-L7v7CGR4RM3Q4RArd-cjVzzUC0O-LXrxBXX2y4aq6XbZIzVwL3KdC1ZKN-MdLGjPUEYHuppxB19UDO3cE27IhCGUK3hl-Eai1PHTqHzTn_DzWTrAQ6an1H4G-kHW0rTchZlh-_qrsOJDSJQW-JFrX58a0ou3TL_scjqLRb7C-sJWzMyXuTye4qQDPBcWruW9nwmAJWm4NbolM7Dl4pVejtSBDGtTtHEvaU8fkJsYDc8G3MZtfaJDU6F-5Qm__e_nfVBPkYWFq8cAmRYmtRUqlHYQ8U2twQ0bZuMiYwVamKHctO8giIgH-Q"
    ],
    "visa_sponsorship": false
   },
@@ -8193,10 +8344,10 @@
    "employment_model": "academic",
    "fellowship_required": false,
    "first_seen": "2026-07-28",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": null,
-   "repost_count": 8,
+   "repost_count": 9,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "UT",
@@ -8211,7 +8362,8 @@
     "https://www.google.com/goto?url=CAES1wEB6zswFSXihrshJeBkeZJ7wo7zSz5hm8pCS8bFXxLRtjH-jhaIv97qOLmjnqLiYBXREE0hi6C36rBTGuA3VsUZHjHkOo72H5XHZcda2o-q-9ZwS-1OZwkaABd7roQaNxuFK2V_kL34CyWjDw67ZvSEgXAoX7umffdOBEJyIORZmUshkjOKk_CcQi-MVJ1B2YUrj0SGUhkgv-np8-M0X1O7p6MN5e_MohBN7-mQpoPslBDvVi9GlytVfFp4eB2CL85IZnuFaF_7Zt4zz3YI9vEt8ooOrzGwpg",
     "https://www.google.com/goto?url=CAES1wEB6zswFZv5QFtZzpERkJEkxsIxC1ayDH9kckig18AwkqeqbAch9bUfkAz6Z7zKqCYdK8kWpbKAOnC6LX9oexRd78DZBrAsypiB9QxTTC-mGAkyLao8oIoSkGe2tTDBXfYOs3IqkJga6r3jdp84X8muUt9rm70qWjjn0LlcNXY1CblKDAj5TMpLlR96jZXoilPC66u0yimjlZ5SGTfOYdQkdTeQylx916W_0UgCg4CqP0O_FhlJfROwBan3MR1MIcvdO9OXU7ikMFfYTLx_w_E2UAcJ5UoQjQ",
     "https://www.google.com/goto?url=CAES1wEB6zswFYhAQkAjUVXp8fVy29a_Hldjyy5bAnSa-8oPEh_4T7qkaxHGC40lBelkLY47Kl2Fjjo0QdsQ0b7wwbT295uT7JqPestt5y_eJoIthqwmBqH14RshuL2D9l-ifNe8WjwgY-spZ1GyKgAQ8iEqCsfXwY6zAmOqpWIc6H1TcPd1MNdUn02WDAgrBAxjUxvLzPuX05kj3BrwGBA0CLlQdvBv6ak94aKM2FyAJyQBytR8BeqkcTm_766GJZ5L_gTIWVfJyugQmaTwEX88oyFu5lHYn01h6w",
-    "https://www.google.com/goto?url=CAES1wEB6zswFajwlXs4Z1M24IRyNdjbmOnqe0zF2NPi_Lb-8CJeRZxN3T73VTMC8FJCACe4tXEXgs0UfLqjP9b_qPmbwFW8rINs00SLSWS9eMDh0AwkDL_HnI46GEAgBHotrTX3uSirHmP-oraTueA_4Z5XaM8v-RXq5wa0CI1oCh0jfLXZSmBThWnAOkJoujmoK5KRwf3kgUpUNucG03YiYGLb7UuomC2sFzgaAf3sBzMsDuEsi986fbzt6C-w6gnpO4UHNUmqtKrXasOr-VQCKctv_wSjSlYWIg"
+    "https://www.google.com/goto?url=CAES1wEB6zswFajwlXs4Z1M24IRyNdjbmOnqe0zF2NPi_Lb-8CJeRZxN3T73VTMC8FJCACe4tXEXgs0UfLqjP9b_qPmbwFW8rINs00SLSWS9eMDh0AwkDL_HnI46GEAgBHotrTX3uSirHmP-oraTueA_4Z5XaM8v-RXq5wa0CI1oCh0jfLXZSmBThWnAOkJoujmoK5KRwf3kgUpUNucG03YiYGLb7UuomC2sFzgaAf3sBzMsDuEsi986fbzt6C-w6gnpO4UHNUmqtKrXasOr-VQCKctv_wSjSlYWIg",
+    "https://www.google.com/goto?url=CAES1wEB6zswFR7_kmzS3IBG0SENFw98Q3xGuGmhepcNXaNrYbCdLrdoecxMTztmICkKC1Fy8q_Dvoi97tHpT-vaRcHb2kcUHPVJeJF2KOExGVgSEC9pODsMl5e1I1x2d2uno6MZyAC8BMzWAcc4l7JA_zYp-YEUWEgyfHUTrJ3rnFJM7xDtCpKMkkIOHMa_ev4zwIMKTrwbELwAy7zGBvUsu2yH38Os17gtwT7n-TmfJhhkbYZQNpJZQZTtE2YW-YhWOaRQ6pjOvPoevWoe_HZX2Zs-D0R8efpWeg"
    ],
    "visa_sponsorship": false
   },
@@ -8367,7 +8519,7 @@
    "visa_sponsorship": false
   },
   "valley-health::NJ::general-surgeon-with-bariatric-and-acute-care-focus": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Paramus",
    "comp_max": 400000,
@@ -8426,7 +8578,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -8499,7 +8651,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
    "repost_count": 0,
@@ -8620,7 +8772,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -8844,10 +8996,10 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-06",
-   "repost_count": 2,
+   "repost_count": 3,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "OH",
@@ -8856,7 +9008,8 @@
    "urls": [
     "https://www.google.com/goto?url=CAES2gEB6zswFaRXqPXfnub2CgXsoxUhLV_CsSJyCKKdvtld6VnBP8sUt_plftPkjArz-gcjvtaSxjJ5zjiqOJwh0CDia_5jkd7g4m7vWFhR3bPDVckyFF4mWAw6tYozjUts4WXj6wDbfszS8-EdNQxJeSkjqGNwdlSQZrMmzRE47QjnmfMUuYr3d0rdQ89jlq74fvfyYlwMH9aT1rA8Q7NdTYE9OD9icHpk5tcYbtrmyM-MkvZAOXTrH8XK9bYJSNXypYcxq_7RN2gKZ_4ym6-S3bC2goLLsfxUhKXt2A",
     "https://www.google.com/goto?url=CAES2gEB6zswFcFMoAogeMODPGuoaFe1ZtUJbf6lCET8yKx9a5oeHKBbvdNsBgMDgXuczbmG1qAAGJJTPgeK3Vyijrjhyc9CGSRfPAKdU3VBbkuy305ONIv9SZkLTB8_6dqNwDgdLLjAmIWwaHomzJJULLSBuuPdtoah7kJiFfyw-69-9Ui-fMCOrO48OxBJXMsfomOKmMXHKaXkiaIcUuJRMc4RZRLqNgLol0ZrfDH11LeuPEdHDD6Pe5SXTpZNmVUdprDK0xOPA7sWNH-PTYf0sneJrKsnwnuLpR-Nvw",
-    "https://www.google.com/goto?url=CAES2gEB6zswFUIDTChhbjB0l21p0vP7ciVbW3fZbCdpi-QSIaifMOv7eEUxvvbHqRHul7vH6krWU-iopBvS5GMbThITZ7ItE6P2hWo6X2B2Wz9obfK9A4XrN4LFxxFA-eaUvhjS3gnl0wrDOYWiVqiuVCR4QcAEoHphgLHk_jyGXuvo4jbU1Kmi5xZ3O0_vNFEc7Kp8Ma1HDbIP8rk0Xuu6GlEkKlm_E3BaSU9EZ9prJaZkVXV9D2iBF70VHNLJ6NpPPzWJil9ZZ7_Oc_Jqwx0qS6UGDOJdsyole4YhXQ"
+    "https://www.google.com/goto?url=CAES2gEB6zswFUIDTChhbjB0l21p0vP7ciVbW3fZbCdpi-QSIaifMOv7eEUxvvbHqRHul7vH6krWU-iopBvS5GMbThITZ7ItE6P2hWo6X2B2Wz9obfK9A4XrN4LFxxFA-eaUvhjS3gnl0wrDOYWiVqiuVCR4QcAEoHphgLHk_jyGXuvo4jbU1Kmi5xZ3O0_vNFEc7Kp8Ma1HDbIP8rk0Xuu6GlEkKlm_E3BaSU9EZ9prJaZkVXV9D2iBF70VHNLJ6NpPPzWJil9ZZ7_Oc_Jqwx0qS6UGDOJdsyole4YhXQ",
+    "https://www.google.com/goto?url=CAES2gEB6zswFZaZPPupGn0wM2VnHPbdF0MXEXtvVe8XZD-eOC2XkqFu-CA6alKhyPOT0GTMGmEIAcWtv1vc0Vxzuq64CyqOOKoNGT-eFQuhDwuWZQnX1DWObbppS5o-MJG06Lnbr5NyMi6BWQg88QAmKQWiRxnlX-TwDeO5H_ZygXq28kE8dHBMvVAkHdFnsIcB-8XtGGrrwL7TBPVND-Tr3DqUJB2oYAI2o36918_jjVB70m9IALdI2-Fa5Zo_JaeG6rl1vC65XzdpmTbpWmcjp9M4unWclUOrr-w8xA"
    ],
    "visa_sponsorship": false
   },
@@ -8871,17 +9024,18 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-04",
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": false,
    "source": "google_jobs",
    "state": "TX",
    "summary": "Bariatric surgeon, flexible schedule, $350K\u2013$550K, Temple TX, full-time private practice.",
    "title": "Bariatric Surgeon",
    "urls": [
-    "https://www.google.com/goto?url=CAESjAIB6zswFe4FvnrTwp-r_XZ-2APF-v1h6CxJkX-nArRHM6ELk6_6D69oAoFnY7Fqz6hZwnps6ygeQTjxpcD-YMSZ6YyvRw2-q2wikAgfES04Ac0GlxXpHg5R9dtm7ayQifJkgAbA6getMhlBHISBt7AVWPO_40B-CCulu8vHxT7TR6Qf0KOcBX2h1NbDPTdolOgISsMom0rlRVmijqjefmdW_jQm8AiNducckwkaiFUKNmAxXlVi0CHWfrxBysrUr3nesBKNp9ebH2xfn7DQfp0gwGv5-dDuZJVhu3cLWQfapGytc4iGCUkztHZ8DdxT7nIRxLRL6fCZDVvF73DdujSEBdk41e6htwhUuxrY"
+    "https://www.google.com/goto?url=CAESjAIB6zswFe4FvnrTwp-r_XZ-2APF-v1h6CxJkX-nArRHM6ELk6_6D69oAoFnY7Fqz6hZwnps6ygeQTjxpcD-YMSZ6YyvRw2-q2wikAgfES04Ac0GlxXpHg5R9dtm7ayQifJkgAbA6getMhlBHISBt7AVWPO_40B-CCulu8vHxT7TR6Qf0KOcBX2h1NbDPTdolOgISsMom0rlRVmijqjefmdW_jQm8AiNducckwkaiFUKNmAxXlVi0CHWfrxBysrUr3nesBKNp9ebH2xfn7DQfp0gwGv5-dDuZJVhu3cLWQfapGytc4iGCUkztHZ8DdxT7nIRxLRL6fCZDVvF73DdujSEBdk41e6htwhUuxrY",
+    "https://www.google.com/goto?url=CAESjAIB6zswFW0ME9kXdrclC9W3eFHRlKrZkwFMnUQvvrHukngJwryQhjaui4bMBQyuZ0IuuZiscpRyQJOpw8RDt6y4rm_6qboRjHbgofGY7BViJdsZR6wyRzf20sV6rY5iuEea_LNR_TRsTW80Fs5er34UVyiC2Z4EH8GLG0K0J0EgSTGmJ2HTb8VghustEf_g74QRnKDFSztvvXqKvkPM45gZQ4fRws2PhBX4aEgHTkKGgTopfOJemFDvxBdPePFIPehgA0nAJuK1zhHbwd5JnmeWxIJOTaqYQwYwcuKimFSLpQct9K24S5XECdHSdbFFejT7uZNvEOaWcRX6DzAuUPML3xcNgJV0e9WlrLll"
    ],
    "visa_sponsorship": false
   },
@@ -8934,7 +9088,7 @@
    "visa_sponsorship": false
   },
   "vohra-wound-physicians::WI::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Eau Claire",
    "comp_max": null,
@@ -9110,7 +9264,7 @@
    "visa_sponsorship": false
   },
   "west-virginia-university-health-system-uha-university-health-associates::WV::general-surgeon-minimally-invasive-hernia-abdominal-wall-reconstruction": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Morgantown",
    "comp_max": null,
@@ -9374,7 +9528,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-10-10T15:51:27Z",
+  "last_run": "2026-10-11T16:03:27Z",
   "sample": false
  }
 }
