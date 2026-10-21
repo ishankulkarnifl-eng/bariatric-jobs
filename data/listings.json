@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -2602,7 +2602,7 @@
    "visa_sponsorship": false
   },
   "confidential::MI::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Detroit",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5246,7 +5246,7 @@
    "visa_sponsorship": false
   },
   "imed-staffing-llc::NM::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Rotating shared call, Monday-Friday 8-5",
    "city": "Albuquerque",
    "comp_max": 898715,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -6227,7 +6227,7 @@
   },
   "mclaren-medical-group::MI::general-surgery-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "5-7 days/month shared call",
    "city": "Port Huron",
    "comp_max": null,
@@ -6961,7 +6961,7 @@
    "employment_model": "private_practice",
    "fellowship_required": true,
    "first_seen": "2026-09-27",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-27",
    "repost_count": 0,
@@ -7076,7 +7076,7 @@
   },
   "peacehealth::WA::general-surgeon-foregut": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "Weekly call rotation",
    "city": "Bellingham",
    "comp_max": null,
@@ -7156,7 +7156,7 @@
   },
   "peopleadmin::NC::academic-minimally-invasive-bariatric-foregut-hernia-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Raleigh",
    "comp_max": null,
@@ -8248,7 +8248,7 @@
   },
   "stephens-county-hospital::GA::general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "General Surgery call schedule",
    "city": "Toccoa",
    "comp_max": null,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9406,7 +9406,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
    "repost_count": 0,
@@ -9527,7 +9527,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10347,7 +10347,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-10-20T14:39:08Z",
+  "last_run": "2026-10-21T14:48:43Z",
   "sample": false
  }
 }
