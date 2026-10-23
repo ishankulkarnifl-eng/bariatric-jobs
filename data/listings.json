@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -477,7 +477,7 @@
   },
   "archway-physician-recruitment::KY::general-surgery": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "South Williamson",
    "comp_max": null,
@@ -699,7 +699,7 @@
   },
   "atlantic-medsearch::AR::general-surgery-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:3 general surgery call",
    "city": "Conway",
    "comp_max": null,
@@ -2087,7 +2087,7 @@
   },
   "comphealth::AL::general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:3 call rotation, 10 days/month",
    "city": "Selma",
    "comp_max": null,
@@ -4308,7 +4308,7 @@
    "visa_sponsorship": false
   },
   "hayman-daugherty-associates-inc::AR::general-surgeon-with-bariatrics-fellowship": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Shared call coverage",
    "city": "Alpena",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -6961,7 +6961,7 @@
    "employment_model": "private_practice",
    "fellowship_required": true,
    "first_seen": "2026-09-27",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-27",
    "repost_count": 0,
@@ -9299,7 +9299,7 @@
    "visa_sponsorship": false
   },
   "veterans-health-administration-cincinnati-va-medical-center::OH::general-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "On-call supervision of residents; 15 min phone, 60 min in-person response",
    "city": "Cincinnati",
    "comp_max": null,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9406,7 +9406,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
    "repost_count": 0,
@@ -9421,7 +9421,7 @@
    "visa_sponsorship": false
   },
   "veterans-health-administration::FL::general-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Jacksonville",
    "comp_max": 400000,
@@ -9527,7 +9527,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -9566,7 +9566,7 @@
    "visa_sponsorship": false
   },
   "vohra-physicians::AL::bariatric-surgeon-wound-care-specialist": {
-   "archived": false,
+   "archived": true,
    "call_burden": "No call, no nights",
    "city": "Birmingham",
    "comp_max": 350000,
@@ -10347,7 +10347,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-10-22T14:50:07Z",
+  "last_run": "2026-10-23T14:34:28Z",
   "sample": false
  }
 }
