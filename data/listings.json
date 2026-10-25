@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -1388,7 +1388,7 @@
    "visa_sponsorship": false
   },
   "britt-medical-search-llc::ME::general-surgeon-broad-mix-bariatrics": {
-   "archived": false,
+   "archived": true,
    "call_burden": "shared call responsibilities",
    "city": "Portland",
    "comp_max": null,
@@ -2729,7 +2729,7 @@
    "visa_sponsorship": false
   },
   "confidential::NE::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Omaha",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -6072,7 +6072,7 @@
    "visa_sponsorship": false
   },
   "lovelace-health-system::NM::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Albuquerque",
    "comp_max": 490000,
@@ -6961,7 +6961,7 @@
    "employment_model": "private_practice",
    "fellowship_required": true,
    "first_seen": "2026-09-27",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-27",
    "repost_count": 0,
@@ -7529,7 +7529,7 @@
   },
   "proforma-health::FL::general-surgery-physician-foregut-bariatric-hpb": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 general surgery call",
    "city": "Tampa",
    "comp_max": null,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9406,7 +9406,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
    "repost_count": 0,
@@ -9527,7 +9527,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10347,7 +10347,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-10-24T13:41:00Z",
+  "last_run": "2026-10-25T14:02:03Z",
   "sample": false
  }
 }
