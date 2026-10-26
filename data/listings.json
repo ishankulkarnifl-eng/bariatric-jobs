@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -1700,7 +1700,7 @@
   },
   "cambridge-health-alliance::MA::general-surgery-surgeon-mis-bariatric": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Cambridge",
    "comp_max": 410000,
@@ -3952,7 +3952,7 @@
   },
   "eisenhower-army-medical-center-dha::GA::general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "Full-spectrum surgical coverage including nights and weekends",
    "city": "Fort Gordon",
    "comp_max": 400000,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5349,7 +5349,7 @@
    "visa_sponsorship": true
   },
   "intermountain-health::UT::fellowship-trained-general-surgeon-minimally-invasive-surgery": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 call",
    "city": "Ogden",
    "comp_max": null,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -6961,7 +6961,7 @@
    "employment_model": "private_practice",
    "fellowship_required": true,
    "first_seen": "2026-09-27",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-27",
    "repost_count": 0,
@@ -7936,7 +7936,7 @@
   },
   "society-of-american-gastrointestinal-and-endoscopic-surgeons::UT::robotic-mis-general-surgeon-foregut-specialist": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Ogden",
    "comp_max": 500000,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9406,7 +9406,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
    "repost_count": 0,
@@ -9527,7 +9527,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10347,7 +10347,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-10-25T14:02:03Z",
+  "last_run": "2026-10-26T16:29:17Z",
   "sample": false
  }
 }
