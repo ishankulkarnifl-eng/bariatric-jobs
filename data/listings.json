@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -1112,7 +1112,7 @@
   },
   "bayhealth::DE::general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Milford",
    "comp_max": null,
@@ -1647,7 +1647,7 @@
    "visa_sponsorship": false
   },
   "cambridge-health-alliance::MA::general-surgeon-mis-robotic-bariatric-expert": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Everett",
    "comp_max": 410000,
@@ -2276,7 +2276,7 @@
    "visa_sponsorship": false
   },
   "confidential::CA::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "San Diego",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -6658,7 +6658,7 @@
   },
   "musc-community-physicians-mcp::SC::general-surgeon-robotic-academic-medicine": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:4 call",
    "city": "Florence",
    "comp_max": 450000,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9406,7 +9406,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
    "repost_count": 0,
@@ -9527,7 +9527,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -9593,7 +9593,7 @@
   },
   "vohra-physicians::CT::bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Waterbury",
    "comp_max": null,
@@ -10347,7 +10347,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-10-30T16:16:51Z",
+  "last_run": "2026-10-31T15:40:13Z",
   "sample": false
  }
 }
