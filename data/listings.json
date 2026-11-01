@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -1467,7 +1467,7 @@
    "visa_sponsorship": false
   },
   "britt-medical-search::ME::general-surgeon-bariatric-mis": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Shared call responsibilities",
    "city": "Lewiston",
    "comp_max": null,
@@ -1836,7 +1836,7 @@
   },
   "chi::MT::general-surgeon-robotic-bariatrics": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Livingston",
    "comp_max": null,
@@ -2353,7 +2353,7 @@
    "visa_sponsorship": false
   },
   "confidential::CT::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Hartford",
    "comp_max": 108000,
@@ -2704,7 +2704,7 @@
    "visa_sponsorship": false
   },
   "confidential::NC::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Fayetteville",
    "comp_max": null,
@@ -2954,7 +2954,7 @@
    "visa_sponsorship": false
   },
   "confidential::SC::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Greenville",
    "comp_max": null,
@@ -4466,7 +4466,7 @@
    "visa_sponsorship": false
   },
   "hayman-daugherty-associates-inc::NC::bariatric-general-surgery-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:4 general surgery call",
    "city": "Peachland",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -5647,7 +5647,7 @@
    "visa_sponsorship": false
   },
   "jackson-physician-search::MS::general-surgeon-robotic-tech-level-iv-trauma": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": null,
    "comp_max": null,
@@ -7451,7 +7451,7 @@
    "visa_sponsorship": true
   },
   "private-general-surgery-group-practice-great-falls-mt::MT::general-surgery-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 call schedule",
    "city": "Great Falls",
    "comp_max": null,
@@ -8184,7 +8184,7 @@
    "visa_sponsorship": true
   },
   "spencer-britt::ME::general-surgeon-bariatric-focus": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Lewiston",
    "comp_max": 450000,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9406,7 +9406,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
    "repost_count": 0,
@@ -9527,7 +9527,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10347,7 +10347,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-10-31T15:40:13Z",
+  "last_run": "2026-11-01T16:24:16Z",
   "sample": false
  }
 }
