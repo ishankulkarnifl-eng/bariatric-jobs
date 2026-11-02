@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -1572,7 +1572,7 @@
    "visa_sponsorship": false
   },
   "cambridge-health-alliance::MA::general-mis-bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:6 general surgery call, no trauma",
    "city": "Cambridge",
    "comp_max": 410000,
@@ -1757,7 +1757,7 @@
   },
   "cambridge-health-alliance::WA::general-surgeon-mis-robotic-bariatric-expert": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "24/7 in-house housestaff support",
    "city": "Everett",
    "comp_max": null,
@@ -2163,7 +2163,7 @@
   },
   "comphealth::xx::robotic-general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:4 call",
    "city": null,
    "comp_max": null,
@@ -2759,7 +2759,7 @@
    "visa_sponsorship": false
   },
   "confidential::NM::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Albuquerque",
    "comp_max": null,
@@ -4894,7 +4894,7 @@
   },
   "health-marketing::OK::general-surgery-physician": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:2 general surgery call",
    "city": "Oklahoma City",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -7427,7 +7427,7 @@
   },
   "private-general-surgery-group-practice-great-falls-mt::MT::general-surgery-bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 general surgery call",
    "city": "Great Falls",
    "comp_max": null,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9406,7 +9406,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
    "repost_count": 0,
@@ -9527,7 +9527,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -9774,7 +9774,7 @@
   },
   "vohra-wound-physicians-llc::TX::bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Temple",
    "comp_max": 550000,
@@ -10347,7 +10347,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-01T16:24:16Z",
+  "last_run": "2026-11-02T19:52:10Z",
   "sample": false
  }
 }
