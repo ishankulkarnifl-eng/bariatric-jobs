@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -1935,7 +1935,7 @@
    "visa_sponsorship": false
   },
   "cleveland-clinic-foundation::FL::general-surgeon-robotic-minimally-invasive": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Vero Beach",
    "comp_max": null,
@@ -2897,7 +2897,7 @@
    "visa_sponsorship": false
   },
   "confidential::OR::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Portland",
    "comp_max": null,
@@ -3839,7 +3839,7 @@
    "visa_sponsorship": false
   },
   "doctor-s-choice-placement::NJ::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": null,
    "comp_max": null,
@@ -4382,7 +4382,7 @@
    "visa_sponsorship": false
   },
   "hayman-daugherty-associates-inc::MS::general-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Paulding",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -6339,7 +6339,7 @@
   },
   "md-staff-llc::AR::general-surgeon-bariatric": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "Shared call coverage",
    "city": "Alpena",
    "comp_max": null,
@@ -7207,7 +7207,7 @@
    "visa_sponsorship": false
   },
   "physician-empire::WY::general-surgery-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:6 trauma call shared with 5 other surgeons",
    "city": "Burns",
    "comp_max": null,
@@ -7362,7 +7362,7 @@
    "visa_sponsorship": false
   },
   "presbyterian-healthcare-services::NM::general-bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Bariatric and general surgery call coverage",
    "city": "Rio Rancho",
    "comp_max": 125000,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9527,7 +9527,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10259,7 +10259,7 @@
    "visa_sponsorship": false
   },
   "wvu-medicine::WV::metabolic-bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Martinsburg",
    "comp_max": 650000,
@@ -10347,7 +10347,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-02T19:52:10Z",
+  "last_run": "2026-11-03T17:25:26Z",
   "sample": false
  }
 }
