@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -354,7 +354,7 @@
    "visa_sponsorship": false
   },
   "aoia::KY::robotic-general-surgeon-mis-bariatrics-focus": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Eastern",
    "comp_max": 480000,
@@ -969,7 +969,7 @@
    "visa_sponsorship": false
   },
   "atrium-health::NC::academic-bariatric-and-minimally-invasive-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Concord",
    "comp_max": null,
@@ -3158,7 +3158,7 @@
    "visa_sponsorship": true
   },
   "continuum-medical-staffing-montana-health-system::MT::general-surgeon-bariatric-mis": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 general surgery call",
    "city": "Great Falls",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5272,7 +5272,7 @@
   },
   "indiana-university-health::IN::general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "Shared call responsibilities",
    "city": "Fishers",
    "comp_max": null,
@@ -5430,7 +5430,7 @@
    "visa_sponsorship": false
   },
   "intermountain-health::UT::mis-fellowship-trained-general-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 general surgery call",
    "city": "Ogden",
    "comp_max": 500000,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -5590,7 +5590,7 @@
   },
   "jackson-physician-search::MD::general-surgery-with-bariatric-or-colorectal": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": null,
    "comp_max": null,
@@ -7181,7 +7181,7 @@
    "visa_sponsorship": false
   },
   "physician-empire::WY::general-surgery-physician": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:6 trauma call shared with 5 other surgeons",
    "city": null,
    "comp_max": null,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9444,6 +9444,31 @@
    ],
    "visa_sponsorship": false
   },
+  "veterans-health-administration::LA::general-surgeon": {
+   "announced": true,
+   "archived": false,
+   "call_burden": null,
+   "city": "Shreveport",
+   "comp_max": 400000,
+   "comp_min": 360000,
+   "employer": "Veterans Health Administration",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-11-04",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "usajobs",
+   "state": "LA",
+   "summary": "VHA general surgery position in Shreveport, LA; $360\u2013400K + EDRP loan repayment up to $200K.",
+   "title": "General Surgeon",
+   "urls": [
+    "https://www.usajobs.gov:443/job/891564500"
+   ],
+   "visa_sponsorship": false
+  },
   "veterans-health-administration::MI::chief-surgeon": {
    "archived": true,
    "call_burden": null,
@@ -9527,7 +9552,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10347,7 +10372,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-03T17:25:26Z",
+  "last_run": "2026-11-04T17:38:35Z",
   "sample": false
  }
 }
