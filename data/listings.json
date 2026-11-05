@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -329,7 +329,7 @@
   },
   "anmed-health::SC::bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Anderson",
    "comp_max": null,
@@ -1725,7 +1725,7 @@
   },
   "cambridge-health-alliance::MA::surgeon-general-mis-bariatric": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:6 general surgery call, no trauma",
    "city": "Boston",
    "comp_max": 410000,
@@ -3104,7 +3104,7 @@
    "visa_sponsorship": true
   },
   "continuum-medical-staffing-montana-health-system::MT::bariatric-mis-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 general surgery call",
    "city": "Great Falls",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5296,7 +5296,7 @@
    "visa_sponsorship": false
   },
   "inland-valley-surgeons-of-socal::CA::bariatric-mis-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:3 call rotation, negotiable",
    "city": "Covina",
    "comp_max": null,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -8525,7 +8525,7 @@
   },
   "trinity-health-of-new-england::xx::general-surgeon-robotics-block-time-trauma-center": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": null,
    "comp_max": null,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9455,7 +9455,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-04",
    "repost_count": 0,
@@ -9552,7 +9552,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10260,7 +10260,7 @@
    "visa_sponsorship": false
   },
   "wvu-medicine::WV::general-surgery-medical-director-metabolic-and-bariatric-surgery": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Parkersburg",
    "comp_max": null,
@@ -10372,7 +10372,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-04T17:38:35Z",
+  "last_run": "2026-11-05T17:46:30Z",
   "sample": false
  }
 }
