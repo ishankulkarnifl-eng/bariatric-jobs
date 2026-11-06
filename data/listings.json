@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -623,7 +623,7 @@
   },
   "ascension-st-john::OK::general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Broken Arrow",
    "comp_max": null,
@@ -897,7 +897,7 @@
   },
   "atlanticare::NJ::general-surgery-program-director": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:6 general surgery call",
    "city": "Atlantic City",
    "comp_max": null,
@@ -2309,7 +2309,7 @@
    "visa_sponsorship": false
   },
   "confidential::CO::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Denver",
    "comp_max": null,
@@ -3017,7 +3017,7 @@
    "visa_sponsorship": false
   },
   "confidential::WA::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Spokane",
    "comp_max": null,
@@ -3430,7 +3430,7 @@
   },
   "defense-health-agency::GA::general-surgeon-bariatric-full-spectrum-care": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "Full-spectrum surgical coverage including nights and weekends",
    "city": "Augusta",
    "comp_max": 320000,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -6127,7 +6127,7 @@
    "visa_sponsorship": false
   },
   "mayo-clinic::MN::abdominal-wall-metabolic-surgeon-robotic-bariatric": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Rochester",
    "comp_max": 550000,
@@ -6252,7 +6252,7 @@
    "visa_sponsorship": false
   },
   "mcm-associates-inland-valley-surgeons-of-socal::CA::bariatric-mis-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:3 call rotation, negotiable",
    "city": "Covina",
    "comp_max": null,
@@ -6927,7 +6927,7 @@
    "visa_sponsorship": false
   },
   "northwestern-university::IL::esophageal-and-foregut-surgery-faculty-clinical-assistant-associate-professor": {
-   "archived": false,
+   "archived": true,
    "call_burden": "shared call coverage",
    "city": "Chicago",
    "comp_max": 410000,
@@ -7266,7 +7266,7 @@
   },
   "physicianwork::MS::general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Heidelberg",
    "comp_max": null,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9455,7 +9455,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-04",
    "repost_count": 0,
@@ -9552,7 +9552,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10321,7 +10321,7 @@
   },
   "wvu-medicine::WV::physician-general-surgery-medical-director-for-metabolic-and-bariatric-surgery": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Parkersburg",
    "comp_max": null,
@@ -10372,7 +10372,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-05T17:46:30Z",
+  "last_run": "2026-11-06T17:06:49Z",
   "sample": false
  }
 }
