@@ -191,7 +191,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": true,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-21",
    "repost_count": 1,
@@ -1990,7 +1990,7 @@
   },
   "commonwealth-medical-services::KY::general-surgeon-endoscopy": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "light call",
    "city": null,
    "comp_max": null,
@@ -3258,7 +3258,7 @@
    "visa_sponsorship": true
   },
   "continuum-medical-staffing::MT::bariatric-mis-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 call schedule",
    "city": "Great Falls",
    "comp_max": null,
@@ -4757,7 +4757,7 @@
   },
   "hayman-daugherty-associates::MS::general-surgery-physician": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": null,
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5190,7 +5190,7 @@
   },
   "ibi-clinic::FL::general-bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Hudson",
    "comp_max": 320000,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -7296,7 +7296,7 @@
    "visa_sponsorship": false
   },
   "presbyterian-healthcare-services::NM::bariatric-general-surgeon-laparoscopic": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Rio Rancho",
    "comp_max": null,
@@ -7884,7 +7884,7 @@
   },
   "society-of-american-gastrointestinal-and-endoscopic-surgeons-tulane-university::LA::assistant-professor-mis-bariatric-surgery": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Harahan",
    "comp_max": null,
@@ -8551,7 +8551,7 @@
    "visa_sponsorship": false
   },
   "trinity-health::xx::general-surgeon-robotic-technology": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": null,
    "comp_max": null,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9455,7 +9455,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-04",
    "repost_count": 0,
@@ -9552,7 +9552,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -9767,7 +9767,7 @@
   },
   "vohra-wound-physicians-llc::OH::bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Cleveland",
    "comp_max": 350000,
@@ -10129,7 +10129,7 @@
    "visa_sponsorship": false
   },
   "wvu-health-system-smg-system-medical-group::WV::general-surgery-medical-director-metabolic-and-bariatric-surgery": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Parkersburg",
    "comp_max": null,
@@ -10177,7 +10177,7 @@
    "visa_sponsorship": false
   },
   "wvu-medicine-east-berkeley-medical-center::WV::metabolic-bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Martinsburg",
    "comp_max": null,
@@ -10372,7 +10372,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-06T17:06:49Z",
+  "last_run": "2026-11-07T16:01:52Z",
   "sample": false
  }
 }
