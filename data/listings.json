@@ -49,7 +49,7 @@
    "visa_sponsorship": false
   },
   "adventhealth-kansas::KS::bariatric-metabolic-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "No traditional general surgery call",
    "city": "Lenexa",
    "comp_max": null,
@@ -996,7 +996,7 @@
    "visa_sponsorship": false
   },
   "banner-health-banner-university-medicine::AZ::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Tucson",
    "comp_max": null,
@@ -2189,7 +2189,7 @@
    "visa_sponsorship": false
   },
   "confidential::AL::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Huntsville",
    "comp_max": null,
@@ -2521,7 +2521,7 @@
    "visa_sponsorship": false
   },
   "confidential::KY::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Louisville",
    "comp_max": null,
@@ -3076,7 +3076,7 @@
    "visa_sponsorship": false
   },
   "continuum-medical-staffing-great-falls-health-system::MT::bariatric-mis-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 call schedule",
    "city": "Great Falls",
    "comp_max": null,
@@ -3977,7 +3977,7 @@
   },
   "emerald-resource-group::NY::bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "White Plains",
    "comp_max": null,
@@ -4038,7 +4038,7 @@
   },
   "essentia-health-brainerd-medical-center::MN::general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "1:4 general surgery call",
    "city": "Brainerd",
    "comp_max": 538230,
@@ -4415,7 +4415,7 @@
   },
   "hayman-daugherty-associates-inc::MS::general-surgeon-surgicalist": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Vicksburg",
    "comp_max": null,
@@ -4805,7 +4805,7 @@
    "visa_sponsorship": false
   },
   "hca-healthcare-portsmouth-regional-hospital::NH::general-surgery-physician": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Portsmouth",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5218,7 +5218,7 @@
   },
   "ibi-clinic::GA::general-bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Loganville",
    "comp_max": null,
@@ -5378,7 +5378,7 @@
    "visa_sponsorship": false
   },
   "intermountain-health::UT::general-surgeon-mis-fellow": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:5 general surgery call",
    "city": "Ogden",
    "comp_max": 426500,
@@ -5490,7 +5490,7 @@
    "visa_sponsorship": false
   },
   "iu-health-medical-group::IN::division-chief-general-surgery": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Indianapolis",
    "comp_max": null,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -5836,7 +5836,7 @@
    "visa_sponsorship": false
   },
   "lewiston-hospital-britt-medical-search-placement::ME::general-surgeon-bariatric-mis": {
-   "archived": false,
+   "archived": true,
    "call_burden": "shared call responsibilities",
    "city": "Lewiston",
    "comp_max": 104000,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9455,7 +9455,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-04",
    "repost_count": 0,
@@ -9552,7 +9552,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10080,7 +10080,7 @@
   },
   "west-virginia-university-health-system::WV::general-surgery-medical-director-metabolic-and-bariatric-surgery": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Parkersburg",
    "comp_max": null,
@@ -10372,7 +10372,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-08T16:20:50Z",
+  "last_run": "2026-11-09T20:11:41Z",
   "sample": false
  }
 }
