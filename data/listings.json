@@ -119,7 +119,7 @@
    "visa_sponsorship": false
   },
   "adventhealth-medical-group::KS::bariatric-metabolic-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "No traditional general surgery call",
    "city": "Lenexa",
    "comp_max": null,
@@ -1160,7 +1160,7 @@
    "visa_sponsorship": false
   },
   "beth-israel-deaconess-hospital-milton::MA::metabolic-and-bariatric-surgeon-and-director": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Worcester",
    "comp_max": null,
@@ -1671,7 +1671,7 @@
    "visa_sponsorship": false
   },
   "cambridge-health-alliance::MA::general-surgery-mis-bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "1:6 shared call coverage",
    "city": "Cambridge",
    "comp_max": 410000,
@@ -1805,7 +1805,7 @@
    "visa_sponsorship": false
   },
   "cha-cambridge-health-alliance::MA::general-surgeon-mis-robotic-bariatric": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Cambridge",
    "comp_max": 410000,
@@ -2409,7 +2409,7 @@
    "visa_sponsorship": false
   },
   "confidential::HI::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Honolulu",
    "comp_max": null,
@@ -2465,7 +2465,7 @@
    "visa_sponsorship": false
   },
   "confidential::KS::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Wichita",
    "comp_max": null,
@@ -2653,7 +2653,7 @@
    "visa_sponsorship": false
   },
   "confidential::MO::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "St. Louis",
    "comp_max": null,
@@ -2787,7 +2787,7 @@
    "visa_sponsorship": false
   },
   "confidential::NV::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Reno",
    "comp_max": null,
@@ -2829,7 +2829,7 @@
    "visa_sponsorship": false
   },
   "confidential::OH::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Youngstown",
    "comp_max": null,
@@ -3576,7 +3576,7 @@
    "visa_sponsorship": false
   },
   "doctor-s-choice-placement-medical-center::NM::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Las Cruces",
    "comp_max": null,
@@ -3612,7 +3612,7 @@
   },
   "doctor-s-choice-placement-services-inc::AR::bariatric-advanced-laparoscopic-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Arkansas City",
    "comp_max": 420000,
@@ -3642,7 +3642,7 @@
    "visa_sponsorship": false
   },
   "doctor-s-choice-placement-services-inc::AR::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Arkansas City",
    "comp_max": null,
@@ -4257,7 +4257,7 @@
    "visa_sponsorship": false
   },
   "hayman-daugherty-associates-inc::AR::general-surgeon-bariatric": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Shared call coverage",
    "city": "Alpena",
    "comp_max": null,
@@ -4516,7 +4516,7 @@
    "visa_sponsorship": false
   },
   "hayman-daugherty-associates-inc::NM::bariatric-surgery-physician": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Arrey",
    "comp_max": null,
@@ -4550,7 +4550,7 @@
    "visa_sponsorship": false
   },
   "hayman-daugherty-associates-inc::PA::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "East Stroudsburg",
    "comp_max": null,
@@ -4865,7 +4865,7 @@
   },
   "hda-md-staff::MS::general-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Paulding",
    "comp_max": null,
@@ -5149,7 +5149,7 @@
    "employment_model": "private_practice",
    "fellowship_required": false,
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-15",
    "repost_count": 0,
@@ -5525,7 +5525,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-10-13",
    "repost_count": 0,
@@ -5804,7 +5804,7 @@
   },
   "kc-bariatric::KS::bariatric-metabolic-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Lenexa",
    "comp_max": null,
@@ -5863,7 +5863,7 @@
    "visa_sponsorship": false
   },
   "lewiston-hospital-via-britt-medical-search::ME::general-surgeon-bariatric-mis": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Shared call responsibilities",
    "city": "Lewiston",
    "comp_max": 104000,
@@ -5997,7 +5997,7 @@
    "visa_sponsorship": false
   },
   "lifepoint-health-starr-regional-medical-center::TN::general-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Supportive call coverage from 3 additional independent surgeons",
    "city": "Athens",
    "comp_max": null,
@@ -6486,7 +6486,7 @@
   },
   "medicorp-inc::MS::general-surgery-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "7\u201310 days ER call",
    "city": "Jackson",
    "comp_max": null,
@@ -6510,7 +6510,7 @@
    "visa_sponsorship": false
   },
   "medstar-health-georgetown-university::DC::general-surgeon-faculty-appointment": {
-   "archived": false,
+   "archived": true,
    "call_burden": "Shared call schedule for acute care surgery",
    "city": "Washington",
    "comp_max": 400000,
@@ -7024,7 +7024,7 @@
    "visa_sponsorship": false
   },
   "pacific-companies::CO::general-surgery-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": "8 days per month shared call",
    "city": "Alamosa",
    "comp_max": 500000,
@@ -8348,7 +8348,7 @@
   },
   "the-chronicle-of-higher-education::WV::metabolic-bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Martinsburg",
    "comp_max": null,
@@ -8650,7 +8650,7 @@
    "visa_sponsorship": false
   },
   "tulane-university-society-of-american-gastrointestinal-and-endoscopic-surgeons::LA::assistant-professor-mis-bariatric-surgery": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "New Orleans",
    "comp_max": null,
@@ -8735,7 +8735,7 @@
    "visa_sponsorship": false
   },
   "u-s-department-of-veterans-affairs::xx::general-surgeon-bariatric-colorectal-minimally-invasive": {
-   "archived": false,
+   "archived": true,
    "call_burden": "general surgery call",
    "city": null,
    "comp_max": null,
@@ -8823,7 +8823,7 @@
    "visa_sponsorship": false
   },
   "unc-chapel-hill::NC::bariatric-foregut-and-hernia-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Chapel Hill",
    "comp_max": null,
@@ -9085,7 +9085,7 @@
    "visa_sponsorship": false
   },
   "university-of-utah::UT::bariatric-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Salt Lake City",
    "comp_max": 400000,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9372,7 +9372,7 @@
    "visa_sponsorship": false
   },
   "veterans-health-administration::AR::general-surgeon": {
-   "archived": true,
+   "archived": false,
    "call_burden": null,
    "city": "Fayetteville",
    "comp_max": 400000,
@@ -9381,17 +9381,18 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-12",
-   "last_seen": "2026-09-22",
+   "last_seen": "2026-11-10",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-12",
-   "repost_count": 0,
+   "repost_count": 1,
    "robotics_mentioned": false,
    "source": "usajobs",
    "state": "AR",
    "summary": "VHA general surgeon position in Fayetteville, AR; eligible for EDRP loan repayment up to $200k.",
    "title": "General Surgeon",
    "urls": [
-    "https://www.usajobs.gov:443/job/880288900"
+    "https://www.usajobs.gov:443/job/880288900",
+    "https://www.usajobs.gov:443/job/892314600"
    ],
    "visa_sponsorship": false
   },
@@ -9455,7 +9456,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-04",
    "repost_count": 0,
@@ -9552,7 +9553,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -9944,7 +9945,7 @@
    "visa_sponsorship": false
   },
   "wake-forest-university-school-of-medicine-atrium-health::NC::academic-bariatric-and-minimally-invasive-surgeon": {
-   "archived": false,
+   "archived": true,
    "call_burden": null,
    "city": "Winston-Salem",
    "comp_max": null,
@@ -10372,7 +10373,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-09T20:11:41Z",
+  "last_run": "2026-11-10T17:25:01Z",
   "sample": false
  }
 }
