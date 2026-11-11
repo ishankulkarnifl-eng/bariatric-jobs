@@ -46,5 +46,5 @@ digest:
   # Digest is sent only when there are new listings since the last run.
 
 extraction:
-  model: "claude-haiku-4-5-20251001"
+  model: "claude-haiku-5-5"      # $0.10/$0.50 per MTok for prompts under 100K tokens (4.5 was $1/$5)
   max_listings_per_run: 250      # cost guard; Haiku makes this pennies anyway

@@ -67,17 +67,26 @@ def _call_claude(model: str, posting_text: str) -> dict | None:
                 "anthropic-version": "2023-06-01",
                 "content-type": "application/json",
             },
+            # Haiku 5.5 thinks by default and rejects non-default sampling (temperature 0 is a
+            # 400). Low effort keeps thinking short for an extraction; max_tokens leaves room for
+            # it, since thinking counts toward the cap and could otherwise end the reply before
+            # any JSON.
             json={
                 "model": model,
-                "max_tokens": 700,
+                "max_tokens": 2048,
+                "output_config": {"effort": "low"},
                 "system": SCHEMA_PROMPT,
                 "messages": [{"role": "user", "content": posting_text[:6000]}],
-                "temperature": 0,
             },
             timeout=60,
         )
         r.raise_for_status()
-        text = r.json()["content"][0]["text"].strip()
+        body = r.json()
+        # The reply can open with thinking blocks, so the answer is the text block, not block 0.
+        text = next((b["text"] for b in body.get("content", []) if b.get("type") == "text"), "")
+        if not text:
+            raise ValueError(f"no text block (stop_reason={body.get('stop_reason')})")
+        text = text.strip()
         text = text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
         return json.loads(text)
     except Exception as e:  # noqa: BLE001
