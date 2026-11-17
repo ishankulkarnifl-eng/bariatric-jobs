@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9381,7 +9381,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-12",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-12",
    "repost_count": 1,
@@ -9421,6 +9421,31 @@
    ],
    "visa_sponsorship": false
   },
+  "veterans-health-administration::CA::general-surgeon": {
+   "announced": true,
+   "archived": false,
+   "call_burden": null,
+   "city": "Fresno",
+   "comp_max": 365000,
+   "comp_min": 335000,
+   "employer": "Veterans Health Administration",
+   "employment_model": "hospital_employed",
+   "fellowship_required": false,
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
+   "mbsaqip_mentioned": false,
+   "posted_date": "2026-11-16",
+   "repost_count": 0,
+   "robotics_mentioned": false,
+   "source": "usajobs",
+   "state": "CA",
+   "summary": "VHA general surgery position in Fresno, CA; $335\u2013365k; EDRP loan repayment up to $200k available.",
+   "title": "General Surgeon",
+   "urls": [
+    "https://www.usajobs.gov:443/job/893073700"
+   ],
+   "visa_sponsorship": false
+  },
   "veterans-health-administration::FL::general-surgeon": {
    "archived": true,
    "call_burden": null,
@@ -9456,7 +9481,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-04",
    "repost_count": 0,
@@ -9553,7 +9578,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10373,7 +10398,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-16T19:58:42Z",
+  "last_run": "2026-11-17T18:55:12Z",
   "sample": false
  }
 }
