@@ -6952,7 +6952,7 @@
   },
   "nuself-surgical-group::TX::fellowship-trained-minimally-invasive-bariatric-surgeon": {
    "announced": true,
-   "archived": false,
+   "archived": true,
    "call_burden": "General surgery emergency and acute care call",
    "city": "Austin",
    "comp_max": null,
@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9381,7 +9381,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-12",
    "repost_count": 1,
@@ -9432,7 +9432,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-16",
    "repost_count": 0,
@@ -9481,7 +9481,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-04",
    "repost_count": 0,
@@ -9578,7 +9578,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10398,7 +10398,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-17T18:55:12Z",
+  "last_run": "2026-11-18T18:27:02Z",
   "sample": false
  }
 }
