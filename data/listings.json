@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9381,7 +9381,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-12",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-12",
    "repost_count": 1,
@@ -9407,7 +9407,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
    "repost_count": 1,
@@ -9433,7 +9433,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-16",
    "repost_count": 0,
@@ -9482,7 +9482,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-04",
    "repost_count": 0,
@@ -9579,7 +9579,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10399,7 +10399,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-25T19:42:03Z",
+  "last_run": "2026-11-26T19:25:19Z",
   "sample": false
  }
 }
