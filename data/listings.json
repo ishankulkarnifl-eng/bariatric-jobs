@@ -9333,7 +9333,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-24",
    "repost_count": 0,
@@ -9381,7 +9381,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-08-12",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-08-12",
    "repost_count": 1,
@@ -9407,10 +9407,10 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-25",
-   "repost_count": 1,
+   "repost_count": 2,
    "robotics_mentioned": false,
    "source": "usajobs",
    "state": "AZ",
@@ -9418,7 +9418,8 @@
    "title": "General Surgeon",
    "urls": [
     "https://www.usajobs.gov:443/job/887137300",
-    "https://www.usajobs.gov:443/job/893091900"
+    "https://www.usajobs.gov:443/job/893091900",
+    "https://www.usajobs.gov:443/job/894416100"
    ],
    "visa_sponsorship": false
   },
@@ -9433,7 +9434,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-16",
    "repost_count": 0,
@@ -9482,7 +9483,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-11-04",
    "repost_count": 0,
@@ -9579,7 +9580,7 @@
    "employment_model": "hospital_employed",
    "fellowship_required": false,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "mbsaqip_mentioned": false,
    "posted_date": "2026-09-29",
    "repost_count": 0,
@@ -10399,7 +10400,7 @@
   }
  },
  "meta": {
-  "last_run": "2026-11-26T19:25:19Z",
+  "last_run": "2026-11-27T19:21:24Z",
   "sample": false
  }
 }
